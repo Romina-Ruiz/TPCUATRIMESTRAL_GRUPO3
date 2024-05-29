@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="TPCuatrimestral_Grupo3.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">    </script>
+    <link href="Stylo/master.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+
+            <nav class="navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="DEFAULT">¿QUE VEO?</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">¿QUE VEO?</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="HOME.aspx">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="PLATAFORMAS.aspx">Plataformas</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="CINE.aspx">Cine</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="ESTRENOS.aspx">Estrenos</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="SERIES.aspx" role="button" data-bs-toggle="Series" aria-expanded="false">Series
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Accion</a></li>
+                                        <li><a class="dropdown-item" href="#">Animación</a></li>
+                                        <li><a class="dropdown-item" href="#">Aventura</a></li>
+                                        <li><a class="dropdown-item" href="#">Biografía</a></li>
+                                        <li><a class="dropdown-item" href="#">Ciencia Ficción</a></li>
+                                        <li><a class="dropdown-item" href="#">Comedia</a></li>
+                                        <li><a class="dropdown-item" href="#">Crimen</a></li>
+                                        <li><a class="dropdown-item" href="#">Documental</a></li>
+                                        <li><a class="dropdown-item" href="#">Drama</a></li>
+                                        <li><a class="dropdown-item" href="#">Comedia</a></li>
+                                        <li><a class="dropdown-item" href="#">Crimen</a></li>
+                                        <li><a class="dropdown-item" href="#">Documental</a></li>
+                                        <li><a class="dropdown-item" href="#">Drama</a></li>
+                                        <li><a class="dropdown-item" href="#">Fantasía</a></li>
+                                        <li><a class="dropdown-item" href="#">Historico</a></li>
+                                        <li><a class="dropdown-item" href="#">Romantico</a></li>
+                                        <li><a class="dropdown-item" href="#">Suspenso</a></li>
+                                        <li><a class="dropdown-item" href="#">Terror</a></li>
+
+
+                                    </ul>
+                                </li>
+                            </ul>
+
+
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="PELICULAS.aspx" role="button" data-bs-toggle="Peliculas" aria-expanded="false">Peliculas
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Accion</a></li>
+                                    <li><a class="dropdown-item" href="#">Animación</a></li>
+                                    <li><a class="dropdown-item" href="#">Aventura</a></li>
+                                    <li><a class="dropdown-item" href="#">Biografía</a></li>
+                                    <li><a class="dropdown-item" href="#">Ciencia Ficción</a></li>
+                                    <li><a class="dropdown-item" href="#">Comedia</a></li>
+                                    <li><a class="dropdown-item" href="#">Crimen</a></li>
+                                    <li><a class="dropdown-item" href="#">Documental</a></li>
+                                    <li><a class="dropdown-item" href="#">Drama</a></li>
+                                    <li><a class="dropdown-item" href="#">Comedia</a></li>
+                                    <li><a class="dropdown-item" href="#">Crimen</a></li>
+                                    <li><a class="dropdown-item" href="#">Documental</a></li>
+                                    <li><a class="dropdown-item" href="#">Drama</a></li>
+                                    <li><a class="dropdown-item" href="#">Fantasía</a></li>
+                                    <li><a class="dropdown-item" href="#">Historico</a></li>
+                                    <li><a class="dropdown-item" href="#">Romantico</a></li>
+                                    <li><a class="dropdown-item" href="#">Suspenso</a></li>
+                                    <li><a class="dropdown-item" href="#">Terror</a></li>
+
+
+                                </ul>
+                            </li>
+
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+        </div>
+
+
+        </nav>
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>
