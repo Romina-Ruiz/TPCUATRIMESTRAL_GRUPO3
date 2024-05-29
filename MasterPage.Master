@@ -109,18 +109,20 @@
 
                             </ul>
                         
-
+            <!--Este lo puse de ejemplo porque note que estaba roto-->
                         <div class="btn-group">
                             <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                 Use de ejemplo
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li>
-                                    <button class="dropdown-item" type="button">Action</button></li>
+                                    <button class="dropdown-item" type="button">Todas las Categorias</button></li>
                                 <li>
-                                    <button class="dropdown-item" type="button">Another action</button></li>
+                                    <button class="dropdown-item" type="button">Acción</button></li>
                                 <li>
-                                    <button class="dropdown-item" type="button">Something else here</button></li>
+                                    <button class="dropdown-item" type="button">Comedia</button></li>
+                                <li>
+                                    <button class="dropdown-item" type="button">Terror</button></li>
                             </ul>
                         </div>
                      </div>
