@@ -133,3 +133,4 @@ C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUP
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatri.7D44AF1C.Up2Date
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.dll
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.pdb
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\bin\video\explocion.mp4
