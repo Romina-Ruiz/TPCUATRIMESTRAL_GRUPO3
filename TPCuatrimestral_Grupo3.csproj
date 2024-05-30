@@ -229,7 +229,9 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Modelo\Contenido.cs" />
+    <Compile Include="Modelo\Resena.cs" />
     <Compile Include="Modelo\Usuario.cs" />
+    <Compile Include="Negocio\Scraping.cs" />
     <Compile Include="PELICULAS.aspx.cs">
       <DependentUpon>PELICULAS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -262,7 +264,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Negocio\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

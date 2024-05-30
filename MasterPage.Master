@@ -19,11 +19,12 @@
 <body>
 
     <form id="form1" runat="server">
+        
         <div>
 
             <nav class="navbar bg-body-tertiary fixed-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="DEFAULT">¿QUE VEO?</a>
+                    <a class="navbar-brand" href="DEFAULT">¿QUÉ VEO?</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -31,7 +32,7 @@
 
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">¿QUE VEO?</h5>
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">¿QUÉ VEO?</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
 
@@ -52,95 +53,74 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="ESTRENOS.aspx">Estrenos</a>
                                 </li>
+                            </ul>                   
+                                       
+                                             
 
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="SERIES.aspx" role="button" data-bs-toggle="Series" aria-expanded="false">Series
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Accion</a></li>
-                                        <li><a class="dropdown-item" href="#">Animación</a></li>
-                                        <li><a class="dropdown-item" href="#">Aventura</a></li>
-                                        <li><a class="dropdown-item" href="#">Biografía</a></li>
-                                        <li><a class="dropdown-item" href="#">Ciencia Ficción</a></li>
-                                        <li><a class="dropdown-item" href="#">Comedia</a></li>
-                                        <li><a class="dropdown-item" href="#">Crimen</a></li>
-                                        <li><a class="dropdown-item" href="#">Documental</a></li>
-                                        <li><a class="dropdown-item" href="#">Drama</a></li>
-                                        <li><a class="dropdown-item" href="#">Comedia</a></li>
-                                        <li><a class="dropdown-item" href="#">Crimen</a></li>
-                                        <li><a class="dropdown-item" href="#">Documental</a></li>
-                                        <li><a class="dropdown-item" href="#">Drama</a></li>
-                                        <li><a class="dropdown-item" href="#">Fantasía</a></li>
-                                        <li><a class="dropdown-item" href="#">Historico</a></li>
-                                        <li><a class="dropdown-item" href="#">Romantico</a></li>
-                                        <li><a class="dropdown-item" href="#">Suspenso</a></li>
-                                        <li><a class="dropdown-item" href="#">Terror</a></li>
+                         <!--Desplegable de series-->                           
+                            <br> 
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Series por categoría
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <button class="dropdown-item" type="button" href="SERIES.aspx">Todas</button></li>
+                                    <li>
+                                        <button class="dropdown-item" type="button">Acción y Aventura</button></li>
+                                    <li>
+                                        <button class="dropdown-item" type="button">Animación</button></li>                                    
+                                    <li>
+                                        <button class="dropdown-item" type="button">Ficción y Suspenso</button></li>
+                                    <li>
+                                        <button class="dropdown-item" type="button">Comedia, Romatico</button></li>
+                                    <li>
+                                        <button class="dropdown-item" type="button">Historico, Documental</button></li>
+                                    <li>
+                                        <button class="dropdown-item" type="button">Terror, Crimen, Drama</button></li>
+                                </ul>
+                            </div>
 
-                                    </ul>
-                                </li>
+                            <!--Desplegable de peliculas-->
+                            <br><br>                     
+                            
+                            <div class="btn-group">                             
+                           
+                                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Películas por categoría
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <button class="dropdown-item" type="button" href="PELICULAS.aspx">Todas</button></li>
+                                    <li>
+                                        <button class="dropdown-item" type="button">Acción y Aventura</button></li>
+                                    <li>
+                                        <button class="dropdown-item" type="button">Animación</button></li>                                    
+                                    <li>
+                                        <button class="dropdown-item" type="button">Ciencia Ficción y Suspenso</button></li>
+                                    <li>
+                                        <button class="dropdown-item" type="button">Comedia, Romatico</button></li>
+                                    <li>
+                                        <button class="dropdown-item" type="button">Historico, Documental</button></li>
+                                    <li>
+                                        <button class="dropdown-item" type="button">Terror, Crimen, Drama</button></li>
+                                </ul>
+                            </div>
 
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="PELICULAS.aspx" role="button" data-bs-toggle="Peliculas" aria-expanded="false">Peliculas
-                                    </a>
-
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Accion</a></li>
-                                        <li><a class="dropdown-item" href="#">Animación</a></li>
-                                        <li><a class="dropdown-item" href="#">Aventura</a></li>
-                                        <li><a class="dropdown-item" href="#">Biografía</a></li>
-                                        <li><a class="dropdown-item" href="#">Ciencia Ficción</a></li>
-                                        <li><a class="dropdown-item" href="#">Comedia</a></li>
-                                        <li><a class="dropdown-item" href="#">Crimen</a></li>
-                                        <li><a class="dropdown-item" href="#">Documental</a></li>
-                                        <li><a class="dropdown-item" href="#">Drama</a></li>
-                                        <li><a class="dropdown-item" href="#">Comedia</a></li>
-                                        <li><a class="dropdown-item" href="#">Crimen</a></li>
-                                        <li><a class="dropdown-item" href="#">Documental</a></li>
-                                        <li><a class="dropdown-item" href="#">Drama</a></li>
-                                        <li><a class="dropdown-item" href="#">Fantasía</a></li>
-                                        <li><a class="dropdown-item" href="#">Historico</a></li>
-                                        <li><a class="dropdown-item" href="#">Romantico</a></li>
-                                        <li><a class="dropdown-item" href="#">Suspenso</a></li>
-                                        <li><a class="dropdown-item" href="#">Terror</a></li>
-
-                                    </ul>
-                                </li>
-
-                            </ul>
-                        
-            <!--Este lo puse de ejemplo porque note que estaba roto-->
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                Use de ejemplo
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li>
-                                    <button class="dropdown-item" type="button">Todas las Categorias</button></li>
-                                <li>
-                                    <button class="dropdown-item" type="button">Acción</button></li>
-                                <li>
-                                    <button class="dropdown-item" type="button">Comedia</button></li>
-                                <li>
-                                    <button class="dropdown-item" type="button">Terror</button></li>
-                            </ul>
                         </div>
-                     </div>
 
-                   </div>
+                    </div>
 
                 </div>
+
             </nav>
 
         </div>
-
-
-
-
 
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
 
     </form>
 </body>
+
 </html>
