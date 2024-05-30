@@ -17,8 +17,15 @@
 </head>
 
 <body>
-
-    <form id="form1" runat="server">
+      
+    <style>
+         body {
+                background-color: #000;
+                color: #fff; 
+            }
+     </style>
+   
+   <form id="form1" runat="server">
         
         <div>
 

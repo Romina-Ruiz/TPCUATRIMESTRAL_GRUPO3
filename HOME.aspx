@@ -28,7 +28,7 @@
 
   <div class="col">
     <div class="card h-100">
-    <iframe width="432" height="390"
+    <iframe width="431" height="390"
         src="https://www.youtube.com/embed/v0d0id78XdE?autoplay=1&mute=1&loop=1&playlist=v0d0id78XdE&controls=0"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media;
