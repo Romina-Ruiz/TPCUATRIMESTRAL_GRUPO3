@@ -2,15 +2,15 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    
 </asp:Content>
 
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+       
    
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
      
- 
+    
     <!--videos de youtube-->   
  <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">

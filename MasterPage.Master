@@ -16,7 +16,8 @@
 
 </head>
 
-<body>
+<%--<body>--%>
+<header>
       
     <style>
          body {
@@ -40,6 +41,8 @@
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">¿QUÉ VEO?</h5>
+                           <button type="button" class="btn btn-success">Acceso</button>
+                            <button type="button" class="btn btn-outline-primary" disabled>Registrarse</button>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
 
@@ -128,6 +131,7 @@
         </asp:ContentPlaceHolder>
 
     </form>
-</body>
+     </header>
+<%--</body>--%>
 
 </html>
