@@ -46,12 +46,13 @@
             z-index: 0;
         }
     </style-->
-
+    
     <div class="texto2">
-    <a href="HOME.aspx">INGRESAR</a>
+     
+    <a href="HOME.aspx" class="btn btn-primary" role="button">INGRESAR</a>
     </div>
 
-    
+   
     
    <!--video autoplay="autoplay" class="video-background">
         <source src="video/explocion.mp4" type="video/mp4"/>
