@@ -107,6 +107,8 @@
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
     <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-icons\font\bootstrap-icons.css" />
+    <Content Include="Content\bootstrap-icons\font\bootstrap-icons.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap-reboot.rtl.css" />
@@ -155,6 +157,11 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="MasterPage.Master" />
+    <Content Include="negocio.csproj" />
+    <Content Include="libman.json" />
+    <Content Include="Content\bootstrap-icons\font\bootstrap-icons.json" />
+    <Content Include="Content\bootstrap-icons\font\fonts\bootstrap-icons.woff" />
+    <Content Include="Content\bootstrap-icons\font\fonts\bootstrap-icons.woff2" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -186,6 +193,7 @@
     <Content Include="video\explocion.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="video\logo.png" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />

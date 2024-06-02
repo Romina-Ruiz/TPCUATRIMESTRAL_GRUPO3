@@ -4,54 +4,104 @@
 
 <html>
 <head runat="server">
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>¿Qué veo?</title>
+
+
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">    </script>
     <link href="Stylo/master.css" rel="stylesheet" />
 
+    <link href="Content/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="Content/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
+
 </head>
 
-<%--<body>--%>
-<header>
-      
+
+
+<body>
+
     <style>
-         body {
-                background-color: #000;
-                color: #fff; 
-            }
-     </style>
-   
-   <form id="form1" runat="server">
-        
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+
+    <form id="form1" runat="server">
+
         <div>
 
-            <nav class="navbar bg-body-tertiary fixed-top">
+            <nav class="navbar bg-black">
+                
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="DEFAULT">¿QUÉ VEO?</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <div>
+                        <img src="video/logo.png" alt="logo" />
+                        <a class="navbar-brand text-white p-3 mb-4 fs-1" href="DEFAULT">¿QUÉ VEO?</a>
+                    </div>
+
+
+
+                    <!--ventana modal user-->
+                    <i class="bi bi-person-circle fs-1"  data-bs-toggle="modal" data-bs-target="#user"></i>
+
+                    <div class="modal fade" id="user" tabindex="-1" aria-hidden="true" aria-labelledby="label-user">
+
+                        <!--caja de dialogo-->
+                        <div class="modal-dialog">
+                            <!--contenido de la caja-->
+                            <div class="modal-content">
+                                <!--contenido encabezado-->
+                                <div class="modal-header">
+
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+
+                                </div>
+                                <!--cuerpo de la caja-->
+                                <div class="modal-body">
+
+                                    <div class="d-grid gap-2">
+                                        <button type="button" class="btn btn-secondary">Ingresar</button>
+
+                                        <button type="button" class="btn btn-success">Registarse</button>
+
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--menú izquierda-->
+                    <button class="navbar-toggler fs-3" data-bs-theme="dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
 
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">¿QUÉ VEO?</h5>
-                           <button type="button" class="btn btn-success">Acceso</button>
-                            <button type="button" class="btn btn-outline-primary" disabled>Registrarse</button>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
+                        <br />
+                        <h5 class="offcanvas-title text-center fs-3 p-3 text-bg-dark" id="offcanvasNavbarLabel">¿QUÉ VEO?</h5>
 
                         <div class="offcanvas-body">
 
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="HOME.aspx">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="HOME.aspx">Inicio</a>
                                 </li>
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="REGISTRARSE.aspx">Mi Cuenta</a>
+
+                                </li>
+
                                 <li class="nav-item">
                                     <a class="nav-link" href="PLATAFORMAS.aspx">Plataformas</a>
                                 </li>
@@ -63,12 +113,12 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="ESTRENOS.aspx">Estrenos</a>
                                 </li>
-                            </ul>                   
-                                       
-                                             
+                            </ul>
 
-                         <!--Desplegable de series-->                           
-                            <br> 
+
+
+                            <!--Desplegable de series-->
+                            <br>
                             <div class="btn-group">
                                 <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     Series por categoría
@@ -79,7 +129,7 @@
                                     <li>
                                         <button class="dropdown-item" type="button">Acción y Aventura</button></li>
                                     <li>
-                                        <button class="dropdown-item" type="button">Animación</button></li>                                    
+                                        <button class="dropdown-item" type="button">Animación</button></li>
                                     <li>
                                         <button class="dropdown-item" type="button">Ficción y Suspenso</button></li>
                                     <li>
@@ -92,10 +142,11 @@
                             </div>
 
                             <!--Desplegable de peliculas-->
-                            <br><br>                     
-                            
-                            <div class="btn-group">                             
-                           
+                            <br>
+                            <br>
+
+                            <div class="btn-group">
+
                                 <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     Películas por categoría
                                 </button>
@@ -105,7 +156,7 @@
                                     <li>
                                         <button class="dropdown-item" type="button">Acción y Aventura</button></li>
                                     <li>
-                                        <button class="dropdown-item" type="button">Animación</button></li>                                    
+                                        <button class="dropdown-item" type="button">Animación</button></li>
                                     <li>
                                         <button class="dropdown-item" type="button">Ciencia Ficción y Suspenso</button></li>
                                     <li>
@@ -122,7 +173,6 @@
                     </div>
 
                 </div>
-
             </nav>
 
         </div>
@@ -130,8 +180,67 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
 
+        <footer>
+
+            <div class="container-fluid">
+                <div class="row p-5 pb-2 bg-black text-white">
+
+                    <div class="col-lg-3">
+                        <p class="h3">¿Que Veo?</p>
+                        <p class="text-secondary">Buenos Aires, Argentina</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <p class="h5 mb-2">Favoritos</p>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Series</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Peliculas</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Estrenos</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <p class="h5 mb-2">Links</p>
+
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Terms & Conditions</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Privacy Policy</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3">
+                        <p class="h5 mb-2">Contacto</p>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-12 pt-4">
+                        <p class="text-white text-center">Copyright - All rights reserved © 2024 </p>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </footer>
     </form>
-     </header>
-<%--</body>--%>
+</body>
+
 
 </html>

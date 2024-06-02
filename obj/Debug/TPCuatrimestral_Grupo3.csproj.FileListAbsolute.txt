@@ -195,3 +195,7 @@ C:\Users\jonat\Desktop\Repositorio GitHub\TrabajoCuatrimestral\TPCUATRIMESTRAL_G
 C:\Users\jonat\Desktop\Repositorio GitHub\TrabajoCuatrimestral\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatri.7D44AF1C.Up2Date
 C:\Users\jonat\Desktop\Repositorio GitHub\TrabajoCuatrimestral\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.dll
 C:\Users\jonat\Desktop\Repositorio GitHub\TrabajoCuatrimestral\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.pdb
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\obj\Debug\TPCuatrimestral_Grupo3.csproj.AssemblyReference.cache
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\obj\Debug\TPCuatrimestral_Grupo3.csproj.CoreCompileInputs.cache
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\obj\Debug\TPCuatrimestral_Grupo3.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\obj\Debug\TPCuatrimestral_Grupo3.pdb
