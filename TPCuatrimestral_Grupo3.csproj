@@ -157,11 +157,11 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="MasterPage.Master" />
-    <Content Include="negocio.csproj" />
     <Content Include="libman.json" />
     <Content Include="Content\bootstrap-icons\font\bootstrap-icons.json" />
     <Content Include="Content\bootstrap-icons\font\fonts\bootstrap-icons.woff" />
     <Content Include="Content\bootstrap-icons\font\fonts\bootstrap-icons.woff2" />
+    <Content Include="Negocio\negocio.csproj" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -242,7 +242,6 @@
     <Compile Include="Modelo\Contenido.cs" />
     <Compile Include="Modelo\Resena.cs" />
     <Compile Include="Modelo\Usuario.cs" />
-    <Compile Include="Negocio\Scraping.cs" />
     <Compile Include="PELICULAS.aspx.cs">
       <DependentUpon>PELICULAS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
