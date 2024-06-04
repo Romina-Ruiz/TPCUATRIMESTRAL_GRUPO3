@@ -128,6 +128,7 @@
     <Content Include="HOME.aspx" />
     <Content Include="PELICULAS.aspx" />
     <Content Include="PLATAFORMAS.aspx" />
+    <Content Include="REGISTROS.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -259,6 +260,13 @@
       <DependentUpon>PLATAFORMAS.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REGISTROS.aspx.cs">
+      <DependentUpon>REGISTROS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REGISTROS.aspx.designer.cs">
+      <DependentUpon>REGISTROS.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SERIES.aspx.cs">
       <DependentUpon>SERIES.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

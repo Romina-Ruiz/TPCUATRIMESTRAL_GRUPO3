@@ -68,7 +68,8 @@
                                     <div class="d-grid gap-2">
                                         <button type="button" class="btn btn-secondary">Ingresar</button>
 
-                                        <button type="button" class="btn btn-success">Registarse</button>
+                                        <!--button type="button" class="btn btn-success" onClick="REGISTROS.aspx">Registrarse</button-->
+                                        <asp:Button ID="BotonRegistro"  CssClass="btn btn-success"  OnClick="BotonRegistro_Click" runat="server" Text="Registarse" />
 
                                     </div>
 

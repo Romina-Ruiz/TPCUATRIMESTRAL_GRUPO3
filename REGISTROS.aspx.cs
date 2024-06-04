@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace TPCuatrimestral_Grupo3
 {
-    public partial class MasterPage : System.Web.UI.MasterPage
+    public partial class REGISTROS : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void BotonRegistro_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("REGISTROS.aspx");
         }
     }
 }
