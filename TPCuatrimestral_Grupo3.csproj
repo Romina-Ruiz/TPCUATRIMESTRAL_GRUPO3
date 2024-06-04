@@ -242,6 +242,8 @@
     <Compile Include="Modelo\Contenido.cs" />
     <Compile Include="Modelo\Resena.cs" />
     <Compile Include="Modelo\Usuario.cs" />
+    <Compile Include="Negocio\AccesoDatos.cs" />
+    <Compile Include="Negocio\ContenidoNegocio.cs" />
     <Compile Include="PELICULAS.aspx.cs">
       <DependentUpon>PELICULAS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
