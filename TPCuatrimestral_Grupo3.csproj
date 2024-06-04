@@ -241,6 +241,7 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Modelo\Contenido.cs" />
+    <Compile Include="Modelo\MostrarContenido.cs" />
     <Compile Include="Modelo\Resena.cs" />
     <Compile Include="Modelo\Usuario.cs" />
     <Compile Include="Negocio\AccesoDatos.cs" />

@@ -11,7 +11,7 @@ namespace TPCuatrimestral_Grupo3
 {
     public partial class PLATAFORMAS : System.Web.UI.Page
     {
-        public List<Contenido> ListaContenido { get; set; }
+        public List<MostrarContenido> ListaContenido { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
             ContenidoNegocio negocio = new ContenidoNegocio();
