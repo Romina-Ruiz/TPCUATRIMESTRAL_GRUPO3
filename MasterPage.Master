@@ -19,6 +19,7 @@
 
     <link href="Content/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     <link href="Content/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <title>¿Qué ves?</title>
 
 </head>
 
@@ -48,7 +49,7 @@
 
 
                     <!--ventana modal user-->
-                    <i class="bi bi-person-circle fs-1"  data-bs-toggle="modal" data-bs-target="#user"></i>
+                    <i class="bi bi-person-circle fs-2 offset-sm-7"  data-bs-toggle="modal" data-bs-target="#user"></i>
 
                     <div class="modal fade" id="user" tabindex="-1" aria-hidden="true" aria-labelledby="label-user">
 
@@ -60,22 +61,20 @@
                                 <div class="modal-header">
                                     <h5 class="text-primary-emphasis fw-bold">Comunidad</h5>
                                     <button class="btn-close" data-bs-dismiss="modal"></button>
-
                                 </div>
-                                <!--cuerpo de la caja-->
+
+                                <!--caja de registro y login-->
                                 <div class="modal-body">
-
                                     <div class="d-grid gap-2">
-                                        <button type="button" class="btn btn-secondary">Ingresar</button>
 
-                                        <!--button type="button" class="btn btn-success" onClick="REGISTROS.aspx">Registrarse</button-->
+                                        <!--boton para login-->
+                                        <asp:Button ID="BtnLogin" runat="server" CssClass="btn btn-secondary" OnClick="BtnLogin_Click" Text="Login" />
+                                        
+                                        <!--boton de registro-->
                                         <asp:Button ID="BotonRegistro"  CssClass="btn btn-success"  OnClick="BotonRegistro_Click" runat="server" Text="Registarse" />
-
                                     </div>
-
-
-
                                 </div>
+
                             </div>
 
                         </div>

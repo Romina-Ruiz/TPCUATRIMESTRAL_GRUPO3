@@ -126,6 +126,7 @@
     <Content Include="ESTRENOS.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HOME.aspx" />
+    <Content Include="LOGIN.aspx" />
     <Content Include="PELICULAS.aspx" />
     <Content Include="PLATAFORMAS.aspx" />
     <Content Include="REGISTROS.aspx" />
@@ -232,6 +233,13 @@
     </Compile>
     <Compile Include="HOME.aspx.designer.cs">
       <DependentUpon>HOME.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.aspx.cs">
+      <DependentUpon>LOGIN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LOGIN.aspx.designer.cs">
+      <DependentUpon>LOGIN.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

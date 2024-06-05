@@ -18,5 +18,10 @@ namespace TPCuatrimestral_Grupo3
         {
             Response.Redirect("REGISTROS.aspx");
         }
+
+        protected void BtnLogin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LOGIN.aspx");
+        }
     }
 }

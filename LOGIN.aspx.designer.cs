@@ -11,7 +11,7 @@ namespace TPCuatrimestral_Grupo3
 {
 
 
-    public partial class HOME
+    public partial class LOGIN
     {
     }
 }

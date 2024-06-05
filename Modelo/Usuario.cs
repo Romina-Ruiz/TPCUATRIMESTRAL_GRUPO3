@@ -5,6 +5,11 @@ using System.Web;
 
 namespace TPCuatrimestral_Grupo3.Modelo
 {
+    public enum TipoUsuario 
+    { 
+        NORMAL = 0,
+        ADMIN = 1
+    }    
     public class Usuario
     {
 
@@ -21,6 +26,10 @@ namespace TPCuatrimestral_Grupo3.Modelo
         public bool EsAdministrador { get; set; }
 
         public bool EsVip { get; set; }
+
+        public TipoUsuario TipoUsuario { get; set; }
+
+
     
     }
 }
