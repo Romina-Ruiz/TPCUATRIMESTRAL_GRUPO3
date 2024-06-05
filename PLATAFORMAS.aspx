@@ -5,6 +5,25 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+      <style>
+      .Fondo {
+          background-color: darkred;
+          color: antiquewhite;
+          padding: 5px;
+          text-align: center;
+      }
+  </style>
+
+
+  <div class="Fondo">
+
+
+      <h2>PLATAFORMAS</h2>
+
+
+  </div>
+
     <asp:Repeater runat="server" id="repRepetidor">
         <ItemTemplate>
             <h1>Contenido</h1>

@@ -4,4 +4,23 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+        <style>
+    .Fondo {
+        background-color: darkred;
+        color: antiquewhite;
+        padding: 5px;
+        text-align: center;
+    }
+</style>
+
+
+<div class="Fondo">
+
+
+    <h2>SERIES</h2>
+
+
+</div>
+
 </asp:Content>

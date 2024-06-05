@@ -58,7 +58,7 @@
                             <div class="modal-content">
                                 <!--contenido encabezado-->
                                 <div class="modal-header">
-
+                                    <h5 class="text-primary-emphasis fw-bold">Comunidad</h5>
                                     <button class="btn-close" data-bs-dismiss="modal"></button>
 
                                 </div>
@@ -99,7 +99,7 @@
                                 </li>
                                 <li class="nav-item">
 
-                                    <a class="nav-link" href="REGISTRARSE.aspx">Mi Cuenta</a>
+                                    <a class="nav-link" href="REGISTROS.aspx">Mi Cuenta</a>
 
                                 </li>
 
