@@ -5,7 +5,21 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <style>
+        .Fondo {
+            background-color: darkred;
+            color: antiquewhite;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
     
+    <div class="Fondo">
+        <h2>LOGIN</h2>
+    </div>
+
+    <br><br>
     <div>
         <div class="row mb-3 offset-sm-2">
             <label for="inputUsuario" class="col-sm-2 col-form-label">Usuario</label>
@@ -20,14 +34,14 @@
             </div>
         </div>
 
-        <br>        
-        <div class="row mb-3"> 
+        <br>
+        <div class="row mb-3">
             <div class="col-sm-10 offset-sm-4">
                 <div class="form-check">
-                   <button type="submit" class="btn btn-primary">Ingresar</button>
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
                 </div>
             </div>
-        </div>        
+        </div>
     </div>
 
 </asp:Content>
