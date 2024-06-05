@@ -21,8 +21,7 @@ namespace TPCuatrimestral_Grupo3
             NegocioUsuario usuarioNegocio = new NegocioUsuario();
             Usuario usuarioAux = new Usuario();
 
-            usuarioAux.NombreUsuario = TxtNombre.Text;
-            usuarioAux.Apellido = TxtApellido.Text;
+            usuarioAux.NombreUsuario = TxtNombre.Text;            
             usuarioAux.Contrasena = TxtContrasena.Text;
             usuarioAux.Email = TxtEmail.Text;
 

@@ -19,7 +19,7 @@
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <video  controls="controls" autoplay="autoplay" class="d-block w-100">
+                <video class="d-block w-100">
                     <source src="video/explocion.mp4" type="video/mp4" />
                     Tu navegador no soporta el elemento de video.
                     <a href="HOME.aspx" id="click" role="button">INGRESAR</a>
