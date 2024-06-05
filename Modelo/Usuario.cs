@@ -12,6 +12,8 @@ namespace TPCuatrimestral_Grupo3.Modelo
 
         public string NombreUsuario { get; set; }
 
+        public string Apellido { get; set; }
+
         public string Contrasena { get; set; }
 
         public string Email { get; set; }

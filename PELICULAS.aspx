@@ -5,10 +5,10 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-
-        <style>
-    .Fondo {
+   
+    
+ <style>   
+        .Fondo {
         background-color: darkred;
         color: antiquewhite;
         padding: 5px;

@@ -9,6 +9,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
     public class ContenidoNegocio
     {
         public List<MostrarContenido> listar()
+        
         {
             List<MostrarContenido> lista = new List<MostrarContenido>();
             AccesoDatos datos = new AccesoDatos();
