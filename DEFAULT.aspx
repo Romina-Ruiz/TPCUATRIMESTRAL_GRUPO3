@@ -5,90 +5,49 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Video</title>
 </head>
+
 
 <body>
 
-    <!--style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-        }
-        .video-background {
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -1;
-            background-size: cover;
-        }
-        .content {
-            position: relative;
-            z-index: 1;
-            color: white;
-            text-align: center;
-            font-size: 2em;
-        }
-        .overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5); /* Semi-transparente para mejor legibilidad */
-            z-index: 0;
-        }
-    </style-->
-    
-    <div class="texto2">
-     
-    <a href="HOME.aspx" class="btn btn-primary" role="button">INGRESAR</a>
-    </div>
-
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video  controls="controls" autoplay="autoplay" class="d-block w-100">
+                    <source src="video/explocion.mp4" type="video/mp4" />
+                    Tu navegador no soporta el elemento de video.
+                    <a href="HOME.aspx" id="click" role="button">INGRESAR</a>
+                </video>
+            </div>
+        </div>
+    </div>  
    
-    
-   <!--video autoplay="autoplay" class="video-background">
-        <source src="video/explocion.mp4" type="video/mp4"/>
-        Tu navegador no soporta el elemento de video.
-    </video>-->
-    
-    
-    <!--<video src="video/explocion.mp4" autoplay="autoplay" controls="controls" />-->
+    <script> 
 
-    <!--<form id="form1" runat="server">
+        function clickBoton() {
+            setTimeout(function () {
+                document.getElementById('click').click();
+            }, 13000);
+        }
+        clickBoton();       
+       
+        document.addEventListener('DOMContentLoaded', (event) => {
+            var video = document.querySelector('#carouselExample .carousel-item.active video');
+            if (video) {
+                video.muted = true; // Silencie el video para permitir la reproducción automática
+                video.play().catch(error => {
+                    console.error("Error al reproducir el video automáticamente:", error);
+                });
+            }
+        });
 
-        <div class="contenedorBienvenido">
-            <div class="texto">
-                <h2>BIENVENIDOS</h2>
-            </div>
-        </div>
-
-        <div class="ingresar">
-
-            <div class="texto2">
-
-                <a href="HOME.aspx">INGRESAR</a>
-            </div>
-
-        </div>
-    </form>-->
-    
-        <div class="overlay"></div>
-            <video autoplay="autoplay" class="video-background" controls="controls" >
-                <source src="video/explocion.mp4" type="video/mp4"/>
-                Tu navegador no soporta el elemento de video.
-            </video>
-        <div class="content">
-             <h2>BIENVENIDOS</h2>
-            <p>Este es un ejemplo de un video de fondo.</p>
-        </div>
-    </body>
+    </script>
+</body>
 
 </html>

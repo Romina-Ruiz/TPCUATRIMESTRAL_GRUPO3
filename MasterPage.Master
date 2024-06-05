@@ -46,8 +46,6 @@
                         <a class="navbar-brand text-white p-7 fs-9" href="DEFAULT">¿QUÉ VEO?</a>
                     </div>
 
-
-
                     <!--icono usuario-->
                     <i class="bi bi-person-circle fs-2 offset-sm-8"  data-bs-toggle="modal" data-bs-target="#user"></i>
 
