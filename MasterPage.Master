@@ -42,14 +42,14 @@
                 
                 <div class="container-fluid">
                     <div>
-                        <img src="video/logo.png" alt="logo" />
-                        <a class="navbar-brand text-white p-3 mb-4 fs-1" href="DEFAULT">¿QUÉ VEO?</a>
+                        <img src="video/logo.png" class="navbar-brand  p-7  fs-15" alt="logo" />
+                        <a class="navbar-brand text-white p-7 fs-9" href="DEFAULT">¿QUÉ VEO?</a>
                     </div>
 
 
 
-                    <!--ventana modal user-->
-                    <i class="bi bi-person-circle fs-2 offset-sm-7"  data-bs-toggle="modal" data-bs-target="#user"></i>
+                    <!--icono usuario-->
+                    <i class="bi bi-person-circle fs-2 offset-sm-8"  data-bs-toggle="modal" data-bs-target="#user"></i>
 
                     <div class="modal fade" id="user" tabindex="-1" aria-hidden="true" aria-labelledby="label-user">
 
@@ -81,7 +81,7 @@
                     </div>
 
                     <!--menú izquierda-->
-                    <button class="navbar-toggler fs-3" data-bs-theme="dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <button class="navbar-toggler fs-7" data-bs-theme="dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
