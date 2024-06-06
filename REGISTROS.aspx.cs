@@ -17,17 +17,26 @@ namespace TPCuatrimestral_Grupo3
         }
 
         protected void BtnAgregar_Click(object sender, EventArgs e)
-        {
-            NegocioUsuario usuarioNegocio = new NegocioUsuario();
-            Usuario usuarioAux = new Usuario();
+        {            
+            
+            try
+            {
+                NegocioUsuario usuarioNegocio = new NegocioUsuario();
+                Usuario usuarioAux = new Usuario();
 
-            usuarioAux.NombreUsuario = TxtNombre.Text;            
-            usuarioAux.Contrasena = TxtContrasena.Text;
-            usuarioAux.Email = TxtEmail.Text;
+                usuarioAux.NombreUsuario = TxtNombre.Text;
+                usuarioAux.Contrasena = TxtContrasena.Text;
+                usuarioAux.Email = TxtEmail.Text;
 
-            usuarioNegocio.CargarUsuario(usuarioAux);
+                usuarioNegocio.CargarUsuario(usuarioAux);
+            }
+            catch (Exception ex)
+            {
 
-
+                Session.Add("error", ex.ToString());
+                Response.Redirect("HOME.aspx");
+            }
+           
         }
     }
 }

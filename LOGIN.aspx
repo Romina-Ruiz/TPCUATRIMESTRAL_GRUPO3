@@ -24,13 +24,15 @@
         <div class="row mb-3 offset-sm-2">
             <label for="inputUsuario" class="col-sm-2 col-form-label">Usuario</label>
             <div class="col-sm-5">
-                <input type="text" class="form-control" id="inputEmail3">
+             <!--   <input type="text" class="form-control" id="inputEmail3">-->
+                <asp:TextBox ID="TxtUsuario" type="text" CssClass="form-control" runat="server"></asp:TextBox>
             </div>
         </div>
         <div class="row mb-3 offset-sm-2">
             <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
             <div class="col-sm-5">
-                <input type="password" class="form-control" id="inputPassword3">
+             <!--   <input type="password" class="form-control" id="inputPassword3">-->
+                <asp:TextBox ID="TxtPass" type="password" CssClass="form-control" runat="server"></asp:TextBox>
             </div>
         </div>
 
@@ -38,7 +40,8 @@
         <div class="row mb-3">
             <div class="col-sm-10 offset-sm-4">
                 <div class="form-check">
-                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                  <!--  <button type="submit" class="btn btn-primary">Ingresar</button>-->
+                    <asp:Button ID="BntLogin" CssClass="btn btn-primary" runat="server" Onclick="BntLogin_Click" Text="Ingresar" />
                 </div>
             </div>
         </div>

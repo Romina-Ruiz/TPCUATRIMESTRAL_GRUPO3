@@ -15,6 +15,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
         {
            
             AccesoDatos datos = new AccesoDatos();
+           
             try
             {
 
@@ -41,7 +42,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
         }
 
 
-        public bool Loguear(Usuario usuario) 
+        public int loguear(Usuario usuario) 
         {
             AccesoDatos datos = new AccesoDatos();
 
@@ -50,18 +51,27 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.setearParametro("@NombreUsuario", usuario.NombreUsuario);
                 datos.setearParametro("@Contrasena", usuario.Contrasena);
 
-                datos.setearConsulta("select Id, EsAdministrador from Usuarios where NombreUsuario = @NombreUsuario and Contrasena = @Contrasena ");
+                datos.setearConsulta("select Id, EsAdministrador from Usuarios where NombreUsuario = @NombreUsuario and Contrasena = @Contrasena");
 
-                datos.ejecutarAccion();
+                datos.ejecutarLectura();
 
                 while (datos.Lector.Read()) 
                 {
                     usuario.ID = (int)datos.Lector["Id"];
 
-                    usuario.EsAdministrador = (bool)(datos.Lector["EsAdministrador"]) == true ? true : false;
-                                        
+                    usuario.EsAdministrador = (bool)(datos.Lector["EsAdministrador"]) == true? true : false;
+
+                    if (usuario.ID != 0 && usuario.EsAdministrador)
+                    {
+                        return 1;
+                    }
+                    else if(usuario.ID != 0 && !usuario.EsAdministrador)
+                    {
+                        return 2;
+                    }
+
                 }
-                return false;
+                return 0;
 
             }
             catch (Exception ex)

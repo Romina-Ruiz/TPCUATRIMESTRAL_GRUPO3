@@ -7,8 +7,8 @@ namespace TPCuatrimestral_Grupo3.Modelo
 {
     public enum TipoUsuario 
     { 
-        NORMAL = 0,
-        ADMIN = 1
+        NORMAL = 1,
+        ADMIN = 2
     }    
     public class Usuario
     {

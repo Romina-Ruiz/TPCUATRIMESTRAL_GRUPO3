@@ -33,7 +33,7 @@
         function clickBoton() {
             setTimeout(function () {
                 document.getElementById('click').click();
-            }, 13000);
+            }, 12000);
         }
         clickBoton();       
        
