@@ -29,6 +29,7 @@ namespace TPCuatrimestral_Grupo3
                 usuarioAux.Email = TxtEmail.Text;
 
                 usuarioNegocio.CargarUsuario(usuarioAux);
+                Response.Redirect("HOME.aspx");
             }
             catch (Exception ex)
             {

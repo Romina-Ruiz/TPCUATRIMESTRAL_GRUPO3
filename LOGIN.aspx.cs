@@ -31,9 +31,11 @@ namespace TPCuatrimestral_Grupo3
 
                 //agrege para hacer pruebas
                 if (usuLogueado == 2)
+                    //usuario comun
                     Response.Redirect("HOME.ASPX");
                 else if (usuLogueado == 1) 
                 {
+                    //administrador
                     Response.Redirect("REGISTROS.aspx");
                 }
                                    
