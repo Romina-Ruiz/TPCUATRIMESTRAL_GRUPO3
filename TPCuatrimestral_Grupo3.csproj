@@ -237,6 +237,7 @@
     <Content Include="Global.asax" />
     <Content Include="HOME.aspx" />
     <Content Include="LOGIN.aspx" />
+    <Content Include="MenuLogin.aspx" />
     <Content Include="PELICULAS.aspx" />
     <Content Include="PLATAFORMAS.aspx" />
     <Content Include="REGISTROS.aspx" />
@@ -365,6 +366,13 @@
     </Compile>
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MenuLogin.aspx.cs">
+      <DependentUpon>MenuLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuLogin.aspx.designer.cs">
+      <DependentUpon>MenuLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modelo\Contenido.cs" />
     <Compile Include="Modelo\MostrarContenido.cs" />

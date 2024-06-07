@@ -30,18 +30,18 @@ namespace TPCuatrimestral_Grupo3
                 {
                     //administrador
                     Session.Add("Admin", usuario);
-                    Response.Redirect("REGISTROS.aspx");
+                    Response.Redirect("REGISTROS.aspx", false);
                 }
                 else if (negocioUsuario.loguear(usuario) == 2)
                 {
                     //usuario comun
                     Session.Add("Usuario", usuario);
-                    Response.Redirect("HOME.ASPX");
+                    Response.Redirect("MenuLogin.ASPX", false);
                 }
                 else 
                 {
-                    Session.Add("error","user o pass incorrectos");
-                    Response.Redirect("ERROR.aspx");
+                    Session.Add("error","Usuario o contraseñas incorrectos");
+                    Response.Redirect("ERROR.aspx", false);
                 }                                   
 
             }
