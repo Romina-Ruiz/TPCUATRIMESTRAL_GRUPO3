@@ -12,8 +12,9 @@
             <h2>Ooops usuario o contraseña incorrectos... </h2>
             <br>
             <img src="video/error_contrasena.jpg" style="width: 19rem;" class="img-thumbnail" alt="imagen" />
-                        
-          <!--  <asp:Label ID="Label1" runat="server" Text="msnError"></asp:Label>-->
+            
+            <br><br>             
+            <asp:Label ID="lblMensaje" runat="server" Text="msnError"></asp:Label>
             <br><br>            
             <a href="LOGIN.aspx" style="background: #808080; border: none" class="btn btn-primary">Volver</a>
            
