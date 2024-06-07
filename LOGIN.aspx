@@ -14,16 +14,17 @@
             text-align: center;
         }
     </style>
-    
+
     <div class="Fondo">
         <h2>LOGIN</h2>
     </div>
 
-    <br><br>
+    <br>
+    <br>
     <div>
         <div class="row mb-3 offset-sm-2">
-            <label for="inputUsuario" class="col-sm-2 col-form-label">Usuario</label>
-            <div class="col-sm-5">            
+           <label for="inputUsuario" class="col-sm-2 col-form-label">Usuario</label>
+            <div class="col-sm-5">
                 <asp:TextBox ID="TxtUsuario" type="text" CssClass="form-control" runat="server"></asp:TextBox>
             </div>
         </div>
@@ -34,14 +35,19 @@
             </div>
         </div>
 
-        <br>
-        <div class="row mb-3">
-            <div class="col-sm-10 offset-sm-4">
+        <br>       
+
+        <div class="row mb-3 offset-sm-4">
+            <div class="d-flex justify-content-start">
+                <div class="form-check me-5">
+                    <asp:Button ID="BtnLogin" style="background: #808080; border: none" CssClass="btn btn-primary" runat="server" OnClick="BtnLogin_Click" Text="Ingresar" />
+                </div>
                 <div class="form-check">
-                    <asp:Button ID="BntLogin" CssClass="btn btn-primary" runat="server" Onclick="BntLogin_Click" Text="Ingresar" />
+                   <asp:Button ID="BtCerrar" style="background: #808080; border: none" CssClass="btn btn-primary" runat="server" OnClick="BtnCerrar_Click1"  Text="Cerrar" />
                 </div>
             </div>
         </div>
+
     </div>
 
 </asp:Content>

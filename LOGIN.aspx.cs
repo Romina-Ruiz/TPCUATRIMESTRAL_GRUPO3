@@ -15,8 +15,9 @@ namespace TPCuatrimestral_Grupo3
         {
 
         }
+        
 
-        protected void BntLogin_Click(object sender, EventArgs e)
+        protected void BtnLogin_Click(object sender, EventArgs e)
         {
             try
             {
@@ -30,26 +31,35 @@ namespace TPCuatrimestral_Grupo3
                 {
                     //administrador
                     Session.Add("Admin", usuario);
-                    Response.Redirect("REGISTROS.aspx", false);
+                    Response.Redirect("MenuLogin.aspx", false);
                 }
                 else if (negocioUsuario.loguear(usuario) == 2)
                 {
                     //usuario comun
                     Session.Add("Usuario", usuario);
-                    Response.Redirect("MenuLogin.ASPX", false);
+                    Response.Redirect("MenuLogin.aspx", false);
                 }
-                else 
+                else
                 {
-                    Session.Add("error","Usuario o contraseñas incorrectos");
+                    Session.Add("error", "Usuario o contraseñas incorrectos");
                     Response.Redirect("ERROR.aspx", false);
-                }                                   
+                }
 
             }
             catch (Exception ex)
             {
 
-                Session.Add("error",ex.ToString());
+                Session.Add("error", ex.ToString());
             }
+
+        }
+       
+
+        protected void BtnCerrar_Click1(object sender, EventArgs e)
+        {
+            Session.Remove("Usuario");
+            Session.Remove("Admin");
+
         }
     }
 }

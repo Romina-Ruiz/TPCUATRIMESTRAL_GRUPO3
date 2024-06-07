@@ -33,12 +33,21 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.TextBox TxtPass;
 
         /// <summary>
-        /// Control BntLogin.
+        /// Control BtnLogin.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BntLogin;
+        protected global::System.Web.UI.WebControls.Button BtnLogin;
+
+        /// <summary>
+        /// Control BtCerrar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtCerrar;
     }
 }
