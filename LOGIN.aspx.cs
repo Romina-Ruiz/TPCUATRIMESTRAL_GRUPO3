@@ -26,19 +26,23 @@ namespace TPCuatrimestral_Grupo3
                 usuario.NombreUsuario = TxtUsuario.Text;
                 usuario.Contrasena = TxtPass.Text;
 
-                int usuLogueado = negocioUsuario.loguear(usuario);
-
-
-                //agrege para hacer pruebas
-                if (usuLogueado == 2)
-                    //usuario comun
-                    Response.Redirect("HOME.ASPX");
-                else if (usuLogueado == 1) 
+                if (negocioUsuario.loguear(usuario) == 1)
                 {
                     //administrador
+                    Session.Add("Admin", usuario);
                     Response.Redirect("REGISTROS.aspx");
                 }
-                                   
+                else if (negocioUsuario.loguear(usuario) == 2)
+                {
+                    //usuario comun
+                    Session.Add("Usuario", usuario);
+                    Response.Redirect("HOME.ASPX");
+                }
+                else 
+                {
+                    Session.Add("error","user o pass incorrectos");
+                    Response.Redirect("ERROR.aspx");
+                }                                   
 
             }
             catch (Exception ex)

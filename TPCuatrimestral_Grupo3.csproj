@@ -232,6 +232,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="DEFAULT.aspx" />
+    <Content Include="ERROR.aspx" />
     <Content Include="ESTRENOS.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HOME.aspx" />
@@ -325,6 +326,13 @@
     </Compile>
     <Compile Include="DEFAULT.aspx.designer.cs">
       <DependentUpon>DEFAULT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ERROR.aspx.cs">
+      <DependentUpon>ERROR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ERROR.aspx.designer.cs">
+      <DependentUpon>ERROR.aspx</DependentUpon>
     </Compile>
     <Compile Include="ESTRENOS.aspx.cs">
       <DependentUpon>ESTRENOS.aspx</DependentUpon>
