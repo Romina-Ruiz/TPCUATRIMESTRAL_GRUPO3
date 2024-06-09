@@ -1,8 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="CINE.aspx.cs" Inherits="TPCuatrimestral_Grupo3.CINE" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MICUENTA.aspx.cs" Inherits="TPCuatrimestral_Grupo3.MICUENTA" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
 
     <style>
         .Fondo {
@@ -13,20 +14,17 @@
         }
     </style>
 
-
-    <section class="container">
+    <section id="micuenta" class="container">
 
         <div class="Fondo">
 
 
-            <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: xx-large; font-weight: 2000">CINE</h2>
-
+            <h2 style="font-family: Elephant; font-size: xx-large">MI CUENTA</h2>
 
         </div>
 
 
     </section>
-
 
 
     <div class="container">
@@ -36,35 +34,37 @@
 
             <!--menú izquierda-->
 
-            <div class="col-2 p-4">
+            <div class="col-3 p-4">
 
 
                 <nav class="nav flex-column">
-                    <a class="nav-link active fs-4 text-white" aria-current="page" href="REGISTROS.aspx">Estrenos</a>
-
-                    <a class="nav-link fs-4 text-white" href="#">Novedades</a>
-
-                    <a class="nav-link fs-4 text-white" href="#">Entrevistas</a>
-
-
+                    <a class="nav-link active fs-4 text-white" aria-current="page" href="REGISTROS.aspx">Mis Datos</a>
+                 
+                    <a class="nav-link fs-4 text-white" href="#">Mi actividad</a>
+                   
+                    <a class="nav-link fs-4 text-white" href="#">Mensajes</a>
+                   
+                    <a class="nav-link fs-4 text-white" href="UPLOAD.aspx">Subir Contenido</a>
 
                 </nav>
 
-                <br />
-                <br />
+                
                 <br />
 
             </div>
 
             <!--COLUMNA DERECHA-->
 
+            
+            <div class="col-3 ">
 
-            <div class="col-4 ">
+        
+
             </div>
 
             <div class="col-5">
 
-                <img src="video/entrada-de-cine.png" class="opacity-50" alt="Alternate Text" height="300" width="300" />
+                <img src="video/sillon.png" class="opacity-50" alt="Alternate Text" height="300" width="300" />
 
             </div>
 
@@ -100,9 +100,6 @@
 
 
     </div>
-
-
-
 
 
 

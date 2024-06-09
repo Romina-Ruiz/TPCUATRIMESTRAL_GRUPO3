@@ -634,3 +634,153 @@ C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUP
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatri.7D44AF1C.Up2Date
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.dll
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.pdb
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Azure.Core.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Azure.Identity.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.SqlClient.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.Tools.Components.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Identity.Client.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Buffers.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.IO.FileSystem.AccessControl.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Memory.Data.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Memory.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Numerics.Vectors.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.AccessControl.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Permissions.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Principal.Windows.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Text.Encodings.Web.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Text.Json.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.ValueTuple.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Azure.Core.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Azure.Identity.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.SqlClient.pdb
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.SqlClient.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Identity.Client.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Buffers.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.IO.FileSystem.AccessControl.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Memory.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Memory.Data.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Numerics.Vectors.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.AccessControl.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Cryptography.ProtectedData.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Permissions.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Principal.Windows.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Text.Encodings.Web.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Text.Json.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.ValueTuple.xml
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\es\Microsoft.Data.Tools.Schema.Sql.UnitTesting.resources.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Azure.Core.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Azure.Identity.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.SqlClient.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.Tools.Components.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Identity.Client.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Buffers.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.IO.FileSystem.AccessControl.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Memory.Data.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Memory.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Numerics.Vectors.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.AccessControl.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Permissions.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Principal.Windows.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Text.Encodings.Web.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Text.Json.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.ValueTuple.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Azure.Core.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Azure.Identity.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.SqlClient.pdb
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.SqlClient.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Identity.Client.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Buffers.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.IO.FileSystem.AccessControl.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Memory.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Memory.Data.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Numerics.Vectors.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.AccessControl.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Cryptography.ProtectedData.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Permissions.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Security.Principal.Windows.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Text.Encodings.Web.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Text.Json.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\System.ValueTuple.xml
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\es\Microsoft.Data.Tools.Schema.Sql.UnitTesting.resources.dll
+C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll

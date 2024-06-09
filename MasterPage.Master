@@ -19,7 +19,9 @@
 
     <link href="Content/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     <link href="Content/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
-    <title>¿Qué ves?</title>
+    <title>¿Qué veo?</title>
+
+
 
 </head>
 
@@ -38,7 +40,7 @@
         <div>
 
             <nav class="navbar bg-black">
-                
+
                 <div class="container-fluid">
                     <div>
                         <img src="video/logo.png" class="navbar-brand  p-7  fs-15" alt="logo" />
@@ -46,7 +48,7 @@
                     </div>
 
                     <!--icono usuario-->
-                    <i class="bi bi-person-circle fs-2 offset-sm-8"  data-bs-toggle="modal" data-bs-target="#user"></i>
+                    <i class="bi bi-person-circle fs-2 offset-sm-8" data-bs-toggle="modal" data-bs-target="#user"></i>
 
                     <div class="modal fade" id="user" tabindex="-1" aria-hidden="true" aria-labelledby="label-user">
 
@@ -66,9 +68,9 @@
 
                                         <!--boton para login-->
                                         <asp:Button ID="BtnLogin" runat="server" CssClass="btn btn-secondary" OnClick="BtnLogin_Click" Text="Login" />
-                                        
+
                                         <!--boton de registro-->
-                                        <asp:Button ID="BotonRegistro"  CssClass="btn btn-success"  OnClick="BotonRegistro_Click" runat="server" Text="Registarse" />
+                                        <asp:Button ID="BotonRegistro" CssClass="btn btn-success" OnClick="BotonRegistro_Click" runat="server" Text="Registarse" />
                                     </div>
                                 </div>
 
@@ -95,75 +97,32 @@
                                 </li>
                                 <li class="nav-item">
 
-                                    <a class="nav-link" href="REGISTROS.aspx">Mi Cuenta</a>
+                                    <a class="nav-link fw-semibold" href="MICUENTA.aspx">Mi Cuenta</a>
 
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="PLATAFORMAS.aspx">Plataformas</a>
+                                    <a class="nav-link fw-semibold" href="PLATAFORMAS.aspx">Plataformas</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="CINE.aspx">Cine</a>
+                                    <a class="nav-link fw-semibold" href="SERIES.aspx">Series</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="ESTRENOS.aspx">Estrenos</a>
+                                    <a class="nav-link fw-semibold" href="PELICULAS.aspx">Peliculas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold" href="NOVEDADES.aspx">Novedades</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link fw-semibold text-danger" href="FANDOM.aspx"><img src="video/estrella.png" alt="estrellita" />Fandom <img src="video/estrella.png" alt="estrellita" />  </a> 
+                                    <img src="video/palomitas.png" alt="Pochoclo" aria-atomic="False" />
                                 </li>
                             </ul>
 
-
-
-                            <!--Desplegable de series-->
-                            <br>
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Series por categoría
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-end">
-                                    <li>
-                                        <button class="dropdown-item" type="button" href="SERIES.aspx">Todas</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Acción y Aventura</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Animación</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Ficción y Suspenso</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Comedia, Romatico</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Historico, Documental</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Terror, Crimen, Drama</button></li>
-                                </ul>
-                            </div>
-
-                            <!--Desplegable de peliculas-->
-                            <br>
-                            <br>
-
-                            <div class="btn-group">
-
-                                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Películas por categoría
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu-end">
-                                    <li>
-                                        <button class="dropdown-item" type="button" href="PELICULAS.aspx">Todas</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Acción y Aventura</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Animación</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Ciencia Ficción y Suspenso</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Comedia, Romatico</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Historico, Documental</button></li>
-                                    <li>
-                                        <button class="dropdown-item" type="button">Terror, Crimen, Drama</button></li>
-                                </ul>
-                            </div>
+                    
 
                         </div>
 

@@ -211,7 +211,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="BD_Tablas\TPC_Que_Veo.sql" />
-    <Content Include="CINE.aspx" />
+    <Content Include="NOVEDADES.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -233,11 +233,12 @@
     <Content Include="Content\Site.css" />
     <Content Include="DEFAULT.aspx" />
     <Content Include="ERROR.aspx" />
-    <Content Include="ESTRENOS.aspx" />
+    <Content Include="FANDOM.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HOME.aspx" />
     <Content Include="LOGIN.aspx" />
     <Content Include="MenuLogin.aspx" />
+    <Content Include="MICUENTA.aspx" />
     <Content Include="PELICULAS.aspx" />
     <Content Include="PLATAFORMAS.aspx" />
     <Content Include="REGISTROS.aspx" />
@@ -303,11 +304,17 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="SERIES.aspx" />
+    <Content Include="UPLOAD.aspx" />
+    <Content Include="video\entrada-de-cine.png" />
     <Content Include="video\error_contrasena.jpg" />
+    <Content Include="video\estrella.png" />
     <Content Include="video\explocion.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="video\logo.png" />
+    <Content Include="video\palomitas.png" />
+    <Content Include="video\sillon.png" />
+    <Content Include="video\viendo-una-pelicula 3.png" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -315,12 +322,12 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="CINE.aspx.cs">
-      <DependentUpon>CINE.aspx</DependentUpon>
+    <Compile Include="NOVEDADES.aspx.cs">
+      <DependentUpon>NOVEDADES.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CINE.aspx.designer.cs">
-      <DependentUpon>CINE.aspx</DependentUpon>
+    <Compile Include="NOVEDADES.aspx.designer.cs">
+      <DependentUpon>NOVEDADES.aspx</DependentUpon>
     </Compile>
     <Compile Include="DEFAULT.aspx.cs">
       <DependentUpon>DEFAULT.aspx</DependentUpon>
@@ -336,12 +343,12 @@
     <Compile Include="ERROR.aspx.designer.cs">
       <DependentUpon>ERROR.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ESTRENOS.aspx.cs">
-      <DependentUpon>ESTRENOS.aspx</DependentUpon>
+    <Compile Include="FANDOM.aspx.cs">
+      <DependentUpon>FANDOM.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ESTRENOS.aspx.designer.cs">
-      <DependentUpon>ESTRENOS.aspx</DependentUpon>
+    <Compile Include="FANDOM.aspx.designer.cs">
+      <DependentUpon>FANDOM.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -373,6 +380,13 @@
     </Compile>
     <Compile Include="MenuLogin.aspx.designer.cs">
       <DependentUpon>MenuLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MICUENTA.aspx.cs">
+      <DependentUpon>MICUENTA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MICUENTA.aspx.designer.cs">
+      <DependentUpon>MICUENTA.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modelo\Contenido.cs" />
     <Compile Include="Modelo\MostrarContenido.cs" />
@@ -410,6 +424,13 @@
     <Compile Include="SERIES.aspx.designer.cs">
       <DependentUpon>SERIES.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UPLOAD.aspx.cs">
+      <DependentUpon>UPLOAD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UPLOAD.aspx.designer.cs">
+      <DependentUpon>UPLOAD.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -420,6 +441,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="stylos\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -439,10 +461,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup Condition="$(VisualStudioVersion) == '17.0'">
-    <Reference Include="Microsoft.Data.Tools.Schema.Sql, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>$(SSDTPath)\Microsoft.Data.Tools.Schema.Sql.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.Data.Tools.Schema.Sql.UnitTesting, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>$(SSDTUnitTestPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll</HintPath>
       <Private>True</Private>
