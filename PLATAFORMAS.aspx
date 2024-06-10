@@ -1,37 +1,19 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="PLATAFORMAS.aspx.cs" Inherits="TPCuatrimestral_Grupo3.PLATAFORMAS" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="Stylo/Titulos.css" rel="stylesheet" />
 </asp:Content>
 
-
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <style>
-        .Fondo {
-            background-color: darkred;
-            color: antiquewhite;
-            padding: 5px;
-            text-align: center;
-        }
-    </style>
-
-    <section id="plataformas" class="container">
+        
         <div class="Fondo">
-
             <h2>PLATAFORMAS</h2>
             <p>Aqui encontrara información de tus plataformas favoritas</p>
         </div>
 
-    </section>
-
-
     <div class="container">
-
-
    
     <div class="container-fluid p-1">
-
 
         <div class="card mb-3" style="max-width:1000px;">
             <div class="row g-0">

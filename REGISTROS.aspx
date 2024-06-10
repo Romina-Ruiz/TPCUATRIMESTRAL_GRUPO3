@@ -1,33 +1,17 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="REGISTROS.aspx.cs" Inherits="TPCuatrimestral_Grupo3.REGISTROS" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="Stylo/Titulos.css" rel="stylesheet" />
 </asp:Content>
 
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <style>
-        .Fondo {
-            background-color: darkred;
-            color: antiquewhite;
-            padding: 5px;
-            text-align: center;
-        }
-    </style>
-
-    <section id="Misdatos" class="container">
-        
-        <div class="Fondo">
-
-            <h2>MIS DATOS</h2>
-        </div>
-
-
-    </section>
+       
+    <div class="Fondo">
+        <h2>MIS DATOS</h2>
+    </div>  
 
 
     <div class="container">
-
 
         <div class="row">
 

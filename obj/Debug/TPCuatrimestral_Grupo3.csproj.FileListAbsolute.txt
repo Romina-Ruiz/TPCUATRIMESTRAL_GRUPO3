@@ -784,3 +784,8 @@ C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_G
 C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\es\Microsoft.Data.Tools.Schema.Sql.UnitTesting.resources.dll
 C:\Users\Romina\Desktop\COPIA TP CUATRI\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\bin\System.Web.Optimization.xml
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\bin\Antlr3.Runtime.pdb
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\bin\es\System.Web.Optimization.resources.dll
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\TPCUATRIMESTRAL_GRUPO3\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll

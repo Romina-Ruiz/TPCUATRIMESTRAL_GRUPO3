@@ -304,6 +304,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="SERIES.aspx" />
+    <Content Include="Stylo\Titulos.css" />
     <Content Include="UPLOAD.aspx" />
     <Content Include="video\entrada-de-cine.png" />
     <Content Include="video\error_contrasena.jpg" />
@@ -441,7 +442,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="stylos\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

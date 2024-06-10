@@ -1,34 +1,19 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="SERIES.aspx.cs" Inherits="TPCuatrimestral_Grupo3.SERIES" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="Stylo/Titulos.css" rel="stylesheet" />
 </asp:Content>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <style>
-        .Fondo {
-            background-color: darkred;
-            color: antiquewhite;
-            padding: 5px;
-            text-align: center;
-        }
-    </style>
-
-    <section id="series" class="container">
+           
 
         <div class="Fondo">
-
-
-            <h2 style="font-family: 'Book Antiqua'; font-weight: bolder; font-size: 31px; font-style: normal">SERIES <i class="bi bi-person-video p-1 "></i> </h2>
-           
-           
-            <h4> Busca, elegí y comenta </h4>
+            <h2>SERIES <i class="bi bi-person-video p-1 "></i> </h2>                     
+            <h5> Busca, elegí y comenta </h5>
       
-                </div>
-
-        
-    </section>
+         </div>        
+   
 
     <!--CUERPO -->
 

@@ -1,32 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="NOVEDADES.aspx.cs" Inherits="TPCuatrimestral_Grupo3.CINE" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="Stylo/Titulos.css" rel="stylesheet" />
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <style>
-        .Fondo {
-            background-color: darkred;
-            color: antiquewhite;
-            padding: 5px;
-            text-align: center;
-        }
-    </style>
-
-
-    <section class="container">
-
         <div class="Fondo">
-
-
-            <h2 style="font-family: 'Yu Gothic UI Semibold'; font-size: 37px; font-weight: bolder; font-style: normal;">NOVEDADES</h2>
-
-
+           <h2>NOVEDADES</h2>
         </div>
-
-
-    </section>
-
 
 
     <div class="container p-2">
@@ -37,7 +19,6 @@
             <!--menú izquierda-->
 
             <div class="col-2">
-
 
                 <nav class="nav flex-column">
                     <a class="nav-link active fs-4 text-white" aria-current="page" href="#">Estrenos</a>
