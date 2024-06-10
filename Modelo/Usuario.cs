@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Azure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using static System.Collections.Specialized.BitVector32;
 
 namespace TPCuatrimestral_Grupo3.Modelo
 {
@@ -27,8 +29,7 @@ namespace TPCuatrimestral_Grupo3.Modelo
 
         public bool EsVip { get; set; }
 
-        public TipoUsuario TipoUsuario { get; set; }
-
+        public TipoUsuario TipoUsuario { get; set; }   
 
     
     }

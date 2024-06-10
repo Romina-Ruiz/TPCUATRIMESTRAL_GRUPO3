@@ -23,77 +23,74 @@
 
     <!--CUERPO -->
 
-        <div class="row  p-0.5">
+    <div class="row  p-0.5">
 
-            <!--COLUMNA 1-->
-            <div class="col-3 text-dark" style="border-style: outset; border-width: thin; background-color: #FFCC00;">
+        <!--COLUMNA 1-->
+        <div class="col-3 text-dark" style="border-style: outset; border-width: thin; background-color: #FFCC00;">
 
-                <!--menú izquierda-->
-                <div class="p-2">
-                    <nav class="nav flex-column">
-                        <br>
-                        <div class="btn-group m-3">
-                            <button type="button" class="btn btn-danger btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                ¿QUE VER?
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li>
-                                    <button class="dropdown-item" type="button" href="#">Series</button></li>
-                                <li>
-                                    <button class="dropdown-item" type="button" href="#">Peliculas</button></li>
+            <!--menú izquierda-->
+            <div class="p-2">
+                <nav class="nav flex-column">
+                    <br>
+                    <div class="btn-group m-3">
+                        <button type="button" class="btn btn-danger btn-lg dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            ¿QUE VER?
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                                <button class="dropdown-item" type="button" href="#">Series</button></li>
+                            <li>
+                                <button class="dropdown-item" type="button" href="#">Peliculas</button></li>
 
-                            </ul>
-                        </div>
-
-                        <br>
-
-                        <div class="p-1">
-                            <a class="text-dark" href="#" style="font-size: x-large; font-style: normal; font-weight: bolder; color: #0000; text-decoration: none">Foro</a>
-                            <br>
-                        </div>
-
-                        <div class="p-1">
-                            <a class="text-dark" href="UPLOAD.aspx" style="font-size: x-large; font-style: normal; font-weight: bolder; color: #0000; text-decoration: none">Subir Contenido</a>
-                        </div>
-
-                    </nav>
-
-                </div>
-
-                <div class="me-5">
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <asp:Image ID="Image1" runat="server" ImageUrl="~/video/viendo-una-pelicula 3.png" />
-                </div>
-
-            </div>
-            
-            <!--COLUMNA DERECHA-->
-            <div class="col-4 p-5">
-
-                <section id="ColIzq">
-
-                    <div>
-
-                        <asp:Image ID="Lateral1" runat="server" ImageUrl="https://www.mundodeportivo.com/alfabeta/hero/2023/12/amazon-prime.1703875576.0139.jpg?width=1200" Height="500" />
+                        </ul>
                     </div>
 
-
                     <br>
-                </section>
+
+                    <div class="p-1">
+                        <a class="text-dark" href="#" style="font-size: x-large; font-weight: bolder; color: #0000; text-decoration: none">Foro</a>
+                        <br>
+                    </div>
+
+                    <div class="p-1">
+                        <a class="text-dark" href="UPLOAD.aspx" style="font-size: x-large; font-weight: bolder; color: #0000; text-decoration: none">Subir Contenido</a>
+                    </div>
+
+                </nav>
+                <br>
+            </div>
+
+            <br><br><br>
+            
+            <div class="row 5">                
+                                           
+              <img src="video/viendoPelicula.gif" />             
 
             </div>
 
         </div>
-    
+
+        <!--COLUMNA DERECHA-->
+        <div class="col-4 p-5">
+
+            <section id="ColIzq">
+
+                <div>
+
+                    <asp:Image ID="Lateral1" runat="server" ImageUrl="https://www.mundodeportivo.com/alfabeta/hero/2023/12/amazon-prime.1703875576.0139.jpg?width=1200" Height="500" />
+                </div>
 
 
-    <!--SECCION ABAJO-->  
+                <br>
+            </section>
+
+        </div>
+
+    </div>
+
+
+
+    <!--SECCION ABAJO-->
 
     <div class="row">
         <div class="col-4 p-0.5">
@@ -105,7 +102,7 @@
         </div>
         <div class="col-4">
             <img src="https://media.primicias.ec/2024/02/08114547/marvels.jpg" alt="imagen3" height="250" width="450" />
-        
+
         </div>
     </div>
 

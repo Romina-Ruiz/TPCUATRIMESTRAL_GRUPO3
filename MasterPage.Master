@@ -116,7 +116,7 @@
                 </div>
 
                 <% if(Session["usuario"] != null || Session["Admin"] != null) { %>
-                <asp:Button ID="BtnCerrarSesion"  CssClass="fs-7 offset-sm-11" style="background-color: green; border: none; color: white;border-radius: 5px" runat="server" Text="Cerrar Sesión" OnClick="BtnCerrarSesion_Click" />
+                <asp:Button ID="BtnCerrarSesion"  CssClass="fs-7 offset-sm-11" style="background-color: #09d723ff; border: none; color: white;border-radius: 5px" runat="server" Text="Cerrar Sesión" OnClick="BtnCerrarSesion_Click" />
                 <% } %>
 
             </nav>        
