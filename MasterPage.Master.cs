@@ -23,5 +23,12 @@ namespace TPCuatrimestral_Grupo3
         {
             Response.Redirect("LOGIN.aspx");
         }
+
+        protected void BtnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Session.Remove("Usuario");
+            Session.Remove("Admin");
+            Response.Redirect("HOME.aspx");
+        }
     }
 }
