@@ -18,9 +18,6 @@
         </div>
     </div>
 
-
-
-
     <!--CUERPO -->
 
     <div class="row  p-0.5">
