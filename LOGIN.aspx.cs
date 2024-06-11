@@ -31,13 +31,13 @@ namespace TPCuatrimestral_Grupo3
                 {
                     //administrador
                     Session.Add("Admin", usuario);
-                    Response.Redirect("MenuLogin.aspx", false);
+                    Response.Redirect("MICUENTA.aspx", false);
                 }
                 else if (negocioUsuario.loguear(usuario) == 2)
                 {
                     //usuario comun
                     Session.Add("Usuario", usuario);
-                    Response.Redirect("MenuLogin.aspx", false);
+                    Response.Redirect("MICUENTA.aspx", false);
                 }
                 else
                 {
@@ -52,14 +52,11 @@ namespace TPCuatrimestral_Grupo3
                 Session.Add("error", ex.ToString());
             }
 
-        }
-       
+        }       
 
         protected void BtnCerrar_Click1(object sender, EventArgs e)
-        {
-            Session.Remove("Usuario");
-            Session.Remove("Admin");
-
+        {           
+            Response.Redirect("REGISTROS.aspx");
         }
     }
 }

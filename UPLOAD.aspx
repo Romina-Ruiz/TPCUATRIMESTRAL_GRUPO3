@@ -1,48 +1,50 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="UPLOAD.aspx.cs" Inherits="TPCuatrimestral_Grupo3.UpLoad" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="Stylo/Titulos.css" rel="stylesheet" />
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <asp:ScriptManager runat="server" />    
-    <style>
-        .Fondo {
-            background-color: darkred;
-            color: antiquewhite;
-            padding: 5px;
-            text-align: center;
-        }
-    </style>
-
-    <section id="Misdatos" class="container">
-
-        <div class="text-center">
-
+<asp:ScriptManager runat="server" />   
+    
+        <div class="Fondo">
             <h2>MI RECOMENDACION</h2>
-        </div>
+        </div>       
 
-
-    </section>
-
-
-    <div class="container Fondo">
-
-
+  <div class="container">
         <div class="row">
-
             <!--PRIMERA COLUMNA-->
-            <div class="col-4 pt-4 m-1">
+            <div class="col-4 m-2">
 
                 <!--TITULO-->
                 <div class="md-3">
-                    <label for="Titulo" class="form-label pt-2" font-size: medium; font-style: normal" style="color: #FFFFCC; font-style: normal; font-weight: bolder; font-family: 'Arial Black'; text-decoration: underline; font-size: large;">Titulo</label>
+                    <label for="Titulo" class="form-label pt-2"  style="color: #FFFFCC; font-size: 22px;">Titulo</label>
                     <asp:TextBox ID="TxtTitulo" type="text" placeholder="Titulo" class="form-control" runat="server"></asp:TextBox>
                 </div>
-
-                <br />
+                 <!--DESCRIPCION-->
+                <div class="md-3">
+                     <label for="Descripcion" class="form-label pt-2"  style="color: #FFFFCC;  font-size: 22px;">Descripcion</label>
+                    <asp:TextBox ID="TxtDescripcion" type="text" placeholder="Descripcion" class="form-control" runat="server"></asp:TextBox>
+                </div>
+                <!--pais-->
+                <div class="md-3">
+                    <label for="Pais" class="form-label pt-2"  style="color: #FFFFCC;  font-size: 22px;">País de Origen</label>
+                    <asp:TextBox ID="TxtPais" type="text" placeholder="País" class="form-control" runat="server"></asp:TextBox>
+                 </div>
+                 <!--URL-->
+                <div class="md-3">
+                    <label for="URLImagen" class="form-label pt-2"  style="color: #FFFFCC; font-size: 22px;">Link</label>
+                    <asp:TextBox ID="URLImagen" type="text" placeholder="Link" class="form-control" runat="server"></asp:TextBox>
+                </div>
+                <!--PLATAFORMA-->
+                <div>
+                    <label for="Plataforma" class="form-label pt-3" style="color: #FFFFCC;  font-size: 22px;">Plataforma</label>
+                    <asp:DropDownList ID="plataformas" runat="server"></asp:DropDownList>
+                <div/>
                 <!--CONTENIDO-->
                 <div class="md-3">
-                    <label for="Tipo" class="form-label pt-2" font-size: medium; font-style: normal" style="color: #FFFFCC; font-style: normal; font-weight: bolder; font-family: 'Arial Black'; text-decoration: underline; font-size: large;">Tipo de Contenido</label>
+                    <label for="Tipo" class="form-label pt-2"  style="color: #FFFFCC;  font-size: 22px;">Tipo de Contenido</label>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -54,14 +56,16 @@
                         <label class="form-check-label" for="flexRadioDefault2">
                             Peliculas
                         </label>
-                    </div>
-
-                </div>
+                    </div> 
+                    
+                 
+                 </div>
+        </div><!--este coloque-->
 
                 <!--CATEGORIA-->
 
                 <div class="row">
-                    <label for="Categoria" class="form-label pt-3" font-size: medium; font-style: normal" style="color: #FFFFCC; font-style: normal; font-weight: bolder; font-family: 'Arial Black'; text-decoration: underline; font-size: large;">Categoria</label>
+                    <label for="Categoria" class="form-label pt-3" style="color: #FFFFCC; font-size: 22px;">Categoria</label>
 
                     <div class="col-3 ps-2 m-2">
 
@@ -85,7 +89,6 @@
                             </label>
                         </div>
 
-
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="Comedia" checked>
                             <label class="form-check-label" for="flexCheckChecked">
@@ -98,7 +101,6 @@
                                 Documental
                             </label>
                         </div>
-
 
                     </div>
 
@@ -131,116 +133,43 @@
                             </label>
                         </div>
 
-
-
                     </div>
 
+                </div>           
+            
+             </div>
+          
 
-                </div>
-                <br />
+           </div>       
 
-                <!--pais-->
-                <div>
+                 <!--Segunda COLUMNA-->
+           
+                <div class="col-7 col-md-6 p-5  m-5">
+                    <asp:UpdatePanel ID="panelUpload" runat="server">
+                        <ContentTemplate>  
 
-
-                    <label for="Pais" class="form-label pt-3" font-size: medium; font-style: normal" style="color: #FFFFCC; font-style: normal; font-weight: bolder; font-family: 'Arial Black'; text-decoration: underline; font-size: large;">Pais</label>
-
-                    <br />
-
-                    <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
-                  
-
-                    <br />
-
-                </div>
+                            <asp:Image ID="ImURL" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="40%" runat="server" />
+                            <asp:GridView ID="GridView1" runat="server"></asp:GridView>
 
 
+                        </ContentTemplate>
+                    </asp:UpdatePanel> 
+                                    
+                    <!--SEGUNDA COLUMNA-->
 
 
-
-
-            </div>
-            <!--SEGUNDA COLUMNA-->
-            <div class="col-4 pt-4 m-1">
-
-                <div>
-
-                    <!--DESCRIPCION-->
-                    <div class="md-3">
-                        <label for="Descripcion" class="form-label pt-2" font-size: medium; font-style: normal" style="color: #FFFFCC; font-style: normal; font-weight: bolder; font-family: 'Arial Black'; text-decoration: underline; font-size: large;">Descripcion</label>
-                        <asp:TextBox ID="TxtDescripcion" type="text" placeholder="Descripcion" class="form-control" runat="server"></asp:TextBox>
-                    </div>
-                     <br />
-                        <!--PLATAFORMA-->
-                    <div>
-
-
-                     <label for="Plataforma" class="form-label pt-3" font-size: medium; font-style: normal" style="color: #FFFFCC; font-style: normal; font-weight: bolder; font-family: 'Arial Black'; text-decoration: underline; font-size: large;">Plataforma</label>
-
-                     <br />
-
-                     <asp:DropDownList ID="plataformas" runat="server"></asp:DropDownList>
-  
-
-                     <br />
-
-                        </div>
                         <!--FECHA DE ESTRENO-->
-                        <div>
+                            <div>
+                                 <label for="Fecha" class="form-label pt-3" style="color: #FFFFCC; font-size: 22px;">Fecha de estreno</label>
+                                 <asp:Calendar ID="Fecha" Style="background: white;" runat="server"></asp:Calendar>
+                            </div>                         
+                          
+                  </div>               
+                    
+        </div>    
 
 
-                    <label for="Fecha" class="form-label pt-3" font-size: medium; font-style: normal" style="color: #FFFFCC; font-style: normal; font-weight: bolder; font-family: 'Arial Black'; text-decoration: underline; font-size: large;">Fecha de estreno</label>
-
-                    <br />
-
-                            <asp:Calendar ID="Fecha" runat="server"></asp:Calendar>
-
-                          <br />
-
-                           </div>
-                              
-                    <!--URL-->
-                    <div class="md-3">
-                        <label for="URLImagen" class="form-label pt-2" font-size: medium; font-style: normal" style="color: #FFFFCC; font-style: normal; font-weight: bolder; font-family: 'Arial Black'; text-decoration: underline; font-size: large;">Link</label>
-                        <asp:TextBox ID="URLImagen" type="text" placeholder="Link" class="form-control" runat="server"></asp:TextBox>
-                    </div>
-                     <br />
-                   
-
-                    <br>
-                </div>
-
-
-
-            </div>
-
-             <!--TERCER COLUMNA-->
-            <div class="col-3 pt-4  m-1">
-                <asp:UpdatePanel ID="panelUpload" runat="server">
-                    <ContentTemplate>   
-
-                        <asp:Image ID="ImURL" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="40%" runat="server" />
-
-
-
-                    </ContentTemplate>
-                </asp:UpdatePanel>
-                
-                 
-            </div>
-
-        </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
+<!--</div>-->   
 
 
 </asp:Content>

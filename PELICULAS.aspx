@@ -52,9 +52,7 @@
 
                 <section id="ColIzq">
 
-                    <div>
-
-                      <!--  <asp:Image ID="Lateral1" runat="server" ImageUrl="https://www.mundodeportivo.com/alfabeta/hero/2023/12/amazon-prime.1703875576.0139.jpg?width=1200" Height="500" />-->
+                    <div>                     
                         <img src="https://www.mundodeportivo.com/alfabeta/hero/2023/12/amazon-prime.1703875576.0139.jpg?width=1200" alt="imagen" Height="400" width="470"/>
                     </div>
 

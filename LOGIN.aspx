@@ -35,7 +35,7 @@
                     <asp:Button ID="BtnLogin" style="background: #808080; border: none" CssClass="btn btn-primary" runat="server" OnClick="BtnLogin_Click" Text="Ingresar" />
                 </div>
                 <div class="form-check">
-                   <asp:Button ID="BtCerrar" style="background: #808080; border: none" CssClass="btn btn-primary" runat="server" OnClick="BtnCerrar_Click1"  Text="Cerrar" />
+                   <asp:Button ID="BtCerrar" style="background: #808080; border: none" CssClass="btn btn-primary" runat="server" OnClick="BtnCerrar_Click1"  Text="Registrarse" />
                 </div>
             </div>
         </div>
