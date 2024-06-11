@@ -5,25 +5,17 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-           
-
-        <div class="Fondo">
-            <h2>PELICULAS <i class="bi bi-film"></i></h2>        
-                         
-               <h5>BUSCA, ELIGI Y COMENTA </h5>            
-        </div>
-
-       
 
 
-  
+    <div class="Fondo">
+        <h2>PELICULAS <i class="bi bi-film"></i></h2>
+        <h5>BUSCA, ELIGI Y COMENTA </h5>
+    </div>
 
     <!--CUERPO -->
 
-    <div class="container">
-        <div class="row p-1">
-
-
+    
+        <div class="row p-0.5">
             <!--COLUMNA 1-->
             <div class="col-3 bg-secondary text-white">
 
@@ -34,8 +26,7 @@
             <!--COLUMNA RECOMENDACIONES -->
 
 
-            <div class="col-6">
-
+            <div class="col-5">
 
                 <br>
 
@@ -54,53 +45,41 @@
                     </div>
                 </div>
 
-
-
             </div>
 
             <!--COLUMNA 3-->
             <div class="col-3">
 
-
                 <section id="ColIzq">
 
                     <div>
 
-                        <asp:Image ID="Lateral1" runat="server" ImageUrl="https://www.mundodeportivo.com/alfabeta/hero/2023/12/amazon-prime.1703875576.0139.jpg?width=1200" Height="500" />
+                      <!--  <asp:Image ID="Lateral1" runat="server" ImageUrl="https://www.mundodeportivo.com/alfabeta/hero/2023/12/amazon-prime.1703875576.0139.jpg?width=1200" Height="500" />-->
+                        <img src="https://www.mundodeportivo.com/alfabeta/hero/2023/12/amazon-prime.1703875576.0139.jpg?width=1200" alt="imagen" Height="400" width="470"/>
                     </div>
-
 
                     <br>
                 </section>
 
             </div>
 
+        </div> 
+      
+    
+
+    <!--bloque de imagenes de abajo-->   
+    <div class="row">
+        <div class="col-4 p-0.5">
+            <img src="https://assets.tvnotas.com.mx/dims4/default/16271fb/2147483647/strip/true/crop/2880x1620+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk3-prod-tvnotas.s3.us-west-2.amazonaws.com%2Fbrightspot%2F4d%2F91%2F4cf7bd8944158d1e796b5530461d%2Fdescarga-3.jpg" alt="imagen1" height="250" width="450" />
         </div>
 
-
-         <!--bloque de imagenes de abajo-->
-
-        <div class="row">
-
-            <div class="col-4">
-
-                <asp:Image ID="imagePie1" runat="server" ImageUrl="https://assets.tvnotas.com.mx/dims4/default/16271fb/2147483647/strip/true/crop/2880x1620+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk3-prod-tvnotas.s3.us-west-2.amazonaws.com%2Fbrightspot%2F4d%2F91%2F4cf7bd8944158d1e796b5530461d%2Fdescarga-3.jpg" Height="200" Width="400" />
-            </div>
-
-            <div class="col-4">
-
-                <asp:Image ID="imagePie2" runat="server" ImageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9iD1s2Ww_vNRahZ8IVHWG5h8JnNBN4pOXqQ&s" Height="200" Width="400" />
-            </div>
-            <div class="col-4">
-
-                <asp:Image ID="imagePie3" runat="server" ImageUrl="https://media.primicias.ec/2024/02/08114547/marvels.jpg" Height="200" Width="400" />
-            </div>
-
+        <div class="col-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9iD1s2Ww_vNRahZ8IVHWG5h8JnNBN4pOXqQ&s" alt="imagen2" height="250" width="450" />
+        </div>
+        <div class="col-4">
+            <img src="https://media.primicias.ec/2024/02/08114547/marvels.jpg" alt="imagen3" height="250" width="450" />
 
         </div>
-
-
-
     </div>
 
 

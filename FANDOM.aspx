@@ -45,12 +45,12 @@
                     <br>
 
                     <div class="p-1">
-                        <a class="text-dark" href="#" style="font-size: x-large; font-weight: bolder; color: #0000; text-decoration: none">Foro</a>
+                        <a class="text-dark" href="#" style="font-size: 24px; font-weight: bolder; color: #0000; text-decoration: none">Foro</a>
                         <br>
                     </div>
 
                     <div class="p-1">
-                        <a class="text-dark" href="UPLOAD.aspx" style="font-size: x-large; font-weight: bolder; color: #0000; text-decoration: none">Subir Contenido</a>
+                        <a class="text-dark" href="UPLOAD.aspx" style="font-size: 24px; font-weight: bolder; color: #0000; text-decoration: none">Subir Contenido</a>
                     </div>
 
                 </nav>
