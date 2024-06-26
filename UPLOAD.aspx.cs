@@ -19,5 +19,10 @@ namespace TPCuatrimestral_Grupo3
             }*/
 
         }
+
+        protected void BtnPeliculas_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UP_PELICULAS.aspx");
+        }
     }
 }

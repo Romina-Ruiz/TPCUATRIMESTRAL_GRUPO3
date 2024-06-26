@@ -47,7 +47,34 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.cerrarConexion();
             }
 
+        }
 
+        public void cargaContenido(Contenido Aux) 
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearParametro("@Titulo", Aux.Titulo);
+                datos.setearParametro("@Descripcion", Aux.Descripcion);
+                datos.setearParametro("@IdContenido", Aux.IdTipoContenido);
+
+
+                datos.setearConsulta("INSERT INTO Contenidos (Titulo, IdCategoria, IdOrigen, IdTipoContenido,IdPlataforma, FechaLanzamiento, Descripcion, EstrellasPromedio) VALUES (@Titulo, 1, 2, @IdContenido, 2, '2024-04-04', @Descripcion, 4.4)");
+
+                datos.ejecutarAccion();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
 
         }
 

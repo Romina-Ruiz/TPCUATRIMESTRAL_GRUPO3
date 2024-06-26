@@ -12,20 +12,18 @@
 
         <div class="row justify-content-center">
             <div class="col-2 m-5">
-
-                <asp:Image ID="Image1" runat="server" ImageUrl="~/video/capitulo256.png" />
-                <button type="button" class="btn btn-danger btn-lg p-2 m-2">
-                    SERIES
-                </button>
-
+            
+                <img src="video/capitulo256.png" alt="imgSeries" />
+                
+                <asp:Button ID="Button" class="btn btn-danger btn-lg p-2 m-2" runat="server" Text="SERIES" />
+             
             </div>
             <div class="col-2  m-5">
 
-                <asp:Image ID="Image2" runat="server" ImageUrl="~/video/carrete-de-pelicula256.png" />
-
-                <button type="button" class="btn btn-danger btn-lg p-2 m-2">
-                    PELICULAS
-                </button>
+                <img src="video/carrete-de-pelicula256.png" " alt="imgCarrete" />              
+             
+                <asp:Button ID="BtnPeliculas" class="btn btn-danger btn-lg p-2 m-2" runat="server" Onclick="BtnPeliculas_Click" Text="PELICULAS" />
+                              
             </div>
         </div>
     </div>

@@ -60,6 +60,33 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.DropDownList plataformas;
 
         /// <summary>
+        /// Control RdBSerie.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RdBSerie;
+
+        /// <summary>
+        /// Control RdbPelicula.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton RdbPelicula;
+
+        /// <summary>
+        /// Control BtnCargarPeli.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnCargarPeli;
+
+        /// <summary>
         /// Control panelUpload.
         /// </summary>
         /// <remarks>

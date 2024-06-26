@@ -34,10 +34,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                 throw ex;
             }
-            finally
-            {
-                datos.cerrarConexion();
-            }
+            
 
         }
 
