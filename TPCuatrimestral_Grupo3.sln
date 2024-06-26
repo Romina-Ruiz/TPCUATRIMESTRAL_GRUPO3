@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPCuatrimestral_Grupo3", "TPCuatrimestral_Grupo3.csproj", "{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{A58E8523-BD11-464E-95BD-55341715454B}"
+	ProjectSection(SolutionItems) = preProject
+		video\capitulo256.png = video\capitulo256.png
+		video\carrete-de-pelicula256.png = video\carrete-de-pelicula256.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -281,6 +281,99 @@
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker-en-CA.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.ar-tn.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.ar.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.az.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.bg.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.bm.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.bn.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.br.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.bs.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.ca.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.cs.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.css" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.cy.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.da.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.de.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.el.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.en-AU.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.en-CA.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.en-GB.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.en-IE.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.en-NZ.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.en-ZA.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.eo.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.es.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.et.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.eu.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.fa.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.fi.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.fo.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.fr-CH.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.fr.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.gl.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.he.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.hi.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.hr.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.hu.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.hy.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.id.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.is.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.it-CH.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.it.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.ja.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.ka.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.kh.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.kk.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.km.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.ko.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.kr.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.lt.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.lv.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.me.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.min.css" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.mk.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.mn.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.ms.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.nl-BE.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.nl.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.no.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.oc.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.pl.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.pt-BR.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.pt.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.ro.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.rs-latin.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.rs.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.ru.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.si.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.sk.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.sl.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.sq.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.sr-latin.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.sr.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.standalone.css" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.standalone.min.css" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.sv.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.sw.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.ta.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.tg.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.th.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.tk.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.tr.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.uk.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.uz-cyrl.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.uz-latn.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.vi.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.zh-CN.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.zh-TW.min.js" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker3.css" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker3.min.css" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker3.standalone.css" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker3.standalone.min.css" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -305,6 +398,9 @@
     <Content Include="SERIES.aspx" />
     <Content Include="Stylo\Titulos.css" />
     <Content Include="UPLOAD.aspx" />
+    <Content Include="UP_PELICULAS.aspx" />
+    <Content Include="video\capitulo256.png" />
+    <Content Include="video\carrete-de-pelicula256.png" />
     <Content Include="video\entrada-de-cine.png" />
     <Content Include="video\error_contrasena.jpg" />
     <Content Include="video\estrella.png" />
@@ -425,6 +521,13 @@
     <Compile Include="UPLOAD.aspx.designer.cs">
       <DependentUpon>UPLOAD.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UP_PELICULAS.aspx.cs">
+      <DependentUpon>UP_PELICULAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UP_PELICULAS.aspx.designer.cs">
+      <DependentUpon>UP_PELICULAS.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -440,6 +543,10 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.css.map" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker.standalone.css.map" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker3.css.map" />
+    <Content Include="Scripts\Datapicker\bootstrap-datepicker3.standalone.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
