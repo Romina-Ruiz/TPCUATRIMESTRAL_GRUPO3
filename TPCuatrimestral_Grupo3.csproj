@@ -429,7 +429,9 @@
       <DependentUpon>DETALLE.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modelo\Pelicula.cs" />
+    <Compile Include="Modelo\Serie.cs" />
     <Compile Include="Negocio\PeliculaNegocio.cs" />
+    <Compile Include="Negocio\SerieNegocio.cs" />
     <Compile Include="NOVEDADES.aspx.cs">
       <DependentUpon>NOVEDADES.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
