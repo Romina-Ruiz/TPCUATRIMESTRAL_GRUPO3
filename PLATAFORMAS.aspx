@@ -30,7 +30,37 @@
                 </div>
             </div>
         </div>
+        <%--columna repetidor de plataformas--%>
+                 <div class="col-5">
+        <asp:Repeater runat="server" ID="repRepetidor">
+            <ItemTemplate>
 
+
+                
+
+<br>
+
+<div class="card text-bg-light border-warning mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title"><%#Eval("Nombre") %></h5>
+                <img src="<%#Eval("UrlLogo") %>" class="img-fluid rounded-start" alt="...">
+                <p class="card-text"><small class="text-body-secondary">Fecha y otros datos</small></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+            </ItemTemplate>
+        </asp:Repeater>
+        </div>
 
 
              </div>

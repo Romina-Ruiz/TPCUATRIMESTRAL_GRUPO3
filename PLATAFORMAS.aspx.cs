@@ -11,11 +11,17 @@ namespace TPCuatrimestral_Grupo3
 {
     public partial class PLATAFORMAS : System.Web.UI.Page
     {
-        public List<MostrarContenido> ListaContenido { get; set; }
+        
         protected void Page_Load(object sender, EventArgs e)
         {
-            
 
+            if (!IsPostBack)
+            {
+                PlataformaNegocio negocio = new PlataformaNegocio();
+                repRepetidor.DataSource = negocio.listarConSP();
+                repRepetidor.DataBind();
+
+            }
         }
     }
 }
