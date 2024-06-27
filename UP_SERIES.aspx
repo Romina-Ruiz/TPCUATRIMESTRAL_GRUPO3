@@ -1,16 +1,16 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="UP_PELICULAS.aspx.cs" Inherits="TPCuatrimestral_Grupo3.UP_PELICULAS" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="UP_SERIES.aspx.cs" Inherits="TPCuatrimestral_Grupo3.UP_SERIES" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
 
     <asp:ScriptManager runat="server" />
 
 
     <div class="Fondo">
         <h2>MI RECOMENDACION</h2>
-        <h3>PELICULAS</h3>
+        <h3>SERIES</h3>
     </div>
 
     <div class="container">
@@ -51,10 +51,27 @@
                 <div class="md-3">
                     <label for="Descripcion" class="form-label pt-2" style="color: #FFFFCC; font-size: 22px;">Descripcion</label>
                     <br>
-                    <asp:Label ID="ResumenPeli" runat="server" Text="Label" Font-Size="Smaller">(Deja una descripción de la pelicula, tienes hasta 1000 palabras)</asp:Label>
+                    <asp:Label ID="ResumenSerie" runat="server" Text="Label" Font-Size="Smaller">(Deja una descripción de la serie, tienes hasta 1000 palabras)</asp:Label>
 
-                    <asp:TextBox ID="TxtResumenPeli" type="text" placeholder="Descripcion" class="form-control" runat="server" Height="300"></asp:TextBox>
+                    <asp:TextBox ID="TxtResumenSerie" type="text" placeholder="Descripcion" class="form-control" runat="server" Height="200"></asp:TextBox>
                 </div>
+
+
+                <!--FECHA DE ESTRENO-->
+                <br>
+                <br>
+                <label for="date" class="col" style="color: #FFFFCC; font-size: 22px;">Fecha  </label>
+                <br>
+                <asp:Label ID="Label2" runat="server" Text="Label" Font-Size="Smaller">(Si sabes su fecha de estreno por favor seleccionalo)</asp:Label>
+                <div class="datepicker position-relative border-1 p-4" id="datapicker">
+                    <input type="text" id="date" />
+                    <span class="input-group append">
+                        <span class="input-group text bg-white"></span>
+                    </span>
+                </div>
+
+
+
             </div>
 
             <!--Segunda COLUMNA-->
@@ -69,30 +86,26 @@
 
                 </div>
 
-                <!--FECHA DE ESTRENO-->
                 <br>
-                <br>
-                <label for="date" class="col" style="color: #FFFFCC; font-size: 22px;">Fecha  </label>
-                <br>
-                <asp:Label ID="Label2" runat="server" Text="Label" Font-Size="Smaller">(Si sabes su fecha de estreno por favor seleccionalo)</asp:Label>
-                <div class="datepicker position-relative border-1 p-4" id="datapicker">
-                    <input type="text" id="date" />
-                    <span class="input-group append">
-                        <span class="input-group text bg-white"></span>
-                    </span>
+
+                <div class="p-5">
+
+                    <asp:Label ID="Label5" runat="server" Text="Label" Font-Size="Medium">Si sabes las temporadas que tiene ingresala aqui</asp:Label>
+                    <br>
+                    <asp:DropDownList ID="DropDownTemporada" runat="server" Height="30" Width="150"></asp:DropDownList>
+                    <label for="Temporadas" class="form-label pt-2" style="color: #FFFFCC; font-size: 22px;">Temporadas</label>
+
                 </div>
-                <br>
-                   
-                <label for="Duracion" class="form-label pt-2" style="color: #FFFFCC; font-size: 22px;">Duracion</label>
-                 <br>
-                 <asp:Label ID="Label5" runat="server" Text="Label" Font-Size="Smaller">(Si sabes su duración ingresala aqui)</asp:Label>
-                <br>
-                <br>
-                <asp:DropDownList ID="DropDownList1" runat="server" Height="30" Width="100"></asp:DropDownList>
 
-                <asp:DropDownList ID="DropDownList2" runat="server" Height="30" Width="100"></asp:DropDownList>
+                <div class="p-5">
+                    <asp:Label ID="Label6" runat="server" Text="Label" Font-Size="Medium">Si sabes las capitulos que tiene ingresala aqui</asp:Label>
+                    <br>
+                    <asp:DropDownList ID="DropDownCAPITULOS" runat="server" Height="30" Width="150"></asp:DropDownList>
+                    <label for="Capitulos" class="form-label pt-2" style="color: #FFFFCC; font-size: 22px;">Capitulos</label>
 
+                </div>
 
+                </div>
 
             </div>
 
@@ -112,7 +125,7 @@
                 <label for="Categoria" class="form-label pt-3" style="color: #FFFFCC; font-size: 22px;">Categoria</label>
                 <br>
                 <asp:Label ID="Label3" runat="server" Text="Label" Font-Size="Smaller">(Selecciona una o varias caterias)</asp:Label>
-                
+
                 <div class="col">
                     <br>
                     <div class="form-check">
@@ -191,20 +204,20 @@
                 <asp:Label ID="Label4" runat="server" Text="Label" Font-Size="Smaller">(Aqui puedes pegar el link de la foto de la pelicula que estas agregando)</asp:Label>
                 <br>
                 <asp:TextBox ID="URLImagen" type="text" placeholder="Link" class="form-control" runat="server"></asp:TextBox>
-           
-                 <br>
-                 <br>
 
-            <asp:UpdatePanel ID="panelUpload" runat="server">
-                <ContentTemplate>
+                <br>
+                <br>
 
-                    <asp:Image ID="ImURL" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="40%" runat="server" />
-                    <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+                <asp:UpdatePanel ID="panelUpload" runat="server">
+                    <ContentTemplate>
 
-                </ContentTemplate>
-            </asp:UpdatePanel>
+                        <asp:Image ID="ImURL" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="40%" runat="server" />
+                        <asp:GridView ID="GridView1" runat="server"></asp:GridView>
 
-               </div>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+
+            </div>
 
 
         </div>
@@ -214,15 +227,23 @@
         <!--BOTON ACEPTAR-->
         <div class="row p-4">
             <div class="col-md-6 offset-md-3">
-                <asp:Button ID="BtnCargarPeli" class="btn btn-danger btn-lg p-2 m-2" OnClick="BtnCargarPeli_Click" runat="server" Text="Cargar" Font-Size="X-Large" Height="50px" Width="200" />
+                <asp:Button ID="BtnCargarSERIE" class="btn btn-danger btn-lg p-2 m-2" runat="server" Text="Cargar" Font-Size="X-Large" Height="50px" Width="200" />
 
             </div>
 
 
         </div>
 
-    </div>
-
   
+
+
+
+
+
+
+
+
+
+
 
 </asp:Content>

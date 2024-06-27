@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="p-1">
-                        <a class="text-dark" href="UPLOAD.aspx" style="font-size: 24px; font-weight: bolder; color: #0000; text-decoration: none">Subir Contenido</a>
+                        <a class="text-dark" href="UPLOAD.aspx" style="font-size: 24px; font-weight: bolder; color: #0000; text-decoration: none">Mi Recomendación</a>
                     </div>
 
                 </nav>

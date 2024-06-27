@@ -11,7 +11,7 @@ namespace TPCuatrimestral_Grupo3
 {
 
 
-    public partial class UP_PELICULAS
+    public partial class UP_SERIES
     {
 
         /// <summary>
@@ -33,22 +33,31 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.DropDownList plataformas;
 
         /// <summary>
-        /// Control ResumenPeli.
+        /// Control ResumenSerie.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ResumenPeli;
+        protected global::System.Web.UI.WebControls.Label ResumenSerie;
 
         /// <summary>
-        /// Control TxtResumenPeli.
+        /// Control TxtResumenSerie.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtResumenPeli;
+        protected global::System.Web.UI.WebControls.TextBox TxtResumenSerie;
+
+        /// <summary>
+        /// Control Label2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
         /// Control Label1.
@@ -69,15 +78,6 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.DropDownList pais;
 
         /// <summary>
-        /// Control Label2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
-
-        /// <summary>
         /// Control Label5.
         /// </summary>
         /// <remarks>
@@ -87,22 +87,31 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// Control DropDownList1.
+        /// Control DropDownTemporada.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownTemporada;
 
         /// <summary>
-        /// Control DropDownList2.
+        /// Control Label6.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
+        protected global::System.Web.UI.WebControls.Label Label6;
+
+        /// <summary>
+        /// Control DropDownCAPITULOS.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownCAPITULOS;
 
         /// <summary>
         /// Control Label3.
@@ -159,12 +168,12 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// Control BtnCargarPeli.
+        /// Control BtnCargarSERIE.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnCargarPeli;
+        protected global::System.Web.UI.WebControls.Button BtnCargarSERIE;
     }
 }

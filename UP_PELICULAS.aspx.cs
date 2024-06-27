@@ -22,8 +22,8 @@ namespace TPCuatrimestral_Grupo3
             Contenido AuxCont = new Contenido();
 
             AuxCont.Titulo = TxtTitulo.Text;
-            AuxCont.Descripcion = TxtDescripcion.Text;
-            
+            AuxCont.Descripcion = TxtResumenPeli.Text;
+           /* 
            if (RdBSerie.Checked)
             {
                 AuxCont.IdTipoContenido = 2; 
@@ -34,7 +34,7 @@ namespace TPCuatrimestral_Grupo3
             }
 
             AuxContNego.cargaContenido(AuxCont);
-
+           */
         }
     }
 }

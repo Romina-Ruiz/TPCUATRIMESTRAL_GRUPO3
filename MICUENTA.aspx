@@ -24,7 +24,7 @@
                 <a class="nav-link active fs-5 text-white" aria-current="page" href="REGISTROS.aspx">Mis Datos</a>
                 <a class="nav-link fs-5 text-white" href="#">Mi actividad</a>
                 <a class="nav-link fs-5 text-white" href="#">Mensajes</a>
-                <a class="nav-link fs-5 text-white" href="UPLOAD.aspx">Subir Contenido</a>
+                <a class="nav-link fs-5 text-white" href="UPLOAD.aspx">Mi Recomendacion</a>
             </nav>
             <br>
         </div>
