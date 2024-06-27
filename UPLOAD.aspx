@@ -15,7 +15,7 @@
             
                 <img src="video/capitulo256.png" alt="imgSeries" />
                 
-                <asp:Button ID="Button" class="btn btn-danger btn-lg p-2 m-2" runat="server" Text="SERIES" />
+                <asp:Button ID="BntSeries" class="btn btn-danger btn-lg p-2 m-2" runat="server" OnClick="BntSeries_Click" Text="SERIES" />
              
             </div>
             <div class="col-2  m-5">

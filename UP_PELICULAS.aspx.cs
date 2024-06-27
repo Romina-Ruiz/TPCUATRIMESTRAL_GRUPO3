@@ -13,28 +13,35 @@ namespace TPCuatrimestral_Grupo3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Plataforma AuxPla = new Plataforma();
+            PlataformaNegocio AuxPlaNe = new PlataformaNegocio(); 
+            
+            /* DWLplataformas. = AuxPlaNe.listarConSP();*/
         }
 
         protected void BtnCargarPeli_Click(object sender, EventArgs e)
         {
-            ContenidoNegocio AuxContNego = new ContenidoNegocio();
-            Contenido AuxCont = new Contenido();
+            ContenidoNegocio AuxContNego = new ContenidoNegocio();            
+            Pelicula AuxPeli = new Pelicula();
 
-            AuxCont.Titulo = TxtTitulo.Text;
-            AuxCont.Descripcion = TxtResumenPeli.Text;
-           /* 
-           if (RdBSerie.Checked)
-            {
-                AuxCont.IdTipoContenido = 2; 
-            }
-            else if (RdbPelicula.Checked)
-            {
-                AuxCont.IdTipoContenido = 3; 
-            }
+            AuxPeli.Titulo = TxtTitulo.Text;
+            AuxPeli.Descripcion = TxtResumenPeli.Text;
+            AuxPeli.UrlImagenContenido = URLImagen.Text;
 
-            AuxContNego.cargaContenido(AuxCont);
-           */
+            AuxContNego.cargaContenido(AuxPeli);
+
+            /* 
+            if (RdBSerie.Checked)
+             {
+                 AuxCont.IdTipoContenido = 2; 
+             }
+             else if (RdbPelicula.Checked)
+             {
+                 AuxCont.IdTipoContenido = 3; 
+             }
+
+             AuxContNego.cargaContenido(AuxCont);
+            */
         }
     }
 }

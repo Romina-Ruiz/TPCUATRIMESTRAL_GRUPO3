@@ -15,13 +15,13 @@ namespace TPCuatrimestral_Grupo3
     {
 
         /// <summary>
-        /// Control Button.
+        /// Control BntSeries.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button;
+        protected global::System.Web.UI.WebControls.Button BntSeries;
 
         /// <summary>
         /// Control BtnPeliculas.

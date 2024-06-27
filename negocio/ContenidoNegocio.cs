@@ -49,18 +49,19 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
         }
 
-        public void cargaContenido(Contenido Aux) 
+        public void cargaContenido(Pelicula Aux) 
         {
             AccesoDatos datos = new AccesoDatos();
 
             try
             {
                 datos.setearParametro("@Titulo", Aux.Titulo);
-                datos.setearParametro("@Descripcion", Aux.Descripcion);
-                datos.setearParametro("@IdContenido", Aux.IdTipoContenido);
+                datos.setearParametro("@Descripcion", Aux.Descripcion);                
 
 
-                datos.setearConsulta("INSERT INTO Contenidos (Titulo, IdCategoria, IdOrigen, IdTipoContenido,IdPlataforma, FechaLanzamiento, Descripcion, EstrellasPromedio) VALUES (@Titulo, 1, 2, @IdContenido, 2, '2024-04-04', @Descripcion, 4.4)");
+                datos.setearConsulta("INSERT INTO Contenidos(Titulo, IdOrigen,"+
+                                    "FechaLanzamiento, Descripcion) VALUES" +
+                                    "(@Titulo, 1, '2024-05-25',@Descripcion)");
 
                 datos.ejecutarAccion();
 

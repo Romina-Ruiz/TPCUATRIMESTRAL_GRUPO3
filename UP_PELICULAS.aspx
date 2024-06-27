@@ -34,7 +34,7 @@
                 <div>
                     <label for="Plataforma" class="form-label pt-3" style="color: #FFFFCC; font-size: 22px;">Plataforma</label>
                     <br>
-                    <asp:DropDownList ID="plataformas" runat="server" Height="35" Width="500"></asp:DropDownList>
+                    <asp:DropDownList ID="DWLplataformas" runat="server" Height="35" Width="500"></asp:DropDownList>
                     <div />
                 </div>
             </div>

@@ -24,5 +24,10 @@ namespace TPCuatrimestral_Grupo3
         {
             Response.Redirect("UP_PELICULAS.aspx");
         }
+
+        protected void BntSeries_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UP_SERIES.aspx");
+        }
     }
 }
