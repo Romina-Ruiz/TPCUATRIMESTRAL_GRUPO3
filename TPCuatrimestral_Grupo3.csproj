@@ -212,6 +212,7 @@
   <ItemGroup>
     <None Include="BD_Tablas\TPC_Que_Veo.sql" />
     <Content Include="DETALLE_PELI.aspx" />
+    <Content Include="DETALLE_SERIE.aspx" />
     <Content Include="NOVEDADES.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -427,6 +428,13 @@
     </Compile>
     <Compile Include="DETALLE_PELI.aspx.designer.cs">
       <DependentUpon>DETALLE_PELI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DETALLE_SERIE.aspx.cs">
+      <DependentUpon>DETALLE_SERIE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DETALLE_SERIE.aspx.designer.cs">
+      <DependentUpon>DETALLE_SERIE.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modelo\Pais.cs" />
     <Compile Include="Modelo\Pelicula.cs" />
