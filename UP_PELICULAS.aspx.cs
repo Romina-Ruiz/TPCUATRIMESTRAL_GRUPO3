@@ -11,12 +11,45 @@ namespace TPCuatrimestral_Grupo3
 {
     public partial class UP_PELICULAS : System.Web.UI.Page
     {
+        
+        
         protected void Page_Load(object sender, EventArgs e)
-        {
-            Plataforma AuxPla = new Plataforma();
-            PlataformaNegocio AuxPlaNe = new PlataformaNegocio(); 
+        {         
             
-            /* DWLplataformas. = AuxPlaNe.listarConSP();*/
+            try
+            {
+                if (!IsPostBack) 
+                {
+                    PlataformaNegocio AuxPlaNe = new PlataformaNegocio();
+                    List<Plataforma> listaPlataformas = AuxPlaNe.listarPlataformas();
+                   
+
+                    DWLplataformas.DataSource = listaPlataformas;
+                    DWLplataformas.DataTextField = "Nombre";
+                    DWLplataformas.DataValueField = "ID";
+                    DWLplataformas.DataBind();
+
+                    PaisNegocio AuxPais = new PaisNegocio();
+                    List<Pais> listaPais = AuxPais.listarPais();
+
+                    DWLPais.DataSource = listaPais;
+                    DWLPais.DataTextField = "NombrePais";
+                    DWLPais.DataValueField = "Id";
+                    DWLPais.DataBind();
+
+
+                    
+                }               
+
+            }
+            catch (Exception ex)
+            {
+
+                Session.Add("error", ex);
+            }
+
+            
+            
         }
 
         protected void BtnCargarPeli_Click(object sender, EventArgs e)
@@ -42,6 +75,12 @@ namespace TPCuatrimestral_Grupo3
 
              AuxContNego.cargaContenido(AuxCont);
             */
+        }
+
+        protected void URLImagen_TextChanged(object sender, EventArgs e)
+        {
+            string nuevaImagen = URLImagen.Text;            
+            URLImg.ImageUrl = nuevaImagen;
         }
     }
 }

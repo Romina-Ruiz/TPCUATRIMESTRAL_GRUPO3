@@ -428,9 +428,11 @@
     <Compile Include="DETALLE.aspx.designer.cs">
       <DependentUpon>DETALLE.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\Pais.cs" />
     <Compile Include="Modelo\Pelicula.cs" />
     <Compile Include="Modelo\Plataforma.cs" />
     <Compile Include="Modelo\Serie.cs" />
+    <Compile Include="Negocio\PaisNegocio.cs" />
     <Compile Include="Negocio\PeliculaNegocio.cs" />
     <Compile Include="Negocio\PlataformaNegocio.cs" />
     <Compile Include="Negocio\SerieNegocio.cs" />

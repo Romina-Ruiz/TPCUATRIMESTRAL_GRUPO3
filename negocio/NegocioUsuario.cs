@@ -25,7 +25,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                 datos.setearConsulta("INSERT INTO Usuarios (NombreUsuario, Contrasena, Email, EsAdministrador, EsVip) VALUES ( @NombreUsuario, @Contrasena, @Email, 0, 0);");
 
-                datos.ejecutarAccion();           
+                datos.ejecutarAccion();         
             
                
             }
