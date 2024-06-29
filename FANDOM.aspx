@@ -35,9 +35,9 @@
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li>
-                                <button class="dropdown-item" type="button" href="#">Series</button></li>
+                                <button class="dropdown-item" type="button" href="#" style="font-family: 'Arial Black'; font-size: large; font-weight: bolder">Series</button></li>
                             <li>
-                                <button class="dropdown-item" type="button" href="#">Peliculas</button></li>
+                                <button class="dropdown-item" type="button" href="#" style="font-family: 'Arial Black'; font-size: large; font-weight: bolder">Peliculas</button></li>
 
                         </ul>
                     </div>
@@ -89,7 +89,7 @@
 
     <!--SECCION ABAJO-->
 
-    <div class="row">
+    <div class="row pt-5">
         <div class="col-4 p-0.5">
             <img src="https://assets.tvnotas.com.mx/dims4/default/16271fb/2147483647/strip/true/crop/2880x1620+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk3-prod-tvnotas.s3.us-west-2.amazonaws.com%2Fbrightspot%2F4d%2F91%2F4cf7bd8944158d1e796b5530461d%2Fdescarga-3.jpg" alt="imagen1" height="250" width="450" />
         </div>

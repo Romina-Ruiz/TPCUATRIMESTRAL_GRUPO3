@@ -56,7 +56,7 @@
                                 </div>
 
                                 <div class="position-absolute bottom-0 end-0">
-                                    <asp:Button ID="detallepeli" runat="server" Text="DETALLES" BackColor="#3366ff" ForeColor="White" BorderColor="White" BorderStyle="Double" BorderWidth="10" Font-Size="Medium" />
+                                    <asp:Button ID="detallepeli" runat="server" class="btn btn-warning" Text="INFO"  Font-Size="Medium" BorderColor="Black" BorderWidth="2" Font-Bold="True" />
 
                                 </div>
 
@@ -94,7 +94,7 @@
 
 
         <!--bloque de imagenes de abajo-->
-        <div class="row">
+        <div class="row pt-5">
             <div class="col-4 p-0.5">
                 <img src="https://assets.tvnotas.com.mx/dims4/default/16271fb/2147483647/strip/true/crop/2880x1620+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk3-prod-tvnotas.s3.us-west-2.amazonaws.com%2Fbrightspot%2F4d%2F91%2F4cf7bd8944158d1e796b5530461d%2Fdescarga-3.jpg" alt="imagen1" height="250" width="450" />
             </div>
