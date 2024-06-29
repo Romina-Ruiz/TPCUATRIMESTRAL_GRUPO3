@@ -25,6 +25,7 @@
                 <a class="nav-link fs-5 text-white" href="#">Mi actividad</a>
                 <a class="nav-link fs-5 text-white" href="#">Mensajes</a>
                 <a class="nav-link fs-5 text-white" href="UPLOAD.aspx">Mi Recomendacion</a>
+                <a class="nav-link fs-5 text-white" href="Op.Admin.aspx">Administrador</a>
             </nav>
             <br>
         </div>

@@ -240,6 +240,7 @@
     <Content Include="HOME.aspx" />
     <Content Include="LOGIN.aspx" />
     <Content Include="MICUENTA.aspx" />
+    <Content Include="Op_Admin.aspx" />
     <Content Include="PELICULAS.aspx" />
     <Content Include="PLATAFORMAS.aspx" />
     <Content Include="REGISTROS.aspx" />
@@ -415,6 +416,7 @@
     <Content Include="video\logo.png" />
     <Content Include="video\palomitas.png" />
     <Content Include="video\sillon.png" />
+    <Content Include="video\sistema-informatico.png" />
     <Content Include="video\viendo-una-pelicula 3.png" />
     <Content Include="video\viendoPelicula.gif" />
     <Content Include="ViewSwitcher.ascx" />
@@ -514,6 +516,13 @@
     <Compile Include="Negocio\AccesoDatos.cs" />
     <Compile Include="Negocio\ContenidoNegocio.cs" />
     <Compile Include="Negocio\NegocioUsuario.cs" />
+    <Compile Include="Op_Admin.aspx.cs">
+      <DependentUpon>Op_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Op_Admin.aspx.designer.cs">
+      <DependentUpon>Op_Admin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PELICULAS.aspx.cs">
       <DependentUpon>PELICULAS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
