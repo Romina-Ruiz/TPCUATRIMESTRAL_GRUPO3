@@ -14,12 +14,10 @@
        
         <div class="col-4 ">
             <nav class="nav flex-column">
-                <a class="nav-link active fs-5 text-white" aria-current="page" href="#">Autorizar contenidos</a>
-                <a class="nav-link fs-5 text-white" href="#">Modificar contenido</a>
-                <a class="nav-link fs-5 text-white" href="#">Dar de baja Usuario</a>
-                <a class="nav-link fs-5 text-white" href="#">Cargar plataforma</a>
-                <a class="nav-link fs-5 text-white" href="#">Cargar categorias</a>
-                <a class="nav-link fs-5 text-white" href="#">Cargar novedades</a>
+                <a class="nav-link active fs-5 text-white" aria-current="page" href="CHECK_CONTENIDO.aspx">Check contenidos</a>
+                              <a class="nav-link fs-5 text-white" href="#">Check Usuarios</a>
+                <a class="nav-link fs-5 text-white" href="UP_PLATAFORMAS.aspx">Cargar plataforma</a>
+                <a class="nav-link fs-5 text-white" href="UP_NOVEDADES.aspx">Cargar novedades</a>
 
             </nav>
            

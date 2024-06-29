@@ -83,8 +83,8 @@
 
                         <label class="col" style="color: #FFFFCC; font-size: 22px;">Fecha</label>
                         <br>
-                        <Label  style=" font-Size: 12.8px ">(Si sabes su fecha de estreno por favor seleccionalo)</Label>
-                       
+                        <label style="font-size: 12.8px">(Si sabes su fecha de estreno por favor seleccionalo)</label>
+
                         <div class="datepicker position-relative border-01 p-4" id="datapicker">
                             <asp:TextBox ID="txtFecha" CssClass="form-control" runat="server"></asp:TextBox>
 
@@ -95,7 +95,7 @@
                         <script>
                             $(function () {
                                 $("#<%= txtFecha.ClientID %>").datepicker();
-                             });
+                            });
                         </script>
 
                     </ContentTemplate>
@@ -106,7 +106,7 @@
 
                 <label for="Duracion" class="form-label pt-2" style="color: #FFFFCC; font-size: 22px;">Duracion</label>
                 <br>
-                <Label Text="Label" style="font-size:12.8px;">(Si sabes su duración ingresala aqui)</Label>
+                <label text="Label" style="font-size: 12.8px;">(Si sabes su duración ingresala aqui)</label>
                 <br>
                 <br>
 
@@ -253,6 +253,16 @@
             <div class="col-md-6 offset-md-3">
                 <asp:Button ID="BtnCargarPeli" class="btn btn-danger btn-lg p-2 m-2" OnClick="BtnCargarPeli_Click" runat="server" Text="Cargar" Font-Size="X-Large" Height="50px" Width="200" />
 
+            </div>
+
+        </div>
+
+
+        <!--BOTON VOLVER-->
+
+        <div class="d-flex flex-row-reverse">
+            <div class="p-2 m-3">
+                <asp:Button ID="Button2" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
             </div>
 
         </div>

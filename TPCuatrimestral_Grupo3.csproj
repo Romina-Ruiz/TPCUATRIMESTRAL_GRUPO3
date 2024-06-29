@@ -211,11 +211,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="BD_Tablas\TPC_Que_Veo.sql" />
+    <Content Include="CHECK_CONTENIDO.aspx" />
     <Content Include="DETALLE_PELI.aspx" />
     <Content Include="DETALLE_SERIE.aspx" />
     <Content Include="Favoritos.aspx" />
     <Content Include="Mensajes.aspx" />
     <Content Include="MisDatos.aspx" />
+    <Content Include="MODIFICAR_CONTENIDO.aspx" />
     <Content Include="NOVEDADES.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -405,6 +407,7 @@
     <Content Include="Stylo\Comentarios.css" />
     <Content Include="Stylo\Titulos.css" />
     <Content Include="UPLOAD.aspx" />
+    <Content Include="UP_NOVEDADES.aspx" />
     <Content Include="UP_PELICULAS.aspx" />
     <Content Include="UP_PLATAFORMAS.aspx" />
     <Content Include="UP_SERIES.aspx" />
@@ -421,6 +424,7 @@
     <Content Include="video\palomitas.png" />
     <Content Include="video\sillon.png" />
     <Content Include="video\sistema-informatico.png" />
+    <Content Include="video\user.png" />
     <Content Include="video\viendo-una-pelicula 3.png" />
     <Content Include="video\viendoPelicula.gif" />
     <Content Include="ViewSwitcher.ascx" />
@@ -430,6 +434,13 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="CHECK_CONTENIDO.aspx.cs">
+      <DependentUpon>CHECK_CONTENIDO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CHECK_CONTENIDO.aspx.designer.cs">
+      <DependentUpon>CHECK_CONTENIDO.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DETALLE_PELI.aspx.cs">
       <DependentUpon>DETALLE_PELI.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -470,6 +481,13 @@
     <Compile Include="Modelo\Plataforma.cs" />
     <Compile Include="Modelo\PlataformaXPelicula.cs" />
     <Compile Include="Modelo\Serie.cs" />
+    <Compile Include="MODIFICAR_CONTENIDO.aspx.cs">
+      <DependentUpon>MODIFICAR_CONTENIDO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MODIFICAR_CONTENIDO.aspx.designer.cs">
+      <DependentUpon>MODIFICAR_CONTENIDO.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Negocio\PaisNegocio.cs" />
     <Compile Include="Negocio\PeliculaNegocio.cs" />
     <Compile Include="Negocio\PlataformaNegocio.cs" />
@@ -583,6 +601,13 @@
     </Compile>
     <Compile Include="UPLOAD.aspx.designer.cs">
       <DependentUpon>UPLOAD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UP_NOVEDADES.aspx.cs">
+      <DependentUpon>UP_NOVEDADES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UP_NOVEDADES.aspx.designer.cs">
+      <DependentUpon>UP_NOVEDADES.aspx</DependentUpon>
     </Compile>
     <Compile Include="UP_PELICULAS.aspx.cs">
       <DependentUpon>UP_PELICULAS.aspx</DependentUpon>

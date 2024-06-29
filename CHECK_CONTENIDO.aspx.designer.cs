@@ -11,8 +11,17 @@ namespace TPCuatrimestral_Grupo3
 {
 
 
-    public partial class MICUENTA
+    public partial class CHECK_CONTENIDO
     {
+
+        /// <summary>
+        /// Control ImageAdm.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image ImageAdm;
 
         /// <summary>
         /// Control Button2.
@@ -22,23 +31,5 @@ namespace TPCuatrimestral_Grupo3
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button2;
-
-        /// <summary>
-        /// Control imagePie2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imagePie2;
-
-        /// <summary>
-        /// Control imagePie3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image imagePie3;
     }
 }

@@ -8,8 +8,9 @@
 
     <div class="Fondo">
         <h2>MI CUENTA</h2>
-       
-        <% if (Session["Admin"] != null){ %>
+
+        <% if (Session["Admin"] != null)
+            { %>
 
         <h2>Administrador</h2>
 
@@ -21,11 +22,11 @@
         <!--menú izquierda-->
         <div class="col-4 p-0.5">
             <nav class="nav flex-column">
-                <a class="nav-link active fs-5 text-white" aria-current="page" href="REGISTROS.aspx">Mis Datos</a>
+                <a class="nav-link active fs-5 text-white" aria-current="page" href="MisDatos.aspx">Mis Datos</a>
                 <a class="nav-link fs-5 text-white" href="#">Favoritos</a>
                 <a class="nav-link fs-5 text-white" href="#">Mensajes</a>
                 <a class="nav-link fs-5 text-white" href="UPLOAD.aspx">Mi Recomendacion</a>
-                <a class="nav-link fs-5 text-white" href="Op.Admin.aspx">Administrador</a>
+                <a class="nav-link fs-5 text-white" href="Op_Admin.aspx">Administrador</a>
             </nav>
             <br>
         </div>
@@ -33,6 +34,14 @@
         <!--COLUMNA DERECHA-->
         <div class="col-5 p-5">
             <img src="video/sillon.png" class="opacity-50" alt="Alternate Text" height="350" width="350" />
+        </div>
+        <!--BOTON VOLVER-->
+
+        <div class="d-flex flex-row-reverse">
+            <div class="p-2 m-3">
+                <asp:Button ID="Button2" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
+            </div>
+
         </div>
 
     </div>

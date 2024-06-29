@@ -35,31 +35,31 @@
                         <br>
 
 
-                        <div class="card" style="width: 25rem; background-color:darkgrey">
+                        <div class="card" style="width: 25rem; background-color: darkgrey">
                             <img src="<%#Eval("UrlImagenContenido") %>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center" style="font-family: 'Berlin Sans FB Demi'; font-size: 31px; font-weight: bolder; color: #800000;"><%#Eval("Titulo") %></h5>
-                           </div>
-                           <ul class="list-group list-group-flush">
+                            </div>
+                            <ul class="list-group list-group-flush">
                                 <li class="list-group-item " style="font-weight: bolder; font-style: normal">Plataforma:</li>
                                 <li class="list-group-item" style="font-weight: bolder; font-style: normal">Duración:</li>
                                 <li class="list-group-item" style="font-weight: bolder; font-style: normal">Categoria:</li>
                             </ul>
-                            
+
                             <div class="card-body">
-                                
+
                                 <!--POCHOCLOS-->
 
                                 <div class="text-start pt-1">
 
                                     <asp:Image ID="Image1" runat="server" ImageUrl="~/video/icono3.png" />
                                 </div>
-                                
-                                <div class="position-absolute bottom-0 end-0" > 
-                                <asp:Button ID="detallepeli" runat="server" Text="DETALLES" BackColor="#3366ff"  ForeColor="White" BorderColor="White" BorderStyle="Double" BorderWidth="10" Font-Size="Medium" />
-                                
+
+                                <div class="position-absolute bottom-0 end-0">
+                                    <asp:Button ID="detallepeli" runat="server" Text="DETALLES" BackColor="#3366ff" ForeColor="White" BorderColor="White" BorderStyle="Double" BorderWidth="10" Font-Size="Medium" />
+
                                 </div>
-                                
+
 
                             </div>
                         </div>
@@ -84,6 +84,8 @@
 
                     <br>
                 </section>
+
+          
 
             </div>
 
