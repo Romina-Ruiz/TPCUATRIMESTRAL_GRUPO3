@@ -42,6 +42,9 @@
 
                             <div class="card-header text-center " style="font-family: 'Century Gothic'; font-size: 29px; font-weight: bolder; color: #800000; text-decoration: underline;">
                                 TITULO SERIE
+                                 <div class="d-flex flex-row-reverse">
+                                     <asp:Image ID="Image2" runat="server" ImageUrl="~/video/favorito 64.png" />
+                                 </div>
                             </div>
                             <ul class="list-group list-group-flush">
                                 <!--PLATAFORMA-->
@@ -79,6 +82,7 @@
                             <div class="text-start pt-1">
 
                                 <asp:Image ID="Image1" runat="server" ImageUrl="~/video/icono3.png" />
+
                             </div>
 
 
@@ -100,6 +104,8 @@
 
             <!--COLUMNA derecha-->
             <div class="col">
+
+
             </div>
 
 
@@ -131,15 +137,14 @@
 
                     <div class="position-relative bottom-0 end-0">
                         <a href="#" class="link-secondary">Responder</a>
-                        <a href="#" class="link-secondary">Editar</a>
                         <a href="#" class="link-secondary">Borrar</a>
 
                     </div>
 
+                    <div class="d-flex flex-row-reverse">
+                        <asp:Button ID="Button1" runat="server" Text="Comentar" class="btn btn-primary" BorderStyle="Groove" BorderColor="White" BorderWidth="3px" Font-Bold="True" ForeColor="White" />
 
-                    <asp:Button ID="Button1" runat="server" Text="Comentar" BackColor="#339966" BorderStyle="Groove" BorderColor="White" BorderWidth="3px" Font-Bold="True" ForeColor="White" />
-
-
+                    </div>
 
                 </div>
 
@@ -173,7 +178,15 @@
 
 
 
+        
+                <!--BOTON VOLVER-->
 
+                <div class="d-flex flex-row-reverse">
+                    <div class="p-2 m-3">
+                        <asp:Button ID="Button2" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
+                    </div>
+
+                </div>
 
     </div>
 

@@ -420,6 +420,7 @@
     <Content Include="video\explocion.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="video\favorito 64.png" />
     <Content Include="video\icono3.png" />
     <Content Include="video\logo.png" />
     <Content Include="video\palomitas.png" />

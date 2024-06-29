@@ -42,6 +42,10 @@
 
                             <div class="card-header " style="font-family: 'Century Gothic'; font-size: 29px; font-weight: bolder; color: #800000; text-decoration: underline;">
                                 TITULO PELICULA
+                                 <div class="d-flex flex-row-reverse">
+                                     <asp:Image ID="Image2" runat="server" ImageUrl="~/video/favorito 64.png" />
+                                 </div>
+
                             </div>
                             <ul class="list-group list-group-flush">
                                 <!--PLATAFORMA-->
@@ -104,40 +108,58 @@
 
         <!--FIN DE LA PRIMERA ROW-->
 
+        <!--SEGUNDA ROW-->
 
-        <div class="row">
-
+        <div class="row comentarios justify-content-center">
 
             <!--COLUMNA izquierda-->
 
 
             <div class="col-2">
-
-             
             </div>
 
             <!--COLUMNA medio-->
-            <div class="col-6 order-1">
+            <div class="col-6 ">
 
                 <h5 class="text-center" style="font-weight: 400; font-size: 30px; text-decoration: underline; font-family: 'Century Gothic'">COMENTARIOS</h5>
 
 
-                <div class="col align-self-center">
-                   
-                    
-                    
-                    <asp:TextBox ID="Comentario" placeholder="Comenrario" runat="server" BackColor="White" Width="700" Height="200"></asp:TextBox>
+                <div class="mb-3 form_comentarios">
+                    <label for="exampleFormControlTextarea1" class="form_label">Nombre Usuario</label>
 
 
+                    <textarea class="form-control" placeholder="comentar" id="Comentar" rows="3"> </textarea>
 
+                    <div class="position-relative bottom-0 end-0">
+                        <a href="#" class="link-secondary">Responder</a>
+                        <a href="#" class="link-secondary">Borrar</a>
+
+                    </div>
+
+                    <div class="d-flex flex-row-reverse">
+                        <asp:Button ID="Button1" runat="server" Text="Comentar" class="btn btn-primary" BorderStyle="Groove" BorderColor="White" BorderWidth="3px" Font-Bold="True" ForeColor="White" />
+
+                    </div>
 
                 </div>
-               
-
 
 
 
             </div>
+
+            <div class="col-2">
+
+                <section id="ColIzq">
+
+                    <div>
+                        <img src="https://www.mundodeportivo.com/alfabeta/hero/2023/12/amazon-prime.1703875576.0139.jpg?width=1200" alt="imagen" height="400" width="470" />
+                    </div>
+
+                    <br>
+                </section>
+
+            </div>
+
 
 
         </div>
@@ -146,7 +168,14 @@
         <!--FIN DE LA SEGUNDA ROW-->
 
 
+        <!--BOTON VOLVER-->
 
+        <div class="d-flex flex-row-reverse">
+            <div class="p-2 m-3">
+                <asp:Button ID="Button2" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
+            </div>
+
+        </div>
 
     </div>
 
