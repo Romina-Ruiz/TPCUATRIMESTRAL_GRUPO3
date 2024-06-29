@@ -15,5 +15,7 @@ namespace TPCuatrimestral_Grupo3.Modelo
         public string UrlImagenContenido { get; set; }
         public int Duracion { get; set; }
 
+        public string IdPlataforma { get; set; }
+
     }
 }

@@ -52,20 +52,41 @@ namespace TPCuatrimestral_Grupo3.Negocio
         public void cargaContenido(Pelicula Aux) 
         {
             AccesoDatos datos = new AccesoDatos();
+            Pelicula Aux1 = new Pelicula(); 
 
             try
             {
                 datos.setearParametro("@Titulo", Aux.Titulo);
-                datos.setearParametro("@Descripcion", Aux.Descripcion);                
+                datos.setearParametro("@Descripcion", Aux.Descripcion);
+                datos.setearParametro("@PaisOrigen", short.Parse(Aux.PaisOrigen));
 
 
                 datos.setearConsulta("INSERT INTO Contenidos(Titulo, IdOrigen,"+
                                     "FechaLanzamiento, Descripcion) VALUES" +
-                                    "(@Titulo, 1, '2024-05-25',@Descripcion)");
+                                    "(@Titulo, @PaisOrigen, '2024-05-25',@Descripcion)");
 
                 datos.ejecutarAccion();
+                datos.cerrarConexion();
 
 
+
+                datos.setearConsulta("SELECT MAX(Id) AS maxID FROM Contenidos");
+                datos.ejecutarLectura();
+
+                if (datos.Lector.Read()) 
+                {
+                    Aux1.ID = (long)datos.Lector["maxID"];
+                }
+                datos.cerrarConexion();
+
+               
+                datos.setearParametro("@IdContenido", Aux1.ID);
+                datos.setearParametro("@IdPlataforma", short.Parse(Aux.IdPlataforma));
+
+                datos.setearConsulta("INSERT INTO Plataformas_x_Contenido " +
+                                    "(IdContenido,IdPlataforma) VALUES(@IdContenido,@IdPlataforma)");
+
+                datos.ejecutarAccion();
             }
             catch (Exception ex)
             {
