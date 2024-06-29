@@ -398,6 +398,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="SERIES.aspx" />
+    <Content Include="Stylo\Comentarios.css" />
     <Content Include="Stylo\Titulos.css" />
     <Content Include="UPLOAD.aspx" />
     <Content Include="UP_PELICULAS.aspx" />
