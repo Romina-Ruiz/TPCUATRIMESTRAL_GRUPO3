@@ -406,6 +406,7 @@
     <Content Include="Stylo\Titulos.css" />
     <Content Include="UPLOAD.aspx" />
     <Content Include="UP_PELICULAS.aspx" />
+    <Content Include="UP_PLATAFORMAS.aspx" />
     <Content Include="UP_SERIES.aspx" />
     <Content Include="video\capitulo256.png" />
     <Content Include="video\carrete-de-pelicula256.png" />
@@ -589,6 +590,13 @@
     </Compile>
     <Compile Include="UP_PELICULAS.aspx.designer.cs">
       <DependentUpon>UP_PELICULAS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UP_PLATAFORMAS.aspx.cs">
+      <DependentUpon>UP_PLATAFORMAS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UP_PLATAFORMAS.aspx.designer.cs">
+      <DependentUpon>UP_PLATAFORMAS.aspx</DependentUpon>
     </Compile>
     <Compile Include="UP_SERIES.aspx.cs">
       <DependentUpon>UP_SERIES.aspx</DependentUpon>
