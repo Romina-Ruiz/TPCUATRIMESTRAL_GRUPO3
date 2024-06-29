@@ -22,7 +22,7 @@
         <div class="col-4 p-0.5">
             <nav class="nav flex-column">
                 <a class="nav-link active fs-5 text-white" aria-current="page" href="REGISTROS.aspx">Mis Datos</a>
-                <a class="nav-link fs-5 text-white" href="#">Mi actividad</a>
+                <a class="nav-link fs-5 text-white" href="#">Favoritos</a>
                 <a class="nav-link fs-5 text-white" href="#">Mensajes</a>
                 <a class="nav-link fs-5 text-white" href="UPLOAD.aspx">Mi Recomendacion</a>
                 <a class="nav-link fs-5 text-white" href="Op.Admin.aspx">Administrador</a>

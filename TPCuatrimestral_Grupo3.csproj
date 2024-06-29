@@ -213,6 +213,9 @@
     <None Include="BD_Tablas\TPC_Que_Veo.sql" />
     <Content Include="DETALLE_PELI.aspx" />
     <Content Include="DETALLE_SERIE.aspx" />
+    <Content Include="Favoritos.aspx" />
+    <Content Include="Mensajes.aspx" />
+    <Content Include="MisDatos.aspx" />
     <Content Include="NOVEDADES.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -439,6 +442,27 @@
     </Compile>
     <Compile Include="DETALLE_SERIE.aspx.designer.cs">
       <DependentUpon>DETALLE_SERIE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Favoritos.aspx.cs">
+      <DependentUpon>Favoritos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Favoritos.aspx.designer.cs">
+      <DependentUpon>Favoritos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mensajes.aspx.cs">
+      <DependentUpon>Mensajes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mensajes.aspx.designer.cs">
+      <DependentUpon>Mensajes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MisDatos.aspx.cs">
+      <DependentUpon>MisDatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MisDatos.aspx.designer.cs">
+      <DependentUpon>MisDatos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modelo\Pais.cs" />
     <Compile Include="Modelo\Pelicula.cs" />
