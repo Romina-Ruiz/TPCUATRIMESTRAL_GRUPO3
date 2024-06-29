@@ -5,51 +5,71 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-       
+
     <div class="Fondo">
-        <h2>MIS DATOS</h2>
-    </div>  
+        <h2>REGISTRARME</h2>
+    </div>
 
 
     <div class="container">
 
         <div class="row">
 
-            <div class="col-2">
-                <br>
-            </div>
-            <div class="col-10">
+
+            <div class="col-7">
 
                 <br>
 
 
                 <div>
                     <div class="col-md-4">
-                        <label for="Nombre" class="form-label">Nombre</label>
-                        <asp:TextBox ID="TxtNombre" type="text" placeholder="nombre" class="form-control" runat="server"></asp:TextBox>
+                        <label for="Nombre" class="form-label" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Nombre</label>
+                        <asp:TextBox ID="TxtNombre" type="text" placeholder="Nombre" class="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
 
                     <div class="col-md-4">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <asp:TextBox ID="TxtEmail" type="email" placeholder="email" class="form-control" runat="server"></asp:TextBox>
+                        <label for="Apellido" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Apellido</label>
+                        <asp:TextBox ID="TextBox1" type="text" placeholder="Apellido" class="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
+
                     <div class="col-md-4">
-                        <label for="inputPassword4" class="form-label">Contraseña</label>
-                        <asp:TextBox ID="TxtContrasena" type="password" placeholder="contraseña" class="form-control" runat="server"></asp:TextBox>
+                        <label for="nacimiento" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Fecha de Nacimiento</label>
+                        <asp:TextBox ID="TextBox2" type="text" placeholder="Nacimiento" class="form-control" runat="server" Width="500"></asp:TextBox>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="genero" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Genero</label>
+                        <asp:TextBox ID="TextBox3" type="text" placeholder="Genero" class="form-control" runat="server" Width="500"></asp:TextBox>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="inputEmail4" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Email</label>
+                        <asp:TextBox ID="TxtEmail" type="email" placeholder="Email" class="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
                     <div class="col-4">
-                        <label for="inputAddress" class="form-label">Dirección</label>
-                        <asp:TextBox ID="TxtDireccion" type="text" placeholder="dirección" class="form-control" runat="server"></asp:TextBox>
+                        <label for="inputAddress" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Dirección</label>
+                        <asp:TextBox ID="TxtDireccion" type="text" placeholder="Dirección" class="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
 
                     <div class="col-md-4">
-                        <label for="inputCity" class="form-label">Ciudad</label>
-                        <asp:TextBox ID="TxtCiudad" type="text" placeholder="ciudad" class="form-control" runat="server"></asp:TextBox>
+                        <label for="inputCity" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Ciudad</label>
+                        <asp:TextBox ID="TxtCiudad" type="text" placeholder="Ciudad" class="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
                     <div class="col-md-4">
-                        <label for="inputState" class="form-label">País</label>
-                        <asp:TextBox ID="TxtPais" type="text" placeholder="país" class="form-control" runat="server"></asp:TextBox>
+                        <label for="inputState" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">País</label>
+                        <asp:TextBox ID="TxtPais" type="text" placeholder="País" class="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
+
+                    <div class="col-md-4">
+                        <label for="inputUser" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Nombre de Usuario</label>
+                        <asp:TextBox ID="TextUser" type="text" placeholder="Usuario" class="form-control" runat="server" Width="500"></asp:TextBox>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="inputPassword4" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Contraseña</label>
+                        <asp:TextBox ID="TxtContrasena" type="password" placeholder="Contraseña" class="form-control" runat="server" Width="500"></asp:TextBox>
+                    </div>
+
 
                     <br>
                     <div class="col-12">
@@ -63,7 +83,7 @@
 
                     <br>
                     <div class="col-12">
-                        <asp:Button ID="BtnAgregar" class="btn btn-primary" OnClick="BtnAgregar_Click" runat="server" Text="Registrarse" />
+                        <asp:Button ID="BtnAgregar" class="btn btn-primary" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" OnClick="BtnAgregar_Click" runat="server" Text="Registrarse" />
                     </div>
                 </div>
 
@@ -71,7 +91,31 @@
 
             </div>
 
+
+            <div class="col-5 p-5">
+
+
+
+                <asp:Image ID="Image1" class="opacity-50 " runat="server" ImageUrl="~/video/agregar-usuario.png" />
+
+
+
+            
+
+
         </div>
+            
+                <!--BOTON VOLVER-->
+
+    <div class="d-flex flex-row-reverse">
+        <div class="m-3">
+            <asp:Button ID="Button2" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
+        </div>
+
+    </div>
+
+</div>
+
 
     </div>
 
