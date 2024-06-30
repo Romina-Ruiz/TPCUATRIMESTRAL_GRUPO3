@@ -28,20 +28,23 @@
 
             <!--COLUMNA medio-->
             <div class="col-9">
+                <asp:Repeater runat="server" ID="repRepetidor">
+                    <ItemTemplate>
 
+                    
                 <div class="card mb-3" style="max-width: 1000px;">
                     <div class="row g-0">
 
                         <!--IMAGEN de la card-->
                         <div class="col-md-4">
-                            <img src="video/sillon.png" class="img-fluid rounded-start" alt="...">
+                            <img src="<%#Eval ("UrlImagen") %>" class="img-fluid rounded-start" alt="...">
                         </div>
 
                         <!--texto de la card-->
                         <div class="col-md-8">
 
                             <div class="card-header " style="font-family: 'Century Gothic'; font-size: 29px; font-weight: bolder; color: #800000; text-decoration: underline;">
-                                TITULO PELICULA
+                                <%#Eval ("Titulo") %>
                                  <div class="d-flex flex-row-reverse">
                                      <asp:Image ID="Image2" runat="server" ImageUrl="~/video/favorito 64.png" />
                                  </div>
@@ -50,27 +53,27 @@
                             <ul class="list-group list-group-flush">
                                 <!--PLATAFORMA-->
                                 <li class="list-group-item text-start" style="font-size: medium; font-weight: bolder; font-family: 'Franklin Gothic Medium'">Plataforma:
-                                <asp:Label ID="Label1" runat="server" CssClass="text-start text-danger" Text="Label" Font-Size="Small"> ACA TRAER LA INFO</asp:Label>
+                                <asp:Label ID="Label1" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"> <%#Eval ("Plataforma") %></asp:Label>
                                 </li>
                                 <!--PAIS-->
                                 <li class="list-group-item text-start" style="font-size: medium; font-weight: bolder; font-family: 'Franklin Gothic Medium'">País de origen: 
-                                <asp:Label ID="Label2" runat="server" CssClass="text-start text-danger" Text="Label" Font-Size="Small">ACA TRAER LA INFO</asp:Label>
+                                <asp:Label ID="Label2" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"><%#Eval ("PaisOrigen") %></asp:Label>
                                 </li>
 
                                 <!--FEHA DE ESTRENO-->
                                 <li class="list-group-item text-start" style="font-size: medium; font-weight: bolder; font-family: 'Franklin Gothic Medium'">Fecha de estreno: 
-                                <asp:Label ID="Label3" runat="server" CssClass="text-start text-danger" Text="Label" Font-Size="Small">ACA TRAER LA INFO</asp:Label>
+                                <asp:Label ID="Label3" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"><%#Eval ("FechaLanzamiento", "{0:yyyy-MM-dd}") %></asp:Label>
                                 </li>
 
                                 <!--DURACION-->
                                 <li class="list-group-item text-start" style="font-size: medium; font-weight: bolder; font-family: 'Franklin Gothic Medium'">Duracion: 
-                                <asp:Label ID="Label4" runat="server" CssClass="text-start text-danger" Text="Label" Font-Size="Small">ACA TRAER LA INFO</asp:Label>
+                                <asp:Label ID="Label4" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"><%#Eval ("Duracion") %></asp:Label>
                                 </li>
 
                                 <!--CATEGORIAS-->
 
                                 <li class="list-group-item text-start" style="font-size: medium; font-weight: bolder; font-family: 'Franklin Gothic Medium'">Categorias: 
-                                <asp:Label ID="Label5" runat="server" CssClass="text-start text-danger" Text="Label" Font-Size="Small">ACA TRAER LA INFO</asp:Label>
+                                <asp:Label ID="Label5" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"><%#Eval ("Categoria") %></asp:Label>
                                 </li>
 
                             </ul>
@@ -79,6 +82,7 @@
                             <div class="text-start pt-1">
 
                                 <asp:Image ID="Image1" runat="server" ImageUrl="~/video/icono3.png" />
+                                <asp:Label ID="Label7" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"><%#Eval ("PuntajePromedio") %></asp:Label>
                             </div>
 
 
@@ -90,13 +94,14 @@
                     <div class="card p-0">
                         <div class="card-body text-start">
                             <h3 style="font-family: 'Century Gothic'; font-size: 29px; font-weight: bolder; color: #800000; text-decoration: underline;">SINOPSIS</h3>
-                            <asp:Label ID="Label6" runat="server" Text="Label"> ACA VA TODA LA DESCRIPCION QUE REALIZARON</asp:Label>
+                            <asp:Label ID="Label6" runat="server" Text=""> <%#Eval ("Descripcion") %></asp:Label>
                         </div>
                     </div>
 
                 </div>
 
-
+    </ItemTemplate>
+</asp:Repeater>
             </div>
 
             <!--COLUMNA derecha-->

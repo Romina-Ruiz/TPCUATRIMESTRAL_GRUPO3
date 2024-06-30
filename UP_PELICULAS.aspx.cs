@@ -61,7 +61,7 @@ namespace TPCuatrimestral_Grupo3
             AuxPeli.Descripcion = TxtResumenPeli.Text;
             AuxPeli.UrlImagenContenido = URLImagen.Text;
 
-            AuxPeli.IdPlataforma = DWLplataformas.Text;
+            //AuxPeli.IdPlataforma = DWLplataformas.Text;
             AuxPeli.PaisOrigen = DWLPais.Text;
 
             AuxContNego.cargaContenido(AuxPeli);

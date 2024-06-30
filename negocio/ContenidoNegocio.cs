@@ -9,7 +9,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
     public class ContenidoNegocio
     {
         public List<MostrarContenido> listar()
-        
+
         {
             List<MostrarContenido> lista = new List<MostrarContenido>();
             AccesoDatos datos = new AccesoDatos();
@@ -81,7 +81,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                
                 datos.setearParametro("@IdContenido", Aux1.ID);
-                datos.setearParametro("@IdPlataforma", short.Parse(Aux.IdPlataforma));
+                //datos.setearParametro("@IdPlataforma", short.Parse(Aux.IdPlataforma));
 
                 datos.setearConsulta("INSERT INTO Plataformas_x_Contenido " +
                                     "(IdContenido,IdPlataforma) VALUES(@IdContenido,@IdPlataforma)");
