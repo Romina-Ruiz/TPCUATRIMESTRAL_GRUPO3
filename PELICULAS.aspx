@@ -56,7 +56,7 @@
                                 </div>
 
                                 <div class="position-absolute bottom-0 end-0">
-                                    <asp:Button ID="detallepeli" runat="server" class="btn btn-warning" Text="INFO"  Font-Size="Medium" BorderColor="Black" BorderWidth="2" Font-Bold="True" />
+                                    <asp:Button ID="detallepeli" runat="server" class="btn btn-warning" Text="INFO"  Font-Size="Medium" BorderColor="Black" BorderWidth="2" Font-Bold="True" CommandArgument='<%# Eval("ID") %>' OnClick="detallepeli_Click" />
 
                                 </div>
 

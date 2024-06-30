@@ -20,5 +20,12 @@ namespace TPCuatrimestral_Grupo3
 
             }
         }
+
+        protected void detallepeli_Click(object sender, EventArgs e)
+        {
+            //Button btn = (Button)sender;
+            //string idPelicula = btn.CommandArgument;
+            //Response.Redirect($"DetallePelicula.aspx?id={idPelicula}");
+        }
     }
 }

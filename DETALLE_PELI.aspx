@@ -28,13 +28,15 @@
 
             <!--COLUMNA medio-->
             <div class="col-9">
-                <asp:Repeater runat="server" ID="repRepetidor">
-                    <ItemTemplate>
 
                     
                 <div class="card mb-3" style="max-width: 1000px;">
                     <div class="row g-0">
+               
+                        <asp:Repeater runat="server" ID="repRepetidor">
+                            <ItemTemplate> 
 
+                            
                         <!--IMAGEN de la card-->
                         <div class="col-md-4">
                             <img src="<%#Eval ("UrlImagen") %>" class="img-fluid rounded-start" alt="...">
@@ -98,10 +100,10 @@
                         </div>
                     </div>
 
-                </div>
-
     </ItemTemplate>
 </asp:Repeater>
+                </div>
+ 
             </div>
 
             <!--COLUMNA derecha-->
