@@ -237,7 +237,7 @@
                         <br>
                         <br>
                         <asp:Image ID="URLImg" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="40%" runat="server" />
-                        <!--  <asp:GridView ID="GridView1" runat="server"></asp:GridView>-->
+                        
                     </ContentTemplate>
                 </asp:UpdatePanel>
 

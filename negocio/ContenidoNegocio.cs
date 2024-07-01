@@ -52,13 +52,15 @@ namespace TPCuatrimestral_Grupo3.Negocio
         public void cargaContenido(Pelicula Aux) 
         {
             AccesoDatos datos = new AccesoDatos();
-            Pelicula Aux1 = new Pelicula(); 
+            Pelicula Aux1 = new Pelicula();
+            long contenidoId;
 
             try
             {
                 datos.setearParametro("@Titulo", Aux.Titulo);
                 datos.setearParametro("@Descripcion", Aux.Descripcion);
                 datos.setearParametro("@PaisOrigen", short.Parse(Aux.PaisOrigen));
+               // datos.setearParametro("@Fecha", Aux.FechaLanzamiento);
 
 
                 datos.setearConsulta("INSERT INTO Contenidos(Titulo, IdOrigen,"+
@@ -76,17 +78,40 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 if (datos.Lector.Read()) 
                 {
                     Aux1.ID = (long)datos.Lector["maxID"];
+                    contenidoId = Aux1.ID;
                 }
                 datos.cerrarConexion();
 
                
                 datos.setearParametro("@IdContenido", Aux1.ID);
-                //datos.setearParametro("@IdPlataforma", short.Parse(Aux.IdPlataforma));
+                datos.setearParametro("@IdPlataforma", short.Parse(Aux.IdPlataforma));
 
                 datos.setearConsulta("INSERT INTO Plataformas_x_Contenido " +
                                     "(IdContenido,IdPlataforma) VALUES(@IdContenido,@IdPlataforma)");
 
                 datos.ejecutarAccion();
+                datos.cerrarConexion();
+
+                
+                /*datos.setearParametro("@IdContenido", Aux1.ID);
+                datos.setearParametro("@Duracion", Aux.Duracion);
+
+                datos.setearConsulta("INSERT INTO Peliculas " +
+                                    "(IdContenido,Duracion) VALUES(@IdContenido,@Duracion)");
+                datos.ejecutarAccion();
+                datos.cerrarConexion();*/
+
+
+
+
+
+                //corregir
+                /* datos.setearParametro("@UrlImg", Aux1.UrlImagenContenido);
+                 datos.setearParametro("@contenidoId",Aux1.ID);
+
+                 datos.setearConsulta("INSERT INTO Imagenes_x_Contenido(IdContenido," +
+                                     "UrlImagen) VALUES(@contenidoId,@UrlImg)");
+                 datos.ejecutarAccion();*/
             }
             catch (Exception ex)
             {

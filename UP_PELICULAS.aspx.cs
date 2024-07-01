@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -61,10 +62,22 @@ namespace TPCuatrimestral_Grupo3
             AuxPeli.Descripcion = TxtResumenPeli.Text;
             AuxPeli.UrlImagenContenido = URLImagen.Text;
 
-            //AuxPeli.IdPlataforma = DWLplataformas.Text;
+            string textoFecha = txtFecha.Text;
+            string formatoEntrada = "dd/MM/yyyy";           
+            /*DateTime fechaConvertida = DateTime.ParseExact(textoFecha, formatoEntrada, CultureInfo.InvariantCulture);
+            AuxPeli.FechaLanzamiento = fechaConvertida;*/
+
+
+           
+
+            AuxPeli.IdPlataforma = DWLplataformas.Text;
             AuxPeli.PaisOrigen = DWLPais.Text;
 
+            AuxPeli.UrlImagenContenido = URLImagen.Text;
+
             AuxContNego.cargaContenido(AuxPeli);
+            
+
 
             /* 
             if (RdBSerie.Checked)
