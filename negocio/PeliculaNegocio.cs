@@ -15,7 +15,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
             try
             {
                 // datos.setearConsulta("SELECT C.Titulo, C.FechaLanzamiento, C.Descripcion, C.EstrellasPromedio, p.Nombre Pais, IM.UrlImagen ,PL.Nombre NombrePlataforma ,PL.LogoUrl LogoPlataforma, TP.Descripcion TipoContenido ,CA.Nombre NombreCategoria FROM Contenidos C, Categoria CA ,Paises P ,Imagenes_x_Contenido IM,Plataformas PL, TiposContenidos TP WHERE C.IdCategoria = CA.Id AND P.Id=C.IdOrigen AND IM.IdContenido = C.Id AND PL.Id = C.IdPlataforma AND TP.Id = C.IdTipoContenido");
-                datos.setearProcedimiento("listadoDePeliculas");
+                datos.setearProcedimiento("listadoPeliculas");
                 datos.ejecutarLectura();
                 while (datos.Lector.Read())
                 {
@@ -28,6 +28,8 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     aux.UrlImagenContenido = (string)datos.Lector["ImagenUrl"];
                     aux.Duracion = (int)datos.Lector["Duracion"];
+                    aux.Plataforma = (string)datos.Lector["Plataforma"];
+                    aux.Categoria = (string)datos.Lector["Categoria"];
 
 
                     lista.Add(aux);

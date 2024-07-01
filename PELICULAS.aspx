@@ -41,9 +41,9 @@
                                 <h5 class="card-title text-center" style="font-family: 'Berlin Sans FB Demi'; font-size: 31px; font-weight: bolder; color: #800000;"><%#Eval("Titulo") %></h5>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item " style="font-weight: bolder; font-style: normal">Plataforma:</li>
-                                <li class="list-group-item" style="font-weight: bolder; font-style: normal">Duración:</li>
-                                <li class="list-group-item" style="font-weight: bolder; font-style: normal">Categoria:</li>
+                                <li class="list-group-item " style="font-weight: bolder; font-style: normal">Plataforma: <%#Eval("Plataforma") %></li>
+                                <li class="list-group-item" style="font-weight: bolder; font-style: normal">Duración:<%#Eval ("Duracion") %> Minutos</li>
+                                <li class="list-group-item" style="font-weight: bolder; font-style: normal">Categoria: <%#Eval ("Categoria") %></li>
                             </ul>
 
                             <div class="card-body">
