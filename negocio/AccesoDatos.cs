@@ -41,6 +41,52 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
         }
 
+        public void setearParametro2(string nombre, object valor)
+        {
+            comando.Parameters.Add(new SqlParameter(nombre, valor));
+        }
+
+
+        public void setearProcedimiento2(string sp)
+        {
+
+            comando = new SqlCommand(sp);
+            comando.CommandType = System.Data.CommandType.StoredProcedure;
+
+
+        }
+
+
+
+        public void ejecutarConectar()
+        {
+            comando.Connection = conexion;
+            try
+            {
+                comando.Connection.Open();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void ejecutarQuery()
+        {
+            comando.Connection = conexion;
+            try
+            {
+
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+
+
 
         public void ejecutarLectura()
         {

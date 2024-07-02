@@ -13,28 +13,42 @@ namespace TPCuatrimestral_Grupo3.Negocio
        
         public void CargarUsuario(Usuario usuario)
         {
-           
+
+
+
             AccesoDatos datos = new AccesoDatos();
-           
+
+            datos.ejecutarConectar();
             try
             {
+                datos.setearProcedimiento2("SP_AGREGAR_USER");
 
-                datos.setearParametro("@NombreUsuario",usuario.NombreUsuario);
-                datos.setearParametro("@Contrasena", usuario.Contrasena);
-                datos.setearParametro("@Email", usuario.Email);
+                datos.setearParametro2("@Apellidos", usuario.Apellido);
+                datos.setearParametro2("@Nombres", usuario.Nombres);
+                datos.setearParametro2("@Nacimiento", usuario.Nacimiento);
+                datos.setearParametro2("@Genero", usuario.Genero);
+                datos.setearParametro2("@Email", usuario.Email);
+                datos.setearParametro2("@Domicilio", usuario.Domicilio);
+                datos.setearParametro2("@Ciudad", usuario.Ciudad);
+                datos.setearParametro2("@NombreUsuario", usuario.NombreUsuario);
+                datos.setearParametro2("@Contrasena", usuario.Contrasena);
 
-                datos.setearConsulta("INSERT INTO Usuarios (NombreUsuario, Contrasena, Email, EsAdministrador, EsVip) VALUES ( @NombreUsuario, @Contrasena, @Email, 0, 0);");
 
-                datos.ejecutarAccion();         
-            
-               
+                datos.ejecutarQuery();
+
             }
             catch (Exception ex)
             {
 
                 throw ex;
             }
-            
+            finally
+            {
+                datos.cerrarConexion();
+
+            }
+
+
 
         }
 
@@ -54,15 +68,15 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                 while (datos.Lector.Read()) 
                 {
-                    usuario.ID = (int)datos.Lector["Id"];
+                    usuario.Id = (int)datos.Lector["Id"];
 
                     usuario.EsAdministrador = (bool)(datos.Lector["EsAdministrador"]) == true? true : false;
 
-                    if (usuario.ID != 0 && usuario.EsAdministrador)
+                    if (usuario.Id != 0 && usuario.EsAdministrador)
                     {
                         return 1;
                     }
-                    else if(usuario.ID != 0 && !usuario.EsAdministrador)
+                    else if(usuario.Id != 0 && !usuario.EsAdministrador)
                     {
                         return 2;
                     }

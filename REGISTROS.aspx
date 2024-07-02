@@ -29,17 +29,17 @@
 
                     <div class="col-md-4">
                         <label for="Apellido" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Apellido</label>
-                        <asp:TextBox ID="TextBox1" type="text" placeholder="Apellido" class="form-control" runat="server" Width="500"></asp:TextBox>
+                        <asp:TextBox ID="TxtApellido" type="text" placeholder="Apellido" class="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
 
                     <div class="col-md-4">
                         <label for="nacimiento" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Fecha de Nacimiento</label>
-                        <asp:TextBox ID="TextBox2" type="text" placeholder="Nacimiento" class="form-control" runat="server" Width="500"></asp:TextBox>
+                        <asp:TextBox ID="TxtNacimiento" type="text" placeholder="Nacimiento" class="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
 
                     <div class="col-md-4">
                         <label for="genero" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Genero</label>
-                        <asp:TextBox ID="TextBox3" type="text" placeholder="Genero" class="form-control" runat="server" Width="500"></asp:TextBox>
+                        <asp:TextBox ID="TxtGenero" type="text" placeholder="Genero" class="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
 
                     <div class="col-md-4">
@@ -99,22 +99,19 @@
                 <asp:Image ID="Image1" class="opacity-50 " runat="server" ImageUrl="~/video/agregar-usuario.png" />
 
 
+            </div>
 
-            
+            <!--BOTON VOLVER-->
 
+            <div class="d-flex flex-row-reverse">
+                <div class="m-3">
+                    <asp:Button ID="volver" class="btn btn-success m-2" OnClick="volver_Click" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
+
+                </div>
+
+            </div>
 
         </div>
-            
-                <!--BOTON VOLVER-->
-
-    <div class="d-flex flex-row-reverse">
-        <div class="m-3">
-            <asp:Button ID="Button2" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
-        </div>
-
-    </div>
-
-</div>
 
 
     </div>

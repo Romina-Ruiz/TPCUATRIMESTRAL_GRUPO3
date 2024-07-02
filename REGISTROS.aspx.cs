@@ -17,16 +17,25 @@ namespace TPCuatrimestral_Grupo3
         }
 
         protected void BtnAgregar_Click(object sender, EventArgs e)
-        {            
-            
+        {
+
             try
             {
                 NegocioUsuario usuarioNegocio = new NegocioUsuario();
                 Usuario usuarioAux = new Usuario();
 
+
                 usuarioAux.NombreUsuario = TxtNombre.Text;
-                usuarioAux.Contrasena = TxtContrasena.Text;
+                usuarioAux.Apellido = TxtApellido.Text;
+                usuarioAux.Nacimiento = DateTime.Parse(TxtNacimiento.Text);
+                usuarioAux.Genero = char.Parse(TxtGenero.Text);
                 usuarioAux.Email = TxtEmail.Text;
+                usuarioAux.Domicilio = TxtDireccion.Text;
+                usuarioAux.Ciudad = TxtCiudad.Text;
+                usuarioAux.Pais = TxtPais.Text;
+                usuarioAux.NombreUsuario = TextUser.Text;
+                usuarioAux.Contrasena = TxtContrasena.Text;
+
 
                 usuarioNegocio.CargarUsuario(usuarioAux);
                 Response.Redirect("HOME.aspx");
@@ -37,7 +46,13 @@ namespace TPCuatrimestral_Grupo3
                 Session.Add("error", ex.ToString());
                 Response.Redirect("HOME.aspx");
             }
-           
+
+        }
+
+        protected void volver_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("HOME.aspx");
         }
     }
+
 }
