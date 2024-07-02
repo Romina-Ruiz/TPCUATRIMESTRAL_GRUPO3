@@ -72,12 +72,12 @@ namespace TPCuatrimestral_Grupo3
                 usuarioAux.NombreUsuario = TxtNombre.Text;
                 usuarioAux.Apellido = TxtApellido.Text;
                 usuarioAux.Nacimiento = DateTime.Parse(TxtNacimiento.Text);
-                /*usuarioAux.Genero = char.Parse(TxtGenero.Text);*/
+                usuarioAux.Genero = char.Parse(DLGenrero.SelectedValue);
                 usuarioAux.Email = TxtEmail.Text;
                 usuarioAux.Domicilio = TxtDireccion.Text;
-                /*usuarioAux.Ciudad = TxtCiudad.Text;
-                usuarioAux.Pais = TxtPais.Text;*/
-                usuarioAux.Pais = DLPais.Text;
+                usuarioAux.Ciudad = DLCiudad.DataTextField;
+                //usuarioAux.Pais = DLPais.DataTextField;
+                usuarioAux.Pais = DLPais.DataTextField;
                 usuarioAux.NombreUsuario = TextUser.Text;
                 usuarioAux.Contrasena = TxtContrasena.Text;
 

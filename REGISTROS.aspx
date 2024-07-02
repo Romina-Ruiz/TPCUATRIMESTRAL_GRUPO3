@@ -40,9 +40,9 @@
                     <div class="col-md-4">
                         <label for="genero" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Genero</label>
                         <asp:DropDownList ID="DLGenrero" placeholder="Genero" Width="500"  runat="server" Height="40">
-                            <asp:ListItem Text="Femenino" />
-                            <asp:ListItem Text="Masculino" />
-                            <asp:ListItem Text="Otro" />
+                            <asp:ListItem Text="F"/>
+                            <asp:ListItem Text="M" />
+                            <%--<asp:ListItem Text="Otro" />--%>
 
                         </asp:DropDownList>
 

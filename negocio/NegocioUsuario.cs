@@ -53,7 +53,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
         }
 
 
-        public int loguear(Usuario usuario) 
+        public int loguear(Usuario usuario)
         {
             AccesoDatos datos = new AccesoDatos();
 
@@ -66,17 +66,17 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                 datos.ejecutarLectura();
 
-                while (datos.Lector.Read()) 
+                while (datos.Lector.Read())
                 {
                     usuario.Id = (int)datos.Lector["Id"];
 
-                    usuario.EsAdministrador = (bool)(datos.Lector["EsAdministrador"]) == true? true : false;
+                    usuario.EsAdministrador = (bool)(datos.Lector["EsAdministrador"]) == true ? true : false;
 
                     if (usuario.Id != 0 && usuario.EsAdministrador)
                     {
                         return 1;
                     }
-                    else if(usuario.Id != 0 && !usuario.EsAdministrador)
+                    else if (usuario.Id != 0 && !usuario.EsAdministrador)
                     {
                         return 2;
                     }

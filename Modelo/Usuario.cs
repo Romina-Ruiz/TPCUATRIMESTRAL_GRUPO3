@@ -15,7 +15,7 @@ namespace TPCuatrimestral_Grupo3.Modelo
     public class Usuario
     {
 
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         public string Apellido { get; set; }
 
