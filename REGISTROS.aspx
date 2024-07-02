@@ -39,7 +39,13 @@
 
                     <div class="col-md-4">
                         <label for="genero" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Genero</label>
-                        <asp:TextBox ID="TxtGenero" type="text" placeholder="Genero" class="form-control" runat="server" Width="500"></asp:TextBox>
+                        <asp:DropDownList ID="DLGenrero" placeholder="Genero" Width="500"  runat="server" Height="40">
+                            <asp:ListItem Text="Femenino" />
+                            <asp:ListItem Text="Masculino" />
+                            <asp:ListItem Text="Otro" />
+
+                        </asp:DropDownList>
+
                     </div>
 
                     <div class="col-md-4">
@@ -50,14 +56,15 @@
                         <label for="inputAddress" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Dirección</label>
                         <asp:TextBox ID="TxtDireccion" type="text" placeholder="Dirección" class="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">País</label>
+                       <asp:DropDownList ID="DLPais" placeholder="País" Width="500" Height="40" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DLPais_SelectedIndexChanged"></asp:DropDownList>
+                     </div>
 
                     <div class="col-md-4">
                         <label for="inputCity" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Ciudad</label>
-                        <asp:TextBox ID="TxtCiudad" type="text" placeholder="Ciudad" class="form-control" runat="server" Width="500"></asp:TextBox>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="inputState" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">País</label>
-                        <asp:TextBox ID="TxtPais" type="text" placeholder="País" class="form-control" runat="server" Width="500"></asp:TextBox>
+                        <asp:DropDownList ID="DLCiudad" placeholder="Ciudad" Width="500" Height="40" runat="server"></asp:DropDownList>
+                        
                     </div>
 
                     <div class="col-md-4">
