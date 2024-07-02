@@ -3,15 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\series.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:series.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\detalle_peli.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:detalle_peli.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\detalle_serie.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:detalle_serie.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\jonat\\desktop\\repositorio github\\trabajocuatrimestral\\tpcuatrimestral_grupo3\\detalle_serie.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\detalle_serie.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:detalle_serie.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -19,32 +15,36 @@
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:detalle_peli.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\detalle_serie.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:detalle_serie.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\jonat\\desktop\\repositorio github\\trabajocuatrimestral\\tpcuatrimestral_grupo3\\series.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:series.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\modelo\\detallepelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:modelo\\detallepelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\jonat\\desktop\\repositorio github\\trabajocuatrimestral\\tpcuatrimestral_grupo3\\negocio\\detalleserienegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\negocio\\detalleserienegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\detalleserienegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\jonat\\desktop\\repositorio github\\trabajocuatrimestral\\tpcuatrimestral_grupo3\\modelo\\detalleserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\modelo\\detalleserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:modelo\\detalleserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\jonat\\desktop\\repositorio github\\trabajocuatrimestral\\tpcuatrimestral_grupo3\\negocio\\detallepelinegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\negocio\\detallepelinegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\detallepelinegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\jonat\\desktop\\repositorio github\\trabajocuatrimestral\\tpcuatrimestral_grupo3\\modelo\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\modelo\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:modelo\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\series.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:series.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\jonat\\desktop\\repositorio github\\trabajocuatrimestral\\tpcuatrimestral_grupo3\\detalle_peli.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:detalle_peli.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\negocio\\serienegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,11 +114,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DetallePelicula.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\DetallePelicula.cs",
               "RelativeDocumentMoniker": "Modelo\\DetallePelicula.cs",
@@ -127,8 +127,7 @@
               "ViewState": "AQIAAAgAAAAAAAAAAAAewBAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-30T05:29:56.32Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -140,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DetalleSerie.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\DetalleSerie.cs",
               "RelativeDocumentMoniker": "Modelo\\DetalleSerie.cs",
@@ -148,12 +147,11 @@
               "RelativeToolTip": "Modelo\\DetalleSerie.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAswBMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T21:21:14.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T21:21:14.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DetalleSerieNegocio.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\negocio\\DetalleSerieNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\DetalleSerieNegocio.cs",
@@ -161,12 +159,11 @@
               "RelativeToolTip": "negocio\\DetalleSerieNegocio.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAswCEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T21:20:43.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T21:20:43.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "SERIES.aspx",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\SERIES.aspx",
               "RelativeDocumentMoniker": "SERIES.aspx",
@@ -179,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DetallePeliNegocio.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\negocio\\DetallePeliNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\DetallePeliNegocio.cs",
@@ -187,12 +184,11 @@
               "RelativeToolTip": "negocio\\DetallePeliNegocio.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T21:31:42.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T21:31:42.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Serie.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Serie.cs",
               "RelativeDocumentMoniker": "Modelo\\Serie.cs",
@@ -200,25 +196,24 @@
               "RelativeToolTip": "Modelo\\Serie.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T21:36:17.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T21:36:17.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "DETALLE_PELI.aspx.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_PELI.aspx.cs",
               "RelativeDocumentMoniker": "DETALLE_PELI.aspx.cs",
               "ToolTip": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_PELI.aspx.cs",
               "RelativeToolTip": "DETALLE_PELI.aspx.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wAAAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCsAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T23:27:10.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DETALLE_SERIE.aspx",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_SERIE.aspx",
               "RelativeDocumentMoniker": "DETALLE_SERIE.aspx",
@@ -231,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DETALLE_SERIE.aspx.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_SERIE.aspx.cs",
               "RelativeDocumentMoniker": "DETALLE_SERIE.aspx.cs",
@@ -244,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SERIES.aspx.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\SERIES.aspx.cs",
               "RelativeDocumentMoniker": "SERIES.aspx.cs",
@@ -252,12 +247,11 @@
               "RelativeToolTip": "SERIES.aspx.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAACgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T06:08:24.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T06:08:24.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DETALLE_PELI.aspx",
               "DocumentMoniker": "C:\\Users\\jonat\\Desktop\\Repositorio GitHub\\TrabajoCuatrimestral\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_PELI.aspx",
               "RelativeDocumentMoniker": "DETALLE_PELI.aspx",

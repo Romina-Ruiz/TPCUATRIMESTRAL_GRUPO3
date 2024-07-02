@@ -40,8 +40,8 @@
                         <!--texto de la card-->
                         <div class="col-md-8">
 
-                            <div class="card-header text-center " style="font-family: 'Century Gothic'; font-size: 29px; font-weight: bolder; color: #800000; text-decoration: underline;">
-                                TITULO SERIE
+                            <div class="card-header text-center " style="font-family: 'Century Gothic'; font-size: 29px; font-weight: bolder; color: #800000; text-decoration: underline;" id="Titulo" runat="server">
+                                
                                  <div class="d-flex flex-row-reverse">
                                      <asp:Image ID="Image2" runat="server" ImageUrl="~/video/favorito 64.png" />
                                  </div>
@@ -96,7 +96,7 @@
                 <div class="card p-0">
                     <div class="card-body text-start">
                         <h3 style="font-family: 'Century Gothic'; font-size: 29px; font-weight: bolder; color: #800000; text-decoration: underline;">SINOPSIS</h3>
-                        <asp:Label ID="Label6" runat="server" Text="Label"> ACA VA TODA LA DESCRIPCION QUE REALIZARON</asp:Label>
+                        <asp:Label ID="lblSinopsis" runat="server" Text=""> </asp:Label>
                     </div>
                 </div>
 

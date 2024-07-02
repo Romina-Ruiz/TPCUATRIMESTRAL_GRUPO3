@@ -24,6 +24,15 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.HtmlControls.HtmlImage imagenSerie;
 
         /// <summary>
+        /// Titulo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Titulo;
+
+        /// <summary>
         /// Image2 control.
         /// </summary>
         /// <remarks>
@@ -105,13 +114,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label lblPuntajeProm;
 
         /// <summary>
-        /// Label6 control.
+        /// lblSinopsis control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label6;
+        protected global::System.Web.UI.WebControls.Label lblSinopsis;
 
         /// <summary>
         /// Button1 control.

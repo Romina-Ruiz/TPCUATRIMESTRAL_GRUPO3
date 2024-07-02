@@ -33,6 +33,7 @@ namespace TPCuatrimestral_Grupo3
         {
             if (detalle != null)
             {
+                
                 imgPelicula.Src = detalle.UrlImagen;
                 Titulo.InnerText = detalle.Titulo;
                 lblPlataforma.Text = detalle.Plataforma;
