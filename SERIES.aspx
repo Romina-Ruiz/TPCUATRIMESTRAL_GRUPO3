@@ -46,6 +46,11 @@
                 <h5 class="card-title"><%#Eval("Titulo") %></h5>
                 <img src="<%#Eval("UrlImagenContenido") %>" class="img-fluid rounded-start" alt="...">
                 <p class="card-text"><small class="text-body-secondary">Fecha y otros datos</small></p>
+                
+                <div class="position-absolute bottom-0 end-0">
+     <asp:Button ID="detalleSerie" runat="server" class="btn btn-warning" Text="INFO"  Font-Size="Medium" BorderColor="Black" BorderWidth="2" Font-Bold="True" CommandArgument='<%# Eval("ID") %>' OnClick="detalleSerie_Click" />
+
+ </div>
             </div>
         </div>
     </div>

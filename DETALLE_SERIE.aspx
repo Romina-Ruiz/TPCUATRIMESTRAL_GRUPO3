@@ -34,7 +34,7 @@
 
                         <!--IMAGEN de la card-->
                         <div class="col-md-4">
-                            <img src="video/sillon.png" class="img-fluid rounded-start" alt="...">
+                            <img src="" class="img-fluid rounded-start" alt="..." id="imagenSerie" runat="server">
                         </div>
 
                         <!--texto de la card-->
@@ -49,31 +49,31 @@
                             <ul class="list-group list-group-flush">
                                 <!--PLATAFORMA-->
                                 <li class="list-group-item text-start" style="font-size: medium; font-weight: bolder; font-family: 'Franklin Gothic Medium'">Plataforma:
-                             <asp:Label ID="Label1" runat="server" CssClass="text-start text-danger" Text="Label" Font-Size="Small"> ACA TRAER LA INFO</asp:Label>
+                             <asp:Label ID="lblPlataforma" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"></asp:Label>
                                 </li>
                                 <!--PAIS-->
                                 <li class="list-group-item text-start" style="font-size: medium; font-weight: bolder; font-family: 'Franklin Gothic Medium'">País de origen: 
-                             <asp:Label ID="Label2" runat="server" CssClass="text-start text-danger" Text="Label" Font-Size="Small">ACA TRAER LA INFO</asp:Label>
+                             <asp:Label ID="lblPaisOrigen" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"></asp:Label>
                                 </li>
 
                                 <!--FEHA DE ESTRENO-->
                                 <li class="list-group-item text-start" style="font-size: medium; font-weight: bolder; font-family: 'Franklin Gothic Medium'">Fecha de estreno: 
-                             <asp:Label ID="Label3" runat="server" CssClass="text-start text-danger" Text="Label" Font-Size="Small">ACA TRAER LA INFO</asp:Label>
+                             <asp:Label ID="lblFechaLanzamiento" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"></asp:Label>
                                 </li>
 
                                 <!--TEMPORADAS-->
                                 <li class="list-group-item text-start" style="font-size: medium; font-weight: bolder; font-family: 'Franklin Gothic Medium'">Temporadas: 
-                             <asp:Label ID="Label4" runat="server" CssClass="text-start text-danger" Text="Label" Font-Size="Small">ACA TRAER LA INFO</asp:Label>
+                             <asp:Label ID="lblTemporadas" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"></asp:Label>
                                 </li>
                                 <!--CAPITULOSS-->
                                 <li class="list-group-item text-start" style="font-size: medium; font-weight: bolder; font-family: 'Franklin Gothic Medium'">Capitulos: 
-                             <asp:Label ID="Label7" runat="server" CssClass="text-start text-danger" Text="Label" Font-Size="Small">ACA TRAER LA INFO</asp:Label>
+                             <asp:Label ID="lblCapitulos" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"></asp:Label>
                                 </li>
 
                                 <!--CATEGORIAS-->
 
                                 <li class="list-group-item text-start" style="font-size: medium; font-weight: bolder; font-family: 'Franklin Gothic Medium'">Categorias: 
-                             <asp:Label ID="Label5" runat="server" CssClass="text-start text-danger" Text="Label" Font-Size="Small">ACA TRAER LA INFO</asp:Label>
+                             <asp:Label ID="lblCategorias" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"></asp:Label>
                                 </li>
 
                             </ul>
@@ -82,6 +82,7 @@
                             <div class="text-start pt-1">
 
                                 <asp:Image ID="Image1" runat="server" ImageUrl="~/video/icono3.png" />
+                                <asp:Label ID="lblPuntajeProm" runat="server" CssClass="text-start text-danger" Text="" Font-Size="Small"></asp:Label>
 
                             </div>
 

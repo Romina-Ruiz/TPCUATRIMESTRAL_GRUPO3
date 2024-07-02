@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using TPCuatrimestral_Grupo3.Modelo;
 
 namespace TPCuatrimestral_Grupo3
 {
@@ -12,6 +13,32 @@ namespace TPCuatrimestral_Grupo3
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            if (!IsPostBack)
+            {
+                if (Session["listaSeries"] != null && Session["idSerieSeleccionada"] != null)
+                {
+                    List<DetalleSerie> listaSeries = (List<DetalleSerie>)Session["listaSeries"];
+                    long idSerie = (long)Session["idSerieSeleccionada"];
+                    DetalleSerie detalle = listaSeries.FirstOrDefault(p => p.IdSerie == idSerie);
+
+                    MostrarDetalleSerie(detalle);
+                }
+            }
+
+        }
+        private void MostrarDetalleSerie(DetalleSerie detalle)
+        {
+            if (detalle != null)
+            {
+                imagenSerie.Src = detalle.UrlImagen;
+                lblPlataforma.Text = detalle.Plataforma;
+                lblPaisOrigen.Text = detalle.PaisOrigen;
+                lblFechaLanzamiento.Text=detalle.FechaLanzamiento.ToString();
+                lblTemporadas.Text =detalle.Temporadas.ToString();
+                lblCapitulos.Text=detalle.EpisodiosTotales.ToString();
+                lblCategorias.Text = detalle.Categorias;
+                lblPuntajeProm.Text=detalle.PochoclosProm.ToString();
+            }
         }
     }
 }

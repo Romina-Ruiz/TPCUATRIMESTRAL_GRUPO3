@@ -479,6 +479,7 @@
       <DependentUpon>MisDatos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Modelo\DetallePelicula.cs" />
+    <Compile Include="Modelo\DetalleSerie.cs" />
     <Compile Include="Modelo\Pais.cs" />
     <Compile Include="Modelo\Pelicula.cs" />
     <Compile Include="Modelo\Plataforma.cs" />
@@ -492,6 +493,7 @@
       <DependentUpon>MODIFICAR_CONTENIDO.aspx</DependentUpon>
     </Compile>
     <Compile Include="Negocio\DetallePeliNegocio.cs" />
+    <Compile Include="Negocio\DetalleSerieNegocio.cs" />
     <Compile Include="Negocio\PaisNegocio.cs" />
     <Compile Include="Negocio\PeliculaNegocio.cs" />
     <Compile Include="Negocio\PlataformaNegocio.cs" />
