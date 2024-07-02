@@ -154,33 +154,36 @@
                 <div class="col">
                     <br>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Accion">
+                        <asp:CheckBox ID="CkbAccion" CssClass="form-check-label" runat="server" Checked="true" />
                         <label class="form-check-label" for="flexCheckDefault">
                             Accion
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Animacion" checked>
+                        <!--numero 4-->
+                        <asp:CheckBox ID="CkbAnimacion" CssClass="form-check-label" runat="server" Checked="true" />
                         <label class="form-check-label" for="flexCheckChecked">
                             Animacion
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="CienciaFiccion" checked>
+                        <!--numero 5 -->
+                        <asp:CheckBox ID="CkbCiencia" CssClass="form-check-label" runat="server" Checked="true" />
                         <label class="form-check-label" for="flexCheckChecked">
                             Ciencia Ficción
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Comedia" checked>
+                        <asp:CheckBox ID="CkbComedia" CssClass="form-check-label" runat="server" Checked="true" />
                         <label class="form-check-label" for="flexCheckChecked">
                             Comedia
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Documental" checked>
+                        <!-- numero 6 -->
+                        <asp:CheckBox ID="CkbDocumental" CssClass="form-check-label" runat="server" Checked="true" />
                         <label class="form-check-label" for="flexCheckChecked">
                             Documental
                         </label>
@@ -188,34 +191,35 @@
                 </div>
 
 
-
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="Drama" checked>
+                    <asp:CheckBox ID="CkbDrama" CssClass="form-check-label" runat="server" Checked="true" />
                     <label class="form-check-label" for="flexCheckChecked">
                         Drama
                     </label>
                 </div>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="Fantasia" checked>
+                    <!-- numero 7 -->
+                    <asp:CheckBox ID="CkbFantasia" CssClass="form-check-label" runat="server" Checked="true" />
                     <label class="form-check-label" for="flexCheckChecked">
                         Fantasía
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="Suspenso" checked>
+                    <!-- numero 8 -->
+                    <asp:CheckBox ID="CkbSuspenso" CssClass="form-check-label" runat="server" />
                     <label class="form-check-label" for="flexCheckChecked">
                         Suspenso
                     </label>
                 </div>
 
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="Terror" checked>
+                    <!-- numero 9 -->
+                    <asp:CheckBox ID="CkbTerror" CssClass="form-check-label" runat="server" />
                     <label class="form-check-label" for="flexCheckChecked">
                         Terror
                     </label>
                 </div>
-
 
 
             </div>
@@ -237,7 +241,7 @@
                         <br>
                         <br>
                         <asp:Image ID="URLImg" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="40%" runat="server" />
-                        
+
                     </ContentTemplate>
                 </asp:UpdatePanel>
 

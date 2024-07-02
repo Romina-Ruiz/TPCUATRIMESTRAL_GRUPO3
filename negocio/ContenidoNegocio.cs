@@ -49,40 +49,90 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
         }
 
+        public long IdContenido()
+        {
+            AccesoDatos datos = new AccesoDatos();
+            Pelicula Aux1 = new Pelicula();
+            long num = 0;
+
+            try
+            {
+                datos.setearConsulta("SELECT MAX(Id) AS maxID FROM Contenidos");
+                datos.ejecutarLectura();
+
+                if (datos.Lector.Read())
+                {
+                    Aux1.ID = (long)datos.Lector["maxID"];
+                    num = Aux1.ID;
+                }
+                return num;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+        }
+
+
+
+        public void cargaChecked(Contenido Aux)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            Contenido Aux1 = new Contenido();
+
+            Aux1.Id = IdContenido();
+
+            try
+            {
+                datos.setearParametro("@IdCategoria", Aux.IdCategoria);
+                datos.setearParametro("@IdContenido", Aux1.Id);
+
+                datos.setearConsulta("INSERT INTO Categorias_x_Contenido(IdCategoria,IdContenido)" +
+                                     "VALUES(@IdCategoria,@IdContenido)");
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+        }
+
+
         public void cargaContenido(Pelicula Aux) 
         {
             AccesoDatos datos = new AccesoDatos();
             Pelicula Aux1 = new Pelicula();
-            long contenidoId;
 
             try
             {
                 datos.setearParametro("@Titulo", Aux.Titulo);
                 datos.setearParametro("@Descripcion", Aux.Descripcion);
                 datos.setearParametro("@PaisOrigen", short.Parse(Aux.PaisOrigen));
-               // datos.setearParametro("@Fecha", Aux.FechaLanzamiento);
+                datos.setearParametro("@Fecha", Aux.FechaLanzamiento);
 
 
-                datos.setearConsulta("INSERT INTO Contenidos(Titulo, IdOrigen,"+
+                datos.setearConsulta("INSERT INTO Contenidos(Titulo, IdOrigen," +
                                     "FechaLanzamiento, Descripcion) VALUES" +
-                                    "(@Titulo, @PaisOrigen, '2024-05-25',@Descripcion)");
+                                    "(@Titulo, @PaisOrigen,@Fecha,@Descripcion)");
 
                 datos.ejecutarAccion();
                 datos.cerrarConexion();
 
+                Aux1.ID = IdContenido();
 
-
-                datos.setearConsulta("SELECT MAX(Id) AS maxID FROM Contenidos");
-                datos.ejecutarLectura();
-
-                if (datos.Lector.Read()) 
-                {
-                    Aux1.ID = (long)datos.Lector["maxID"];
-                    contenidoId = Aux1.ID;
-                }
-                datos.cerrarConexion();
-
-               
                 datos.setearParametro("@IdContenido", Aux1.ID);
                 datos.setearParametro("@IdPlataforma", short.Parse(Aux.IdPlataforma));
 
@@ -92,26 +142,22 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.ejecutarAccion();
                 datos.cerrarConexion();
 
-                
-                /*datos.setearParametro("@IdContenido", Aux1.ID);
+
+                datos.setearParametro("@IdContenid", Aux1.ID);
                 datos.setearParametro("@Duracion", Aux.Duracion);
 
                 datos.setearConsulta("INSERT INTO Peliculas " +
-                                    "(IdContenido,Duracion) VALUES(@IdContenido,@Duracion)");
+                                    "(IdContenido,Duracion) VALUES(@IdContenid,@Duracion)");
                 datos.ejecutarAccion();
-                datos.cerrarConexion();*/
+                datos.cerrarConexion();
 
 
+                datos.setearParametro("@UrlImg", Aux.UrlImagenContenido);
+                datos.setearParametro("@contenidoId", Aux1.ID);
 
-
-
-                //corregir
-                /* datos.setearParametro("@UrlImg", Aux1.UrlImagenContenido);
-                 datos.setearParametro("@contenidoId",Aux1.ID);
-
-                 datos.setearConsulta("INSERT INTO Imagenes_x_Contenido(IdContenido," +
+                datos.setearConsulta("INSERT INTO Imagenes_x_Contenido(IdContenido," +
                                      "UrlImagen) VALUES(@contenidoId,@UrlImg)");
-                 datos.ejecutarAccion();*/
+                datos.ejecutarAccion();
             }
             catch (Exception ex)
             {
