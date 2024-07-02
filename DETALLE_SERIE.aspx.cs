@@ -31,14 +31,21 @@ namespace TPCuatrimestral_Grupo3
             if (detalle != null)
             {
                 imgSerie.Src = detalle.UrlImagen;
+                TituloSerie.InnerText = detalle.Titulo;
                 lblPlataforma.Text = detalle.Plataforma;
                 lblPaisOrigen.Text = detalle.PaisOrigen;
                 lblFechaLanzamiento.Text=detalle.FechaLanzamiento.ToString();
                 lblTemporadas.Text =detalle.Temporadas.ToString();
                 lblCapitulos.Text=detalle.EpisodiosTotales.ToString();
                 lblCategorias.Text = detalle.Categorias;
+                lblSinopsis.Text = detalle.Sinopsis;
                 lblPuntajeProm.Text=detalle.PochoclosProm.ToString();
             }
+        }
+
+        protected void btnVolver_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("SERIES.aspx");
         }
     }
 }

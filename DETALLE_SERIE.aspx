@@ -40,7 +40,7 @@
                         <!--texto de la card-->
                         <div class="col-md-8">
 
-                            <div class="card-header text-center " style="font-family: 'Century Gothic'; font-size: 29px; font-weight: bolder; color: #800000; text-decoration: underline;" id="Titulo" runat="server">
+                            <div class="card-header text-center " style="font-family: 'Century Gothic'; font-size: 29px; font-weight: bolder; color: #800000; text-decoration: underline;" id="TituloSerie" runat="server">
                                 
                                  <div class="d-flex flex-row-reverse">
                                      <asp:Image ID="Image2" runat="server" ImageUrl="~/video/favorito 64.png" />
@@ -184,7 +184,7 @@
 
                 <div class="d-flex flex-row-reverse">
                     <div class="p-2 m-3">
-                        <asp:Button ID="Button2" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
+                        <asp:Button ID="btnVolver" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" OnClick="btnVolver_Click" />
                     </div>
 
                 </div>
