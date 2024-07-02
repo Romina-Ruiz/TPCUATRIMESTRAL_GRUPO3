@@ -30,7 +30,7 @@ namespace TPCuatrimestral_Grupo3
         {
             if (detalle != null)
             {
-                imagenSerie.Src = detalle.UrlImagen;
+                imgSerie.Src = detalle.UrlImagen;
                 lblPlataforma.Text = detalle.Plataforma;
                 lblPaisOrigen.Text = detalle.PaisOrigen;
                 lblFechaLanzamiento.Text=detalle.FechaLanzamiento.ToString();

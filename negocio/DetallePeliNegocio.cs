@@ -15,7 +15,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
             try
             {
                 
-                datos.setearProcedimiento("DetallesPelicula");
+                datos.setearProcedimiento("DetallesPeliculas");
                 datos.ejecutarLectura();
                 while (datos.Lector.Read())
                 {
@@ -29,7 +29,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     aux.Duracion = (int)datos.Lector["Duracion"];
                     aux.Categoria = (string)datos.Lector["Categoria"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
-                    aux.PuntajePromedio = (int)datos.Lector["PromPuntaje"];
+                    //aux.PuntajePromedio = (int)datos.Lector["PromPuntaje"];
 
                     
 

@@ -34,7 +34,7 @@
 
                         <!--IMAGEN de la card-->
                         <div class="col-md-4">
-                            <img src="" class="img-fluid rounded-start" alt="..." id="imagenSerie" runat="server">
+                            <img src="" class="img-fluid rounded-start" alt="..." id="imgSerie" runat="server">
                         </div>
 
                         <!--texto de la card-->
