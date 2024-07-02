@@ -120,8 +120,6 @@ namespace TPCuatrimestral_Grupo3
             AuxPeli.FechaLanzamiento = fechaConvertida;
 
 
-
-
             AuxPeli.IdPlataforma = DWLplataformas.Text;
             AuxPeli.PaisOrigen = DWLPais.Text;
             AuxPeli.UrlImagenContenido = URLImagen.Text;

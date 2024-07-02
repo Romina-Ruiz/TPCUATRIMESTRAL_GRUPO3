@@ -24,13 +24,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.TextBox TxtTitulo;
 
         /// <summary>
-        /// Control plataformas.
+        /// Control DWLPlataformas2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList plataformas;
+        protected global::System.Web.UI.WebControls.DropDownList DWLPlataformas2;
 
         /// <summary>
         /// Control ResumenSerie.
@@ -51,13 +51,22 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.TextBox TxtResumenSerie;
 
         /// <summary>
-        /// Control Label2.
+        /// Control UpdatePanel3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.UpdatePanel UpdatePanel3;
+
+        /// <summary>
+        /// Control txtFechaSerie.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtFechaSerie;
 
         /// <summary>
         /// Control Label1.
@@ -69,13 +78,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control pais.
+        /// Control DWLPais2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList pais;
+        protected global::System.Web.UI.WebControls.DropDownList DWLPais2;
 
         /// <summary>
         /// Control Label5.
@@ -105,13 +114,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// Control DropDownCAPITULOS.
+        /// Control DWLCapitulos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownCAPITULOS;
+        protected global::System.Web.UI.WebControls.DropDownList DWLCapitulos;
 
         /// <summary>
         /// Control Label3.
@@ -123,22 +132,85 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Control Label4.
+        /// Control CkbAccion2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.CheckBox CkbAccion2;
 
         /// <summary>
-        /// Control URLImagen.
+        /// Control CkbAnimacion2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox URLImagen;
+        protected global::System.Web.UI.WebControls.CheckBox CkbAnimacion2;
+
+        /// <summary>
+        /// Control CkbCiencia2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbCiencia2;
+
+        /// <summary>
+        /// Control CkbComedia2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbComedia2;
+
+        /// <summary>
+        /// Control CkbDocumental2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbDocumental2;
+
+        /// <summary>
+        /// Control CkbDrama2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbDrama2;
+
+        /// <summary>
+        /// Control CkbFantasia2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbFantasia2;
+
+        /// <summary>
+        /// Control CkbSuspenso2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbSuspenso2;
+
+        /// <summary>
+        /// Control CkbTerror2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbTerror2;
 
         /// <summary>
         /// Control panelUpload.
@@ -150,13 +222,31 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.UpdatePanel panelUpload;
 
         /// <summary>
-        /// Control ImURL.
+        /// Control Label4.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImURL;
+        protected global::System.Web.UI.WebControls.Label Label4;
+
+        /// <summary>
+        /// Control URLImagenSerie.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox URLImagenSerie;
+
+        /// <summary>
+        /// Control URLImgSerie.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image URLImgSerie;
 
         /// <summary>
         /// Control GridView1.
@@ -175,14 +265,5 @@ namespace TPCuatrimestral_Grupo3
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnCargarSERIE;
-
-        /// <summary>
-        /// Control Button2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }

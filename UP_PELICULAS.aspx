@@ -266,9 +266,8 @@
 
         <div class="d-flex flex-row-reverse">
             <div class="p-2 m-3">
-                <asp:Button ID="Button2" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
+                <a href="UPLOAD.aspx" class="btn btn-success m-2">VOLVER</a>
             </div>
-
         </div>
 
     </div>
