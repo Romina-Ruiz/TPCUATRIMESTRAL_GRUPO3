@@ -48,8 +48,8 @@ namespace TPCuatrimestral_Grupo3.Negocio
         {
 
             comando.CommandType = System.Data.CommandType.StoredProcedure;
-            comando.CommandText = sp;
-            comando.Connection = conexion;
+            comando=new SqlCommand("SP_AGREGAR_USER",comando.Connection);   
+           
 
         }
 

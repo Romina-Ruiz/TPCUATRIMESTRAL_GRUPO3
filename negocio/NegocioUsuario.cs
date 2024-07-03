@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using TPCuatrimestral_Grupo3.Modelo;
@@ -13,16 +14,19 @@ namespace TPCuatrimestral_Grupo3.Negocio
        
         public void CargarUsuario(Usuario usuario)
         {
-
-
-
             AccesoDatos datos = new AccesoDatos();
 
-            datos.ejecutarConectar();
+            datos.ejecutarConectar();      
+          
             try
             {
-                datos.setearProcedimiento2("SP_AGREGAR_USER");
+                //datos.setearConsulta(" INSERT INTO  Usuarios(apellidos, Nombres, Nacimiento, Genero, Email, Domicilio,IDCiudad, NombreUsuario,Contrasena,EsAdministrador, EsVip) VALUES('"+usuario.Apellido+"','"+ usuario.Nombres + "' ,'"+ usuario.Nacimiento + "', '"+ usuario.Genero + "','"+ usuario.Email + "', '"+ usuario.Domicilio + "','2', '"+ usuario.NombreUsuario + "', '"+ usuario.Contrasena + "',0,0)");
+                
+                //datos.setearProcedimiento("SP_AGREGAR_USER(apellidos, Nombres, Nacimiento, Genero, Email, Domicilio,IDCiudad, NombreUsuario,Contrasena,EsAdministrador, EsVip) VALUES('" + usuario.Apellido + "','" + usuario.Nombres + "' ,'" + usuario.Nacimiento + "', '" + usuario.Genero + "','" + usuario.Email + "', '" + usuario.Domicilio + "','2', '" + usuario.NombreUsuario + "', '" + usuario.Contrasena + "',0,0)");
+              datos.setearProcedimiento2("SP_AGREGAR_USER");
+               
 
+                
                 datos.setearParametro2("@Apellidos", usuario.Apellido);
                 datos.setearParametro2("@Nombres", usuario.Nombres);
                 datos.setearParametro2("@Nacimiento", usuario.Nacimiento);
@@ -34,7 +38,8 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.setearParametro2("@Contrasena", usuario.Contrasena);
 
 
-                datos.ejecutarQuery();
+                //datos.ejecutarQuery();
+                datos.ejecutarAccion();   
 
             }
             catch (Exception ex)

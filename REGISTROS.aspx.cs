@@ -80,7 +80,6 @@ namespace TPCuatrimestral_Grupo3
                 usuarioAux.Email = TxtEmail.Text;
                 usuarioAux.Domicilio = TxtDireccion.Text;
                 usuarioAux.Ciudad = DLCiudad.SelectedValue;
-                //usuarioAux.Pais = DLPais.DataTextField;
                 usuarioAux.Pais = DLPais.DataTextField;
                 usuarioAux.NombreUsuario = TextUser.Text;
                 usuarioAux.Contrasena = TxtContrasena.Text;
