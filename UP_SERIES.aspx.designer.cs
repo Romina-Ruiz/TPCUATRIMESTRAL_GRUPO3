@@ -60,13 +60,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.UpdatePanel UpdatePanel3;
 
         /// <summary>
-        /// Control txtFechaSerie.
+        /// Control TxtFechaSerie.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaSerie;
+        protected global::System.Web.UI.WebControls.TextBox TxtFechaSerie;
 
         /// <summary>
         /// Control Label1.
@@ -96,13 +96,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// Control DropDownTemporada.
+        /// Control DWLTemporadas2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownTemporada;
+        protected global::System.Web.UI.WebControls.DropDownList DWLTemporadas2;
 
         /// <summary>
         /// Control Label6.
@@ -114,13 +114,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// Control DWLCapitulos.
+        /// Control DWLCapitulos2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DWLCapitulos;
+        protected global::System.Web.UI.WebControls.DropDownList DWLCapitulos2;
 
         /// <summary>
         /// Control Label3.

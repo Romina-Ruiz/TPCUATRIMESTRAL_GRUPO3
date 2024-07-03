@@ -71,7 +71,7 @@
                         <br>
                         <label style="font-size: 12.8px">(Si sabes su fecha de estreno por favor seleccionalo)</label>
                         <div class="datepicker position-relative border-01 p-4" id="datapicker">
-                            <asp:TextBox ID="txtFechaSerie" CssClass="form-control" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="TxtFechaSerie" CssClass="form-control" runat="server"></asp:TextBox>
 
                             <span class="input-group append">
                                 <span class="input-group text bg-white"></span>
@@ -79,8 +79,8 @@
                         </div>
                         <script>
                             $(function () {
-                                $("#<%= txtFechaSerie.ClientID %>").datepicker();
-                            });
+                                $("#<%= TxtFechaSerie.ClientID %>").datepicker();
+                         });
                         </script>
 
                     </ContentTemplate>
@@ -107,7 +107,7 @@
 
                     <asp:Label ID="Label5" runat="server" Text="Label" Font-Size="Medium">Sabes las temporadas que tiene ingresa aquí</asp:Label>
                     <br>
-                    <asp:DropDownList ID="DropDownTemporada" runat="server" Height="30" Width="150">
+                    <asp:DropDownList ID="DWLTemporadas2" runat="server" Height="30" Width="150">
                         <asp:ListItem Text="0" />
                         <asp:ListItem Text="1" />
                         <asp:ListItem Text="2" />
@@ -118,7 +118,14 @@
                         <asp:ListItem Text="7" />
                         <asp:ListItem Text="8" />
                         <asp:ListItem Text="9" />
-                        <asp:ListItem Text="10 o más" />
+                        <asp:ListItem Text="10" />
+                        <asp:ListItem Text="11" />
+                        <asp:ListItem Text="12" />
+                        <asp:ListItem Text="13" />
+                        <asp:ListItem Text="14" />
+                        <asp:ListItem Text="15" />
+                        <asp:ListItem Text="16" />
+                        <asp:ListItem Text="17" />
                     </asp:DropDownList>
                     <label for="Temporadas" class="form-label pt-2" style="color: #FFFFCC; font-size: 22px;">Temporadas</label>
 
@@ -127,7 +134,7 @@
                 <div class="p-5">
                     <asp:Label ID="Label6" runat="server" Text="Label" Font-Size="Medium">Si sabes los capítulos que tiene ingresa aquí</asp:Label>
                     <br>
-                    <asp:DropDownList ID="DWLCapitulos" runat="server" Height="30" Width="150">
+                    <asp:DropDownList ID="DWLCapitulos2" runat="server" Height="30" Width="150">
                         <asp:ListItem Text="0" />
                         <asp:ListItem Text="1" />
                         <asp:ListItem Text="2" />
@@ -138,7 +145,16 @@
                         <asp:ListItem Text="7" />
                         <asp:ListItem Text="8" />
                         <asp:ListItem Text="9" />
-                        <asp:ListItem Text="10 o más" />
+                        <asp:ListItem Text="10" />
+                        <asp:ListItem Text="11" />
+                        <asp:ListItem Text="12" />
+                        <asp:ListItem Text="13" />
+                        <asp:ListItem Text="14" />
+                        <asp:ListItem Text="15" />
+                        <asp:ListItem Text="16" />
+                        <asp:ListItem Text="17" />
+                        <asp:ListItem Text="18" />
+
                     </asp:DropDownList>
                     <label for="Capitulos" class="form-label pt-2" style="color: #FFFFCC; font-size: 22px;">Capitulos</label>
 
@@ -270,7 +286,7 @@
     <!--BOTON ACEPTAR-->
     <div class="row p-4">
         <div class="col-md-6 offset-md-3">
-            <asp:Button ID="BtnCargarSERIE" class="btn btn-danger btn-lg p-2 m-2" runat="server" Text="Cargar" Font-Size="X-Large" Height="50px" Width="200" />
+            <asp:Button ID="BtnCargarSERIE" CssClass="btn btn-danger btn-lg p-2 m-2" runat="server" Text="Cargar" Font-Size="X-Large" Height="50px" Width="200" OnClick="BtnCargarSERIE_Click" />
 
         </div>
 
@@ -285,4 +301,6 @@
 
 
     </div>
+
+
 </asp:Content>

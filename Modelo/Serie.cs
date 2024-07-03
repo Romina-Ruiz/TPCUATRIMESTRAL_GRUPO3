@@ -15,5 +15,9 @@ namespace TPCuatrimestral_Grupo3.Modelo
         public string UrlImagenContenido { get; set; }
         public int Temporadas { get; set; }
         public int EpisodiosTotales { get; set; }
+
+        /*POR FAVOR NO BORRAR esta prop se usa*/
+        public string IdPlataforma { get; set; }
+
     }
 }

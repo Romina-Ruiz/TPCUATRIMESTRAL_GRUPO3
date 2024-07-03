@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -39,6 +40,82 @@ namespace TPCuatrimestral_Grupo3
         {
             string nuevaImagen = URLImagenSerie.Text;
             URLImgSerie.ImageUrl = nuevaImagen;
+        }
+
+        protected void BtnCargarSERIE_Click(object sender, EventArgs e)
+        {
+            SerieNegocio AuxSeNe = new SerieNegocio();
+            Serie Aux = new Serie();
+
+            Aux.Titulo = TxtTitulo.Text;
+            Aux.Descripcion = TxtResumenSerie.Text;
+            Aux.IdPlataforma = DWLPlataformas2.Text;
+            Aux.PaisOrigen = DWLPais2.Text;
+            Aux.Temporadas = int.Parse(DWLTemporadas2.Text);
+            Aux.EpisodiosTotales = int.Parse(DWLCapitulos2.Text);
+
+            Aux.UrlImagenContenido = URLImagenSerie.Text;
+
+            string textoFecha = TxtFechaSerie.Text;
+            string formatoEntrada = "dd/MM/yyyy";
+            DateTime fechaConvertida = DateTime.ParseExact(textoFecha, formatoEntrada, CultureInfo.InvariantCulture);
+
+            Aux.FechaLanzamiento = fechaConvertida;
+
+
+            AuxSeNe.CargaSerie(Aux);
+
+            Contenido AuxCont = new Contenido();
+
+            if (CkbAccion2.Checked)
+            {
+                AuxCont.IdCategoria = 1;
+                AuxSeNe.cargaCheckedSerie(AuxCont);
+            }
+            if (CkbComedia2.Checked)
+            {
+
+                AuxCont.IdCategoria = 2;
+                AuxSeNe.cargaCheckedSerie(AuxCont);
+            }
+            if (CkbDrama2.Checked)
+            {
+                AuxCont.IdCategoria = 3;
+                AuxSeNe.cargaCheckedSerie(AuxCont);
+            }
+            if (CkbAnimacion2.Checked)
+            {
+                AuxCont.IdCategoria = 4;
+                AuxSeNe.cargaCheckedSerie(AuxCont);
+
+            }
+            if (CkbCiencia2.Checked)
+            {
+                AuxCont.IdCategoria = 5;
+                AuxSeNe.cargaCheckedSerie(AuxCont);
+            }
+            if (CkbDocumental2.Checked)
+            {
+                AuxCont.IdCategoria = 6;
+                AuxSeNe.cargaCheckedSerie(AuxCont);
+            }
+            if (CkbFantasia2.Checked)
+            {
+                AuxCont.IdCategoria = 7;
+                AuxSeNe.cargaCheckedSerie(AuxCont);
+            }
+            if (CkbSuspenso2.Checked)
+            {
+                AuxCont.IdCategoria = 8;
+                AuxSeNe.cargaCheckedSerie(AuxCont);
+            }
+            if (CkbTerror2.Checked)
+            {
+                AuxCont.IdCategoria = 9;
+                AuxSeNe.cargaCheckedSerie(AuxCont);
+            }
+
+
         }
     }
 }

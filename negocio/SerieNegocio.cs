@@ -47,5 +47,105 @@ namespace TPCuatrimestral_Grupo3.Negocio
             }
         }
 
+        public long IdContenidoSerie()
+        {
+            AccesoDatos datos = new AccesoDatos();
+            Pelicula Aux1 = new Pelicula();
+            long num = 0;
+
+            try
+            {
+                datos.setearConsulta("SELECT MAX(Id) AS maxID FROM Contenidos");
+                datos.ejecutarLectura();
+
+                if (datos.Lector.Read())
+                {
+                    Aux1.ID = (long)datos.Lector["maxID"];
+                    num = Aux1.ID;
+                }
+                return num;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+        }
+
+        public void cargaCheckedSerie(Contenido Aux)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            Contenido Aux1 = new Contenido();
+
+            Aux1.Id = IdContenidoSerie();
+
+            try
+            {
+                datos.setearParametro("@IdCategoria", Aux.IdCategoria);
+                datos.setearParametro("@IdContenido", Aux1.Id);
+
+                datos.setearConsulta("INSERT INTO Categorias_x_Contenido(IdCategoria,IdContenido)" +
+                                     "VALUES(@IdCategoria,@IdContenido)");
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+        }
+
+
+        public void CargaSerie(Serie Aux)
+        {
+                AccesoDatos datos = new AccesoDatos();
+
+                try
+                {
+                    datos.setearParametro("@Titulo1", Aux.Titulo);
+                    datos.setearParametro("@IdOrigen1", short.Parse(Aux.PaisOrigen));
+                    datos.setearParametro("@Descripcion1", Aux.Descripcion);
+                    datos.setearParametro("@FechaLanzamiento1", Aux.FechaLanzamiento);
+                    datos.setearParametro("@IdPlataforma1", short.Parse(Aux.IdPlataforma));
+                    datos.setearParametro("@Temporadas1", Aux.Temporadas);
+                    datos.setearParametro("@EpisodiosTotales1", Aux.EpisodiosTotales);
+                    datos.setearParametro("@UrlImagen1", Aux.UrlImagenContenido);
+
+
+                    datos.setearConsulta("SP_AGREGAR_SERIES " +
+                                              "@Titulo1,@IdOrigen1,@Descripcion1," +
+                                              "@FechaLanzamiento1" +
+                                              ",@IdPlataforma1,@Temporadas1," +
+                                              "@EpisodiosTotales1,@UrlImagen1");
+
+                    /* datos.setearConsulta("SP_AGREGAR_SERIES 'ultima',2,'daledaledale','2024-05-05',1,5,15,'una imagen'");*/
+
+                    datos.ejecutarAccion();
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    throw ex;
+                }
+                finally
+                {
+                    datos.cerrarConexion();
+                }
+
+         }        
+
     }
 }
