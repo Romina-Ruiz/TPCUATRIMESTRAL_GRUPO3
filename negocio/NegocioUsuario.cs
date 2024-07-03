@@ -39,8 +39,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
             }
             catch (Exception ex)
             {
-
-                throw ex;
+                Console.WriteLine("Error: " + ex.Message);
             }
             finally
             {

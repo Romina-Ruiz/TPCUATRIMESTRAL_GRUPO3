@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -68,14 +69,17 @@ namespace TPCuatrimestral_Grupo3
                 NegocioUsuario usuarioNegocio = new NegocioUsuario();
                 Usuario usuarioAux = new Usuario();
 
+                string textoFecha = TxtNacimiento.Text;
+                string formatoEntrada = "dd/MM/yyyy";
+                DateTime fechaConvertida = DateTime.ParseExact(textoFecha, formatoEntrada, CultureInfo.InvariantCulture);
 
-                usuarioAux.NombreUsuario = TxtNombre.Text;
+                usuarioAux.Nombres = TxtNombre.Text;
                 usuarioAux.Apellido = TxtApellido.Text;
-                usuarioAux.Nacimiento = DateTime.Parse(TxtNacimiento.Text);
+                usuarioAux.Nacimiento = fechaConvertida;
                 usuarioAux.Genero = char.Parse(DLGenrero.SelectedValue);
                 usuarioAux.Email = TxtEmail.Text;
                 usuarioAux.Domicilio = TxtDireccion.Text;
-                usuarioAux.Ciudad = DLCiudad.DataTextField;
+                usuarioAux.Ciudad = DLCiudad.SelectedValue;
                 //usuarioAux.Pais = DLPais.DataTextField;
                 usuarioAux.Pais = DLPais.DataTextField;
                 usuarioAux.NombreUsuario = TextUser.Text;

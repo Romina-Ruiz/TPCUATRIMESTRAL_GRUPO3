@@ -11,6 +11,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
         private SqlConnection conexion;
         private SqlCommand comando;
         private SqlDataReader lector;
+        private SqlTransaction transaccion;
 
         public SqlDataReader Lector
         {
@@ -37,25 +38,25 @@ namespace TPCuatrimestral_Grupo3.Negocio
         {
             comando.CommandType = System.Data.CommandType.StoredProcedure;
             comando.CommandText = sp;
+           
 
 
-        }
-
-        public void setearParametro2(string nombre, object valor)
-        {
-            comando.Parameters.Add(new SqlParameter(nombre, valor));
         }
 
 
         public void setearProcedimiento2(string sp)
         {
 
-            comando = new SqlCommand(sp);
             comando.CommandType = System.Data.CommandType.StoredProcedure;
-
+            comando.CommandText = sp;
+            comando.Connection = conexion;
 
         }
 
+        public void setearParametro2(string nombre, object valor)
+        {
+            comando.Parameters.AddWithValue(nombre, valor);
+        }
 
 
         public void ejecutarConectar()
@@ -64,6 +65,8 @@ namespace TPCuatrimestral_Grupo3.Negocio
             try
             {
                 comando.Connection.Open();
+                transaccion = conexion.BeginTransaction();
+                comando.Transaction = transaccion;
             }
             catch (Exception ex)
             {
@@ -77,9 +80,11 @@ namespace TPCuatrimestral_Grupo3.Negocio
             {
 
                 comando.ExecuteNonQuery();
+                transaccion.Commit();
             }
             catch (Exception ex)
             {
+                transaccion.Rollback();
                 throw ex;
             }
         }
