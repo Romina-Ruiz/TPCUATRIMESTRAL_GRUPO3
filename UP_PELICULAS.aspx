@@ -272,6 +272,18 @@
 
     </div>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+
+            var alMenosUnoMarcado = Array.prototype.slice.call(checkboxes).some(function (checkbox) {
+                return checkbox.checked;
+            });
+            if (!alMenosUnoMarcado) {
+                checkboxes[0].checked = true;
+            }
+        });
+    </script>
 
 
 </asp:Content>
