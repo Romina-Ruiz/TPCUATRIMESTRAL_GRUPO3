@@ -27,14 +27,17 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.setearParametro2("@Contrasena", usuario.Contrasena);
 
 
-                datos.setearConsulta("INSERT INTO  Usuarios(apellidos, Nombres, " +
+                /*datos.setearConsulta("INSERT INTO  Usuarios(apellidos, Nombres, " +
                                "Nacimiento, Genero, Email, Domicilio,IDCiudad," +
                                " NombreUsuario,Contrasena,EsAdministrador, EsVip) " +
                                "VALUES(@Apellidos,@Nombres," +
                                "'2000-05-05',@Genero,@Email,@Domicilio,2," +
-                               "@NombreUsuario,@Contrasena,0,0)");             
-                                     
-                               
+                               "@NombreUsuario,@Contrasena,0,0)");*/
+
+                datos.setearConsulta("SP_AGREGAR_USER @Apellidos,@Nombres," +
+                                "'1978-11-30',@Genero,@Email,@Domicilio" +
+                                ",'Madrid',@NombreUsuario,@Contrasena");
+                    
                 datos.ejecutarAccion();   
 
             }
