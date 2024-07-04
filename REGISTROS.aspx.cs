@@ -22,8 +22,8 @@ namespace TPCuatrimestral_Grupo3
                 {
 
 
-                    List<Ciudades> listCiudades = AuxCiudad.listarConSP();
-                    Session["listCiudades"] = listCiudades;
+                   /* List<Ciudades> listCiudades = AuxCiudad.listarConSP();
+                    Session["listCiudades"] = listCiudades;*/
 
 
                     List<Pais> listaPais = AuxPais.listarPais();
@@ -49,16 +49,13 @@ namespace TPCuatrimestral_Grupo3
 
         protected void DLPais_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int id = int.Parse(DLPais.SelectedItem.Value);
-            DLCiudad.DataSource = ((List<Ciudades>)Session["listCiudades"]).FindAll(x => x.IDPais == id);
-            DLCiudad.DataTextField = "Nombre";
-            DLCiudad.DataBind();
+            /*int id = int.Parse(DLPais.SelectedItem.Value);
+            DWLCiudad.DataSource = ((List<Ciudades>)Session["listCiudades"]).FindAll(x => x.IDPais == id);
+            DWLCiudad.DataTextField = "Nombre";
+            DWLCiudad.DataBind();*/
 
 
         }
-
-
-
 
 
         protected void BtnAgregar_Click(object sender, EventArgs e)
@@ -69,24 +66,29 @@ namespace TPCuatrimestral_Grupo3
                 NegocioUsuario usuarioNegocio = new NegocioUsuario();
                 Usuario usuarioAux = new Usuario();
 
-                string textoFecha = TxtNacimiento.Text;
+                /*string textoFecha = TxtNacimiento.Text;
                 string formatoEntrada = "dd/MM/yyyy";
-                DateTime fechaConvertida = DateTime.ParseExact(textoFecha, formatoEntrada, CultureInfo.InvariantCulture);
+                DateTime fechaConvertida = DateTime.ParseExact(textoFecha, formatoEntrada, CultureInfo.InvariantCulture);*/
 
                 usuarioAux.Nombres = TxtNombre.Text;
                 usuarioAux.Apellido = TxtApellido.Text;
-                usuarioAux.Nacimiento = fechaConvertida;
-                usuarioAux.Genero = char.Parse(DLGenrero.SelectedValue);
+                //usuarioAux.Nacimiento = fechaConvertida;
+                
+                usuarioAux.Genero = char.Parse(DWLGenero.Text);
+                
                 usuarioAux.Email = TxtEmail.Text;
                 usuarioAux.Domicilio = TxtDireccion.Text;
-                usuarioAux.Ciudad = DLCiudad.SelectedValue;
-                usuarioAux.Pais = DLPais.DataTextField;
+                
+               // usuarioAux.Ciudad = DWLCiudad.Text;
+                
+               //usuarioAux.Pais = DLPais.Text;
+                
                 usuarioAux.NombreUsuario = TextUser.Text;
                 usuarioAux.Contrasena = TxtContrasena.Text;
 
 
                 usuarioNegocio.CargarUsuario(usuarioAux);
-                Response.Redirect("HOME.aspx");
+               
             }
             catch (Exception ex)
             {

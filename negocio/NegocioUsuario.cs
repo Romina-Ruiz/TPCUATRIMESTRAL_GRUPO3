@@ -12,37 +12,35 @@ namespace TPCuatrimestral_Grupo3.Negocio
        
         public void CargarUsuario(Usuario usuario)
         {
-            AccesoDatos datos = new AccesoDatos();
-
-            datos.ejecutarConectar();      
+            AccesoDatos datos = new AccesoDatos();                
           
             try
             {
-                //datos.setearConsulta(" INSERT INTO  Usuarios(apellidos, Nombres, Nacimiento, Genero, Email, Domicilio,IDCiudad, NombreUsuario,Contrasena,EsAdministrador, EsVip) VALUES('"+usuario.Apellido+"','"+ usuario.Nombres + "' ,'"+ usuario.Nacimiento + "', '"+ usuario.Genero + "','"+ usuario.Email + "', '"+ usuario.Domicilio + "','2', '"+ usuario.NombreUsuario + "', '"+ usuario.Contrasena + "',0,0)");
-                
-                //datos.setearProcedimiento("SP_AGREGAR_USER(apellidos, Nombres, Nacimiento, Genero, Email, Domicilio,IDCiudad, NombreUsuario,Contrasena,EsAdministrador, EsVip) VALUES('" + usuario.Apellido + "','" + usuario.Nombres + "' ,'" + usuario.Nacimiento + "', '" + usuario.Genero + "','" + usuario.Email + "', '" + usuario.Domicilio + "','2', '" + usuario.NombreUsuario + "', '" + usuario.Contrasena + "',0,0)");
-              datos.setearProcedimiento2("SP_AGREGAR_USER");
-               
-
-                
                 datos.setearParametro2("@Apellidos", usuario.Apellido);
                 datos.setearParametro2("@Nombres", usuario.Nombres);
-                datos.setearParametro2("@Nacimiento", usuario.Nacimiento);
+                //datos.setearParametro2("@Nacimiento", usuario.Nacimiento);
                 datos.setearParametro2("@Genero", usuario.Genero);
                 datos.setearParametro2("@Email", usuario.Email);
                 datos.setearParametro2("@Domicilio", usuario.Domicilio);
-                datos.setearParametro2("@Ciudad", usuario.Ciudad);
+                //datos.setearParametro2("@Ciudad", usuario.Ciudad);
                 datos.setearParametro2("@NombreUsuario", usuario.NombreUsuario);
                 datos.setearParametro2("@Contrasena", usuario.Contrasena);
 
 
-                //datos.ejecutarQuery();
+                datos.setearConsulta("INSERT INTO  Usuarios(apellidos, Nombres, " +
+                               "Nacimiento, Genero, Email, Domicilio,IDCiudad," +
+                               " NombreUsuario,Contrasena,EsAdministrador, EsVip) " +
+                               "VALUES(@Apellidos,@Nombres," +
+                               "'2000-05-05',@Genero,@Email,@Domicilio,2," +
+                               "@NombreUsuario,@Contrasena,0,0)");             
+                                     
+                               
                 datos.ejecutarAccion();   
 
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error: " + ex.Message);
+                throw ex;
             }
             finally
             {

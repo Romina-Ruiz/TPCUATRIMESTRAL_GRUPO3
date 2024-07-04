@@ -39,10 +39,9 @@
 
                     <div class="col-md-4">
                         <label for="genero" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Genero</label>
-                        <asp:DropDownList ID="DLGenrero" placeholder="Genero" Width="500"  runat="server" Height="40">
+                        <asp:DropDownList ID="DWLGenero" placeholder="Genero" Width="500"  runat="server" Height="40">
                             <asp:ListItem Text="F"/>
-                            <asp:ListItem Text="M" />
-                            <%--<asp:ListItem Text="Otro" />--%>
+                            <asp:ListItem Text="M" />                          
 
                         </asp:DropDownList>
 
@@ -63,7 +62,7 @@
 
                     <div class="col-md-4">
                         <label for="inputCity" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Ciudad</label>
-                        <asp:DropDownList ID="DLCiudad" placeholder="Ciudad" Width="500" Height="40" runat="server"></asp:DropDownList>
+                        <asp:DropDownList ID="DWLCiudad" placeholder="Ciudad" Width="500" Height="40" runat="server"></asp:DropDownList>
                         
                     </div>
 
