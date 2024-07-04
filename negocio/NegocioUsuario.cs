@@ -22,7 +22,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.setearParametro2("@Genero", usuario.Genero);
                 datos.setearParametro2("@Email", usuario.Email);
                 datos.setearParametro2("@Domicilio", usuario.Domicilio);
-                //datos.setearParametro2("@Ciudad", usuario.Ciudad);
+                datos.setearParametro2("@Ciudad", usuario.Ciudad);
                 datos.setearParametro2("@NombreUsuario", usuario.NombreUsuario);
                 datos.setearParametro2("@Contrasena", usuario.Contrasena);
 
@@ -35,8 +35,8 @@ namespace TPCuatrimestral_Grupo3.Negocio
                                "@NombreUsuario,@Contrasena,0,0)");*/
 
                 datos.setearConsulta("SP_AGREGAR_USER @Apellidos,@Nombres," +
-                                "'1978-11-30',@Genero,@Email,@Domicilio" +
-                                ",'Madrid',@NombreUsuario,@Contrasena");
+                                "'2000-10-10',@Genero,@Email,@Domicilio" +
+                                ",@Ciudad,@NombreUsuario,@Contrasena");
                     
                 datos.ejecutarAccion();   
 

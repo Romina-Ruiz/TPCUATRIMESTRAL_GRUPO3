@@ -21,10 +21,8 @@ namespace TPCuatrimestral_Grupo3
                 if (!IsPostBack)
                 {
 
-
-                   /* List<Ciudades> listCiudades = AuxCiudad.listarConSP();
-                    Session["listCiudades"] = listCiudades;*/
-
+                   List<Ciudades> listCiudades = AuxCiudad.listarConSP();
+                   Session["listCiudades"] = listCiudades;
 
                     List<Pais> listaPais = AuxPais.listarPais();
 
@@ -49,10 +47,11 @@ namespace TPCuatrimestral_Grupo3
 
         protected void DLPais_SelectedIndexChanged(object sender, EventArgs e)
         {
-            /*int id = int.Parse(DLPais.SelectedItem.Value);
+            int id = int.Parse(DLPais.Text);
             DWLCiudad.DataSource = ((List<Ciudades>)Session["listCiudades"]).FindAll(x => x.IDPais == id);
             DWLCiudad.DataTextField = "Nombre";
-            DWLCiudad.DataBind();*/
+            DWLCiudad.DataValueField = "Nombre";
+            DWLCiudad.DataBind();
 
 
         }
@@ -79,7 +78,7 @@ namespace TPCuatrimestral_Grupo3
                 usuarioAux.Email = TxtEmail.Text;
                 usuarioAux.Domicilio = TxtDireccion.Text;
                 
-               // usuarioAux.Ciudad = DWLCiudad.Text;
+                usuarioAux.Ciudad = DWLCiudad.Text;
                 
                //usuarioAux.Pais = DLPais.Text;
                 
