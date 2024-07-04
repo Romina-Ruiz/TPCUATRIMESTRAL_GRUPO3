@@ -16,7 +16,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
             try
             {
 
-                datos.setearProcedimiento("detSerie");
+                datos.setearProcedimiento("detailSerie");
                 datos.ejecutarLectura();
                 while (datos.Lector.Read())
                 {
@@ -27,11 +27,11 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     aux.Sinopsis = (string)datos.Lector["Descripcion"];
                     aux.Temporadas = (int)datos.Lector["Temporadas"];
                     aux.EpisodiosTotales = (int)datos.Lector["Episodios"];
-                //    aux.Plataforma = (string)datos.Lector["Plataforma"];
+                    aux.Plataforma = (string)datos.Lector["Plataforma"];
                     aux.Categorias = (string)datos.Lector["Categoria"];
                     aux.UrlImagen = (string)datos.Lector["UrlImagen"];
                     aux.PaisOrigen = (string)datos.Lector["Pais"];
-                    //aux.PochoclosProm = (int)datos.Lector["PromPuntaje"];
+                    aux.PochoclosProm = (int)datos.Lector["PromPuntaje"];
                  
 
 

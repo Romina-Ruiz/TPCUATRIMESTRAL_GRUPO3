@@ -15,7 +15,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
             try
             {
                 // datos.setearConsulta("SELECT C.Titulo, C.FechaLanzamiento, C.Descripcion, C.EstrellasPromedio, p.Nombre Pais, IM.UrlImagen ,PL.Nombre NombrePlataforma ,PL.LogoUrl LogoPlataforma, TP.Descripcion TipoContenido ,CA.Nombre NombreCategoria FROM Contenidos C, Categoria CA ,Paises P ,Imagenes_x_Contenido IM,Plataformas PL, TiposContenidos TP WHERE C.IdCategoria = CA.Id AND P.Id=C.IdOrigen AND IM.IdContenido = C.Id AND PL.Id = C.IdPlataforma AND TP.Id = C.IdTipoContenido");
-                datos.setearProcedimiento("listadoPeliculas");
+                datos.setearProcedimiento("pantallaPeliculas");
                 datos.ejecutarLectura();
                 while (datos.Lector.Read())
                 {
