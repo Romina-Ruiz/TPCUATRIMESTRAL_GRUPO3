@@ -24,12 +24,12 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Image ImageAdm;
 
         /// <summary>
-        /// Control Button2.
+        /// Control Volver.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button Volver;
     }
 }

@@ -28,4 +28,13 @@
         </div>
     </div>
 
+     <!--BOTON VOLVER-->
+
+ <div class="d-flex flex-row-reverse">
+     <div class="m-3">
+         <asp:Button ID="BtnVolver" OnClick="BtnVolver_Click" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
+     </div>
+
+ </div>
+
 </asp:Content>

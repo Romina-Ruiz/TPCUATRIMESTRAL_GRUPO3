@@ -38,7 +38,7 @@
 
 
                 <asp:Button ID="Button1" class="btn btn-danger" Font-Size="Larger" Height="40px" Width="150"  Font-Bold="True" runat="server" Text="ACEPTAR" />
-                <asp:Button ID="Button2" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150"  Font-Bold="True" runat="server" Text="VOLVER" />
+                <asp:Button ID="Volver" class="btn btn-success m-2" OnClick="Volver_Click" Font-Size="Larger" Height="40px" Width="150"  Font-Bold="True" runat="server" Text="VOLVER" />
             </div>
 
         </div>

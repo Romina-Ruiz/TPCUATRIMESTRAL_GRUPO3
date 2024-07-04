@@ -3,7 +3,99 @@
   "WorkspaceRootPath": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\negociousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\upload.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:upload.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\misdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:misdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\contenidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\contenidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\upload.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:upload.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\misdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:misdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\micuenta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:micuenta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\micuenta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:micuenta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\op_admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:op_admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\op_admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:op_admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\abm_usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:abm_usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\abm_usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:abm_usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\check_contenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:check_contenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\check_contenido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:check_contenido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\up_plataformas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:up_plataformas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\up_plataformas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:up_plataformas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\up_peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:up_peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\up_peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:up_peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\plataformas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:plataformas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\negocio\\negociousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\negociousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,24 +123,12 @@
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:modelo\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\abm_usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:abm_usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\abm_usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:abm_usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\detalleserienegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\detalleserienegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\detallepelinegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\detallepelinegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\contenidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\contenidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\plataformaxpeliculanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,40 +139,16 @@
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\serienegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\abm_usuarios.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:abm_usuarios.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\modelo\\plataformaxpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\modelo\\plataformaxpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:modelo\\plataformaxpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\modelo\\resena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\modelo\\resena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:modelo\\resena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\documents\\github\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\stylo\\titulos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\stylo\\titulos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:stylo\\titulos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\up_peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:up_peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\up_peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:up_peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\up_series.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -119,32 +175,8 @@
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\negocio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\check_contenido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:check_contenido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\check_contenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:check_contenido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\misdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:misdatos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\misdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:misdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\micuenta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:micuenta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\up_novedades.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -157,10 +189,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\modelo\\detalleserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:modelo\\detalleserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\op_admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:op_admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\mensajes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -182,7 +210,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,33 +218,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ABM_USUARIOS.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\ABM_USUARIOS.aspx.designer.cs",
-              "RelativeDocumentMoniker": "ABM_USUARIOS.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\ABM_USUARIOS.aspx.designer.cs",
-              "RelativeToolTip": "ABM_USUARIOS.aspx.designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T04:59:48.839Z",
+              "DocumentIndex": 0,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MasterPage.Master",
+              "RelativeDocumentMoniker": "MasterPage.Master",
+              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MasterPage.Master",
+              "RelativeToolTip": "MasterPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-04T05:45:43.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
+              "Title": "UPLOAD.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UPLOAD.aspx.cs",
+              "RelativeDocumentMoniker": "UPLOAD.aspx.cs",
+              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UPLOAD.aspx.cs",
+              "RelativeToolTip": "UPLOAD.aspx.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAtwCMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:00:47.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UPLOAD.aspx",
+              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UPLOAD.aspx",
+              "RelativeDocumentMoniker": "UPLOAD.aspx",
+              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UPLOAD.aspx",
+              "RelativeToolTip": "UPLOAD.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-04T06:00:25.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MICUENTA.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MICUENTA.aspx.cs",
+              "RelativeDocumentMoniker": "MICUENTA.aspx.cs",
+              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MICUENTA.aspx.cs",
+              "RelativeToolTip": "MICUENTA.aspx.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:55:46.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Op_Admin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Op_Admin.aspx.cs",
+              "RelativeDocumentMoniker": "Op_Admin.aspx.cs",
+              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Op_Admin.aspx.cs",
+              "RelativeToolTip": "Op_Admin.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAtwBIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:43:40.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UP_PLATAFORMAS.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_PLATAFORMAS.aspx.cs",
+              "RelativeDocumentMoniker": "UP_PLATAFORMAS.aspx.cs",
+              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_PLATAFORMAS.aspx.cs",
+              "RelativeToolTip": "UP_PLATAFORMAS.aspx.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAtwCAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:39:12.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UP_PLATAFORMAS.aspx",
+              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_PLATAFORMAS.aspx",
+              "RelativeDocumentMoniker": "UP_PLATAFORMAS.aspx",
+              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_PLATAFORMAS.aspx",
+              "RelativeToolTip": "UP_PLATAFORMAS.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-04T05:34:26.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PLATAFORMAS.aspx",
+              "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\PLATAFORMAS.aspx",
+              "RelativeDocumentMoniker": "PLATAFORMAS.aspx",
+              "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\PLATAFORMAS.aspx",
+              "RelativeToolTip": "PLATAFORMAS.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-04T05:33:40.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "PELICULAS.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx.cs",
               "RelativeDocumentMoniker": "PELICULAS.aspx.cs",
               "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx.cs",
               "RelativeToolTip": "PELICULAS.aspx.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wA8AAAAJAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCYAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-04T04:27:07.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
               "Title": "PlataformaXPelicula.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\PlataformaXPelicula.cs",
               "RelativeDocumentMoniker": "Modelo\\PlataformaXPelicula.cs",
@@ -224,12 +343,11 @@
               "RelativeToolTip": "Modelo\\PlataformaXPelicula.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T04:14:48.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T04:14:48.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 35,
               "Title": "Resena.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Resena.cs",
               "RelativeDocumentMoniker": "Modelo\\Resena.cs",
@@ -237,12 +355,11 @@
               "RelativeToolTip": "Modelo\\Resena.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T04:14:34.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T04:14:34.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 36,
               "Title": "Titulos.css",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Stylo\\Titulos.css",
               "RelativeDocumentMoniker": "Stylo\\Titulos.css",
@@ -250,25 +367,24 @@
               "RelativeToolTip": "Stylo\\Titulos.css",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-04T03:09:35.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T03:09:35.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ABM_USUARIOS.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\ABM_USUARIOS.aspx.cs",
               "RelativeDocumentMoniker": "ABM_USUARIOS.aspx.cs",
               "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\ABM_USUARIOS.aspx.cs",
               "RelativeToolTip": "ABM_USUARIOS.aspx.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAiwBUAAAASAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAD4vyEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-04T02:59:24.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ABM_USUARIOS.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\ABM_USUARIOS.aspx",
               "RelativeDocumentMoniker": "ABM_USUARIOS.aspx",
@@ -281,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 24,
               "Title": "PaisNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PaisNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\PaisNegocio.cs",
@@ -289,12 +405,11 @@
               "RelativeToolTip": "negocio\\PaisNegocio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T03:02:02.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T03:02:02.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 27,
               "Title": "PeliculaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PeliculaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\PeliculaNegocio.cs",
@@ -302,24 +417,24 @@
               "RelativeToolTip": "negocio\\PeliculaNegocio.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAgwAoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T03:01:53.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T03:01:53.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "UP_PELICULAS.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_PELICULAS.aspx.cs",
               "RelativeDocumentMoniker": "UP_PELICULAS.aspx.cs",
               "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_PELICULAS.aspx.cs",
               "RelativeToolTip": "UP_PELICULAS.aspx.cs",
-              "ViewState": "AQIAAKUAAAAAAAAAAAAowK0AAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T05:55:40.811Z"
+              "WhenOpened": "2024-07-02T05:55:40.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 23,
               "Title": "NegocioUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\NegocioUsuario.cs",
               "RelativeDocumentMoniker": "negocio\\NegocioUsuario.cs",
@@ -332,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 5,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "negocio\\AccesoDatos.cs",
@@ -345,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 40,
               "Title": "REGISTROS.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\REGISTROS.aspx.cs",
               "RelativeDocumentMoniker": "REGISTROS.aspx.cs",
@@ -357,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 43,
               "Title": "LOGIN.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\LOGIN.aspx",
               "RelativeDocumentMoniker": "LOGIN.aspx",
@@ -369,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 25,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Usuario.cs",
               "RelativeDocumentMoniker": "Modelo\\Usuario.cs",
@@ -377,8 +492,7 @@
               "RelativeToolTip": "Modelo\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T02:30:23.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T02:30:23.556Z"
             },
             {
               "$type": "Document",
@@ -390,11 +504,12 @@
               "RelativeToolTip": "UP_PELICULAS.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-02T13:38:57.128Z"
+              "WhenOpened": "2024-07-02T13:38:57.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 30,
               "Title": "DetalleSerieNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\DetalleSerieNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\DetalleSerieNegocio.cs",
@@ -402,12 +517,11 @@
               "RelativeToolTip": "negocio\\DetalleSerieNegocio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T21:20:43.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T21:20:43.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 32,
               "Title": "PlataformaXPeliculaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PlataformaXPeliculaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\PlataformaXPeliculaNegocio.cs",
@@ -415,12 +529,11 @@
               "RelativeToolTip": "negocio\\PlataformaXPeliculaNegocio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T03:02:10.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T03:02:10.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 26,
               "Title": "PlataformaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PlataformaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\PlataformaNegocio.cs",
@@ -428,12 +541,11 @@
               "RelativeToolTip": "negocio\\PlataformaNegocio.cs",
               "ViewState": "AQIAAD8AAAAAAAAAAAAowDoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T03:02:22.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T03:02:22.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "negocio.csproj",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\negocio.csproj",
               "RelativeDocumentMoniker": "negocio\\negocio.csproj",
@@ -445,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 31,
               "Title": "DetallePeliNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\DetallePeliNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\DetallePeliNegocio.cs",
@@ -453,12 +565,11 @@
               "RelativeToolTip": "negocio\\DetallePeliNegocio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T03:03:16.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T03:03:16.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 28,
               "Title": "CiudadesNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\CiudadesNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\CiudadesNegocio.cs",
@@ -466,12 +577,11 @@
               "RelativeToolTip": "negocio\\CiudadesNegocio.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T03:03:24.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T03:03:24.651Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 14,
               "Title": "CHECK_CONTENIDO.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\CHECK_CONTENIDO.aspx",
               "RelativeDocumentMoniker": "CHECK_CONTENIDO.aspx",
@@ -479,11 +589,12 @@
               "RelativeToolTip": "CHECK_CONTENIDO.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-29T17:45:31.227Z"
+              "WhenOpened": "2024-06-29T17:45:31.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 8,
               "Title": "MICUENTA.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MICUENTA.aspx",
               "RelativeDocumentMoniker": "MICUENTA.aspx",
@@ -496,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 33,
               "Title": "SerieNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\SerieNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\SerieNegocio.cs",
@@ -504,12 +615,11 @@
               "RelativeToolTip": "negocio\\SerieNegocio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T03:02:16.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T03:02:16.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "UP_SERIES.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_SERIES.aspx",
               "RelativeDocumentMoniker": "UP_SERIES.aspx",
@@ -517,11 +627,12 @@
               "RelativeToolTip": "UP_SERIES.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-27T03:59:38.4Z"
+              "WhenOpened": "2024-06-27T03:59:38.4Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 38,
               "Title": "UP_SERIES.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_SERIES.aspx.cs",
               "RelativeDocumentMoniker": "UP_SERIES.aspx.cs",
@@ -533,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 29,
               "Title": "Serie.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Serie.cs",
               "RelativeDocumentMoniker": "Modelo\\Serie.cs",
@@ -541,12 +652,11 @@
               "RelativeToolTip": "Modelo\\Serie.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T13:33:24.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T13:33:24.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 39,
               "Title": "SERIES.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\SERIES.aspx.cs",
               "RelativeDocumentMoniker": "SERIES.aspx.cs",
@@ -558,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "ContenidoNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\ContenidoNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ContenidoNegocio.cs",
@@ -571,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "REGISTROS.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\REGISTROS.aspx",
               "RelativeDocumentMoniker": "REGISTROS.aspx",
@@ -583,19 +693,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 15,
               "Title": "CHECK_CONTENIDO.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\CHECK_CONTENIDO.aspx.cs",
               "RelativeDocumentMoniker": "CHECK_CONTENIDO.aspx.cs",
               "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\CHECK_CONTENIDO.aspx.cs",
               "RelativeToolTip": "CHECK_CONTENIDO.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAtwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T22:49:32.302Z"
+              "WhenOpened": "2024-07-02T22:49:32.302Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 7,
               "Title": "MisDatos.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MisDatos.aspx",
               "RelativeDocumentMoniker": "MisDatos.aspx",
@@ -603,23 +714,25 @@
               "RelativeToolTip": "MisDatos.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-29T06:07:01.726Z"
+              "WhenOpened": "2024-06-29T06:07:01.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 3,
               "Title": "MisDatos.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MisDatos.aspx.cs",
               "RelativeDocumentMoniker": "MisDatos.aspx.cs",
               "ToolTip": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MisDatos.aspx.cs",
               "RelativeToolTip": "MisDatos.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAtwBMAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:10:49.358Z"
+              "WhenOpened": "2024-07-02T18:10:49.358Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "UP_NOVEDADES.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_NOVEDADES.aspx.cs",
               "RelativeDocumentMoniker": "UP_NOVEDADES.aspx.cs",
@@ -631,7 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "PELICULAS.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx",
               "RelativeDocumentMoniker": "PELICULAS.aspx",
@@ -644,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "DetalleSerie.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\DetalleSerie.cs",
               "RelativeDocumentMoniker": "Modelo\\DetalleSerie.cs",
@@ -656,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "DETALLE_PELI.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_PELI.aspx",
               "RelativeDocumentMoniker": "DETALLE_PELI.aspx",
@@ -668,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 1,
               "Title": "HOME.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\HOME.aspx",
               "RelativeDocumentMoniker": "HOME.aspx",
@@ -681,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 10,
               "Title": "Op_Admin.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Op_Admin.aspx",
               "RelativeDocumentMoniker": "Op_Admin.aspx",
@@ -694,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "Mensajes.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Mensajes.aspx",
               "RelativeDocumentMoniker": "Mensajes.aspx",
@@ -706,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "Pais.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Pais.cs",
               "RelativeDocumentMoniker": "Modelo\\Pais.cs",
@@ -718,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "Contenido.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Documents\\GitHub\\TPCUATRIMESTRAL_GRUPO3\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Contenido.cs",
               "RelativeDocumentMoniker": "Modelo\\Contenido.cs",

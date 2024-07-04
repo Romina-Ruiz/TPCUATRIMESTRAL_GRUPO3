@@ -29,5 +29,11 @@ namespace TPCuatrimestral_Grupo3
         {
             Response.Redirect("UP_SERIES.aspx");
         }
+
+        protected void BtnVolver_Click(object sender, EventArgs e)
+        {
+
+            Response.Redirect("MICUENTA.aspx");
+        }
     }
 }

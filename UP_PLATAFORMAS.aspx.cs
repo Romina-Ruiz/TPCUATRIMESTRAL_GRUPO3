@@ -12,6 +12,25 @@ namespace TPCuatrimestral_Grupo3
         protected void Page_Load(object sender, EventArgs e)
         {
 
+
+
+
+
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Volve_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Volver_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Op_Admin.aspx");
         }
     }
 }

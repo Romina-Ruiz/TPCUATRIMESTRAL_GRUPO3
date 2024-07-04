@@ -28,6 +28,11 @@ namespace TPCuatrimestral_Grupo3
 
         }
 
-      
+        protected void Volver_Click(object sender, EventArgs e)
+        {
+
+            Response.Redirect("Op_Admin.aspx");
+
+        }
     }
 }

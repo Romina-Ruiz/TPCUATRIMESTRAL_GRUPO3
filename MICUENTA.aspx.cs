@@ -17,5 +17,12 @@ namespace TPCuatrimestral_Grupo3
                 Response.Redirect("ERROR.aspx", false);
             }*/
         }
+
+        protected void BtnVolver_Click(object sender, EventArgs e)
+        {
+
+            Response.Redirect("HOME.aspx");
+
+        }
     }
 }
