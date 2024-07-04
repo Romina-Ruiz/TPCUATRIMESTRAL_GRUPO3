@@ -161,15 +161,7 @@
 
                             <div class="table-responsive">
 
-
-                                <asp:GridView ID="GDVUsuarios" OnRowDataBound="GDVUsuarios_RowDataBound" Width="100%" OnSelectedIndexChanged="GDVUsuarios_SelectedIndexChanged"
-                                    AutoGenerateSelectButton="false" CssClass="table table-bordered table-condensed table-responsive table-hover"
-                                    runat="server">
-                                </asp:GridView>
-                                <alternatinrowstyle backcolor="white" />
-                                <headerstyle backcolor="#f8f9fa" font-bold="true" font-size="Larger" forecolor="white" />
-                                <rowstyle backcolor="#f5f5f5" />
-                                <selectedrowstyle backcolor="#669999" font-bold="true" forecolor="white" />
+                                <asp:GridView ID="GdvUsuarios" runat="server"></asp:GridView>
 
 
 

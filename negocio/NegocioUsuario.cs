@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using TPCuatrimestral_Grupo3.Modelo;
 
 namespace TPCuatrimestral_Grupo3.Negocio
 {
-
-   
+      
     public class NegocioUsuario
     {
        
@@ -101,6 +99,54 @@ namespace TPCuatrimestral_Grupo3.Negocio
             }
 
         }
+
+        public List<Usuario> listarABM_User()
+        {
+            List<Usuario> lista = new List<Usuario>();
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                
+                datos.setearProcedimiento("ABM_USER");
+                datos.ejecutarLectura();
+                while (datos.Lector.Read())
+                {
+                    Usuario aux = new Usuario();
+
+                    aux.Apellido = (string)datos.Lector["Apellidos"];
+                    aux.Nombres = (string)datos.Lector["Nombres"];
+                    aux.Nacimiento = (DateTime)datos.Lector["Nacimiento"];
+                    aux.Genero = (char)datos.Lector["Genero"];
+                    aux.Email = (string)datos.Lector["Email"];
+                    aux.NombreUsuario = (string)datos.Lector["NombreUsuario"];
+                    aux.Domicilio = (string)datos.Lector["Domicilio"];
+                   // aux.Ciudad = (string)datos.Lector["c.Nombre"];
+                   // aux.Pais = (string)datos.Lector["p.Nombre"];
+                    aux.EsAdministrador = (bool)datos.Lector["EsAdministrador"];
+                    aux.EsVip = (bool)datos.Lector["EsVip"];
+                    aux.Estado = (bool)datos.Lector["Estadp"];
+
+
+                    lista.Add(aux);
+                }
+
+                return lista;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+
+
+
+
 
     }
 }

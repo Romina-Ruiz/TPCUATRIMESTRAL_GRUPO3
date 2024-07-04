@@ -41,6 +41,8 @@ namespace TPCuatrimestral_Grupo3.Modelo
 
         public bool EsVip { get; set; }
 
+        public bool Estado { get; set; }
+
         public TipoUsuario TipoUsuario { get; set; }
 
 
