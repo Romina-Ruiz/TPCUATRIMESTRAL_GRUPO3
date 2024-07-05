@@ -18,7 +18,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
             {
                 datos.setearParametro2("@Apellidos", usuario.Apellido);
                 datos.setearParametro2("@Nombres", usuario.Nombres);
-                //datos.setearParametro2("@Nacimiento", usuario.Nacimiento);
+                datos.setearParametro2("@Nacimiento", usuario.Nacimiento);
                 datos.setearParametro2("@Genero", usuario.Genero);
                 datos.setearParametro2("@Email", usuario.Email);
                 datos.setearParametro2("@Domicilio", usuario.Domicilio);
@@ -35,7 +35,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                                "@NombreUsuario,@Contrasena,0,0)");*/
 
                 datos.setearConsulta("SP_AGREGAR_USER @Apellidos,@Nombres," +
-                                "'2000-10-10',@Genero,@Email,@Domicilio" +
+                                "'2000-01-01',@Genero,@Email,@Domicilio" +
                                 ",@Ciudad,@NombreUsuario,@Contrasena");
                     
                 datos.ejecutarAccion();   
@@ -101,7 +101,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
         }
 
-        public List<Usuario> listarABM_User()
+        public List<Usuario> listarConSP()
         {
             List<Usuario> lista = new List<Usuario>();
             AccesoDatos datos = new AccesoDatos();
@@ -115,17 +115,17 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     Usuario aux = new Usuario();
 
                     aux.Apellido = (string)datos.Lector["Apellidos"];
-                    aux.Nombres = (string)datos.Lector["Nombres"];
-                    aux.Nacimiento = (DateTime)datos.Lector["Nacimiento"];
-                    aux.Genero = (char)datos.Lector["Genero"];
+                    aux.Nombres= (string)datos.Lector["Nombres"];
+                    //aux.Nacimiento = (DateTime)datos.Lector["Nacimiento"];
+                    //aux.Genero = (char)datos.Lector["Genero"];
                     aux.Email = (string)datos.Lector["Email"];
                     aux.NombreUsuario = (string)datos.Lector["NombreUsuario"];
                     aux.Domicilio = (string)datos.Lector["Domicilio"];
-                   // aux.Ciudad = (string)datos.Lector["c.Nombre"];
-                   // aux.Pais = (string)datos.Lector["p.Nombre"];
+                    aux.Ciudad= (string)datos.Lector["Nombre"];
+                    aux.Pais = (string)datos.Lector["Nombre"];
                     aux.EsAdministrador = (bool)datos.Lector["EsAdministrador"];
                     aux.EsVip = (bool)datos.Lector["EsVip"];
-                    aux.Estado = (bool)datos.Lector["Estadp"];
+                    aux.Estado = (bool)datos.Lector["Estado"];
 
 
                     lista.Add(aux);

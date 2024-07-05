@@ -30,8 +30,10 @@ namespace TPCuatrimestral_Grupo3.Modelo
         public string Domicilio { get; set; }
 
         public string Ciudad { get; set; }
+        public Ciudades Ciudades { get; set; }  
 
         public string Pais { get; set; }
+        public Pais Pais2 {  get; set; }    
 
         public string NombreUsuario { get; set; }
 

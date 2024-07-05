@@ -161,8 +161,22 @@
 
                             <div class="table-responsive">
 
-                                <asp:GridView ID="GdvUsuarios" runat="server"></asp:GridView>
+                                <asp:GridView ID="GdvUsuarios" CssClass="table-responsive" AutoGenerateColumns="false" runat="server"></asp:GridView>
+                                <columns>
 
+                                    <asp:boundfield headertext="Apellido" datafield="Apellidos" />
+                                    <asp:boundfield headertext="Nombre" datafield="Nombres"/>
+                                     <asp:boundfield headertext="Nacimiento" datafield="Nacimiento"/>
+                                     <asp:boundfield headertext="Genero" datafield="Genero"/>
+                                     <asp:boundfield headertext="Email" datafield="Email"/>
+                                     <asp:boundfield headertext="Domicilio" datafield="Domicilio"/>
+                                     <asp:boundfield headertext="Pais" datafield="Pais"/>
+                                     <asp:boundfield headertext="Ciudad" datafield="Ciudad"/>
+                                     <asp:boundfield headertext="Administrador" datafield="Administrador"/>
+                                     <asp:boundfield headertext="Vip" datafield="Vip"/>
+                                     <asp:boundfield headertext="Estado" datafield="Estado"/>
+
+                                </columns>
 
 
                             </div>

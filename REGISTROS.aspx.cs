@@ -68,10 +68,15 @@ namespace TPCuatrimestral_Grupo3
                 /*string textoFecha = TxtNacimiento.Text;
                 string formatoEntrada = "dd/MM/yyyy";
                 DateTime fechaConvertida = DateTime.ParseExact(textoFecha, formatoEntrada, CultureInfo.InvariantCulture);*/
+                
+               
+                string textoFecha = TxtNacimiento.Text;
+                string formatoEntrada = "dd/MM/yyyy";
+                DateTime fechaConvertida = DateTime.ParseExact(textoFecha, formatoEntrada, CultureInfo.InvariantCulture);
 
                 usuarioAux.Nombres = TxtNombre.Text;
                 usuarioAux.Apellido = TxtApellido.Text;
-                //usuarioAux.Nacimiento = fechaConvertida;
+                usuarioAux.Nacimiento = fechaConvertida;
                 
                 usuarioAux.Genero = char.Parse(DWLGenero.Text);
                 
@@ -80,8 +85,7 @@ namespace TPCuatrimestral_Grupo3
                 
                 usuarioAux.Ciudad = DWLCiudad.Text;
                 
-               //usuarioAux.Pais = DLPais.Text;
-                
+               
                 usuarioAux.NombreUsuario = TextUser.Text;
                 usuarioAux.Contrasena = TxtContrasena.Text;
 

@@ -47,5 +47,51 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.cerrarConexion();
             }
         }
+
+        public List<Pelicula> listarConSP2()
+        {
+            List<Pelicula> lista = new List<Pelicula>();
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                
+                datos.setearProcedimiento("ABMPeliS");
+                datos.ejecutarLectura();
+                while (datos.Lector.Read())
+                {
+                    Pelicula aux = new Pelicula();
+
+                    aux.Titulo = (string)datos.Lector["Titulo"];
+                    aux.PaisOrigen = (string)datos.Lector["PaisOrigen"];
+                    aux.FechaLanzamiento = (DateTime)datos.Lector["FechaLanzamiento"];
+                    aux.Descripcion = (string)datos.Lector["Descripcion"];
+                    aux.UrlImagenContenido = (string)datos.Lector["ImagenUrl"];
+                    aux.Duracion = (int)datos.Lector["Duracion"];
+                    aux.Plataforma = (string)datos.Lector["Plataforma"];
+                    aux.Categoria = (string)datos.Lector["Categoria"];
+                    aux.Fandom = (bool)datos.Lector["FANDOM"];
+
+                    lista.Add(aux);
+                }
+
+                return lista;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+
+
+
+
+
+
     }
 }
