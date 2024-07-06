@@ -106,7 +106,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                     aux.Apellido = (string)datos.Lector["Apellidos"];
                     aux.Nombres= (string)datos.Lector["Nombres"];
-                    //aux.Nacimiento = (DateTime)datos.Lector["Nacimiento"];
+                    //aux.Nacimiento = DateTime(datos.Lector["Nacimiento"].ToString());
                     //aux.Genero = (char)datos.Lector["Genero"];
                     aux.Email = (string)datos.Lector["Email"];
                     aux.NombreUsuario = (string)datos.Lector["NombreUsuario"];

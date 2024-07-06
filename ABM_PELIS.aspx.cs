@@ -15,7 +15,7 @@ namespace TPCuatrimestral_Grupo3
         {
 
             try
-            {               
+            {
 
                 if (!IsPostBack)
                 {
@@ -24,14 +24,25 @@ namespace TPCuatrimestral_Grupo3
                     gvPelis.DataBind();
                 }
 
+                if (!IsPostBack)
+                {
+                    PeliculaNegocio negocio = new PeliculaNegocio();
+                    List<Pelicula> lista=negocio.listarABMPelis();  
+                 
+                    Session["lista"] = lista;
+
+
+                }
+
+
             }
             catch (Exception ex)
             {
 
                 throw ex;
             }
-            
-            
+
+
 
 
 
@@ -39,16 +50,51 @@ namespace TPCuatrimestral_Grupo3
         }
 
 
-        protected void gvPelis_SelectedIndexChanged(object sender, EventArgs e)
+
+        protected void gvPelis_SelectedIndexChanged1(object sender, EventArgs e)
         {
+            int id =int.Parse(gvPelis.SelectedDataKey.Value.ToString());
+
+            if (id != 0) {
+               
+                        List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
+                        Pelicula detalle = temporal.Find(x=> x.ID == id);   
+                           
+
+                        
+                        ABMPelicula(detalle);
+
+                  
+
+
+            }
+
 
         }
 
-        protected void gvPelis_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+        private void ABMPelicula(Pelicula detalle)
+        { 
+        if (detalle != null)
+            {
+                TxtTitulo.Text = detalle.Titulo;
+                TxtPais.Text = detalle.PaisOrigen;
+                TxtLanzamiento.Text = detalle.FechaLanzamiento.ToString();
+                TxtDescripcion.Text = detalle.Descripcion;
+                TxtDuracion.Text = detalle.Duracion.ToString();
+                TxtPlataforma.Text = detalle.Plataforma;
+                TxtCategoria.Text = detalle.Categoria;
+                TxtImagen.Text = detalle.UrlImagenContenido;
+                                            
+
+
+            }
+
+        }
+
+        protected void TxtImagen_TextChanged(object sender, EventArgs e)
         {
-
+            string nuevaimagen= TxtImagen.Text;
+            URLImg.ImageUrl = nuevaimagen;  
         }
-
-     
     }
 }

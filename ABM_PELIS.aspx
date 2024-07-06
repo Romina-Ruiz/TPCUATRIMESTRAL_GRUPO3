@@ -55,7 +55,7 @@
                                     <asp:TextBox ID="TxtDescripcion" runat="server"></asp:TextBox>
                                 </div>
                                 <div class="col-auto">
-                                    <label for="inputDuracion" class="col-form-label">Duracion</label>
+                                    <label for="inputDuracion" class="col-form-label">Duracion (minutos)</label>
                                 </div>
                                 <div class="col-auto">
                                     <asp:TextBox ID="TxtDuracion" runat="server"></asp:TextBox>
@@ -90,9 +90,12 @@
                                     <label for="inputImagen" class="col-form-label">URLImagen</label>
                                 </div>
                                 <div class="col-auto">
-                                    <asp:TextBox ID="TxtImagen" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="TxtImagen" AutoPostBack="true" OnTextChanged="TxtImagen_TextChanged" runat="server"></asp:TextBox>
+
+                                    <br>
+                                    <br>
                                 </div>
-                                <asp:Image ID="Imagen" runat="server" />
+                                <asp:Image ID="URLImg" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="40%" runat="server" />
 
 
                             </div>
@@ -120,21 +123,35 @@
                     </div>
                 </div>
 
-                <!--GRILLA FILTROS -->
+                <!--FILTROS -->
 
                 <div class="row pt-5">
-                    <div>
+                    
 
                         <div class="Filtros">
-                            <asp:Label ID="Label1" runat="server" Text="Filtrar" Height="50px" Font-Size="XX-Large"></asp:Label>
+
+                            <asp:Label ID="FiltroFandom" Font-Size="X-Large" runat="server" Text="Fandom"></asp:Label>
+
+                            <asp:CheckBox ID="CheckBox1" CssClass="$form-check-min-height:" runat="server" />
+
+                            <div class="row">
+
+                                <asp:Label ID="Label1" runat="server" Text="Seleccionar un filtro"></asp:Label>
+
+                                <div class="col">
+                                    <asp:DropDownList ID="DlOpciones" Height="40px" Width="300" runat="server"></asp:DropDownList>
+                                </div>
+                                <div class="col">
+                                    <asp:DropDownList ID="Dlopciones2" Height="40px" Width="300" runat="server"></asp:DropDownList>
+                                </div>
+
+                                <div class="col">
+                                    <asp:DropDownList ID="Dlopciones3" Height="40px" Width="300" runat="server"></asp:DropDownList>
+                                </div>
+                            </div>
+
                         </div>
-
-                    </div>
-
-
-
-
-                </div>
+                  </div>
 
 
                 <!--GRILLA LISTA -->
@@ -145,35 +162,27 @@
 
 
                         <asp:GridView ID="gvPelis" Width="100%" CssClass="table table-bordered table-hover" AutoGenerateColumns="false"
-                            AutoGenerateSelectButton="true" OnSelectedIndexChanging="gvPelis_SelectedIndexChanging"
+                            DataKeyNames="ID" OnSelectedIndexChanged="gvPelis_SelectedIndexChanged1"
                             runat="server" CellSpacing="5">
 
                             <AlternatingRowStyle BackColor="White" />
                             <HeaderStyle BackColor="Yellow" Font-Bold="true" Font-Size="Medium" />
-
                             <RowStyle BackColor="#f5f5f5" />
-                            <SelectedRowStyle BackColor="#669999" Font-Bold="true" ForeColor="#990000" />
+
 
                             <Columns>
-
+                                <asp:BoundField HeaderText="ID" DataField="ID" />
                                 <asp:BoundField HeaderText="Titulo" DataField="Titulo" />
                                 <asp:BoundField HeaderText="Pais de Origen" DataField="PaisOrigen" />
                                 <asp:BoundField HeaderText="Fecha de lanzamiento" DataField="FechaLanzamiento" />
                                 <asp:BoundField HeaderText="Duracion" DataField="Duracion" />
                                 <asp:BoundField HeaderText="Plataforma" DataField="Plataforma" />
                                 <asp:BoundField HeaderText="Es Fandom" DataField="fandom" />
+                                <asp:CommandField ShowSelectButton="true" SelectText="Seleccionar" HeaderText="Accion" />
 
                             </Columns>
 
-
-
-
                         </asp:GridView>
-
-
-
-
-
 
 
 

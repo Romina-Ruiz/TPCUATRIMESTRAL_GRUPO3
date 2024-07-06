@@ -55,12 +55,13 @@ namespace TPCuatrimestral_Grupo3.Negocio
             try
             {
                 
-                datos.setearProcedimiento("ABMPeliS");
+                datos.setearProcedimiento("ABMPeliS2");
                 datos.ejecutarLectura();
                 while (datos.Lector.Read())
                 {
                     Pelicula aux = new Pelicula();
 
+                    aux.ID = (long)datos.Lector["ID"];
                     aux.Titulo = (string)datos.Lector["Titulo"];
                     aux.PaisOrigen = (string)datos.Lector["PaisOrigen"];
                     aux.FechaLanzamiento = DateTime.Parse(datos.Lector["FechaLanzamiento"].ToString());
