@@ -37,34 +37,35 @@
                     </div>
 
                     <div class="col-md-4">
+                        <asp:UpdatePanel ID="UpdatePanel3" runat="server">
+                            <ContentTemplate>
+
+
+                                <label for="nacimiento" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Fecha de Nacimiento</label>
+                                
+                                <div class="datepicker position-relative pt-4" id="datapicker">
+                                   
+                                    <asp:TextBox ID="TxtNacimiento" placeholder="Nacimiento" runat="server"></asp:TextBox>
+
+                                    <span class="input-group append">
+                                        <span class="input-group text bg-white"></span>
+                                    </span>
+                                </div>
+                                <script>
+                                    $(function () {
+                                        $("#<%= TxtNacimiento.ClientID %>").datepicker();
+                                             });
+                                </script>
+
+
+
+
+
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+
+
                     </div>
-
-                    <asp:UpdatePanel ID="UpdatePanel3" runat="server">
-                        <ContentTemplate>
-                            <label for="nacimiento" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Fecha de Nacimiento</label>
-
-
-                            <!--   <label class="col" style="color: #FFFFCC; font-size: 22px;">Fecha</label>
-                           <br>
-                            <label style="font-size: 12.8px">(Si sabes su fecha de estreno por favor seleccionalo)</label>
-                            -->
-                            <div class="datepicker position-relative pt-4" id="datapicker">
-                                <asp:TextBox ID="TxtNacimiento" placeholder="Nacimiento" runat="server"></asp:TextBox>
-
-                                <span class="input-group append">
-                                    <span class="input-group text bg-white"></span>
-                                </span>
-                            </div>
-                            <script>
-                                $(function () {
-                                    $("#<%= TxtNacimiento.ClientID %>").datepicker();
-                                });
-                            </script>
-
-
-                        </ContentTemplate>
-                    </asp:UpdatePanel>
-
                 </div>
 
 
@@ -122,8 +123,8 @@
                 <div class="col-12">
                     <!-- BOTON REGISTRAR DISPARA EL MODAl -->
 
-                    <button type="button" id="btnregistro" class="btn btn-primary"   data-bs-toggle="modal" data-bs-target="#ModalAceptar" style="font-weight: bolder; font-size: 20px">
-                      Registrarme
+                    <button type="button" id="btnregistro" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalAceptar" style="font-weight: bolder; font-size: 20px">
+                        Registrarme
                     </button>
 
                     <!-- Modal -->
@@ -131,16 +132,16 @@
                         <div class="modal-dialog" style="font-weight: bolder; background-color: #C0C0C0; font-style: normal; color: #000000">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body text-center" >
+                                <div class="modal-body text-center">
                                     <p style="color: #FF0000; font-weight: bolder; font-size: 23px;">¿Estas seguro?</p>
-                                                                     
+
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" Width="100" data-bs-dismiss="modal" style="font-weight: bolder">Cerrar</button>
+                                    <button type="button" class="btn btn-secondary" width="100" data-bs-dismiss="modal" style="font-weight: bolder">Cerrar</button>
                                     <asp:Button ID="BtnAgregar" class="btn btn-primary" Height="40px" Width="100" Font-Bold="True" OnClick="BtnAgregar_Click" runat="server" Text="Aceptar" />
-                                    
+
                                 </div>
                             </div>
                         </div>
