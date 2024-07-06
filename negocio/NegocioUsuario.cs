@@ -145,7 +145,47 @@ namespace TPCuatrimestral_Grupo3.Negocio
         }
 
 
+        public List<Usuario> MostrarUsuario(long id)
+        {
+            List<Usuario> lista = new List<Usuario>();
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
 
+                datos.setearProcedimiento("MDatos");
+                datos.ejecutarLectura();
+                while (datos.Lector.Read())
+                {
+                    Usuario aux = new Usuario();
+                    aux.Id = (long)datos.Lector["Id"];
+                    aux.Nombres = (string)datos.Lector["Nombre"];
+                    aux.Apellido = (string)datos.Lector["Apellido"];
+                    aux.Nacimiento = (DateTime)datos.Lector["FechaNacimiento"];
+                    aux.Genero = (char)datos.Lector["Genero"];
+                    aux.Email = (string)datos.Lector["Email"];
+                    aux.Domicilio = (string)datos.Lector["Domicilio"];
+                    aux.Ciudad = (string)datos.Lector["Ciudad"];
+                    aux.NombreUsuario = (string)datos.Lector["NombreUsuario"];
+                    aux.Contrasena = (string)datos.Lector["Contrasena"];
+                    if (aux.Id == id)
+                    {
+                        lista.Add(aux);
+
+                    }
+                }
+
+                return lista;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
 
 
 
