@@ -20,7 +20,7 @@ namespace TPCuatrimestral_Grupo3
                 if (!IsPostBack)
                 {
                     PeliculaNegocio negocio = new PeliculaNegocio();
-                    gvPelis.DataSource = negocio.listarConSP2();
+                    gvPelis.DataSource = negocio.listarABMPelis();
                     gvPelis.DataBind();
                 }
 
@@ -38,14 +38,17 @@ namespace TPCuatrimestral_Grupo3
 
         }
 
-        protected void gvPelis_RowDataBound(object sender, GridViewRowEventArgs e)
-        {
-
-        }
 
         protected void gvPelis_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+
+        protected void gvPelis_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+        {
+
+        }
+
+     
     }
 }

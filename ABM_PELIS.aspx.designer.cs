@@ -123,13 +123,22 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Button Btn_Modificar;
 
         /// <summary>
-        /// Control Btn_Guardar.
+        /// Control Btn_clean.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_Guardar;
+        protected global::System.Web.UI.WebControls.Button Btn_clean;
+
+        /// <summary>
+        /// Control Btn_Eliminar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Btn_Eliminar;
 
         /// <summary>
         /// Control Label1.

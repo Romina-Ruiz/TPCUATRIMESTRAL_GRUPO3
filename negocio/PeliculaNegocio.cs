@@ -48,7 +48,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
             }
         }
 
-        public List<Pelicula> listarConSP2()
+        public List<Pelicula> listarABMPelis()
         {
             List<Pelicula> lista = new List<Pelicula>();
             AccesoDatos datos = new AccesoDatos();
@@ -63,7 +63,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                     aux.Titulo = (string)datos.Lector["Titulo"];
                     aux.PaisOrigen = (string)datos.Lector["PaisOrigen"];
-                    aux.FechaLanzamiento = (DateTime)datos.Lector["FechaLanzamiento"];
+                    aux.FechaLanzamiento = DateTime.Parse(datos.Lector["FechaLanzamiento"].ToString());
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     aux.UrlImagenContenido = (string)datos.Lector["ImagenUrl"];
                     aux.Duracion = (int)datos.Lector["Duracion"];

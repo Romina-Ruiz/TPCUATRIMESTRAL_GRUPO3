@@ -111,9 +111,9 @@
                     <div class="col-md-10 col-md- offset-1 ">
                         <div class="form-group">
 
-                            <asp:Button ID="Btn_Modificar" CssClass="btn btn-danger btn-lg" Width="220px" runat="server" Text="Modificar" />
-                            <asp:Button ID="Btn_Guardar" CssClass="btn btn-info btn-lg" Width="220px" runat="server" Text="Guardar" />
-
+                            <asp:Button ID="Btn_Modificar" class="m-2" CssClass="btn btn-warning btn-lg" Width="220px" runat="server" Text="Modificar" />
+                            <asp:Button ID="Btn_clean" class="m-2" CssClass="btn btn-info btn-lg" Width="220px" runat="server" Text="Limpiar" />
+                            <asp:Button ID="Btn_Eliminar" class="m-2" CssClass="btn btn-danger btn-lg" Width="220px" runat="server" Text="Eliminar" />
 
                         </div>
 
@@ -125,7 +125,7 @@
                 <div class="row pt-5">
                     <div>
 
-                        <div class="Fondo">
+                        <div class="Filtros">
                             <asp:Label ID="Label1" runat="server" Text="Filtrar" Height="50px" Font-Size="XX-Large"></asp:Label>
                         </div>
 
@@ -139,21 +139,43 @@
 
                 <!--GRILLA LISTA -->
 
-                <div class="row">
+                <div class="row pt-5">
 
                     <div class="col-12 ">
 
-                      
-              <asp:GridView ID="gvPelis"  Width="100%" CssClass="table table-bordered table-hover"
-                                   
-            runat="server" CellSpacing="5" BorderColor="Gray" BackColor="Gray" BorderWidth="8" Font-Bold="True" HeaderStyle-BackColor="#0099CC"> </asp:GridView>
-                                                           
 
-                       
-                                                       
+                        <asp:GridView ID="gvPelis" Width="100%" CssClass="table table-bordered table-hover" AutoGenerateColumns="false"
+                            AutoGenerateSelectButton="true" OnSelectedIndexChanging="gvPelis_SelectedIndexChanging"
+                            runat="server" CellSpacing="5">
+
+                            <AlternatingRowStyle BackColor="White" />
+                            <HeaderStyle BackColor="Yellow" Font-Bold="true" Font-Size="Medium" />
+
+                            <RowStyle BackColor="#f5f5f5" />
+                            <SelectedRowStyle BackColor="#669999" Font-Bold="true" ForeColor="#990000" />
+
+                            <Columns>
+
+                                <asp:BoundField HeaderText="Titulo" DataField="Titulo" />
+                                <asp:BoundField HeaderText="Pais de Origen" DataField="PaisOrigen" />
+                                <asp:BoundField HeaderText="Fecha de lanzamiento" DataField="FechaLanzamiento" />
+                                <asp:BoundField HeaderText="Duracion" DataField="Duracion" />
+                                <asp:BoundField HeaderText="Plataforma" DataField="Plataforma" />
+                                <asp:BoundField HeaderText="Es Fandom" DataField="fandom" />
+
+                            </Columns>
 
 
-                        
+
+
+                        </asp:GridView>
+
+
+
+
+
+
+
 
 
                     </div>

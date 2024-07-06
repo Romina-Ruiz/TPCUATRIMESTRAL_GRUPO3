@@ -80,7 +80,7 @@
                         <script>
                             $(function () {
                                 $("#<%= TxtFechaSerie.ClientID %>").datepicker();
-                         });
+                            });
                         </script>
 
                     </ContentTemplate>
@@ -285,8 +285,44 @@
 
     <!--BOTON ACEPTAR-->
     <div class="row p-4">
+
+        <div class="row">
+            <div class="position-absolute start-50">
+                <button type="button" id="btnregistro" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#ModalAceptar" style="font-weight: bolder; font-size: 23px">
+                    Aceptar
+                </button>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="ModalAceptar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" style="font-weight: bolder; background-color: #C0C0C0; font-style: normal; color: #000000">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <p style="color: #FF0000; font-weight: bolder; font-size: 23px;">¿Estas seguro?</p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" width="100" data-bs-dismiss="modal" style="font-weight: bolder">Cerrar</button>
+                        <asp:Button ID="BtnCargarSERIE" CssClass="btn btn-danger" runat="server" Text="Cargar" Height="40px" Width="100" Font-Bold="True" OnClick="BtnCargarSERIE_Click" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
         <div class="col-md-6 offset-md-3">
-            <asp:Button ID="BtnCargarSERIE" CssClass="btn btn-danger btn-lg p-2 m-2" runat="server" Text="Cargar" Font-Size="X-Large" Height="50px" Width="200" OnClick="BtnCargarSERIE_Click" />
+            
+
+
+
 
         </div>
 
@@ -302,12 +338,12 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function () {           
+        document.addEventListener('DOMContentLoaded', function () {
             var checkboxes = document.querySelectorAll('input[type="checkbox"]');
-           
+
             var alMenosUnoMarcado = Array.prototype.slice.call(checkboxes).some(function (checkbox) {
                 return checkbox.checked;
-            });           
+            });
             if (!alMenosUnoMarcado) {
                 checkboxes[0].checked = true;
             }
