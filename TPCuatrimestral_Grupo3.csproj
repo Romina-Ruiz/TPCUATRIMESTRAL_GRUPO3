@@ -211,6 +211,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="BD_Tablas\TPC_Que_Veo.sql" />
+    <Content Include="ABM_PELIS.aspx" />
     <Content Include="ABM_USUARIOS.aspx" />
     <Content Include="CHECK_CONTENIDO.aspx" />
     <Content Include="DETALLE_PELI.aspx" />
@@ -218,7 +219,7 @@
     <Content Include="Favoritos.aspx" />
     <Content Include="Mensajes.aspx" />
     <Content Include="MisDatos.aspx" />
-    <Content Include="MODIFICAR_CONTENIDO.aspx" />
+    <Content Include="ABM_SERIES.aspx" />
     <Content Include="NOVEDADES.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -435,6 +436,13 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABM_PELIS.aspx.cs">
+      <DependentUpon>ABM_PELIS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABM_PELIS.aspx.designer.cs">
+      <DependentUpon>ABM_PELIS.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ABM_USUARIOS.aspx.cs">
       <DependentUpon>ABM_USUARIOS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -494,12 +502,12 @@
     <Compile Include="Modelo\Plataforma.cs" />
     <Compile Include="Modelo\PlataformaXPelicula.cs" />
     <Compile Include="Modelo\Serie.cs" />
-    <Compile Include="MODIFICAR_CONTENIDO.aspx.cs">
-      <DependentUpon>MODIFICAR_CONTENIDO.aspx</DependentUpon>
+    <Compile Include="ABM_SERIES.aspx.cs">
+      <DependentUpon>ABM_SERIES.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MODIFICAR_CONTENIDO.aspx.designer.cs">
-      <DependentUpon>MODIFICAR_CONTENIDO.aspx</DependentUpon>
+    <Compile Include="ABM_SERIES.aspx.designer.cs">
+      <DependentUpon>ABM_SERIES.aspx</DependentUpon>
     </Compile>
     <Compile Include="Negocio\CiudadesNegocio.cs" />
     <Compile Include="Negocio\DetallePeliNegocio.cs" />

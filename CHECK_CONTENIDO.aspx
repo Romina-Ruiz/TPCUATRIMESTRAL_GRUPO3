@@ -13,8 +13,8 @@
 
         <div class="col-4 ">
             <nav class="nav flex-column">
-                <a class="nav-link active fs-5 text-white" aria-current="page" href="CHECK_CONTENIDO.aspx">Nuevos contenidos</a>
-                <a class="nav-link fs-5 text-white" href="MODIFICAR_CONTENIDO.aspx">Modificar contenido</a>
+                <a class="nav-link active fs-5 text-white" aria-current="page" href="ABM_PELIS.aspx">ABM_PELIS</a>
+                <a class="nav-link fs-5 text-white" href="ABM_SERIES.aspx">ABM SERIES</a>
 
 
             </nav>

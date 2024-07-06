@@ -18,8 +18,8 @@ namespace TPCuatrimestral_Grupo3
             {
                 NegocioUsuario Negocio = new NegocioUsuario();
 
-                //GdvUsuarios.DataSource = Negocio.listarABM_User();
-                //GdvUsuarios.DataBind(); 
+                GdvUsuarios.DataSource = Negocio.listarConSP();
+                GdvUsuarios.DataBind(); 
 
 
             }
