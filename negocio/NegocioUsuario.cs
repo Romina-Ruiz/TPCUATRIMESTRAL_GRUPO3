@@ -61,7 +61,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                 while (datos.Lector.Read())
                 {
-                    usuario.Id = (int)datos.Lector["Id"];
+                    usuario.Id = (long)datos.Lector["Id"];
 
                     usuario.EsAdministrador = (bool)(datos.Lector["EsAdministrador"]) == true ? true : false;
 

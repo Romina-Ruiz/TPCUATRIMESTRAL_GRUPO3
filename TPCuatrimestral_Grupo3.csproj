@@ -516,6 +516,7 @@
     <Compile Include="Negocio\PeliculaNegocio.cs" />
     <Compile Include="Negocio\PlataformaNegocio.cs" />
     <Compile Include="Negocio\PlataformaXPeliculaNegocio.cs" />
+    <Compile Include="Negocio\Seguridad.cs" />
     <Compile Include="Negocio\SerieNegocio.cs" />
     <Compile Include="NOVEDADES.aspx.cs">
       <DependentUpon>NOVEDADES.aspx</DependentUpon>

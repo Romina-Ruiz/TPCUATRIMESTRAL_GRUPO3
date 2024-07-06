@@ -10,12 +10,12 @@ namespace TPCuatrimestral_Grupo3
     public partial class MICUENTA : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {/*
-            if (Session["Usuario"] == null && Session["Admin"] == null)
+        {
+           if (Session["Usuario"] == null && Session["Admin"] == null)
             {
                 Session.Add("error", "Debes loguearte para ingresar.");
                 Response.Redirect("ERROR.aspx", false);
-            }*/
+            }
         }
 
         protected void BtnVolver_Click(object sender, EventArgs e)

@@ -19,7 +19,7 @@ namespace TPCuatrimestral_Grupo3
 
         protected void BtnLogin_Click(object sender, EventArgs e)
         {
-            /*
+            
         try
         {
             Usuario usuario = new Usuario();
@@ -51,7 +51,7 @@ namespace TPCuatrimestral_Grupo3
         {
 
             Session.Add("error", ex.ToString());
-        }*/
+        }
 
         }
 
