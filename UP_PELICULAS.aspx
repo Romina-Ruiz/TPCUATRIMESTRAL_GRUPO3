@@ -85,18 +85,20 @@
                         <br>
                         <label style="font-size: 12.8px">(Si sabes su fecha de estreno por favor seleccionalo)</label>
 
-                        <div class="datepicker position-relative border-01 p-4" id="datapicker">
-                            <asp:TextBox ID="txtFecha" CssClass="form-control" runat="server"></asp:TextBox>
+                        <div class="border-01 p-4" id="datapicker">
+                            <asp:TextBox ID="txtFecha" CssClass="form-control" TextMode="Date" runat="server"></asp:TextBox>
+                           
+                            <asp:RequiredFieldValidator ID="Validacion" runat="server"
+                                ControlToValidate="txtFecha"
+                                Display="Dynamic"
+                                ErrorMessage="La fecha es obligatoria"
+                                CssClass="text-danger">
+                            </asp:RequiredFieldValidator>
 
                             <span class="input-group append">
                                 <span class="input-group text bg-white"></span>
                             </span>
-                        </div>
-                        <script>
-                            $(function () {
-                                $("#<%= txtFecha.ClientID %>").datepicker();
-                            });
-                        </script>
+                        </div>                       
 
                     </ContentTemplate>
                 </asp:UpdatePanel>
@@ -253,12 +255,12 @@
 
         <!--BOTON ACEPTAR-->
         <div class="row">
-        <div class="position-absolute start-50">
-        <button type="button" id="btnregistro" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#ModalAceptar" style="font-weight: bolder; font-size: 23px">
-            Aceptar
-        </button>
-        </div>
+            <div class="position-absolute start-50">
+                <button type="button" id="btnregistro" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#ModalAceptar" style="font-weight: bolder; font-size: 23px">
+                    Aceptar
+                </button>
             </div>
+        </div>
         <!-- Modal -->
         <div class="modal fade" id="ModalAceptar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" style="font-weight: bolder; background-color: #C0C0C0; font-style: normal; color: #000000">
@@ -272,14 +274,14 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" width="100" data-bs-dismiss="modal" style="font-weight: bolder">Cerrar</button>
-                        <asp:Button ID="BtnCargarPeli" class="btn btn-danger" Height="40px" Width="100" Font-Bold="True" OnClick="BtnCargarPeli_Click" runat="server" Text="Cargar"/>
+                        <asp:Button ID="BtnCargarPeli" class="btn btn-danger" Height="40px" Width="100" Font-Bold="True" OnClick="BtnCargarPeli_Click" runat="server" Text="Cargar" />
                     </div>
                 </div>
             </div>
         </div>
 
 
-             
+
 
         <!--BOTON VOLVER-->
 
@@ -303,6 +305,6 @@
             }
         });
     </script>
-    
+
 
 </asp:Content>

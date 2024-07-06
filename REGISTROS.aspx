@@ -28,44 +28,38 @@
                 <div>
                     <div class="col-md-4">
                         <label for="Nombre" class="form-label" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Nombre</label>
-                        <asp:TextBox ID="TxtNombre" type="text" placeholder="Nombre" class="form-control" runat="server" Width="500"></asp:TextBox>
+                        <asp:TextBox ID="TxtNombre" type="text" placeholder="Nombre" CssClass="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
 
                     <div class="col-md-4">
                         <label for="Apellido" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Apellido</label>
-                        <asp:TextBox ID="TxtApellido" type="text" placeholder="Apellido" class="form-control" runat="server" Width="500"></asp:TextBox>
+                        <asp:TextBox ID="TxtApellido" type="text" placeholder="Apellido" CssClass="form-control" runat="server" Width="500"></asp:TextBox>
                     </div>
 
-                    <div class="col-md-4">
+                    
                         <asp:UpdatePanel ID="UpdatePanel3" runat="server">
                             <ContentTemplate>
 
-
+                        <div class="col-md-4">
                                 <label for="nacimiento" class="form-label pt-4" style="font-weight: bolder; font-size: 20px; font-family: 'Arial Black'">Fecha de Nacimiento</label>
-                                
-                                <div class="datepicker position-relative pt-4" id="datapicker">
-                                   
-                                    <asp:TextBox ID="TxtNacimiento" placeholder="Nacimiento" runat="server"></asp:TextBox>
 
-                                    <span class="input-group append">
-                                        <span class="input-group text bg-white"></span>
-                                    </span>
-                                </div>
-                                <script>
-                                    $(function () {
-                                        $("#<%= TxtNacimiento.ClientID %>").datepicker();
-                                             });
-                                </script>
+                                <asp:TextBox ID="TxtNacimiento" CssClass="form-control" TextMode="Date" placeholder="Nacimiento" runat="server"></asp:TextBox>
 
 
-
-
+                                <asp:RequiredFieldValidator ID="Validacion3" runat="server"
+                                    ControlToValidate="TxtNacimiento"
+                                    Display="Dynamic"
+                                    ErrorMessage="La fecha es obligatoria"
+                                    CssClass="text-danger">
+                                </asp:RequiredFieldValidator>
+                             
+                            </div>
 
                             </ContentTemplate>
                         </asp:UpdatePanel>
 
 
-                    </div>
+                   
                 </div>
 
 
@@ -169,14 +163,12 @@
 
 
 
-        <!--BOTON VOLVER-->
+        <!--BOTON VOLVER-->        
 
         <div class="d-flex flex-row-reverse">
             <div class="m-3">
-                <asp:Button ID="volver" class="btn btn-success m-2" OnClick="volver_Click" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
-
+                <a href="HOME.aspx" class="btn btn-success m-2" style="font-weight: bolder; font-size: 15px">VOLVER</a>
             </div>
-
         </div>
 
     </div>

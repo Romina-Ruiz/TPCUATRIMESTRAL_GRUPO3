@@ -111,15 +111,9 @@ namespace TPCuatrimestral_Grupo3
             }
             int duracion = hora + minuto;
 
-            AuxPeli.Duracion = duracion;
+            AuxPeli.Duracion = duracion;         
 
-
-            string textoFecha = txtFecha.Text;
-            string formatoEntrada = "dd/MM/yyyy";
-            DateTime fechaConvertida = DateTime.ParseExact(textoFecha, formatoEntrada, CultureInfo.InvariantCulture);
-            AuxPeli.FechaLanzamiento = fechaConvertida;
-
-
+            AuxPeli.FechaLanzamiento = DateTime.Parse(txtFecha.Text);
             AuxPeli.IdPlataforma = DWLplataformas.Text;
             AuxPeli.PaisOrigen = DWLPais.Text;
             AuxPeli.UrlImagenContenido = URLImagen.Text;

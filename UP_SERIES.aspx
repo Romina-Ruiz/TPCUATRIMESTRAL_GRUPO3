@@ -70,18 +70,21 @@
                         <label class="col" style="color: #FFFFCC; font-size: 22px;">Fecha</label>
                         <br>
                         <label style="font-size: 12.8px">(Si sabes su fecha de estreno por favor seleccionalo)</label>
-                        <div class="datepicker position-relative border-01 p-4" id="datapicker">
-                            <asp:TextBox ID="TxtFechaSerie" CssClass="form-control" runat="server"></asp:TextBox>
+                        <div class="position-relative border-01 p-4" id="datapicker">
+                            <asp:TextBox ID="TxtFechaSerie" CssClass="form-control" TextMode="Date" runat="server"></asp:TextBox>
+
+                            <asp:RequiredFieldValidator ID="Validacion2" runat="server"
+                                ControlToValidate="txtFechaSerie"
+                                Display="Dynamic"
+                                ErrorMessage="La fecha es obligatoria"
+                                CssClass="text-danger">
+                            </asp:RequiredFieldValidator>
 
                             <span class="input-group append">
                                 <span class="input-group text bg-white"></span>
                             </span>
                         </div>
-                        <script>
-                            $(function () {
-                                $("#<%= TxtFechaSerie.ClientID %>").datepicker();
-                            });
-                        </script>
+
 
                     </ContentTemplate>
                 </asp:UpdatePanel>
@@ -319,11 +322,6 @@
 
 
         <div class="col-md-6 offset-md-3">
-            
-
-
-
-
         </div>
 
 

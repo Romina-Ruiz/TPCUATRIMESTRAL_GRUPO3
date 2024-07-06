@@ -55,14 +55,8 @@ namespace TPCuatrimestral_Grupo3
             Aux.EpisodiosTotales = int.Parse(DWLCapitulos2.Text);
 
             Aux.UrlImagenContenido = URLImagenSerie.Text;
-
-            string textoFecha = TxtFechaSerie.Text;
-            string formatoEntrada = "dd/MM/yyyy";
-            DateTime fechaConvertida = DateTime.ParseExact(textoFecha, formatoEntrada, CultureInfo.InvariantCulture);
-
-            Aux.FechaLanzamiento = fechaConvertida;
-
-
+           
+            Aux.FechaLanzamiento = DateTime.Parse(TxtFechaSerie.Text);
             AuxSeNe.CargaSerie(Aux);
 
             Contenido AuxCont = new Contenido();

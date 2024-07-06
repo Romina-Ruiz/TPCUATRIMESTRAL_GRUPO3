@@ -64,22 +64,12 @@ namespace TPCuatrimestral_Grupo3
             {
                 NegocioUsuario usuarioNegocio = new NegocioUsuario();
                 Usuario usuarioAux = new Usuario();
-
-                /*string textoFecha = TxtNacimiento.Text;
-                string formatoEntrada = "dd/MM/yyyy";
-                DateTime fechaConvertida = DateTime.ParseExact(textoFecha, formatoEntrada, CultureInfo.InvariantCulture);*/
                 
-               
-               string textoFecha = TxtNacimiento.Text;
-                string formatoEntrada = "dd/MM/yyyy";
-                DateTime fechaConvertida = DateTime.ParseExact(textoFecha, formatoEntrada, CultureInfo.InvariantCulture);
-
+                usuarioAux.Nacimiento = DateTime.Parse(TxtNacimiento.Text);
                 usuarioAux.Nombres = TxtNombre.Text;
-                usuarioAux.Apellido = TxtApellido.Text;
-                usuarioAux.Nacimiento = fechaConvertida; 
+                usuarioAux.Apellido = TxtApellido.Text;               
                 
-                usuarioAux.Genero = char.Parse(DWLGenero.Text);
-                
+                usuarioAux.Genero = char.Parse(DWLGenero.Text);                
                 usuarioAux.Email = TxtEmail.Text;
                 usuarioAux.Domicilio = TxtDireccion.Text;
                 usuarioAux.Ciudad = DWLCiudad.Text;
@@ -102,7 +92,7 @@ namespace TPCuatrimestral_Grupo3
 
         protected void volver_Click(object sender, EventArgs e)
         {
-            Response.Redirect("HOME.aspx");
+           
         }
     }
 

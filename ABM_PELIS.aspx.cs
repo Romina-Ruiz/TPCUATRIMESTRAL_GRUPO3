@@ -25,10 +25,10 @@ namespace TPCuatrimestral_Grupo3
                 }
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
             
             
