@@ -22,15 +22,26 @@
             <div class="col-3 bg-secondary text-white pt-2">
                 <div class="mb-3">
                 <%--<h5>Poner los filros aca  </h5>--%>
+                    
+
+      
                 <asp:Label Text="Filtrar" runat="server" />
                 <asp:TextBox runat="server"  ID="txtFiltro" AutoPosback="true" CssClass="form-control" OnTextChanged="filtro_TextChanged"/>
-
+                    <asp:Button Text="Buscar" CssClass="form-control" runat="server" ID="btnBuscar" OnClick="btnBuscar_Click" />
             </div>
             </div>
-                <br>
 
             <!--COLUMNA CARD RECOMENDACIONES -->
+
+
+            
+
+    
+                <br>
             <div class="col-5">
+                <asp:ScriptManager runat="server" />
+                                            <asp:UpdatePanel runat="server">
+<ContentTemplate>
                 <asp:Repeater runat="server" ID="repRepetidor">
                     <ItemTemplate>
 
@@ -75,8 +86,9 @@
 
                     </ItemTemplate>
                 </asp:Repeater>
+                        </ContentTemplate>
+</asp:UpdatePanel>
             </div>
-
             <!--COLUMNA 3-->
             <div class="col-3">
 

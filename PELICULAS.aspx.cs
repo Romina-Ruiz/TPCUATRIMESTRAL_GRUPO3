@@ -47,5 +47,10 @@ namespace TPCuatrimestral_Grupo3
             repRepetidor.DataSource =listaFiltrada;
             repRepetidor.DataBind();
         }
+
+        protected void btnBuscar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
