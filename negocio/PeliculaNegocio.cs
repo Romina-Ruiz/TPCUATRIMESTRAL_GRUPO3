@@ -95,7 +95,8 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
             try
             {
-                datos.setearProcedimiento("");
+                datos.setearProcedimiento("MODIFICAR_PELI");
+                datos.setearParametro2("@ID",peli.ID);
                 datos.setearParametro2("@Titulo", peli.Titulo);
                 datos.setearParametro2("@IdOrigen", peli.PaisOrigen);
                 datos.setearParametro2("@FechaLanzamiento", peli.FechaLanzamiento);
@@ -106,13 +107,11 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.setearParametro2("@fandom", peli.Fandom);
                 datos.setearParametro2("@Estado", peli.Estado);
 
-                datos.setearConsulta("SP_AGREGAR_USER @Apellidos,@Nombres," +
-                                "@Nacimiento,@Genero,@Email,@Domicilio" +
-                                ",@Ciudad,@NombreUsuario,@Contrasena");
+               /* datos.setearConsulta("MODIFICAR_PELI @ID,@Titulo,@IdOrigen," +
+                                "@Categoria,@FechaLanzamiento,@Descripcion,@Duracion," +
+                                "@Plataforma,@URLImagen,@fandom,@Estado");*/
 
                 datos.ejecutarAccion();
-
-
             }
             catch (Exception ex)
             {
@@ -120,13 +119,49 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 throw ex;
             }
 
+        }
 
+        public void ModificarEstado(Pelicula peli)
+        {
 
+            AccesoDatos datos = new AccesoDatos();
 
+            try
+            {
+                datos.setearProcedimiento("SP_BAJA_PELI");
+                datos.setearParametro2("@ID", peli.ID);
+               
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
 
         }
 
+        public void ActivarPeli(Pelicula peli)
+        {
 
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearProcedimiento("SP_ACTIVAR_PELI");
+                datos.setearParametro2("@ID", peli.ID);
+
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
 
 
 

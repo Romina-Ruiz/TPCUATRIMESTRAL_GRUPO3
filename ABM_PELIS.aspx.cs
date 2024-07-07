@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using TPCuatrimestral_Grupo3.Modelo;
 using TPCuatrimestral_Grupo3.Negocio;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace TPCuatrimestral_Grupo3
 {
@@ -45,19 +46,12 @@ namespace TPCuatrimestral_Grupo3
 
 
 
-
-
-
             }
             catch (Exception ex)
             {
 
                 throw ex;
             }
-
-
-
-
 
 
         }
@@ -74,11 +68,7 @@ namespace TPCuatrimestral_Grupo3
                 List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
                 Pelicula detalle = temporal.Find(x => x.ID == id);
 
-
-
                 ABMPelicula(detalle);
-
-
 
 
             }
@@ -115,9 +105,72 @@ namespace TPCuatrimestral_Grupo3
 
         protected void Btn_Eliminar_Click(object sender, EventArgs e)
         {
+            int id = int.Parse(gvPelis.SelectedDataKey.Value.ToString());
+           
+                List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
+                Pelicula peli = temporal.Find(x => x.ID == id);
+
+                PeliculaNegocio negocio= new PeliculaNegocio();
+                
+                negocio.ModificarEstado(peli);
+
+                      
+            TxtTitulo.Text = " ";
+            TxtLanzamiento.Text = " ";
+            TxtDescripcion.Text = " ";
+            TxtDuracion.Text = " ";
+            TxtPlataforma.Text = "";
+            //TxtCategoria.Text = detalle.Categoria;
+            TxtImagen.Text = "  ";
 
 
 
+        }
+
+        protected void Btn_Modificar_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(gvPelis.SelectedDataKey.Value.ToString());
+
+            List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
+            Pelicula peli = temporal.Find(x => x.ID == id);
+
+            PeliculaNegocio negocio = new PeliculaNegocio();
+
+            negocio.modificarSP(peli);
+
+
+            TxtTitulo.Text = " ";
+            TxtLanzamiento.Text = " ";
+            TxtDescripcion.Text = " ";
+            TxtDuracion.Text = " ";
+            TxtPlataforma.Text = "";
+            //TxtCategoria.Text = detalle.Categoria;
+            TxtImagen.Text = "  ";
+
+
+
+        }
+
+        protected void Btn_Activar_Click(object sender, EventArgs e)
+        {
+
+            int id = int.Parse(gvPelis.SelectedDataKey.Value.ToString());
+
+            List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
+            Pelicula peli = temporal.Find(x => x.ID == id);
+
+            PeliculaNegocio negocio = new PeliculaNegocio();
+
+            negocio.ActivarPeli(peli);
+
+
+            TxtTitulo.Text = " ";
+            TxtLanzamiento.Text = " ";
+            TxtDescripcion.Text = " ";
+            TxtDuracion.Text = " ";
+            TxtPlataforma.Text = "";
+            //TxtCategoria.Text = detalle.Categoria;
+            TxtImagen.Text = "  ";
 
         }
     }

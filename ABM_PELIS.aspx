@@ -181,8 +181,8 @@
                     <div class="col-md-10 col-md- offset-1 ">
                         <div class="form-group">
 
-                            <asp:Button ID="Btn_Modificar" class="m-2" CssClass="btn btn-warning btn-lg" Width="220px" runat="server" Text="Modificar" />
-                            <asp:Button ID="Btn_Activar" class="m-2" CssClass="btn btn-info btn-lg" Width="220px" runat="server" Text="Activar" />
+                            <asp:Button ID="Btn_Modificar" class="m-2" CssClass="btn btn-warning btn-lg" OnClick="Btn_Modificar_Click" Width="220px" runat="server" Text="Modificar" />
+                            <asp:Button ID="Btn_Activar" class="m-2" OnClick="Btn_Activar_Click" CssClass="btn btn-info btn-lg" Width="220px" runat="server" Text="Activar" />
                             <asp:Button ID="Btn_Eliminar" class="m-2" CssClass="btn btn-danger btn-lg" OnClick="Btn_Eliminar_Click" Width="220px" runat="server" Text="Eliminar" />
 
                         </div>
