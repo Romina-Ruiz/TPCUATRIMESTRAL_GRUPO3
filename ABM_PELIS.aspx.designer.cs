@@ -33,13 +33,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.TextBox TxtTitulo;
 
         /// <summary>
-        /// Control TxtPais.
+        /// Control Ddlpais.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtPais;
+        protected global::System.Web.UI.WebControls.DropDownList Ddlpais;
 
         /// <summary>
         /// Control TxtLanzamiento.
@@ -78,15 +78,6 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.TextBox TxtPlataforma;
 
         /// <summary>
-        /// Control TxtCategoria.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtCategoria;
-
-        /// <summary>
         /// Control TexFandom.
         /// </summary>
         /// <remarks>
@@ -94,6 +85,87 @@ namespace TPCuatrimestral_Grupo3
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TexFandom;
+
+        /// <summary>
+        /// Control CkbAccion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbAccion;
+
+        /// <summary>
+        /// Control CkbAnimacion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbAnimacion;
+
+        /// <summary>
+        /// Control CkbCiencia.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbCiencia;
+
+        /// <summary>
+        /// Control CkbComedia.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbComedia;
+
+        /// <summary>
+        /// Control CkbDocumental.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbDocumental;
+
+        /// <summary>
+        /// Control CkbDrama.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbDrama;
+
+        /// <summary>
+        /// Control CkbFantasia.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbFantasia;
+
+        /// <summary>
+        /// Control CkbSuspenso.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbSuspenso;
+
+        /// <summary>
+        /// Control CkbTerror.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox CkbTerror;
 
         /// <summary>
         /// Control TxtImagen.
@@ -123,13 +195,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Button Btn_Modificar;
 
         /// <summary>
-        /// Control Btn_clean.
+        /// Control Btn_Activar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_clean;
+        protected global::System.Web.UI.WebControls.Button Btn_Activar;
 
         /// <summary>
         /// Control Btn_Eliminar.

@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\abm_pelis.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:abm_pelis.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -13,32 +14,90 @@
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\desktop\\nuevas copias\\actualizado\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\abm_pelis.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:abm_pelis.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\desktop\\nuevas copias\\actualizado\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\abm_pelis.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:abm_pelis.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\abm_pelis.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:abm_pelis.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\peliculanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\peliculanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\up_peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:up_peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\contenidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\contenidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\up_peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:up_peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\detalle_peli.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:detalle_peli.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\modelo\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:modelo\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\desktop\\nuevas copias\\actualizado\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\abm_series.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:abm_series.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\desktop\\nuevas copias\\actualizado\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\negocio\\negociousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\negociousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\registros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:registros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\paisnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\paisnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\detalle_peli.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:detalle_peli.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\peliculanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\peliculanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\registros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:registros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\stylo\\titulos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:stylo\\titulos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\detalle_peli.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:detalle_peli.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\micuenta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:micuenta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\registros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:registros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -56,6 +115,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\desktop\\nuevas copias\\actualizado\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\misdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+=======
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\misdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:misdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -63,10 +125,13 @@
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\romina\\desktop\\nuevas copias\\actualizado\\tpcuatrimestral_grupo3\\tpcuatrimestral_grupo3\\peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:peliculas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\detallepelinegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\detallepelinegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,10 +144,13 @@
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:micuenta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\registros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:registros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -119,10 +187,13 @@
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:op_admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\contenidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\contenidonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\plataformaxpeliculanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:negocio\\plataformaxpeliculanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -150,11 +221,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 17,
+=======
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+>>>>>>> Stashed changes
               "Title": "DetalleSerieNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\DetalleSerieNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\DetalleSerieNegocio.cs",
@@ -163,8 +242,12 @@
               "ViewState": "AQIAAAkAAAAAAAAAAAAlwCEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T21:20:43.899Z",
+<<<<<<< Updated upstream
               "IsPinned": true,
               "EditorCaption": ""
+=======
+              "IsPinned": true
+>>>>>>> Stashed changes
             },
             {
               "$type": "Bookmark",
@@ -172,6 +255,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "Titulos.css",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Stylo\\Titulos.css",
@@ -186,18 +270,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
               "Title": "NegocioUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\NegocioUsuario.cs",
               "RelativeDocumentMoniker": "negocio\\NegocioUsuario.cs",
               "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\NegocioUsuario.cs",
               "RelativeToolTip": "negocio\\NegocioUsuario.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAI8AAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T20:40:06.725Z",
+=======
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T01:47:08.074Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 13,
               "Title": "MisDatos.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MisDatos.aspx",
@@ -225,18 +319,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 2,
+>>>>>>> Stashed changes
               "Title": "PeliculaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PeliculaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\PeliculaNegocio.cs",
               "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PeliculaNegocio.cs",
               "RelativeToolTip": "negocio\\PeliculaNegocio.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAADMAAAAAAAAAAAAowFkAAAAAAAAA",
+=======
+              "ViewState": "AQIAAF8AAAAAAAAAAAAjwGoAAAA/AAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T03:01:53.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
+=======
+              "DocumentIndex": 7,
+              "Title": "ABM_SERIES.aspx",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\ABM_SERIES.aspx",
+              "RelativeDocumentMoniker": "ABM_SERIES.aspx",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\ABM_SERIES.aspx",
+              "RelativeToolTip": "ABM_SERIES.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-07T00:12:01.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ABM_PELIS.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\ABM_PELIS.aspx.cs",
+              "RelativeDocumentMoniker": "ABM_PELIS.aspx.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\ABM_PELIS.aspx.cs",
+              "RelativeToolTip": "ABM_PELIS.aspx.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAcwGEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T22:36:51.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+>>>>>>> Stashed changes
               "DocumentIndex": 0,
               "Title": "ABM_PELIS.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\ABM_PELIS.aspx",
@@ -250,6 +380,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
               "Title": "ABM_PELIS.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\ABM_PELIS.aspx.cs",
@@ -259,11 +390,50 @@
               "ViewState": "AQIAAFUAAAAAAAAAAAAjwGMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T22:36:51.031Z",
+=======
+              "DocumentIndex": 14,
+              "Title": "Titulos.css",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Stylo\\Titulos.css",
+              "RelativeDocumentMoniker": "Stylo\\Titulos.css",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Stylo\\Titulos.css",
+              "RelativeToolTip": "Stylo\\Titulos.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-06T22:39:30.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MisDatos.aspx",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MisDatos.aspx",
+              "RelativeDocumentMoniker": "MisDatos.aspx",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MisDatos.aspx",
+              "RelativeToolTip": "MisDatos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-06T20:38:48.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PELICULAS.aspx",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx",
+              "RelativeDocumentMoniker": "PELICULAS.aspx",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx",
+              "RelativeToolTip": "PELICULAS.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-06T20:31:28.985Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 16,
+=======
+              "DocumentIndex": 19,
+>>>>>>> Stashed changes
               "Title": "DetallePeliNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\DetallePeliNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\DetallePeliNegocio.cs",
@@ -271,12 +441,20 @@
               "RelativeToolTip": "negocio\\DetallePeliNegocio.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2024-07-06T18:36:10.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+=======
+              "WhenOpened": "2024-07-06T18:36:10.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+>>>>>>> Stashed changes
               "Title": "DETALLE_PELI.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_PELI.aspx.cs",
               "RelativeDocumentMoniker": "DETALLE_PELI.aspx.cs",
@@ -284,12 +462,20 @@
               "RelativeToolTip": "DETALLE_PELI.aspx.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAgwB8AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2024-07-06T18:34:59.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+=======
+              "WhenOpened": "2024-07-06T18:34:59.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+>>>>>>> Stashed changes
               "Title": "Seguridad.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\Seguridad.cs",
               "RelativeDocumentMoniker": "negocio\\Seguridad.cs",
@@ -301,7 +487,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 20,
+=======
+              "DocumentIndex": 22,
+>>>>>>> Stashed changes
               "Title": "LOGIN.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\LOGIN.aspx.cs",
               "RelativeDocumentMoniker": "LOGIN.aspx.cs",
@@ -313,7 +503,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
+=======
+              "DocumentIndex": 16,
+>>>>>>> Stashed changes
               "Title": "MICUENTA.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MICUENTA.aspx.cs",
               "RelativeDocumentMoniker": "MICUENTA.aspx.cs",
@@ -321,12 +515,32 @@
               "RelativeToolTip": "MICUENTA.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2024-07-06T14:17:11.326Z",
+=======
+              "WhenOpened": "2024-07-06T14:17:11.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaisNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PaisNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\PaisNegocio.cs",
+              "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PaisNegocio.cs",
+              "RelativeToolTip": "negocio\\PaisNegocio.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAuwCwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T03:02:02.338Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 26,
+=======
+              "DocumentIndex": 28,
+>>>>>>> Stashed changes
               "Title": "Pais.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Pais.cs",
               "RelativeDocumentMoniker": "Modelo\\Pais.cs",
@@ -338,7 +552,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 27,
+=======
+              "DocumentIndex": 29,
+>>>>>>> Stashed changes
               "Title": "Ciudades.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Ciudades.cs",
               "RelativeDocumentMoniker": "Modelo\\Ciudades.cs",
@@ -350,7 +568,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 30,
+=======
+              "DocumentIndex": 31,
+>>>>>>> Stashed changes
               "Title": "PlataformaXPeliculaNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PlataformaXPeliculaNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\PlataformaXPeliculaNegocio.cs",
@@ -362,7 +584,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 34,
+=======
+              "DocumentIndex": 35,
+>>>>>>> Stashed changes
               "Title": "MODIFICAR_CONTENIDO.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MODIFICAR_CONTENIDO.aspx",
               "RelativeDocumentMoniker": "MODIFICAR_CONTENIDO.aspx",
@@ -374,6 +600,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 11,
               "Title": "PaisNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PaisNegocio.cs",
@@ -388,19 +615,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 5,
+>>>>>>> Stashed changes
               "Title": "UP_PELICULAS.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_PELICULAS.aspx.cs",
               "RelativeDocumentMoniker": "UP_PELICULAS.aspx.cs",
               "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_PELICULAS.aspx.cs",
               "RelativeToolTip": "UP_PELICULAS.aspx.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAKUAAAAAAAAAAAAowHMAAABFAAAA",
+=======
+              "ViewState": "AQIAAG8AAAAAAAAAAAAowH0AAAANAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-02T05:55:40.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 22,
+=======
+              "DocumentIndex": 24,
+>>>>>>> Stashed changes
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "negocio\\AccesoDatos.cs",
@@ -418,14 +656,22 @@
               "RelativeDocumentMoniker": "REGISTROS.aspx.cs",
               "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\REGISTROS.aspx.cs",
               "RelativeToolTip": "REGISTROS.aspx.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAABAAAAAAAAAAAAAgwEQAAAA0AAAA",
+=======
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwBAAAAAKAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-02T02:27:53.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 19,
+=======
+              "DocumentIndex": 13,
+>>>>>>> Stashed changes
               "Title": "REGISTROS.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\REGISTROS.aspx",
               "RelativeDocumentMoniker": "REGISTROS.aspx",
@@ -438,7 +684,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 25,
+=======
+              "DocumentIndex": 27,
+>>>>>>> Stashed changes
               "Title": "UP_SERIES.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_SERIES.aspx.cs",
               "RelativeDocumentMoniker": "UP_SERIES.aspx.cs",
@@ -450,7 +700,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 24,
+=======
+              "DocumentIndex": 26,
+>>>>>>> Stashed changes
               "Title": "UP_SERIES.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\UP_SERIES.aspx",
               "RelativeDocumentMoniker": "UP_SERIES.aspx",
@@ -475,20 +729,32 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 10,
+=======
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
               "Title": "Pelicula.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Pelicula.cs",
               "RelativeDocumentMoniker": "Modelo\\Pelicula.cs",
               "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Pelicula.cs",
               "RelativeToolTip": "Modelo\\Pelicula.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAAsAAAAAAAAAAAA9wA4AAAAXAAAA",
+=======
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBoAAAAIAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-04T12:21:23.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 28,
+=======
+              "DocumentIndex": 30,
+>>>>>>> Stashed changes
               "Title": "Op_Admin.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Op_Admin.aspx.cs",
               "RelativeDocumentMoniker": "Op_Admin.aspx.cs",
@@ -500,7 +766,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 14,
+=======
+              "DocumentIndex": 18,
+>>>>>>> Stashed changes
               "Title": "PELICULAS.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx.cs",
               "RelativeDocumentMoniker": "PELICULAS.aspx.cs",
@@ -508,12 +778,15 @@
               "RelativeToolTip": "PELICULAS.aspx.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAxwB0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T04:27:07.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T04:27:07.199Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 31,
+=======
+              "DocumentIndex": 32,
+>>>>>>> Stashed changes
               "Title": "CiudadesNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\CiudadesNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\CiudadesNegocio.cs",
@@ -525,7 +798,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 18,
+=======
+              "DocumentIndex": 21,
+>>>>>>> Stashed changes
               "Title": "MICUENTA.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\MICUENTA.aspx",
               "RelativeDocumentMoniker": "MICUENTA.aspx",
@@ -533,12 +810,15 @@
               "RelativeToolTip": "MICUENTA.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-08T04:39:00.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T04:39:00.955Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 23,
+=======
+              "DocumentIndex": 25,
+>>>>>>> Stashed changes
               "Title": "SerieNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\SerieNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\SerieNegocio.cs",
@@ -550,7 +830,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 32,
+=======
+              "DocumentIndex": 33,
+>>>>>>> Stashed changes
               "Title": "SERIES.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\SERIES.aspx.cs",
               "RelativeDocumentMoniker": "SERIES.aspx.cs",
@@ -562,19 +846,32 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 29,
+=======
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
               "Title": "ContenidoNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\ContenidoNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\ContenidoNegocio.cs",
               "ToolTip": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\negocio\\ContenidoNegocio.cs",
               "RelativeToolTip": "negocio\\ContenidoNegocio.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAowG4AAAAJAAAA",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAIwG4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2024-07-02T13:43:20.707Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
+=======
+              "WhenOpened": "2024-07-02T13:43:20.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+>>>>>>> Stashed changes
               "Title": "DetalleSerie.cs",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\DetalleSerie.cs",
               "RelativeDocumentMoniker": "Modelo\\DetalleSerie.cs",
@@ -586,7 +883,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 12,
+>>>>>>> Stashed changes
               "Title": "DETALLE_PELI.aspx",
               "DocumentMoniker": "C:\\Users\\Romina\\Desktop\\NUEVAS COPIAS\\ACTUALIZADO\\TPCuatrimestral_Grupo3\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_PELI.aspx",
               "RelativeDocumentMoniker": "DETALLE_PELI.aspx",

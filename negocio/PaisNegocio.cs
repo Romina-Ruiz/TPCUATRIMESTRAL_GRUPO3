@@ -41,6 +41,43 @@ namespace TPCuatrimestral_Grupo3.Negocio
             }
         }
 
+        public List<Pais> listarPaisOrden()
+        {
+            List<Pais> lista = new List<Pais>();
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearProcedimiento("SP_PAISESORDEN");
+                datos.ejecutarLectura(); 
+
+
+                while (datos.Lector.Read())
+                {
+                    Pais aux = new Pais();
+
+                    aux.Id = (short)datos.Lector["Id"];
+                    aux.IdContinente = (short)datos.Lector["IdContinente"];
+                    aux.NombrePais = (string)datos.Lector["Nombre"];
+
+                    lista.Add(aux);
+                }
+
+                return lista;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+
+
+
+
 
     }
 }

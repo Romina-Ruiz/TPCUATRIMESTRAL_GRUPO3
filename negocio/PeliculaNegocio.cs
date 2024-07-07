@@ -88,6 +88,44 @@ namespace TPCuatrimestral_Grupo3.Negocio
             }
         }
 
+        public void modificarSP(Pelicula peli)
+        {
+
+            AccesoDatos datos= new AccesoDatos();
+
+            try
+            {
+                datos.setearProcedimiento("");
+                datos.setearParametro2("@Titulo", peli.Titulo);
+                datos.setearParametro2("@IdOrigen", peli.PaisOrigen);
+                datos.setearParametro2("@FechaLanzamiento", peli.FechaLanzamiento);
+                datos.setearParametro2("@Descripcion", peli.Descripcion);
+                datos.setearParametro2("@Duracion", peli.Duracion);
+                datos.setearParametro2("@Plataforma", peli.Plataforma);
+                datos.setearParametro2("@Categoria", peli.Categoria);
+                datos.setearParametro2("@fandom", peli.Fandom);
+                datos.setearParametro2("@Estado", peli.Estado);
+
+                datos.setearConsulta("SP_AGREGAR_USER @Apellidos,@Nombres," +
+                                "@Nacimiento,@Genero,@Email,@Domicilio" +
+                                ",@Ciudad,@NombreUsuario,@Contrasena");
+
+                datos.ejecutarAccion();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+
+
+
+
+        }
+
 
 
 

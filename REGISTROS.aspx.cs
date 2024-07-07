@@ -24,7 +24,7 @@ namespace TPCuatrimestral_Grupo3
                    List<Ciudades> listCiudades = AuxCiudad.listarConSP();
                    Session["listCiudades"] = listCiudades;
 
-                    List<Pais> listaPais = AuxPais.listarPais();
+                    List<Pais> listaPais = AuxPais.listarPaisOrden();
 
 
                     DLPais.DataSource = listaPais;

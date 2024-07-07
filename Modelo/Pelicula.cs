@@ -21,6 +21,10 @@ namespace TPCuatrimestral_Grupo3.Modelo
         /*POR FAVOR NO BORRAR esta prop se usa*/
         public string IdPlataforma  { get; set; }
 
-        public bool Fandom { get; set; }    
+        public bool Fandom { get; set; } 
+
+        public bool Estado {  get; set; }   
+        
+        public Pais Pais { get; set; }
     }
 }

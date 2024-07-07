@@ -33,6 +33,22 @@ namespace TPCuatrimestral_Grupo3
 
 
                 }
+<<<<<<< Updated upstream
+=======
+                
+                    PaisNegocio AuxPais = new PaisNegocio();
+                    List<Pais> listaPais = AuxPais.listarPaisOrden();
+
+
+                    Ddlpais.DataSource = listaPais;
+                    Ddlpais.DataTextField = "NombrePais";
+                    Ddlpais.DataValueField = "Id";
+                    Ddlpais.DataBind();
+
+                               
+
+
+>>>>>>> Stashed changes
 
 
             }
@@ -52,6 +68,8 @@ namespace TPCuatrimestral_Grupo3
 
 
         protected void gvPelis_SelectedIndexChanged1(object sender, EventArgs e)
+<<<<<<< Updated upstream
+=======
         {
             int id =int.Parse(gvPelis.SelectedDataKey.Value.ToString());
 
@@ -72,6 +90,55 @@ namespace TPCuatrimestral_Grupo3
 
         }
 
+        protected void ABMPelicula(Pelicula detalle)
+        { 
+        if (detalle != null)
+            {
+                TxtTitulo.Text = detalle.Titulo;
+               // Ddlpais.SelectedValue = detalle.Pais.Id.ToString();
+                TxtLanzamiento.Text = detalle.FechaLanzamiento.ToString();
+                TxtDescripcion.Text = detalle.Descripcion;
+                TxtDuracion.Text = detalle.Duracion.ToString();
+                TxtPlataforma.Text = detalle.Plataforma;
+                //TxtCategoria.Text = detalle.Categoria;
+                TxtImagen.Text = detalle.UrlImagenContenido;
+
+                
+                string nuevaimagen = TxtImagen.Text;
+                URLImg.ImageUrl = nuevaimagen;
+
+            }
+
+        }
+
+        protected void TxtImagen_TextChanged(object sender, EventArgs e)
+        {
+            string nuevaimagen= TxtImagen.Text;
+            URLImg.ImageUrl = nuevaimagen;  
+        }
+
+        protected void Btn_Eliminar_Click(object sender, EventArgs e)
+>>>>>>> Stashed changes
+        {
+            int id =int.Parse(gvPelis.SelectedDataKey.Value.ToString());
+
+            if (id != 0) {
+               
+                        List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
+                        Pelicula detalle = temporal.Find(x=> x.ID == id);   
+                           
+
+                        
+                        ABMPelicula(detalle);
+
+                  
+
+
+            }
+
+
+
+<<<<<<< Updated upstream
         private void ABMPelicula(Pelicula detalle)
         { 
         if (detalle != null)
@@ -95,6 +162,10 @@ namespace TPCuatrimestral_Grupo3
         {
             string nuevaimagen= TxtImagen.Text;
             URLImg.ImageUrl = nuevaimagen;  
+=======
+
+
+>>>>>>> Stashed changes
         }
     }
 }
