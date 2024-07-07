@@ -16,7 +16,8 @@ namespace TPCuatrimestral_Grupo3
             if (!IsPostBack)
             {
             PeliculaNegocio negocio = new PeliculaNegocio();
-            repRepetidor.DataSource = negocio.listarConSP();
+                Session.Add("listaCompleta", negocio.listarConSP());
+                repRepetidor.DataSource = Session["listaCompleta"];
             repRepetidor.DataBind();
             }
             if (!IsPostBack)
@@ -37,6 +38,14 @@ namespace TPCuatrimestral_Grupo3
             Session["idPeliculaSeleccionada"] = idPelicula;
 
             Response.Redirect("DETALLE_PELI.aspx");
+        }
+
+        protected void filtro_TextChanged(object sender, EventArgs e)
+        {
+            List<Pelicula> lista = (List<Pelicula>)Session["ListaCompleta"];
+            List<Pelicula> listaFiltrada = lista.FindAll(x=> x.Titulo.ToUpper().Contains(txtFiltro.Text.ToUpper()));
+            repRepetidor.DataSource =listaFiltrada;
+            repRepetidor.DataBind();
         }
     }
 }

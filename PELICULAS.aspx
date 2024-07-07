@@ -20,10 +20,14 @@
         <div class="row ">
             <!--COLUMNA 1-->
             <div class="col-3 bg-secondary text-white pt-2">
+                <div class="mb-3">
+                <%--<h5>Poner los filros aca  </h5>--%>
+                <asp:Label Text="Filtrar" runat="server" />
+                <asp:TextBox runat="server"  ID="txtFiltro" AutoPosback="true" CssClass="form-control" OnTextChanged="filtro_TextChanged"/>
 
-                <h5>Poner los filros aca  </h5>
-                <br>
             </div>
+            </div>
+                <br>
 
             <!--COLUMNA CARD RECOMENDACIONES -->
             <div class="col-5">
