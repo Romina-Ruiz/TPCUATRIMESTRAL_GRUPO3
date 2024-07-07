@@ -18,6 +18,12 @@ namespace TPCuatrimestral_Grupo3
             try
             {
 
+                if (Session["Usuario"] == null && Session["Admin"] == null)
+                {
+                    Session.Add("error", "Debes loguearte para ingresar.");
+                    Response.Redirect("ERROR.aspx", false);
+                }
+
                 if (!IsPostBack)
                 {
                     PeliculaNegocio negocio = new PeliculaNegocio();

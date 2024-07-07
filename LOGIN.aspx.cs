@@ -56,8 +56,8 @@ namespace TPCuatrimestral_Grupo3
         }
 
         protected void BtnCerrar_Click1(object sender, EventArgs e)
-        {     /*      
-            Response.Redirect("REGISTROS.aspx");*/
+        {           
+            Response.Redirect("REGISTROS.aspx");
         }
     }
 }

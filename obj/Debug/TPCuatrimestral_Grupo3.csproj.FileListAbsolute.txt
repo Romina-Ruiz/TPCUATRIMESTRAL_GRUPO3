@@ -1096,7 +1096,6 @@ C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\ACTUAL\TPCUATRIMESTR
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\ACTUAL\TPCUATRIMESTRAL_GRUPO3\bin\Azure.Core.xml
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\ACTUAL\TPCUATRIMESTRAL_GRUPO3\bin\Azure.Identity.xml
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\ACTUAL\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\ACTUAL\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.Data.SqlClient.pdb
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\ACTUAL\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.Data.SqlClient.xml
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\ACTUAL\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.Identity.Client.xml
 C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\ACTUAL\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.Identity.Client.Extensions.Msal.xml
@@ -1448,3 +1447,5 @@ C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATR
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatri.7D44AF1C.Up2Date
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.dll
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.pdb
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\ACTUAL\TPCUATRIMESTRAL_GRUPO3\bin\System.ClientModel.dll
+C:\Users\hugo_\OneDrive\Documentos\PROGRAMACION\C#\TP_Final\ACTUAL\TPCUATRIMESTRAL_GRUPO3\bin\System.ClientModel.xml
