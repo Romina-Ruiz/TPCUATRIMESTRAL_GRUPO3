@@ -27,28 +27,25 @@ namespace TPCuatrimestral_Grupo3
                 if (!IsPostBack)
                 {
                     PeliculaNegocio negocio = new PeliculaNegocio();
-                    List<Pelicula> lista=negocio.listarABMPelis();  
-                 
+                    List<Pelicula> lista = negocio.listarABMPelis();
+
                     Session["lista"] = lista;
 
 
                 }
-<<<<<<< Updated upstream
-=======
-                
-                    PaisNegocio AuxPais = new PaisNegocio();
-                    List<Pais> listaPais = AuxPais.listarPaisOrden();
+
+                PaisNegocio AuxPais = new PaisNegocio();
+                List<Pais> listaPais = AuxPais.listarPaisOrden();
 
 
-                    Ddlpais.DataSource = listaPais;
-                    Ddlpais.DataTextField = "NombrePais";
-                    Ddlpais.DataValueField = "Id";
-                    Ddlpais.DataBind();
-
-                               
+                Ddlpais.DataSource = listaPais;
+                Ddlpais.DataTextField = "NombrePais";
+                Ddlpais.DataValueField = "Id";
+                Ddlpais.DataBind();
 
 
->>>>>>> Stashed changes
+
+
 
 
             }
@@ -68,21 +65,20 @@ namespace TPCuatrimestral_Grupo3
 
 
         protected void gvPelis_SelectedIndexChanged1(object sender, EventArgs e)
-<<<<<<< Updated upstream
-=======
         {
-            int id =int.Parse(gvPelis.SelectedDataKey.Value.ToString());
+            int id = int.Parse(gvPelis.SelectedDataKey.Value.ToString());
 
-            if (id != 0) {
-               
-                        List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
-                        Pelicula detalle = temporal.Find(x=> x.ID == id);   
-                           
+            if (id != 0)
+            {
 
-                        
-                        ABMPelicula(detalle);
+                List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
+                Pelicula detalle = temporal.Find(x => x.ID == id);
 
-                  
+
+
+                ABMPelicula(detalle);
+
+
 
 
             }
@@ -91,11 +87,11 @@ namespace TPCuatrimestral_Grupo3
         }
 
         protected void ABMPelicula(Pelicula detalle)
-        { 
-        if (detalle != null)
+        {
+            if (detalle != null)
             {
                 TxtTitulo.Text = detalle.Titulo;
-               // Ddlpais.SelectedValue = detalle.Pais.Id.ToString();
+                // Ddlpais.SelectedValue = detalle.Pais.Id.ToString();
                 TxtLanzamiento.Text = detalle.FechaLanzamiento.ToString();
                 TxtDescripcion.Text = detalle.Descripcion;
                 TxtDuracion.Text = detalle.Duracion.ToString();
@@ -103,7 +99,7 @@ namespace TPCuatrimestral_Grupo3
                 //TxtCategoria.Text = detalle.Categoria;
                 TxtImagen.Text = detalle.UrlImagenContenido;
 
-                
+
                 string nuevaimagen = TxtImagen.Text;
                 URLImg.ImageUrl = nuevaimagen;
 
@@ -113,59 +109,17 @@ namespace TPCuatrimestral_Grupo3
 
         protected void TxtImagen_TextChanged(object sender, EventArgs e)
         {
-            string nuevaimagen= TxtImagen.Text;
-            URLImg.ImageUrl = nuevaimagen;  
+            string nuevaimagen = TxtImagen.Text;
+            URLImg.ImageUrl = nuevaimagen;
         }
 
         protected void Btn_Eliminar_Click(object sender, EventArgs e)
->>>>>>> Stashed changes
         {
-            int id =int.Parse(gvPelis.SelectedDataKey.Value.ToString());
-
-            if (id != 0) {
-               
-                        List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
-                        Pelicula detalle = temporal.Find(x=> x.ID == id);   
-                           
-
-                        
-                        ABMPelicula(detalle);
-
-                  
-
-
-            }
 
 
 
-<<<<<<< Updated upstream
-        private void ABMPelicula(Pelicula detalle)
-        { 
-        if (detalle != null)
-            {
-                TxtTitulo.Text = detalle.Titulo;
-                TxtPais.Text = detalle.PaisOrigen;
-                TxtLanzamiento.Text = detalle.FechaLanzamiento.ToString();
-                TxtDescripcion.Text = detalle.Descripcion;
-                TxtDuracion.Text = detalle.Duracion.ToString();
-                TxtPlataforma.Text = detalle.Plataforma;
-                TxtCategoria.Text = detalle.Categoria;
-                TxtImagen.Text = detalle.UrlImagenContenido;
-                                            
 
-
-            }
-
-        }
-
-        protected void TxtImagen_TextChanged(object sender, EventArgs e)
-        {
-            string nuevaimagen= TxtImagen.Text;
-            URLImg.ImageUrl = nuevaimagen;  
-=======
-
-
->>>>>>> Stashed changes
         }
     }
+
 }

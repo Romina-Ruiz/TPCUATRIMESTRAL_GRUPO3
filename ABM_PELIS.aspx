@@ -17,7 +17,7 @@
             <ContentTemplate>
 
 
-                <!--FORMULARIO -->
+                                            <!--FORMULARIO -->
                 <div class="row pt-2">
 
                     <div class="col-6 ">
@@ -52,11 +52,7 @@
                                     <asp:TextBox ID="TxtDescripcion" Width="300" runat="server"></asp:TextBox>
                                 </div>
                                 <div class="col-auto">
-<<<<<<< Updated upstream
-                                    <label for="inputDuracion" class="col-form-label">Duracion (minutos)</label>
-=======
                                     <label for="inputDuracion" class="col-form-label" style="font-weight: bold; font-size: x-large">Duracion (minutos)</label>
->>>>>>> Stashed changes
                                 </div>
                                 <div class="col-auto">
                                     <asp:TextBox ID="TxtDuracion" Width="300" runat="server"></asp:TextBox>
@@ -77,38 +73,6 @@
 
                             </div>
 
-<<<<<<< Updated upstream
-                            <div class="col-5">
-
-                                <div class="col-auto">
-                                    <label for="inputCategoria" class="col-form-label">Categoria</label>
-                                </div>
-                                <div class="col-auto">
-                                    <asp:TextBox ID="TxtCategoria" runat="server"></asp:TextBox>
-                                </div>
-
-                                <div class="col-auto">
-                                    <label for="inputfandom" class="col-form-label">Es Fandon</label>
-                                </div>
-                                <div class="col-auto">
-                                    <asp:TextBox ID="TexFandom" runat="server"></asp:TextBox>
-                                </div>
-
-                                <div class="col-auto">
-                                    <label for="inputImagen" class="col-form-label">URLImagen</label>
-                                </div>
-                                <div class="col-auto">
-                                    <asp:TextBox ID="TxtImagen" AutoPostBack="true" OnTextChanged="TxtImagen_TextChanged" runat="server"></asp:TextBox>
-
-                                    <br>
-                                    <br>
-                                </div>
-                                <asp:Image ID="URLImg" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="40%" runat="server" />
-
-
-                            </div>
-=======
->>>>>>> Stashed changes
                         </div>
                             <!--2 columna -->
                      <div class="col-6 ">
@@ -229,34 +193,6 @@
                 <!--FILTROS -->
 
                 <div class="row pt-5">
-<<<<<<< Updated upstream
-                    
-
-                        <div class="Filtros">
-
-                            <asp:Label ID="FiltroFandom" Font-Size="X-Large" runat="server" Text="Fandom"></asp:Label>
-
-                            <asp:CheckBox ID="CheckBox1" CssClass="$form-check-min-height:" runat="server" />
-
-                            <div class="row">
-
-                                <asp:Label ID="Label1" runat="server" Text="Seleccionar un filtro"></asp:Label>
-
-                                <div class="col">
-                                    <asp:DropDownList ID="DlOpciones" Height="40px" Width="300" runat="server"></asp:DropDownList>
-                                </div>
-                                <div class="col">
-                                    <asp:DropDownList ID="Dlopciones2" Height="40px" Width="300" runat="server"></asp:DropDownList>
-                                </div>
-
-                                <div class="col">
-                                    <asp:DropDownList ID="Dlopciones3" Height="40px" Width="300" runat="server"></asp:DropDownList>
-                                </div>
-                            </div>
-
-                        </div>
-                  </div>
-=======
 
 
                     <div class="Filtros">
@@ -283,7 +219,6 @@
 
                     </div>
                 </div>
->>>>>>> Stashed changes
 
 
                 <!--GRILLA LISTA -->
