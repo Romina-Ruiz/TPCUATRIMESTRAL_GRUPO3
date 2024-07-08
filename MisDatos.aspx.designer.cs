@@ -60,13 +60,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Control TextBox1.
+        /// Control TxtFechaNacimiento.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox TxtFechaNacimiento;
 
         /// <summary>
         /// Control Label2.
@@ -78,13 +78,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Control TextBox2.
+        /// Control TxtGenero.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox TxtGenero;
 
         /// <summary>
         /// Control Label3.
@@ -96,13 +96,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Control TextBox3.
+        /// Control TxtEmail.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox TxtEmail;
 
         /// <summary>
         /// Control Label4.
@@ -114,13 +114,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Control TextBox4.
+        /// Control TxtDomicilio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox TxtDomicilio;
 
         /// <summary>
         /// Control Label5.
@@ -132,13 +132,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// Control TextBox5.
+        /// Control TxtCiudad.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox TxtCiudad;
 
         /// <summary>
         /// Control Label6.
@@ -150,13 +150,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// Control TextBox6.
+        /// Control txtNombreUsuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox txtNombreUsuario;
 
         /// <summary>
         /// Control Label7.
@@ -168,13 +168,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// Control TextBox7.
+        /// Control TxtContrasena.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox TxtContrasena;
 
         /// <summary>
         /// Control Label8.
@@ -186,13 +186,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// Control TextBox8.
+        /// Control TxtNuevaContrasena.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox TxtNuevaContrasena;
 
         /// <summary>
         /// Control Button1.

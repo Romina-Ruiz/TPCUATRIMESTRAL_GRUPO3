@@ -97,22 +97,23 @@ namespace TPCuatrimestral_Grupo3.Negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                
+
                 datos.setearProcedimiento("ABM_USER");
                 datos.ejecutarLectura();
                 while (datos.Lector.Read())
                 {
                     Usuario aux = new Usuario();
 
-                    aux.Apellido = (string)datos.Lector["Apellidos"];
-                    aux.Nombres= (string)datos.Lector["Nombres"];
-                    //aux.Nacimiento = DateTime(datos.Lector["Nacimiento"].ToString());
-                    //aux.Genero = (char)datos.Lector["Genero"];
+                    aux.Apellido = (string)datos.Lector["Apellido"];
+                    aux.Nombres = (string)datos.Lector["Nombre"];
+                    aux.Nacimiento = (DateTime)datos.Lector["FechaNacimiento"];
+                    aux.Genero = Convert.ToChar(datos.Lector["Genero"]);
                     aux.Email = (string)datos.Lector["Email"];
                     aux.NombreUsuario = (string)datos.Lector["NombreUsuario"];
                     aux.Domicilio = (string)datos.Lector["Domicilio"];
-                    aux.Ciudad= (string)datos.Lector["Nombre"];
-                    aux.Pais = (string)datos.Lector["Nombre"];
+                    aux.Ciudad = (string)datos.Lector["Ciudad"];
+                    aux.Pais = (string)datos.Lector["Pais"];
+                    aux.Contrasena = (string)datos.Lector["Contrasena"];
                     aux.EsAdministrador = (bool)datos.Lector["EsAdministrador"];
                     aux.EsVip = (bool)datos.Lector["EsVip"];
                     aux.Estado = (bool)datos.Lector["Estado"];
@@ -133,51 +134,6 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.cerrarConexion();
             }
         }
-
-
-        public List<Usuario> MostrarUsuario(long id)
-        {
-            List<Usuario> lista = new List<Usuario>();
-            AccesoDatos datos = new AccesoDatos();
-            try
-            {
-
-                datos.setearProcedimiento("MDatos");
-                datos.ejecutarLectura();
-                while (datos.Lector.Read())
-                {
-                    Usuario aux = new Usuario();
-                    aux.Id = (long)datos.Lector["Id"];
-                    aux.Nombres = (string)datos.Lector["Nombre"];
-                    aux.Apellido = (string)datos.Lector["Apellido"];
-                    aux.Nacimiento = (DateTime)datos.Lector["FechaNacimiento"];
-                    aux.Genero = (char)datos.Lector["Genero"];
-                    aux.Email = (string)datos.Lector["Email"];
-                    aux.Domicilio = (string)datos.Lector["Domicilio"];
-                    aux.Ciudad = (string)datos.Lector["Ciudad"];
-                    aux.NombreUsuario = (string)datos.Lector["NombreUsuario"];
-                    aux.Contrasena = (string)datos.Lector["Contrasena"];
-                    if (aux.Id == id)
-                    {
-                        lista.Add(aux);
-
-                    }
-                }
-
-                return lista;
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
-            finally
-            {
-                datos.cerrarConexion();
-            }
-        }
-
-
 
     }
 }

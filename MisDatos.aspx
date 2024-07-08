@@ -17,9 +17,45 @@
 
         <div class="col-4 p-0.5">
 
+               <asp:Label ID="LabelNombre" class="ms-2 pt-4" runat="server" Text="Nombre" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+   <asp:TextBox ID="TxtNombre" runat="server" Width="500"></asp:TextBox>
+
+   <asp:Label ID="LabelApelldo" class="ms-2 pt-5" runat="server" Text="Apellido" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+   <asp:TextBox ID="TextApellido" runat="server" Width="500"></asp:TextBox>
+
+   <asp:Label ID="Label1" class="ms-2 pt-5" runat="server" Text="Fecha de Nacimiento" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+   <asp:TextBox ID="TxtFechaNacimiento" runat="server" Width="500"></asp:TextBox>
+   <asp:Label ID="Label2" class="ms-2 pt-5" runat="server" Text="Genero" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+   <asp:TextBox ID="TxtGenero" runat="server" Width="500"></asp:TextBox>
+  
+   <asp:Label ID="Label3" class="ms-2 pt-5" runat="server" Text="Email" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+   <asp:TextBox ID="TxtEmail" runat="server" Width="500"></asp:TextBox>
+   <asp:Label ID="Label4" class="ms-2 pt-5" runat="server" Text="Domicilio" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+   <asp:TextBox ID="TxtDomicilio" runat="server" Width="500"></asp:TextBox>
+   <asp:Label ID="Label5" class="ms-2 pt-5" runat="server" Text="Ciudad" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+   <asp:TextBox ID="TxtCiudad" runat="server" Width="500"></asp:TextBox>
+   <asp:Label ID="Label6" class="ms-2 pt-5" runat="server" Text="Nombre de Usuario" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+   <asp:TextBox ID="txtNombreUsuario" runat="server" Width="500"></asp:TextBox>
+
+   <asp:Label ID="Label7" class="ms-2 pt-5" runat="server" Text="Contraseña" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+   <asp:TextBox ID="TxtContrasena" runat="server" Width="500"></asp:TextBox>
+
+    <asp:Label ID="Label8" class="ms-2 pt-5" runat="server" Text="NUEVA Contraseña" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+   <asp:TextBox ID="TxtNuevaContrasena" runat="server" Width="500"></asp:TextBox>
 
 
-            <asp:Label ID="LabelNombre" class="ms-2 pt-4" runat="server" Text="Nombre" Font-Bold="True" Font-Size="Medium"></asp:Label>
+
+           <%-- <asp:Label ID="LabelNombre" class="ms-2 pt-4" runat="server" Text="Nombre" Font-Bold="True" Font-Size="Medium"></asp:Label>
 
             <asp:TextBox ID="TxtNombre" runat="server" Width="500"></asp:TextBox>
 
@@ -52,7 +88,7 @@
 
              <asp:Label ID="Label8" class="ms-2 pt-5" runat="server" Text="NUEVA Contraseña" Font-Bold="True" Font-Size="Medium"></asp:Label>
 
-            <asp:TextBox ID="TextBox8" runat="server" Width="500"></asp:TextBox>
+            <asp:TextBox ID="TextBox8" runat="server" Width="500"></asp:TextBox>--%>
 
              <!--BOTON MODIFICAR-->
             <br />

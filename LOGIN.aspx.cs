@@ -19,41 +19,47 @@ namespace TPCuatrimestral_Grupo3
 
         protected void BtnLogin_Click(object sender, EventArgs e)
         {
-            
-        try
-        {
-            Usuario usuario = new Usuario();
-            NegocioUsuario negocioUsuario = new NegocioUsuario();
 
-            usuario.NombreUsuario = TxtUsuario.Text;
-            usuario.Contrasena = TxtPass.Text;
+            try
+            {
+                Usuario usuario = new Usuario();
+                NegocioUsuario negocioUsuario = new NegocioUsuario();
 
-            if (negocioUsuario.loguear(usuario) == 1)
-            {
-                //administrador
-                Session.Add("Admin", usuario);
-                Response.Redirect("MICUENTA.aspx", false);
+                usuario.NombreUsuario = TxtUsuario.Text;
+                string NombreUsuario = TxtUsuario.Text;
+                usuario.Contrasena = TxtPass.Text;
+
+                if (negocioUsuario.loguear(usuario) == 1)
+                {
+                    //administrador
+                    Session.Add("Admin", usuario);
+
+                    Response.Redirect("MICUENTA.ASPX?NombreUsuario=" + NombreUsuario, false);
+                }
+                else if (negocioUsuario.loguear(usuario) == 2)
+                {
+                    //usuario comun
+                    Session.Add("Usuario", usuario);
+
+                    Response.Redirect("MICUENTA.ASPX?NombreUsuario=" + NombreUsuario, false);
+
+                }
+                else
+                {
+                    Session.Add("error", "Usuario o contraseñas incorrectos");
+                    Response.Redirect("ERROR.aspx", false);
+                }
+
             }
-            else if (negocioUsuario.loguear(usuario) == 2)
+            catch (Exception ex)
             {
-                //usuario comun
-                Session.Add("Usuario", usuario);
-                Response.Redirect("MICUENTA.aspx", false);
-            }
-            else
-            {
-                Session.Add("error", "Usuario o contraseñas incorrectos");
-                Response.Redirect("ERROR.aspx", false);
+
+                Session.Add("error", ex.ToString());
             }
 
         }
-        catch (Exception ex)
-        {
 
-            Session.Add("error", ex.ToString());
-        }
-
-        }
+    
 
         protected void BtnCerrar_Click1(object sender, EventArgs e)
         {           
