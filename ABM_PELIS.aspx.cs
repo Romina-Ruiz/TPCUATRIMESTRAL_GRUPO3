@@ -12,8 +12,10 @@ namespace TPCuatrimestral_Grupo3
 {
     public partial class ABM_PELIS : System.Web.UI.Page
     {
+        public bool FiltroAvanzado { get; set; }    
         protected void Page_Load(object sender, EventArgs e)
         {
+            FiltroAvanzado=CkbAvanzado.Checked;
 
             try
             {
@@ -27,11 +29,12 @@ namespace TPCuatrimestral_Grupo3
                 if (!IsPostBack)
                 {
                     PeliculaNegocio negocio = new PeliculaNegocio();
-                    gvPelis.DataSource = negocio.listarABMPelis();
+                    Session.Add("listaPelis", negocio.listarABMPelis());
+                    gvPelis.DataSource = Session["listaPelis"];
                     gvPelis.DataBind();
                 }
 
-                if (!IsPostBack)
+                /*if (!IsPostBack)
                 {
                     PeliculaNegocio negocio = new PeliculaNegocio();
                     List<Pelicula> lista = negocio.listarABMPelis();
@@ -39,7 +42,7 @@ namespace TPCuatrimestral_Grupo3
                     Session["lista"] = lista;
 
 
-                }
+                }*/
 
                 PaisNegocio AuxPais = new PaisNegocio();
                 List<Pais> listaPais = AuxPais.listarPaisOrden();
@@ -71,7 +74,7 @@ namespace TPCuatrimestral_Grupo3
             if (id != 0)
             {
 
-                List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
+                List<Pelicula> temporal = (List<Pelicula>)Session["listaPelis"];
                 Pelicula detalle = temporal.Find(x => x.ID == id);
 
                 ABMPelicula(detalle);
@@ -113,7 +116,7 @@ namespace TPCuatrimestral_Grupo3
         {
             int id = int.Parse(gvPelis.SelectedDataKey.Value.ToString());
            
-                List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
+                List<Pelicula> temporal = (List<Pelicula>)Session["listaPelis"];
                 Pelicula peli = temporal.Find(x => x.ID == id);
 
                 PeliculaNegocio negocio= new PeliculaNegocio();
@@ -137,7 +140,7 @@ namespace TPCuatrimestral_Grupo3
         {
             int id = int.Parse(gvPelis.SelectedDataKey.Value.ToString());
 
-            List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
+            List<Pelicula> temporal = (List<Pelicula>)Session["listaPelis"];
             Pelicula peli = temporal.Find(x => x.ID == id);
 
             PeliculaNegocio negocio = new PeliculaNegocio();
@@ -162,7 +165,7 @@ namespace TPCuatrimestral_Grupo3
 
             int id = int.Parse(gvPelis.SelectedDataKey.Value.ToString());
 
-            List<Pelicula> temporal = (List<Pelicula>)Session["lista"];
+            List<Pelicula> temporal = (List<Pelicula>)Session["listaPelis"];
             Pelicula peli = temporal.Find(x => x.ID == id);
 
             PeliculaNegocio negocio = new PeliculaNegocio();
@@ -177,6 +180,54 @@ namespace TPCuatrimestral_Grupo3
             TxtPlataforma.Text = "";
             //TxtCategoria.Text = detalle.Categoria;
             TxtImagen.Text = "  ";
+
+        }
+
+        protected void CkbAvanzado_CheckedChanged(object sender, EventArgs e)
+        {
+            FiltroAvanzado= CkbAvanzado.Checked;
+            Txtfiltro.Enabled=!FiltroAvanzado;
+
+        }
+
+        protected void DlCriterio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+
+
+        }
+
+        protected void BtnBuscar_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                
+
+               
+
+
+            }
+            catch (Exception ex)
+            {
+
+                Session.Add("error", ex);
+                throw;
+            }
+
+
+        }
+
+        protected void Txtfiltro_TextChanged(object sender, EventArgs e)
+        {
+
+            List<Pelicula> lista =  (List<Pelicula>) Session["listaPelis"];
+
+            List<Pelicula> listafiltrada=lista.FindAll(x=> x.Titulo.ToUpper().Contains(Txtfiltro.Text.ToUpper()));  
+
+            gvPelis.DataSource = listafiltrada;
+            gvPelis.DataBind(); 
+
 
         }
     }

@@ -51,7 +51,6 @@ C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\T
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\roslyn\VBCSCompiler.exe
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Antlr3.Runtime.dll
-C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\AspNet.ScriptManager.jQuery.dll
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.AspNet.FriendlyUrls.dll
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -631,7 +630,6 @@ C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\T
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Azure.Core.xml
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Azure.Identity.xml
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.SqlClient.pdb
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Data.SqlClient.xml
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Identity.Client.xml
 C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCuatrimestral_Grupo3\bin\Microsoft.Identity.Client.Extensions.Msal.xml
@@ -1591,3 +1589,5 @@ C:\Users\eliza\OneDrive\Escritorio\RepoTPC\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCu
 C:\Users\eliza\OneDrive\Escritorio\RepoTPC\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatri.7D44AF1C.Up2Date
 C:\Users\eliza\OneDrive\Escritorio\RepoTPC\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.dll
 C:\Users\eliza\OneDrive\Escritorio\RepoTPC\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.pdb
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\System.ClientModel.dll
+C:\Users\Romina\Documents\GitHub\TPCUATRIMESTRAL_GRUPO3\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\System.ClientModel.xml

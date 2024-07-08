@@ -163,6 +163,72 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
         }
 
+        public List<Pelicula> Filtrar(string criterio, string op2, string op3, string Estado)
+        {
+            List<Pelicula> lista= new List<Pelicula>(); 
+            AccesoDatos datos= new AccesoDatos();
+
+            try
+            {
+                if (criterio=="Plataforma")
+                {
+                    switch (op2)
+                    {
+                        
+
+
+
+                    }
+
+
+
+
+                }
+
+
+
+
+
+
+                datos.setearProcedimiento("ABMPeliS2");
+                datos.ejecutarLectura();
+                while (datos.Lector.Read())
+                {
+                    Pelicula aux = new Pelicula();
+
+                    aux.ID = (long)datos.Lector["ID"];
+                    aux.Titulo = (string)datos.Lector["Titulo"];
+                    aux.PaisOrigen = (string)datos.Lector["PaisOrigen"];
+                    aux.FechaLanzamiento = DateTime.Parse(datos.Lector["FechaLanzamiento"].ToString());
+                    aux.Descripcion = (string)datos.Lector["Descripcion"];
+                    aux.UrlImagenContenido = (string)datos.Lector["ImagenUrl"];
+                    aux.Duracion = (int)datos.Lector["Duracion"];
+                    aux.Plataforma = (string)datos.Lector["Plataforma"];
+                    aux.Categoria = (string)datos.Lector["Categoria"];
+                    aux.Fandom = (bool)datos.Lector["FANDOM"];
+
+                    lista.Add(aux);
+                }
+
+                return lista;
+
+
+            }
+            catch (Exception ex)
+            {
+              
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+
+            }
+
+
+
+        }
+
 
 
 
