@@ -35,10 +35,9 @@
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li>
-                                <button class="dropdown-item" type="button" href="#" style="font-family: 'Arial Black'; font-size: large; font-weight: bolder">Series</button></li>
+                             <a class="dropdown-item" href="#" style="color: #FF0000; font-weight: bolder; font-size: 18px" >Series</a>
                             <li>
-                                <button class="dropdown-item" type="button" href="#" style="font-family: 'Arial Black'; font-size: large; font-weight: bolder">Peliculas</button></li>
-
+                             <a class="dropdown-item" href="FANDOM_PELIS.aspx" style="color: #FF0000; font-weight: bolder; font-size: 18px" >Peliculas</a>
                         </ul>
                     </div>
 

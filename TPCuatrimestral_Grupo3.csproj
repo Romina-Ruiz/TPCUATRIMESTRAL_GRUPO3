@@ -235,6 +235,8 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="DETALLE_PELI.aspx" />
     <Content Include="DETALLE_SERIE.aspx" />
+    <Content Include="FANDOM_PELIS.aspx" />
+    <Content Include="FANDOM_SERIES.aspx" />
     <Content Include="Favoritos.aspx" />
     <Content Include="Mensajes.aspx" />
     <Content Include="MisDatos.aspx" />
@@ -460,6 +462,20 @@
     </Compile>
     <Compile Include="DETALLE_SERIE.aspx.designer.cs">
       <DependentUpon>DETALLE_SERIE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FANDOM_PELIS.aspx.cs">
+      <DependentUpon>FANDOM_PELIS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FANDOM_PELIS.aspx.designer.cs">
+      <DependentUpon>FANDOM_PELIS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FANDOM_SERIES.aspx.cs">
+      <DependentUpon>FANDOM_SERIES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FANDOM_SERIES.aspx.designer.cs">
+      <DependentUpon>FANDOM_SERIES.aspx</DependentUpon>
     </Compile>
     <Compile Include="Favoritos.aspx.cs">
       <DependentUpon>Favoritos.aspx</DependentUpon>
