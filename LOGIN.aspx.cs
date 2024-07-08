@@ -27,6 +27,7 @@ namespace TPCuatrimestral_Grupo3
 
                 usuario.NombreUsuario = TxtUsuario.Text;
                 string NombreUsuario = TxtUsuario.Text;
+                Session.Add("NombreUsuario", NombreUsuario);
                 usuario.Contrasena = TxtPass.Text;
 
                 if (negocioUsuario.loguear(usuario) == 1)

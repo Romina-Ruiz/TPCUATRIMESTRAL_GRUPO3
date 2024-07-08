@@ -22,6 +22,11 @@ namespace TPCuatrimestral_Grupo3
                 NombreUsuario = Request.QueryString["NombreUsuario"].ToString();
 
             }
+
+            else
+            {
+                NombreUsuario = (string)Session["NombreUsuario"];
+            }
         }
 
         protected void BtnVolver_Click(object sender, EventArgs e)
