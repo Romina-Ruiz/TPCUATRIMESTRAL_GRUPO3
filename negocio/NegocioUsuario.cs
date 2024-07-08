@@ -91,6 +91,50 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
         }
 
+
+        //esto es nuevo
+        public string loguearEmail(Usuario usuario)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearParametro("@NombreUsuario", usuario.NombreUsuario);
+                datos.setearParametro("@Contrasena", usuario.Contrasena);
+
+                datos.setearConsulta("select Id, EsAdministrador,Email from Usuarios where NombreUsuario = @NombreUsuario and Contrasena = @Contrasena");
+
+                datos.ejecutarLectura();
+
+                if (datos.Lector.Read())
+                {
+                    Usuario Aux = new Usuario();
+
+                    Aux.Id = (long)datos.Lector["Id"];
+                    Aux.Email = (string)datos.Lector["Email"];
+                    Aux.EsAdministrador = (bool)(datos.Lector["EsAdministrador"]) == true ? true : false;
+
+                    return Aux.Email;
+                }
+                else
+                {
+                    return " ";
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+        }
+
+
         public List<Usuario> listarConSP()
         {
             List<Usuario> lista = new List<Usuario>();

@@ -36,6 +36,24 @@ namespace TPCuatrimestral_Grupo3
                     Session.Add("Admin", usuario);
 
                     Response.Redirect("MICUENTA.ASPX?NombreUsuario=" + NombreUsuario, false);
+
+
+                    try
+                    {
+                        EmailService emailService = new EmailService();
+                        string emailNuevo = negocioUsuario.loguearEmail(usuario);
+
+                        emailService.armarCorreo(emailNuevo, "login");
+
+                        emailService.enviarEmail();
+                    }
+                    catch (Exception ex)
+                    {
+
+                        throw ex;
+                    }
+
+
                 }
                 else if (negocioUsuario.loguear(usuario) == 2)
                 {
@@ -43,6 +61,21 @@ namespace TPCuatrimestral_Grupo3
                     Session.Add("Usuario", usuario);
 
                     Response.Redirect("MICUENTA.ASPX?NombreUsuario=" + NombreUsuario, false);
+
+                    try
+                    {
+                        EmailService emailService = new EmailService();
+                        string emailNuevo = negocioUsuario.loguearEmail(usuario);
+
+                        emailService.armarCorreo(emailNuevo, "login");
+
+                        emailService.enviarEmail();
+                    }
+                    catch (Exception ex)
+                    {
+
+                        throw ex;
+                    }
 
                 }
                 else

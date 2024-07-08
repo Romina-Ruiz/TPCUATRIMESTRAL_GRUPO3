@@ -516,6 +516,7 @@
     <Compile Include="Negocio\CiudadesNegocio.cs" />
     <Compile Include="Negocio\DetallePeliNegocio.cs" />
     <Compile Include="Negocio\DetalleSerieNegocio.cs" />
+    <Compile Include="Negocio\EmailService.cs" />
     <Compile Include="Negocio\PaisNegocio.cs" />
     <Compile Include="Negocio\PeliculaNegocio.cs" />
     <Compile Include="Negocio\PlataformaNegocio.cs" />
