@@ -26,7 +26,10 @@
                 <a class="nav-link fs-5 text-white" href="#">Favoritos</a>
                 <a class="nav-link fs-5 text-white" href="#">Mensajes</a>
                 <a class="nav-link fs-5 text-white" href="UPLOAD.aspx">Mi Recomendacion</a>
+                <% if (Session["Admin"] != null)
+                    { %>
                 <a class="nav-link fs-5 text-white" href="Op_Admin.aspx">Administrador</a>
+                <% } %>
             </nav>
             <br>
         </div>
@@ -39,7 +42,7 @@
 
         <div class="d-flex flex-row-reverse">
             <div class="p-2 m-3">
-                <asp:Button ID="BtnVolver" OnClick="BtnVolver_Click"  class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
+                <asp:Button ID="BtnVolver" OnClick="BtnVolver_Click" class="btn btn-success m-2" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
             </div>
 
         </div>

@@ -11,12 +11,16 @@ namespace TPCuatrimestral_Grupo3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if ((Session["Usuario"] == null && Session["Admin"] == null) || Session["Usuario"] != null)
+            {
+                Session.Add("error", "Debes loguearte para ingresar.");
+                Response.Redirect("ERROR.aspx", false);
+            }
         }
 
         protected void Volver_Click(object sender, EventArgs e)
         {
-            Response.Redirect("HOME.aspx");
+            Response.Redirect("MICUENTA.aspx");
 
         }
     }
