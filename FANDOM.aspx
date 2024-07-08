@@ -35,7 +35,7 @@
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li>
-                             <a class="dropdown-item" href="#" style="color: #FF0000; font-weight: bolder; font-size: 18px" >Series</a>
+                             <a class="dropdown-item" href="FANDOM_SERIES.aspx" style="color: #FF0000; font-weight: bolder; font-size: 18px" >Series</a>
                             <li>
                              <a class="dropdown-item" href="FANDOM_PELIS.aspx" style="color: #FF0000; font-weight: bolder; font-size: 18px" >Peliculas</a>
                         </ul>
