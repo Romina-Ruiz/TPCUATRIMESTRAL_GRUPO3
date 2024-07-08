@@ -26,6 +26,7 @@ namespace TPCuatrimestral_Grupo3
 
         protected void BtnCerrarSesion_Click(object sender, EventArgs e)
         {
+            Session.Clear();    
             Session.Remove("Usuario");
             Session.Remove("Admin");
             Response.Redirect("HOME.aspx");

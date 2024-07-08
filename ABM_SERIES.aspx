@@ -4,8 +4,13 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
        <div class="Fondo">
-       <h2>ADMINISTRAR CONTENIDOS</h2>
+       <h2>ADMINISTRAR SERIES</h2>
    </div>
+
+     
+
+
+      
 
 
 
