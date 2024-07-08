@@ -23,7 +23,7 @@ namespace TPCuatrimestral_Grupo3
             if (!IsPostBack)
             {
                 PlataformaNegocio AuxPlaNe = new PlataformaNegocio();
-                List<Plataforma> listaPlataformas = AuxPlaNe.listarPlataformas();
+                List<Plataforma> listaPlataformas = AuxPlaNe.PlataformaOrden();
 
 
                 DWLPlataformas2.DataSource = listaPlataformas;
@@ -32,7 +32,7 @@ namespace TPCuatrimestral_Grupo3
                 DWLPlataformas2.DataBind();
 
                 PaisNegocio AuxPais = new PaisNegocio();
-                List<Pais> listaPais = AuxPais.listarPais();
+                List<Pais> listaPais = AuxPais.listarPaisOrden();
 
                 DWLPais2.DataSource = listaPais;
                 DWLPais2.DataTextField = "NombrePais";

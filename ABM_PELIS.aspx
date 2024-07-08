@@ -190,6 +190,8 @@
                     </div>
                 </div>
 
+
+
                         <!--FILTROS -->
 
                 
@@ -309,8 +311,9 @@
 
         </div>
 
-        </ContentTemplate>
-        </asp:UpdatePanel>
+        
+                </ContentTemplate>
+            </asp:UpdatePanel>
 
     </div>
 

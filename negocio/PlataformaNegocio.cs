@@ -76,7 +76,47 @@ namespace TPCuatrimestral_Grupo3.Negocio
             {
                 datos.cerrarConexion();
             }
-        }       
+        }
+
+        public List<Plataforma> PlataformaOrden()
+        {
+            List<Plataforma> lista = new List<Plataforma>();
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+
+                datos.setearProcedimiento("SP_PLATAFORMAS_ORDEN");
+                datos.ejecutarLectura();
+                while (datos.Lector.Read())
+                {
+                    Plataforma aux = new Plataforma();
+
+                    aux.ID = (short)datos.Lector["ID"];
+                    aux.Nombre = (string)datos.Lector["Nombre"];
+                    aux.UrlSitioWeb = (string)datos.Lector["UrlSitioWeb"];
+                    aux.UrlLogo = (string)datos.Lector["LogoUrl"];
+
+                    lista.Add(aux);
+                }
+
+                return lista;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+
+
+
+
+
 
 
     }
