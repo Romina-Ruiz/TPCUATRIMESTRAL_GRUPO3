@@ -17,205 +17,23 @@
             <ContentTemplate>   
 
 
-                <!--FORMULARIO -->
-                <div class="row pt-2">
-
-                    <div class="col-6 ">
-
-                        <div class="col-5">
-
-                            <div class="col-auto">
-                                <label for="inputTitulo" class="col-form-label" style="font-weight: bold; font-size: x-large">Titulo</label>
-                            </div>
-                            <div class="col-auto">
-                                <asp:TextBox ID="TxtTitulo" runat="server" Width="300"></asp:TextBox>
-                            </div>
-
-                            <div class="col-auto">
-                                <label for="inputPais" class="col-form-label" style="font-weight: bold; font-size: x-large">Pais de Origen</label>
-                            </div>
-                            <div class="col-auto">
-
-                                <asp:DropDownList ID="Ddlpais" runat="server" Width="300" Height="34"></asp:DropDownList>
-                            </div>
-
-                            <div class="col-auto">
-                                <label for="inputLanzamiento" class="col-form-label" style="font-weight: bold; font-size: x-large">Fecha de Lanzamiento</label>
-                            </div>
-                            <div class="col-auto">
-                                <asp:TextBox ID="TxtLanzamiento" Width="300" runat="server"></asp:TextBox>
-                            </div>
-                            <div class="col-auto">
-                                <label for="inputDescripcion" class="col-form-label" style="font-weight: bold; font-size: x-large">Descripcion</label>
-                            </div>
-                            <div class="col-auto">
-                                <asp:TextBox ID="TxtDescripcion" Width="300" runat="server"></asp:TextBox>
-                            </div>
-                            <div class="col-auto">
-                                <label for="inputDuracion" class="col-form-label" style="font-weight: bold; font-size: x-large">Duracion (minutos)</label>
-                            </div>
-                            <div class="col-auto">
-                                <asp:TextBox ID="TxtDuracion" Width="300" runat="server"></asp:TextBox>
-                            </div>
-                            <div class="col-auto">
-                                <label for="inputPlataforma" class="col-form-label" style="font-weight: bold; font-size: x-large">Plataforma</label>
-                            </div>
-                            <div class="col-auto">
-                                <asp:TextBox ID="TxtPlataforma" Width="300" runat="server"></asp:TextBox>
-                            </div>
-
-                            <div class="col-auto">
-                                <label for="inputfandom" class="col-form-label" style="font-weight: bold; font-size: x-large">Es Fandon</label>
-                            </div>
-                            <div class="col-auto">
-                                <asp:TextBox ID="TexFandom" Width="300" runat="server"></asp:TextBox>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <!--2 columna -->
-                    <div class="col-6 ">
-
-                        <div class="col-5">
-
-                            <div class="col-auto">
-                                <label for="inputCategoria" class="col-form-label" style="font-weight: bold; font-size: x-large">Categoria</label>
-                            </div>
-                            <!--CHECK BOX-->
-                            <div class="col-auto">
-
-                                <div class="form-check">
-                                    <asp:CheckBox ID="CkbAccion" CssClass="form-check-label" runat="server" Checked="true" />
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Accion
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <!--numero 4-->
-                                    <asp:CheckBox ID="CkbAnimacion" CssClass="form-check-label" runat="server" Checked="true" />
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Animacion
-                                    </label>
-                                </div>
-
-                                <div class="form-check">
-                                    <!--numero 5 -->
-                                    <asp:CheckBox ID="CkbCiencia" CssClass="form-check-label" runat="server" Checked="true" />
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Ciencia Ficción
-                                    </label>
-                                </div>
-
-                                <div class="form-check">
-                                    <asp:CheckBox ID="CkbComedia" CssClass="form-check-label" runat="server" Checked="true" />
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Comedia
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <!-- numero 6 -->
-                                    <asp:CheckBox ID="CkbDocumental" CssClass="form-check-label" runat="server" Checked="true" />
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Documental
-                                    </label>
-                                </div>
-                            </div>
-
-
-                            <div class="form-check">
-                                <asp:CheckBox ID="CkbDrama" CssClass="form-check-label" runat="server" Checked="true" />
-                                <label class="form-check-label" for="flexCheckChecked">
-                                    Drama
-                                </label>
-                            </div>
-
-                            <div class="form-check">
-                                <!-- numero 7 -->
-                                <asp:CheckBox ID="CkbFantasia" CssClass="form-check-label" runat="server" Checked="true" />
-                                <label class="form-check-label" for="flexCheckChecked">
-                                    Fantasía
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <!-- numero 8 -->
-                                <asp:CheckBox ID="CkbSuspenso" CssClass="form-check-label" runat="server" />
-                                <label class="form-check-label" for="flexCheckChecked">
-                                    Suspenso
-                                </label>
-                            </div>
-
-                            <div class="form-check">
-                                <!-- numero 9 -->
-                                <asp:CheckBox ID="CkbTerror" CssClass="form-check-label" runat="server" />
-                                <label class="form-check-label" for="flexCheckChecked">
-                                    Terror
-                                </label>
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-auto">
-                            <label for="inputImagen" class="col-form-label" style="font-weight: bold; font-size: x-large">URLImagen</label>
-                        </div>
-                        <div class="col-auto">
-                            <asp:TextBox ID="TxtImagen" AutoPostBack="true" Width="300" OnTextChanged="TxtImagen_TextChanged" runat="server"></asp:TextBox>
-                        </div>
-                        <br />
-                        <br />
-                        <asp:Image ID="URLImg" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="40%" runat="server" />
-
-
-                    </div>
-
-
-                </div>
-
-                </div>
-
-
-                <!--BOTONES -->
-                <div class="row pt-5 align-items-center">
-
-                    <div class="col-md-10 col-md- offset-1 ">
-                        <div class="form-group">
-
-                            <asp:Button ID="Btn_Modificar" class="m-2" CssClass="btn btn-warning btn-lg" OnClick="Btn_Modificar_Click" Width="220px" runat="server" Text="Modificar" />
-                            <asp:Button ID="Btn_Activar" class="m-2" OnClick="Btn_Activar_Click" CssClass="btn btn-info btn-lg" Width="220px" runat="server" Text="Activar" />
-                            <asp:Button ID="Btn_Eliminar" class="m-2" CssClass="btn btn-danger btn-lg" OnClick="Btn_Eliminar_Click" Width="220px" runat="server" Text="Eliminar" />
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-
                         <!--FILTROS -->
 
-                
-                <asp:UpdatePanel ID="filtro" runat="server">
-                    <ContentTemplate>
-
+               
                         <div class="row pt-5">
 
                             <div class="Filtros pt-4">
 
-                                <div class="text-center">
-                                    <asp:Label ID="LblFiltro" Font-Size="X-Large" runat="server" Text="Buscar"></asp:Label>
-                                    <asp:TextBox ID="Txtfiltro" Width="300px" AutoPostBack="true" OnTextChanged="Txtfiltro_TextChanged" runat="server"></asp:TextBox>
+                                <div class="text-center pt-3">
+                                    <asp:Label ID="LblFiltro" Font-Size="X-Large" runat="server" Text="Busqueda simple"></asp:Label>
+                                    <asp:TextBox ID="Txtfiltro" Width="300px"  runat="server"></asp:TextBox>
                                 </div>
 
-                                <div class="pt-2">
+                                <div class="pt-4">
                                     <asp:Label ID="LblAvanzado" CssClass="m-5" Font-Size="X-Large" runat="server" Text="Busqueda Avanzada"></asp:Label>
-
-                                    <asp:CheckBox ID="CkbAvanzado" CssClass="$form-check-min-height:"
-                                        AutoPostBack="true" OnCheckedChanged="CkbAvanzado_CheckedChanged" runat="server" />
-
+                                                                       
                                 </div>
-                                <% if (FiltroAvanzado)
-                                    { %>
+                               
                                 <div class="row pt-3">
                                     <div class="col-3">
                                         <div class="mb-3">
@@ -250,7 +68,7 @@
                                      </div>
                                     
                                     <div>
-                                        <asp:Button ID="BtnBuscar" CssClass="btn btn-primary" OnClick="BtnBuscar_Click" runat="server" Text="Buscar" />
+                                        <asp:Button ID="BtnBuscar" CssClass="btn btn-primary" runat="server" Text="Buscar" />
                                     </div>
                                    
 
@@ -259,10 +77,8 @@
 
                             </div>
                         </div>
-                        <% } %>
-                        </ContentTemplate>
-                    </asp:UpdatePanel>
-
+                    
+                   
                 <!--GRILLA LISTA -->
 
                 <div class="row pt-5">
