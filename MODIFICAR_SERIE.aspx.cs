@@ -45,11 +45,11 @@ namespace TPCuatrimestral_Grupo3
                     TxtTitulo.Text= seleccionado.Titulo;
                     TxtResumenSerie.Text = seleccionado.Descripcion;
                     //TxtFechaSerie.Text= seleccionado.FechaLanzamiento;
-                    DWLPais2.SelectedValue = seleccionado.PaisOrigen;
-                    DWLPlataformas2.SelectedValue= seleccionado.IdPlataforma;
-                    DWLTemporadas2.SelectedValue=seleccionado.Temporadas.ToString();
-                    DWLCapitulos2.SelectedValue= seleccionado.EpisodiosTotales.ToString();
-                    URLImagenSerie.Text= seleccionado.UrlImagenContenido;
+                    DWLPais2.Text = seleccionado.PaisOrigen;
+                    DWLPlataformas2.Text = seleccionado.IdPlataforma;
+                    DWLTemporadas2.Text =seleccionado.Temporadas.ToString();
+                    DWLCapitulos2.Text = seleccionado.EpisodiosTotales.ToString();
+                    URLImagenSerie.Text = seleccionado.UrlImagenContenido;
 
 
                     URLImagenSerie_TextChanged(sender, e);
@@ -57,10 +57,10 @@ namespace TPCuatrimestral_Grupo3
 
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
 			{
 
-				throw;
+				throw ex;
 			}
 
 

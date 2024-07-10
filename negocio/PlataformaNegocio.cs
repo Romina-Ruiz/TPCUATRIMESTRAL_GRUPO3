@@ -87,6 +87,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                 datos.setearProcedimiento("SP_PLATAFORMAS_ORDEN");
                 datos.ejecutarLectura();
+                
                 while (datos.Lector.Read())
                 {
                     Plataforma aux = new Plataforma();

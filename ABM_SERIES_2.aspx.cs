@@ -37,10 +37,10 @@ namespace TPCuatrimestral_Grupo3
 
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
 
 
@@ -54,6 +54,7 @@ namespace TPCuatrimestral_Grupo3
             {
 
                 List<Serie> temporal = (List<Serie>)Session["listaSeries"];
+                
                 Serie detalle = temporal.Find(x => x.ID == id);
 
                 Response.Redirect("MODIFICAR_SERIE.aspx?id=" + id);
