@@ -25,6 +25,8 @@ namespace TPCuatrimestral_Grupo3.Modelo
 
         public bool Estado {  get; set; }   
         
-        public Pais Pais { get; set; }
+        public Pais idpais { get; set; }
+
+        public Plataforma plataforma2 { get; set; }  
     }
 }

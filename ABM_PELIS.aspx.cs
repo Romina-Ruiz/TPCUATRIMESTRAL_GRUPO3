@@ -57,7 +57,7 @@ namespace TPCuatrimestral_Grupo3
             PaisNegocio AuxPais = new PaisNegocio();
             List<Pais> listaPais = AuxPais.listarPaisOrden();
 
-            //DlCriterio.Items.Clear();
+            
             Dlopciones2.Items.Clear();
             if (DlCriterio.SelectedItem.ToString() == "Plataforma")
             {
@@ -79,6 +79,15 @@ namespace TPCuatrimestral_Grupo3
 
             else if (DlCriterio.SelectedItem.ToString() == "Categoria")
             {
+                Dlopciones2.Items.Add("Accion");
+                Dlopciones2.Items.Add("Animacion");
+                Dlopciones2.Items.Add("Ciencia Ficcion");
+                Dlopciones2.Items.Add("Comedia");
+                Dlopciones2.Items.Add("Documentar");
+                Dlopciones2.Items.Add("Drama");
+                Dlopciones2.Items.Add("Fantasia");
+                Dlopciones2.Items.Add("Suspenso");
+                Dlopciones2.Items.Add("Terror");
 
 
 
@@ -104,14 +113,39 @@ namespace TPCuatrimestral_Grupo3
                 List<Pelicula> temporal = (List<Pelicula>)Session["listaPelis"];
                 Pelicula detalle = temporal.Find(x => x.ID == id);
 
-                //ABMPelicula(detalle);
+                Response.Redirect("MODIFICAR_PELI.aspx?id=" + id);  
 
 
             }
 
         }
 
+        protected void Txtfiltro_TextChanged(object sender, EventArgs e)
+        {
+            List<Pelicula> lista = (List<Pelicula>)Session["listaPelis"];
 
+            List<Pelicula> listafiltrada = lista.FindAll(x => x.Titulo.ToUpper().Contains(Txtfiltro.Text.ToUpper()));
+
+            gvPelis.DataSource = listafiltrada;
+            gvPelis.DataBind();
+
+
+        }
+
+        protected void gvPelis_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            gvPelis.PageIndex = e.NewPageIndex; 
+            gvPelis.DataBind();
+
+
+        }
+
+        protected void Volver_Click(object sender, EventArgs e)
+        {
+
+            Response.Redirect("CHECK_CONTENIDO.aspx");
+
+        }
     }
 
  }
