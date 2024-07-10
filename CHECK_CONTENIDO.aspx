@@ -14,7 +14,7 @@
         <div class="col-4 ">
             <nav class="nav flex-column">
                 <a class="nav-link active fs-5 text-white" aria-current="page" href="ABM_PELIS.aspx">ABM PELIS</a>
-                <a class="nav-link fs-5 text-white" href="ABM_SERIES.aspx">ABM SERIES</a>
+                <a class="nav-link fs-5 text-white" href="ABM_SERIES_2.aspx">ABM SERIES</a>
 
 
             </nav>

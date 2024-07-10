@@ -107,9 +107,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.setearParametro2("@fandom", peli.Fandom);
                 datos.setearParametro2("@Estado", peli.Estado);
 
-               /* datos.setearConsulta("MODIFICAR_PELI @ID,@Titulo,@IdOrigen," +
-                                "@Categoria,@FechaLanzamiento,@Descripcion,@Duracion," +
-                                "@Plataforma,@URLImagen,@fandom,@Estado");*/
+              
 
                 datos.ejecutarAccion();
             }

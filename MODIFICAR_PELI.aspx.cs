@@ -34,6 +34,38 @@ namespace TPCuatrimestral_Grupo3
                 DWLplataformas.DataValueField = "ID";
                 DWLplataformas.DataBind();
 
+                //TRAIGO EL SELECCIONADO
+
+                if (Request.QueryString["id"]!=null) {
+
+                    int id= int.Parse(Request.QueryString["id"].ToString());   
+                    List<Pelicula> lista = (List<Pelicula>)Session["listaPelis"];
+                    Pelicula seleccionado = lista.Find(x => x.ID== id);
+
+                    
+                    TxtTitulo.Text = seleccionado.Titulo;
+                    TxtResumenPeli.Text = seleccionado.Descripcion;
+                    seleccionado.idpais = new Pais();            
+                    DWLPais.SelectedValue=seleccionado.idpais.Id.ToString();
+                    DWLplataformas.SelectedValue=seleccionado.Plataforma.ToString();    
+                    txtFecha.Text=seleccionado.FechaLanzamiento.ToString();
+                    //DwlHora=seleccionado.Duracion.ToString();
+                    //DwlMinutos=seleccionado.Duracion.ToString();
+                    /*CkbAccion=
+                    CkbAnimacion=
+                    CkbCiencia=
+                    CkbComedia=
+                    CkbDocumental=
+                    CkbDrama=
+                    CkbFantasia=
+                    CkbSuspenso=
+                    CkbTerror=*/
+                    URLImagen.Text=seleccionado.UrlImagenContenido.ToString();
+
+                    URLImagen_TextChanged(sender,e);
+
+
+                }
 
 
 
@@ -43,10 +75,57 @@ namespace TPCuatrimestral_Grupo3
 
                 throw;
             }
+        }
+
+        protected void URLImagen_TextChanged(object sender, EventArgs e)
+        {
+            string nuevaImagen = URLImagen.Text;
+            URLImg.ImageUrl = nuevaImagen;
+
+
+        }
+
+        protected void Btn_Modificar_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(Request.QueryString["id"].ToString());
+
+            List<Pelicula> temporal = (List<Pelicula>)Session["listaPelis"];
+            Pelicula peli = temporal.Find(x => x.ID == id);
+
+            PeliculaNegocio negocio = new PeliculaNegocio();
+
+            negocio.modificarSP(peli);
+        }
+
+        protected void Btn_Activar_Click(object sender, EventArgs e)
+        {
+          
+
+            int id = int.Parse(Request.QueryString["id"].ToString());
+
+            List<Pelicula> temporal = (List<Pelicula>)Session["listaPelis"];
+            Pelicula peli = temporal.Find(x => x.ID == id);
+
+            PeliculaNegocio negocio = new PeliculaNegocio();
+
+            negocio.ActivarPeli(peli);
 
 
 
-            
+
+        }
+
+        protected void Btn_Eliminar_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(Request.QueryString["id"].ToString());
+
+            List<Pelicula> temporal = (List<Pelicula>)Session["listaPelis"];
+            Pelicula peli = temporal.Find(x => x.ID == id);
+
+            PeliculaNegocio negocio = new PeliculaNegocio();
+
+            negocio.ModificarEstado(peli);
+
 
         }
     }

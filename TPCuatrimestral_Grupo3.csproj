@@ -240,8 +240,8 @@
     <Content Include="Favoritos.aspx" />
     <Content Include="Mensajes.aspx" />
     <Content Include="MisDatos.aspx" />
-    <Content Include="ABM_SERIES.aspx" />
     <Content Include="MODIFICAR_PELI.aspx" />
+    <Content Include="MODIFICAR_SERIE.aspx" />
     <Content Include="NOVEDADES.aspx" />
     <Content Include="Content\bootstrap-icons\font\bootstrap-icons.css" />
     <Content Include="Content\bootstrap-icons\font\bootstrap-icons.min.css" />
@@ -507,19 +507,19 @@
     <Compile Include="Modelo\Plataforma.cs" />
     <Compile Include="Modelo\PlataformaXPelicula.cs" />
     <Compile Include="Modelo\Serie.cs" />
-    <Compile Include="ABM_SERIES.aspx.cs">
-      <DependentUpon>ABM_SERIES.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ABM_SERIES.aspx.designer.cs">
-      <DependentUpon>ABM_SERIES.aspx</DependentUpon>
-    </Compile>
     <Compile Include="MODIFICAR_PELI.aspx.cs">
       <DependentUpon>MODIFICAR_PELI.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MODIFICAR_PELI.aspx.designer.cs">
       <DependentUpon>MODIFICAR_PELI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MODIFICAR_SERIE.aspx.cs">
+      <DependentUpon>MODIFICAR_SERIE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MODIFICAR_SERIE.aspx.designer.cs">
+      <DependentUpon>MODIFICAR_SERIE.aspx</DependentUpon>
     </Compile>
     <Compile Include="Negocio\CiudadesNegocio.cs" />
     <Compile Include="Negocio\DetallePeliNegocio.cs" />
