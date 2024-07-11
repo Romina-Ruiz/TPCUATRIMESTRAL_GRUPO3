@@ -79,6 +79,7 @@ namespace TPCuatrimestral_Grupo3
         {
             PlataformaNegocio NegPlata = new PlataformaNegocio();
             List<Plataforma> lisPlata = NegPlata.PlataformaOrden();
+            
             PaisNegocio AuxPais = new PaisNegocio();
             List<Pais> listaPais = AuxPais.listarPaisOrden();
 
