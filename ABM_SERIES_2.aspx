@@ -87,7 +87,7 @@
                                 <asp:BoundField HeaderText="ID" DataField="ID" />
                                 <asp:BoundField HeaderText="Titulo" DataField="Titulo" />
                                 <asp:BoundField HeaderText="Pais de Origen" DataField="PaisOrigen" />
-                                <asp:BoundField HeaderText="Plataforma" DataField="plataforma" />
+                                <asp:BoundField HeaderText="Plataforma" DataField="IdPlataforma" />
                                  <asp:BoundField HeaderText="Estado" DataField="Estado" />
                                 <asp:BoundField HeaderText="Es Fandom" DataField="fandom" />
                                 <asp:CommandField ShowSelectButton="true" SelectText="Seleccionar" HeaderText="Accion" />

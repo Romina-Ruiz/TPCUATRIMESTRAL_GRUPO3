@@ -44,9 +44,12 @@ namespace TPCuatrimestral_Grupo3
 
                     TxtTitulo.Text= seleccionado.Titulo;
                     TxtResumenSerie.Text = seleccionado.Descripcion;
-                    //TxtFechaSerie.Text= seleccionado.FechaLanzamiento;
-                    DWLPais2.Text = seleccionado.PaisOrigen;
-                    DWLPlataformas2.Text = seleccionado.IdPlataforma;
+                    TxtFechaSerie.Text= seleccionado.FechaLanzamiento.ToString("yyyy-MM-dd");
+                   
+                    DWLPais2.SelectedValue=seleccionado.Pais.Id.ToString();
+                    DWLPlataformas2.SelectedValue=seleccionado.Plataforma.ID.ToString();
+                   
+                                                       
                     DWLTemporadas2.Text =seleccionado.Temporadas.ToString();
                     DWLCapitulos2.Text = seleccionado.EpisodiosTotales.ToString();
                     URLImagenSerie.Text = seleccionado.UrlImagenContenido;

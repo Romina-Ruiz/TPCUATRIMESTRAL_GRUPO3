@@ -52,5 +52,12 @@ namespace TPCuatrimestral_Grupo3
         {
 
         }
+
+        protected void LkbAccion_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
     }
 }

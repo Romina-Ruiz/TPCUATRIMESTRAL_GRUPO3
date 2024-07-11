@@ -37,7 +37,7 @@
 
                 <ul class="dropdown-menu">
                     <li>
-                        <asp:LinkButton ID="LkbAccion" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Accion</asp:LinkButton></li>
+                        <asp:LinkButton ID="LkbAccion" OnClick="LkbAccion_Click" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Accion</asp:LinkButton></li>
                     <li>
                         <asp:LinkButton ID="LkbAnimacion" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Animacion </asp:LinkButton></li>
                     <li>

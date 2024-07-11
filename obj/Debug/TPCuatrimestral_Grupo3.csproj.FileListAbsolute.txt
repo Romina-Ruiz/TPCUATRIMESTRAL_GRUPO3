@@ -1348,7 +1348,6 @@ C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATR
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\roslyn\VBCSCompiler.exe
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\Antlr3.Runtime.dll
-C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\AspNet.ScriptManager.jQuery.dll
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\Azure.Core.dll
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\Azure.Identity.dll
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.AspNet.FriendlyUrls.dll
@@ -1394,7 +1393,6 @@ C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATR
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\Azure.Core.xml
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\Azure.Identity.xml
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.Data.SqlClient.pdb
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.Data.SqlClient.xml
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.Identity.Client.xml
 C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\Microsoft.Identity.Client.Extensions.Msal.xml
@@ -1884,3 +1882,5 @@ C:\Users\Romina\Desktop\NUEVAS COPIAS\GITHUB\TPCuatrimestral_Grupo3\TPCUATRIMEST
 C:\Users\Romina\Desktop\NUEVAS COPIAS\GITHUB\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatri.7D44AF1C.Up2Date
 C:\Users\Romina\Desktop\NUEVAS COPIAS\GITHUB\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.dll
 C:\Users\Romina\Desktop\NUEVAS COPIAS\GITHUB\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\obj\Debug\TPCuatrimestral_Grupo3.pdb
+C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\System.ClientModel.dll
+C:\Users\Romina\Desktop\NUEVAS COPIAS\ACTUALIZADO\TPCuatrimestral_Grupo3\TPCUATRIMESTRAL_GRUPO3\bin\System.ClientModel.xml

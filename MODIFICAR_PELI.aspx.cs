@@ -46,7 +46,7 @@ namespace TPCuatrimestral_Grupo3
                     TxtTitulo.Text = seleccionado.Titulo;
                     TxtResumenPeli.Text = seleccionado.Descripcion;
                     seleccionado.idpais = new Pais();            
-                    DWLPais.SelectedValue=seleccionado.idpais.Id.ToString();
+                    DWLPais.SelectedValue=seleccionado.idpais.ToString();
                     DWLplataformas.SelectedValue=seleccionado.Plataforma.ToString();    
                     txtFecha.Text=seleccionado.FechaLanzamiento.ToString();
                     //DwlHora=seleccionado.Duracion.ToString();

@@ -1,9 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="UP_PLATAFORMAS.aspx.cs" Inherits="TPCuatrimestral_Grupo3.UP_PLATAFORMAS" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-        <div class="Fondo">
+    <div class="Fondo">
         <h2>CARGAR NUEVA PLATAFORMA</h2>
     </div>
 
@@ -14,19 +15,29 @@
 
 
 
-        <div class="row p-5">
+        <div class="row justify-content-around p-5">
 
-            <div class="col-4 text-end">
-
-                <asp:Label ID="Label2" runat="server" Text="Label" Font-Size="Medium" Font-Bold="True">NOMBRE:</asp:Label>
+            <div class="col-4 text-star">
+              <asp:Label ID="LblNombre" runat="server" Text="Label" Font-Size="Medium" Font-Bold="True">NOMBRE:</asp:Label>
+              <asp:TextBox ID="TxtNombre" runat="server" Width="400" Height="50"></asp:TextBox>
+                <br />
+            
+                <div class="pt-5">
+                <asp:Label ID="LblURL" runat="server" Text="Label" Font-Size="Medium" Font-Bold="True">URL PAGINA:</asp:Label>
+              <asp:TextBox ID="TxtURL" runat="server" Width="400" Height="50"></asp:TextBox>
+            </div>
+            
             </div>
 
+            <div class="col-4 ms-2">
 
-            <div class="col-4">
-
-                <asp:TextBox ID="TextBox1" runat="server" Width="400" Height="35"></asp:TextBox>
+                <asp:Label ID="LblImg" runat="server" Text="Label" Font-Size="Medium" Font-Bold="True">LINK LOGO:</asp:Label>
+                <asp:TextBox ID="TxtImg" AutoPostBack="true" OnTextChanged="TxtImg_TextChanged" runat="server" Width="400" Height="50"></asp:TextBox>
+                <div class="pt-5">
+                <asp:Image ID="Imagen" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="100px" Height="100px" runat="server" />
+                 </div> 
             </div>
-
+           
 
         </div>
         <!--SEGUNDA ROW-->
@@ -37,8 +48,10 @@
             <div class="col">
 
 
-                <asp:Button ID="Button1" class="btn btn-danger" Font-Size="Larger" Height="40px" Width="150"  Font-Bold="True" runat="server" Text="ACEPTAR" />
-                <asp:Button ID="Volver" class="btn btn-success m-2" OnClick="Volver_Click" Font-Size="Larger" Height="40px" Width="150"  Font-Bold="True" runat="server" Text="VOLVER" />
+                <asp:Button ID="BtnAceptar" OnClick="BtnAceptar_Click" class="btn btn-danger" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="ACEPTAR" />
+               
+                <asp:Button ID="Volver" class="btn btn-success m-2" OnClick="Volver_Click" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
+            
             </div>
 
         </div>

@@ -214,6 +214,7 @@
   <ItemGroup>
     <None Include="BD_Tablas\TPC_Que_Veo.sql" />
     <Content Include="ABM_PELIS.aspx" />
+    <Content Include="ABM_PLATAFORMA.aspx" />
     <Content Include="ABM_SERIES_2.aspx" />
     <Content Include="ABM_USUARIOS.aspx" />
     <Content Include="CHECK_CONTENIDO.aspx" />
@@ -426,6 +427,13 @@
     </Compile>
     <Compile Include="ABM_PELIS.aspx.designer.cs">
       <DependentUpon>ABM_PELIS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ABM_PLATAFORMA.aspx.cs">
+      <DependentUpon>ABM_PLATAFORMA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABM_PLATAFORMA.aspx.designer.cs">
+      <DependentUpon>ABM_PLATAFORMA.aspx</DependentUpon>
     </Compile>
     <Compile Include="ABM_SERIES_2.aspx.cs">
       <DependentUpon>ABM_SERIES_2.aspx</DependentUpon>

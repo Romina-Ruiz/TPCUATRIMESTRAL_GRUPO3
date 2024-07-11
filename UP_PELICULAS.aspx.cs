@@ -60,6 +60,7 @@ namespace TPCuatrimestral_Grupo3
 
         protected void BtnCargarPeli_Click(object sender, EventArgs e)
         {
+
             ContenidoNegocio AuxContNego = new ContenidoNegocio();
             Pelicula AuxPeli = new Pelicula();
 
@@ -123,6 +124,7 @@ namespace TPCuatrimestral_Grupo3
             AuxPeli.PaisOrigen = DWLPais.Text;
             AuxPeli.UrlImagenContenido = URLImagen.Text;
 
+            
             AuxContNego.cargaContenido(AuxPeli);
 
             Contenido AuxCont = new Contenido();
