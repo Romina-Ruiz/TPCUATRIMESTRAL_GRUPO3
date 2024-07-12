@@ -76,5 +76,10 @@ namespace TPCuatrimestral_Grupo3
             Response.Redirect("UP_PLATAFORMAS.aspx");
 
         }
+
+        protected void Volver_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Op_Admin.aspx");
+        }
     }
 }

@@ -56,7 +56,10 @@ namespace TPCuatrimestral_Grupo3
 
             negocio.Cargar(Aux);
 
-            TxtImg_TextChanged(sender, e);  
+            TxtImg_TextChanged(sender, e);
+
+            Response.Redirect("ABM_PLATAFORMA.aspx");
+
 
         }
     }

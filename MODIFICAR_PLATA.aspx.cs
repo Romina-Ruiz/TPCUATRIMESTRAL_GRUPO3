@@ -80,6 +80,13 @@ namespace TPCuatrimestral_Grupo3
         {
             int id = int.Parse(Request.QueryString["id"].ToString());
 
+            List<Plataforma> lista = (List<Plataforma>)Session["listaPlata"];
+            Plataforma seleccionado = lista.Find(x => x.ID == id);
+
+            PlataformaNegocio negocio = new PlataformaNegocio();
+
+            negocio.ActivarPeli(seleccionado);
+            Response.Redirect("ABM_PLATAFORMA.aspx");
 
 
         }
@@ -90,7 +97,18 @@ namespace TPCuatrimestral_Grupo3
             int id = int.Parse(Request.QueryString["id"].ToString());
 
 
+            List<Plataforma> lista = (List<Plataforma>)Session["listaPlata"];
+            Plataforma seleccionado = lista.Find(x => x.ID == id);
+
+            PlataformaNegocio negocio = new PlataformaNegocio();
+
+            negocio.ModificarEstado(seleccionado);
+            Response.Redirect("ABM_PLATAFORMA.aspx");
+
 
         }
+
+
+
     }
 }

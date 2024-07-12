@@ -161,7 +161,11 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.setearParametro2("@Nombre", aux.Nombre);
                 datos.setearParametro2("@URL", aux.UrlSitioWeb);
                 datos.setearParametro2("@Logo", aux.UrlLogo);
-               
+
+
+                /*datos.setearProcedimiento("SP_UPDATE_PLATAFORMA @ID,@Nombre," +
+                                "@URL,@Logo");*/
+
 
                 datos.ejecutarAccion();
             }
@@ -180,6 +184,60 @@ namespace TPCuatrimestral_Grupo3.Negocio
         }
 
 
+
+        public void ModificarEstado(Plataforma aux)
+        {
+
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearProcedimiento("SP_BAJA_PLATA");
+                datos.setearParametro2("@ID", aux.ID);
+
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+
+            }
+
+        }
+
+        public void ActivarPeli(Plataforma aux)
+        {
+
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearProcedimiento("SP_ACTIVAR_PLATA");
+                datos.setearParametro2("@ID", aux.ID);
+
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+            finally
+            {
+
+                datos.cerrarConexion();
+            }
+
+
+        }
 
 
 
