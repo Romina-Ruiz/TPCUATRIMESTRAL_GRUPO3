@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -54,6 +55,42 @@ namespace TPCuatrimestral_Grupo3
         protected void Volver_Click(object sender, EventArgs e)
         {
             Response.Redirect("ABM_PLATAFORMA.aspx");
+        }
+
+        protected void BtnModificar_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(Request.QueryString["id"].ToString());
+            
+            List < Plataforma > lista = (List<Plataforma>)Session["listaPlata"];
+            Plataforma seleccionado = lista.Find(x => x.ID == id);
+
+            PlataformaNegocio negocio = new PlataformaNegocio();
+
+           
+            seleccionado.Nombre=TxtNombre.Text;
+            seleccionado.UrlSitioWeb=TxtURL.Text;
+            seleccionado.UrlLogo=TxtImg.Text;
+            
+            negocio.modificarSP(seleccionado);
+
+            Response.Redirect("ABM_PLATAFORMA.aspx");
+        }
+
+        protected void BtnActivar_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(Request.QueryString["id"].ToString());
+
+
+
+        }
+
+        protected void BtnEliminar_Click(object sender, EventArgs e)
+        {
+
+            int id = int.Parse(Request.QueryString["id"].ToString());
+
+
+
         }
     }
 }

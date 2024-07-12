@@ -44,6 +44,14 @@ namespace TPCuatrimestral_Grupo3
         protected void Txtfiltro_TextChanged(object sender, EventArgs e)
         {
 
+            List<Plataforma> lista = (List<Plataforma>)Session["listaPlata"];
+
+            List<Plataforma> listafiltrada = lista.FindAll(x => x.Nombre.ToUpper().Contains(Txtfiltro.Text.ToUpper()));
+
+            GvPlataforma.DataSource = listafiltrada;
+            GvPlataforma.DataBind();
+
+
         }
 
         protected void GvPlataforma_SelectedIndexChanged(object sender, EventArgs e)
@@ -55,7 +63,7 @@ namespace TPCuatrimestral_Grupo3
                 List<Plataforma> temporal=(List<Plataforma>)Session["listaPlata"];
                 Plataforma detalle = temporal.Find(x => x.ID == id);
 
-
+                                
                 Response.Redirect("MODIFICAR_PLATA.aspx?id=" + id);
 
             }

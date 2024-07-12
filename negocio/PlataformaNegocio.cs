@@ -149,6 +149,40 @@ namespace TPCuatrimestral_Grupo3.Negocio
         }
 
 
+        public void modificarSP(Plataforma aux)
+        {
+
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearProcedimiento("SP_UPDATE_PLATAFORMA");
+                datos.setearParametro2("@ID", aux.ID);
+                datos.setearParametro2("@Nombre", aux.Nombre);
+                datos.setearParametro2("@URL", aux.UrlSitioWeb);
+                datos.setearParametro2("@Logo", aux.UrlLogo);
+               
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+            finally
+            {
+
+                datos.cerrarConexion();
+            }
+
+        }
+
+
+
+
+
 
     }
 }
