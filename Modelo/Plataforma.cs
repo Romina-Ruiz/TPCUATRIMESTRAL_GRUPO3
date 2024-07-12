@@ -9,7 +9,6 @@ namespace TPCuatrimestral_Grupo3.Modelo
     {
         public short ID { get; set; }
         public string Nombre { get; set; }
-
         public string UrlSitioWeb { get; set; }
         public string UrlLogo { get; set; }
 

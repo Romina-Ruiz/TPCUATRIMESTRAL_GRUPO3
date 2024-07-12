@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -19,7 +20,6 @@ namespace TPCuatrimestral_Grupo3
 
                 PaisNegocio AuxPais = new PaisNegocio();
                 List<Pais> listaPais = AuxPais.listarPaisOrden();
-
 
                 DWLPais2.DataSource = listaPais;
                 DWLPais2.DataTextField = "NombrePais";
@@ -53,6 +53,35 @@ namespace TPCuatrimestral_Grupo3
                     DWLCapitulos2.Text = seleccionado.EpisodiosTotales.ToString();
                     URLImagenSerie.Text = seleccionado.UrlImagenContenido;
 
+                    CategoriaXContenidoNegocio Aux = new CategoriaXContenidoNegocio();
+                    List<CategoriaXContenido> Cont = new List<CategoriaXContenido>();
+
+                    string ids = Request.QueryString["id"];
+                    Cont = Aux.listarCategoriaSP(ids);
+
+                    for (int i = 0; i < Cont.Count; i++) 
+                    {                      
+
+                        if (Cont[i].IdCategoria == "1") CkbAccion2.Checked = true;
+
+                        if (Cont[i].IdCategoria == "2") CkbComedia2.Checked = true;
+
+                        if (Cont[i].IdCategoria == "3") CkbDrama2.Checked = true;
+
+                        if (Cont[i].IdCategoria == "4") CkbAnimacion2.Checked = true;
+
+                        if (Cont[i].IdCategoria == "5") CkbCiencia2.Checked = true;
+
+                        if (Cont[i].IdCategoria == "6") CkbDocumental2.Checked = true;
+
+                        if (Cont[i].IdCategoria == "7") CkbFantasia2.Checked = true;
+
+                        if (Cont[i].IdCategoria == "8") CkbSuspenso2.Checked = true;
+
+                        if (Cont[i].IdCategoria == "9") CkbTerror2.Checked = true;
+
+                    }                                   
+               
 
                     URLImagenSerie_TextChanged(sender, e);
 
@@ -64,12 +93,6 @@ namespace TPCuatrimestral_Grupo3
 
 				throw ex;
 			}
-
-
-
-
-
-
         }
 
         protected void URLImagenSerie_TextChanged(object sender, EventArgs e)
@@ -77,8 +100,17 @@ namespace TPCuatrimestral_Grupo3
             string nuevaImagen = URLImagenSerie.Text;
             URLImgSerie.ImageUrl = nuevaImagen;
 
+        }
 
+        protected void Btn_Modificar_Click(object sender, EventArgs e)
+        {
+            if (CkbAccion2.Checked)
+            {
+                string checkBoxID = CkbAccion2.ClientID;
+                Console.WriteLine(checkBoxID);
+                Console.ReadLine();
 
+            }
         }
     }
 }

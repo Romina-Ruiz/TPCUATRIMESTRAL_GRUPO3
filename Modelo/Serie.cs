@@ -19,9 +19,9 @@ namespace TPCuatrimestral_Grupo3.Modelo
         /*POR FAVOR NO BORRAR esta prop se usa*/
         public string IdPlataforma { get; set; }
 
-        public string PlataformaNombre { get; set; }//Agrege NO BORRAR
+        public string PlataformaNombre { get; set; }// NO BORRAR
 
-        public string PaisId { get; set; } // Agrege NO BORRAR
+        public string PaisId { get; set; } // NO BORRAR
 
         public Plataforma Plataforma { get; set; }
         

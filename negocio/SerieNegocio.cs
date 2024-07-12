@@ -49,7 +49,8 @@ namespace TPCuatrimestral_Grupo3.Negocio
             {
                 datos.cerrarConexion();
             }
-        }
+        }     
+
 
         public long IdContenidoSerie()
         {
