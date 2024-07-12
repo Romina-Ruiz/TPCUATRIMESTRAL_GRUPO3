@@ -16,7 +16,7 @@
             <nav class="nav flex-column">
                 <a class="nav-link active fs-5 text-white" aria-current="page" href="CHECK_CONTENIDO.aspx">ABM Contenidos</a>
                 <a class="nav-link fs-5 text-white" href="ABM_USUARIOS.aspx">ABM Usuarios</a>
-                <a class="nav-link fs-5 text-white" href="UP_PLATAFORMAS.aspx">Cargar plataforma</a>
+                <a class="nav-link fs-5 text-white" href="ABM_PLATAFORMA.aspx">ABM plataforma</a>
                 <a class="nav-link fs-5 text-white" href="UP_NOVEDADES.aspx">Cargar novedades</a>
 
             </nav>

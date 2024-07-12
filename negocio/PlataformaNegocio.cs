@@ -25,7 +25,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     aux.Nombre = (string)datos.Lector["Nombre"];
                     aux.UrlSitioWeb = (string)datos.Lector["UrlSitioWeb"];
                     aux.UrlLogo = (string)datos.Lector["LogoUrl"];
-
+                   
 
 
                     lista.Add(aux);

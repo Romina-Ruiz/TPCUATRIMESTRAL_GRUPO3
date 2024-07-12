@@ -273,7 +273,7 @@
 
         <div class="d-flex flex-row-reverse">
             <div class="p-2 m-3">
-                <a href="ABM_PELIS.aspx" class="btn btn-success m-2" style="font-weight: bolder; font-size: 15px">VOLVER</a>
+                <a href="ABM_SERIES_2.aspx" class="btn btn-success m-2" style="font-weight: bolder; font-size: 15px">VOLVER</a>
             </div>
         </div>
 

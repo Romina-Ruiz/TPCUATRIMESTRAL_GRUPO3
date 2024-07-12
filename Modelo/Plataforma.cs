@@ -13,5 +13,7 @@ namespace TPCuatrimestral_Grupo3.Modelo
         public string UrlSitioWeb { get; set; }
         public string UrlLogo { get; set; }
 
+        public bool Estado {  get; set; }  
+
     }
 }
