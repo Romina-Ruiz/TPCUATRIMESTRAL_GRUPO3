@@ -306,7 +306,7 @@
 
     <div class="d-flex flex-row-reverse">
         <div class="p-2 m-3">
-            <a href="UPLOAD.aspx" class="btn btn-success m-2">VOLVER</a>
+            <a href="ABM_SERIES_2.aspx" class="btn btn-success m-2">VOLVER</a>
         </div>
     </div>
 

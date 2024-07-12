@@ -25,7 +25,6 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     aux.Titulo = (string)datos.Lector["Titulo"];
                     aux.PaisOrigen = (string)datos.Lector["PaisOrigen"];
                     aux.PaisId = datos.Lector["PaisId"].ToString();
-
                     aux.PlataformaNombre = (string)datos.Lector["Plataforma"];                   
                     aux.IdPlataforma = datos.Lector["PlataformaId"].ToString();                   
                     aux.FechaLanzamiento = (DateTime)datos.Lector["FechaLanzamiento"];
@@ -111,7 +110,6 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
         }
 
-
         public void CargaSerie(Serie Aux)
         {
                 AccesoDatos datos = new AccesoDatos();
@@ -133,8 +131,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                                               "@FechaLanzamiento1" +
                                               ",@IdPlataforma1,@Temporadas1," +
                                               "@EpisodiosTotales1,@UrlImagen1");
-
-                    /* datos.setearConsulta("SP_AGREGAR_SERIES 'ultima',2,'daledaledale','2024-05-05',1,5,15,'una imagen'");*/
+                                    
 
                     datos.ejecutarAccion();
 
@@ -193,18 +190,6 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
         public List<Serie> FandomSeries()
         {
             List<Serie> lista = new List<Serie>();
@@ -243,11 +228,48 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.cerrarConexion();
             }
         }
+    }
+
+    public void ModificarSerie(Serie Aux)
+    {
+        AccesoDatos datos = new AccesoDatos();
+
+        try
+        {
+            datos.setearParametro("@Titulo1", Aux.Titulo);
+            datos.setearParametro("@IdOrigen1", Aux.Pais.Id);
+            datos.setearParametro("@Descripcion1", Aux.Descripcion);
+            datos.setearParametro("@FechaLanzamiento1", Aux.FechaLanzamiento);
+            datos.setearParametro("@IdPlataforma1", Aux.Plataforma.ID);
+            datos.setearParametro("@Temporadas1", Aux.Temporadas);
+            datos.setearParametro("@EpisodiosTotales1", Aux.EpisodiosTotales);
+            datos.setearParametro("@UrlImagen1", Aux.UrlImagenContenido);
 
 
+            datos.setearConsulta("SP_Modificar_SERIES " +
+                                      "@Titulo1,@IdOrigen1,@Descripcion1," +
+                                      "@FechaLanzamiento1" +
+                                      ",@IdPlataforma1,@Temporadas1," +
+                                      "@EpisodiosTotales1,@UrlImagen1");
+            
+            datos.ejecutarAccion();
 
 
+        }
+        catch (Exception ex)
+        {
 
+            throw ex;
+        }
+        finally
+        {
+            datos.cerrarConexion();
+        }
 
     }
+
+
+
+
+
 }

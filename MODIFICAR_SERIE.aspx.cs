@@ -80,11 +80,10 @@ namespace TPCuatrimestral_Grupo3
 
                         if (Cont[i].IdCategoria == "9") CkbTerror2.Checked = true;
 
-                    }                                   
+                    }                               
                
 
                     URLImagenSerie_TextChanged(sender, e);
-
 
                 }
             }
@@ -104,13 +103,7 @@ namespace TPCuatrimestral_Grupo3
 
         protected void Btn_Modificar_Click(object sender, EventArgs e)
         {
-            if (CkbAccion2.Checked)
-            {
-                string checkBoxID = CkbAccion2.ClientID;
-                Console.WriteLine(checkBoxID);
-                Console.ReadLine();
-
-            }
+            
         }
     }
 }
