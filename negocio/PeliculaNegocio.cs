@@ -23,7 +23,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                     aux.ID = (long)datos.Lector["IdPelicula"];
                     aux.Titulo = (string)datos.Lector["Titulo"];
-                    aux.PaisOrigen = (string)datos.Lector["PaisOrigen"];
+                    aux.PaisOrigen = (short)datos.Lector["IdPaisOrigen"];
                     aux.FechaLanzamiento = (DateTime)datos.Lector["FechaLanzamiento"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     aux.UrlImagenContenido = (string)datos.Lector["ImagenUrl"];
@@ -63,7 +63,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                     aux.ID = (long)datos.Lector["ID"];
                     aux.Titulo = (string)datos.Lector["Titulo"];
-                    aux.PaisOrigen = (string)datos.Lector["PaisOrigen"];
+                    aux.PaisOrigen = (short)datos.Lector["PaisOrigen"];
                     aux.FechaLanzamiento = DateTime.Parse(datos.Lector["FechaLanzamiento"].ToString());
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     aux.UrlImagenContenido = (string)datos.Lector["ImagenUrl"];
@@ -196,7 +196,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                     aux.ID = (long)datos.Lector["ID"];
                     aux.Titulo = (string)datos.Lector["Titulo"];
-                    aux.PaisOrigen = (string)datos.Lector["PaisOrigen"];
+                    aux.PaisOrigen = (short)datos.Lector["PaisOrigen"];
                     aux.FechaLanzamiento = DateTime.Parse(datos.Lector["FechaLanzamiento"].ToString());
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     aux.UrlImagenContenido = (string)datos.Lector["ImagenUrl"];
@@ -241,7 +241,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
                     aux.ID = (long)datos.Lector["IdPelicula"];
                     aux.Titulo = (string)datos.Lector["Titulo"];
-                    aux.PaisOrigen = (string)datos.Lector["PaisOrigen"];
+                    aux.PaisOrigen = (short)datos.Lector["IdPaisOrigen"];
                     aux.FechaLanzamiento = (DateTime)datos.Lector["FechaLanzamiento"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     aux.UrlImagenContenido = (string)datos.Lector["ImagenUrl"];

@@ -9,7 +9,7 @@ namespace TPCuatrimestral_Grupo3.Modelo
     {
         public long ID { get; set; }
         public string Titulo { get; set; }
-        public string PaisOrigen { get; set; }
+        public short PaisOrigen { get; set; }
         public DateTime FechaLanzamiento { get; set; }
         public string Descripcion { get; set; }
         public string UrlImagenContenido { get; set; }

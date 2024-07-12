@@ -120,7 +120,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
             {
                 datos.setearParametro("@Titulo", Aux.Titulo);
                 datos.setearParametro("@Descripcion", Aux.Descripcion);
-                datos.setearParametro("@PaisOrigen", short.Parse(Aux.PaisOrigen));
+                datos.setearParametro("@PaisOrigen", Aux.PaisOrigen);
                 datos.setearParametro("@Fecha", Aux.FechaLanzamiento);
 
 

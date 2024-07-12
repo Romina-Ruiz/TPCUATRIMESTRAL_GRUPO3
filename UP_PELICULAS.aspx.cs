@@ -121,7 +121,7 @@ namespace TPCuatrimestral_Grupo3
 
             AuxPeli.FechaLanzamiento = DateTime.Parse(txtFecha.Text);
             AuxPeli.IdPlataforma = DWLplataformas.Text;
-            AuxPeli.PaisOrigen = DWLPais.Text;
+            AuxPeli.PaisOrigen = short.Parse(DWLPais.SelectedValue);
             AuxPeli.UrlImagenContenido = URLImagen.Text;
 
             
