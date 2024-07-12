@@ -14,7 +14,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                
+
                 datos.setearProcedimiento("listadoDeSeries");
                 datos.ejecutarLectura();
                 while (datos.Lector.Read())
@@ -25,8 +25,8 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     aux.Titulo = (string)datos.Lector["Titulo"];
                     aux.PaisOrigen = (string)datos.Lector["PaisOrigen"];
                     aux.PaisId = datos.Lector["PaisId"].ToString();
-                    aux.PlataformaNombre = (string)datos.Lector["Plataforma"];                   
-                    aux.IdPlataforma = datos.Lector["PlataformaId"].ToString();                   
+                    aux.PlataformaNombre = (string)datos.Lector["Plataforma"];
+                    aux.IdPlataforma = datos.Lector["PlataformaId"].ToString();
                     aux.FechaLanzamiento = (DateTime)datos.Lector["FechaLanzamiento"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     aux.UrlImagenContenido = (string)datos.Lector["ImagenUrl"];
@@ -48,7 +48,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
             {
                 datos.cerrarConexion();
             }
-        }     
+        }
 
 
         public long IdContenidoSerie()
@@ -112,42 +112,42 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
         public void CargaSerie(Serie Aux)
         {
-                AccesoDatos datos = new AccesoDatos();
+            AccesoDatos datos = new AccesoDatos();
 
-                try
-                {
-                    datos.setearParametro("@Titulo1", Aux.Titulo);
-                    datos.setearParametro("@IdOrigen1", Aux.PaisOrigen);
-                    datos.setearParametro("@Descripcion1", Aux.Descripcion);
-                    datos.setearParametro("@FechaLanzamiento1", Aux.FechaLanzamiento);
-                    datos.setearParametro("@IdPlataforma1", short.Parse(Aux.IdPlataforma));
-                    datos.setearParametro("@Temporadas1", Aux.Temporadas);
-                    datos.setearParametro("@EpisodiosTotales1", Aux.EpisodiosTotales);
-                    datos.setearParametro("@UrlImagen1", Aux.UrlImagenContenido);
-
-
-                    datos.setearConsulta("SP_AGREGAR_SERIES " +
-                                              "@Titulo1,@IdOrigen1,@Descripcion1," +
-                                              "@FechaLanzamiento1" +
-                                              ",@IdPlataforma1,@Temporadas1," +
-                                              "@EpisodiosTotales1,@UrlImagen1");
-                                    
-
-                    datos.ejecutarAccion();
+            try
+            {
+                datos.setearParametro("@Titulo1", Aux.Titulo);
+                datos.setearParametro("@IdOrigen1", Aux.PaisOrigen);
+                datos.setearParametro("@Descripcion1", Aux.Descripcion);
+                datos.setearParametro("@FechaLanzamiento1", Aux.FechaLanzamiento);
+                datos.setearParametro("@IdPlataforma1", short.Parse(Aux.IdPlataforma));
+                datos.setearParametro("@Temporadas1", Aux.Temporadas);
+                datos.setearParametro("@EpisodiosTotales1", Aux.EpisodiosTotales);
+                datos.setearParametro("@UrlImagen1", Aux.UrlImagenContenido);
 
 
-                }
-                catch (Exception ex)
-                {
+                datos.setearConsulta("SP_AGREGAR_SERIES " +
+                                          "@Titulo1,@IdOrigen1,@Descripcion1," +
+                                          "@FechaLanzamiento1" +
+                                          ",@IdPlataforma1,@Temporadas1," +
+                                          "@EpisodiosTotales1,@UrlImagen1");
 
-                    throw ex;
-                }
-                finally
-                {
-                    datos.cerrarConexion();
-                }
 
-         }
+                datos.ejecutarAccion();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+        }
 
 
         public void CargaSerie2(Serie Aux)
@@ -228,48 +228,49 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.cerrarConexion();
             }
         }
-    }
 
-    public void ModificarSerie(Serie Aux)
-    {
-        AccesoDatos datos = new AccesoDatos();
 
-        try
+        public void ModificaSerie(Serie Aux)
         {
-            datos.setearParametro("@Titulo1", Aux.Titulo);
-            datos.setearParametro("@IdOrigen1", Aux.Pais.Id);
-            datos.setearParametro("@Descripcion1", Aux.Descripcion);
-            datos.setearParametro("@FechaLanzamiento1", Aux.FechaLanzamiento);
-            datos.setearParametro("@IdPlataforma1", Aux.Plataforma.ID);
-            datos.setearParametro("@Temporadas1", Aux.Temporadas);
-            datos.setearParametro("@EpisodiosTotales1", Aux.EpisodiosTotales);
-            datos.setearParametro("@UrlImagen1", Aux.UrlImagenContenido);
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearParametro("@Titulo1", Aux.Titulo);
+                datos.setearParametro("@IdOrigen1", Aux.Pais.Id);
+                datos.setearParametro("@Descripcion1", Aux.Descripcion);
+                datos.setearParametro("@FechaLanzamiento1", Aux.FechaLanzamiento);
+                datos.setearParametro("@IdPlataforma1", Aux.Plataforma.ID);
+                datos.setearParametro("@Temporadas1", Aux.Temporadas);
+                datos.setearParametro("@EpisodiosTotales1", Aux.EpisodiosTotales);
+                datos.setearParametro("@UrlImagen1", Aux.UrlImagenContenido);
 
 
-            datos.setearConsulta("SP_Modificar_SERIES " +
-                                      "@Titulo1,@IdOrigen1,@Descripcion1," +
-                                      "@FechaLanzamiento1" +
-                                      ",@IdPlataforma1,@Temporadas1," +
-                                      "@EpisodiosTotales1,@UrlImagen1");
-            
-            datos.ejecutarAccion();
+                datos.setearConsulta("SP_Modificar_SERIES " +
+                                          "@Titulo1,@IdOrigen1,@Descripcion1," +
+                                          "@FechaLanzamiento1" +
+                                          ",@IdPlataforma1,@Temporadas1," +
+                                          "@EpisodiosTotales1,@UrlImagen1");
+                                
+
+                datos.ejecutarAccion();
 
 
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
         }
-        catch (Exception ex)
-        {
 
-            throw ex;
-        }
-        finally
-        {
-            datos.cerrarConexion();
-        }
-
-    }
-
-
-
-
+    }  
 
 }
+
+
+
