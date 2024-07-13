@@ -52,7 +52,14 @@ namespace TPCuatrimestral_Grupo3
         {
             SerieNegocio AuxSeNe = new SerieNegocio();
             Serie Aux = new Serie();
-
+            if ((Session["Usuario"] != null && Session["Admin"] == null))
+            {
+                Aux.Fandom = false;
+            }
+            if (Session["Usuario"] == null && Session["Admin"] != null)
+            {
+                Aux.Fandom = true;
+            }
             Aux.Titulo = TxtTitulo.Text;
             Aux.Descripcion = TxtResumenSerie.Text;
             Aux.Plataforma=new Plataforma();

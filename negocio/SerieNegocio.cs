@@ -164,13 +164,14 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.setearParametro("@Temporadas1", Aux.Temporadas);
                 datos.setearParametro("@EpisodiosTotales1", Aux.EpisodiosTotales);
                 datos.setearParametro("@UrlImagen1", Aux.UrlImagenContenido);
+                datos.setearParametro("@Fandom", Aux.Fandom);
 
 
                 datos.setearConsulta("SP_AGREGAR_SERIES " +
                                           "@Titulo1,@IdOrigen1,@Descripcion1," +
                                           "@FechaLanzamiento1" +
                                           ",@IdPlataforma1,@Temporadas1," +
-                                          "@EpisodiosTotales1,@UrlImagen1");
+                                          "@EpisodiosTotales1,@UrlImagen1,@Fandom");
 
                 /* datos.setearConsulta("SP_AGREGAR_SERIES 'ultima',2,'daledaledale','2024-05-05',1,5,15,'una imagen'");*/
 
