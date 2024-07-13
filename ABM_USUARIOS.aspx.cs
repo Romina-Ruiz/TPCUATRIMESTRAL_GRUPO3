@@ -23,8 +23,8 @@ namespace TPCuatrimestral_Grupo3
             if (!IsPostBack)
             {
                 NegocioUsuario Negocio = new NegocioUsuario();
-
-                GdvUsuarios.DataSource = Negocio.listarConSP();
+                Session.Add("listaUser", Negocio.listarConSP());
+                GdvUsuarios.DataSource = Session["listaUser"];
                 GdvUsuarios.DataBind(); 
 
 
@@ -38,6 +38,11 @@ namespace TPCuatrimestral_Grupo3
         {
 
             Response.Redirect("Op_Admin.aspx");
+
+        }
+
+        protected void GdvUsuarios_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

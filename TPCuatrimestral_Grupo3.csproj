@@ -244,6 +244,7 @@
     <Content Include="MODIFICAR_PELI.aspx" />
     <Content Include="MODIFICAR_PLATA.aspx" />
     <Content Include="MODIFICAR_SERIE.aspx" />
+    <Content Include="MODIFICAR_USER.aspx" />
     <Content Include="NOVEDADES.aspx" />
     <Content Include="Content\bootstrap-icons\font\bootstrap-icons.css" />
     <Content Include="Content\bootstrap-icons\font\bootstrap-icons.min.css" />
@@ -537,6 +538,13 @@
     </Compile>
     <Compile Include="MODIFICAR_SERIE.aspx.designer.cs">
       <DependentUpon>MODIFICAR_SERIE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MODIFICAR_USER.aspx.cs">
+      <DependentUpon>MODIFICAR_USER.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MODIFICAR_USER.aspx.designer.cs">
+      <DependentUpon>MODIFICAR_USER.aspx</DependentUpon>
     </Compile>
     <Compile Include="Negocio\CategoriaXContenidoNegocio.cs" />
     <Compile Include="Negocio\CiudadesNegocio.cs" />
