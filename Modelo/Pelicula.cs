@@ -17,6 +17,7 @@ namespace TPCuatrimestral_Grupo3.Modelo
 
         public string Plataforma { get; set; }
         public string Categoria { get; set; }
+        public List<short> IdsCategorias { get; set; }
 
         /*POR FAVOR NO BORRAR esta prop se usa*/
         public string IdPlataforma  { get; set; }

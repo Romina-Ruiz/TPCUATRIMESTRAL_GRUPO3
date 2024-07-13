@@ -30,7 +30,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     aux.Duracion = (int)datos.Lector["Duracion"];
                     aux.Plataforma = (string)datos.Lector["Plataforma"];
                     aux.Categoria = (string)datos.Lector["Categoria"];
-
+                    aux.IdsCategorias = ConvertirStringAListaDeShort((string)datos.Lector["IdCategoria"]);
 
                     lista.Add(aux);
                 }
@@ -269,6 +269,18 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
 
 
+        public List<short> ConvertirStringAListaDeShort(string input)
+        {
+            return input
+                .Split(',')
+                .Select(s =>
+                {
+                    short.TryParse(s, out short result);
+                    return result;
+                })
+                .Where(id => id != 0)
+                .ToList();
+        }
 
 
 
