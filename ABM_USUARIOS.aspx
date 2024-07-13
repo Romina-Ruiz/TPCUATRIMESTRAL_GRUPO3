@@ -26,8 +26,8 @@
             </div>
             
             <div class="pt-5">   
-                <asp:Label ID="LblEstados"  runat="server" Text="Estados: " Font-Size="Medium" Font-Bold="True"></asp:Label>
-                <asp:DropDownList ID="DwlEstados" Width="300px" AutoPostBack="true" 
+                <asp:Label ID="LblEstados" runat="server" Text="Estados: " Font-Size="Medium" Font-Bold="True"></asp:Label>
+                <asp:DropDownList ID="DwlEstados" OnSelectedIndexChanged="DwlEstados_SelectedIndexChanged" Width="300px" AutoPostBack="true" 
                   runat="server">
                       <asp:ListItem Text="Todos" />
                       <asp:ListItem Text="Activos" />
@@ -59,13 +59,12 @@
                         <RowStyle BackColor="#f5f5f5" />
                             <columns>
 
+                            <asp:boundfield headertext="ID" datafield="Id" />
                             <asp:boundfield headertext="Apellido" datafield="Apellido" />
                             <asp:boundfield headertext="Nombre" datafield="Nombres" />
-                            <asp:boundfield headertext="Genero" datafield="Genero" />
                             <asp:boundfield headertext="Pais" datafield="Pais" />
                             <asp:boundfield headertext="Administrador" datafield="EsAdministrador" />
-                            <asp:boundfield headertext="Vip" datafield="EsVip" />
-                            <asp:boundfield headertext="Estado" datafield="Estado" />
+                         
                             <asp:CommandField ShowSelectButton="true" SelectText="Seleccionar" HeaderText="Accion" />
 
                         </columns>

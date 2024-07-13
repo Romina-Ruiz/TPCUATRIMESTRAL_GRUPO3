@@ -75,5 +75,41 @@ namespace TPCuatrimestral_Grupo3
 
 
         }
+
+        protected void DwlEstados_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+            NegocioUsuario negocio= new NegocioUsuario();
+
+
+            if (DwlEstados.SelectedItem.ToString() == "Todos")
+            {
+
+
+
+                GdvUsuarios.DataSource = negocio.Filtrar("2");
+                GdvUsuarios.DataBind();
+
+            }
+
+            else if (DwlEstados.SelectedItem.ToString() == "Activos")
+            {
+                GdvUsuarios.DataSource = negocio.Filtrar("1");
+                GdvUsuarios.DataBind();
+
+
+            }
+            else if (DwlEstados.SelectedItem.ToString() == "Inactivos")
+            {
+
+                GdvUsuarios.DataSource = negocio.Filtrar("0");
+                GdvUsuarios.DataBind();
+
+            }
+
+
+
+
+        }
     }
 }

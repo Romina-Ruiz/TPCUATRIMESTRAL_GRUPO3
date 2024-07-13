@@ -148,6 +148,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 {
                     Usuario aux = new Usuario();
 
+                    aux.Id = (long)datos.Lector["Id"];
                     aux.Apellido = (string)datos.Lector["Apellido"];
                     aux.Nombres = (string)datos.Lector["Nombre"];
                     aux.Nacimiento = (DateTime)datos.Lector["FechaNacimiento"];
@@ -178,6 +179,139 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.cerrarConexion();
             }
         }
+
+
+        public void ActivarUser(Usuario aux)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearProcedimiento("SP_ACTIVAR_USER");
+                datos.setearParametro2("@ID", aux.Id);
+
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+            finally
+            {
+
+                datos.cerrarConexion();
+            }
+
+
+        }
+
+        public void EliminarUser(Usuario aux)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearProcedimiento("SP_BAJA_USER");
+                datos.setearParametro2("@ID", aux.Id);
+
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+            finally
+            {
+
+                datos.cerrarConexion();
+            }
+
+
+        }
+
+
+        public List<Usuario> Filtrar(string estado)
+        {
+            List<Usuario> lista = new List<Usuario>();
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                string consulta = "SELECT p.Id, p.Nombre, p.UrlSitioWeb, p.LogoUrl From Plataformas as p ";
+
+
+                switch (estado)
+                {
+                    case "0":
+                        consulta = "SELECT U.Id Id, U.Apellidos Apellido, U.Nombres Nombre, U.Nacimiento FechaNacimiento, U.Genero Genero, U.Email Email, U.NombreUsuario NombreUsuario, U.Domicilio Domicilio, C.Nombre Ciudad,\r\n  P.Nombre Pais, U.Contrasena Contrasena, U.EsAdministrador EsAdministrador, U.EsVip EsVip, u.Estado Estado FROM Usuarios AS U\r\n INNER JOIN Ciudades AS C ON U.IDCiudad=C.Id\r\n INNER JOIN Paises AS P ON C.IDPais=P.Id\r\n where u.Estado=0";
+
+                        break;
+                    case "1":
+
+                        consulta = "SELECT U.Id Id, U.Apellidos Apellido, U.Nombres Nombre, U.Nacimiento FechaNacimiento, U.Genero Genero, U.Email Email, U.NombreUsuario NombreUsuario, U.Domicilio Domicilio, C.Nombre Ciudad,\r\n  P.Nombre Pais, U.Contrasena Contrasena, U.EsAdministrador EsAdministrador, U.EsVip EsVip, u.Estado Estado FROM Usuarios AS U\r\n INNER JOIN Ciudades AS C ON U.IDCiudad=C.Id\r\n INNER JOIN Paises AS P ON C.IDPais=P.Id\r\n where u.Estado=1";
+
+                        break;
+
+                    case "2":
+
+                        consulta = "SELECT U.Id Id, U.Apellidos Apellido, U.Nombres Nombre, U.Nacimiento FechaNacimiento, U.Genero Genero, U.Email Email, U.NombreUsuario NombreUsuario, U.Domicilio Domicilio, C.Nombre Ciudad,\r\n  P.Nombre Pais, U.Contrasena Contrasena, U.EsAdministrador EsAdministrador, U.EsVip EsVip, u.Estado Estado FROM Usuarios AS U\r\n INNER JOIN Ciudades AS C ON U.IDCiudad=C.Id\r\n INNER JOIN Paises AS P ON C.IDPais=P.Id";
+                        break;
+
+                }
+
+
+
+                datos.setearConsulta(consulta);
+                datos.ejecutarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    Usuario aux = new Usuario();
+
+                    aux.Id = (long)datos.Lector["Id"];
+                    aux.Apellido = (string)datos.Lector["Apellido"];
+                    aux.Nombres = (string)datos.Lector["Nombre"];
+                    aux.Nacimiento = (DateTime)datos.Lector["FechaNacimiento"];
+                    aux.Genero = Convert.ToChar(datos.Lector["Genero"]);
+                    aux.Email = (string)datos.Lector["Email"];
+                    aux.NombreUsuario = (string)datos.Lector["NombreUsuario"];
+                    aux.Domicilio = (string)datos.Lector["Domicilio"];
+                    aux.Ciudad = (string)datos.Lector["Ciudad"];
+                    aux.Pais = (string)datos.Lector["Pais"];
+                    aux.Contrasena = (string)datos.Lector["Contrasena"];
+                    aux.EsAdministrador = (bool)datos.Lector["EsAdministrador"];
+                    aux.EsVip = (bool)datos.Lector["EsVip"];
+                    aux.Estado = (bool)datos.Lector["Estado"];
+
+                    lista.Add(aux);
+                }
+
+                return lista;
+
+
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally { datos.cerrarConexion(); }
+
+
+        }
+
+
+
+
+
 
     }
 }

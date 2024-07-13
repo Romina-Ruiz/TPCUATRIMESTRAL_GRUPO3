@@ -78,13 +78,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label LblGenero;
 
         /// <summary>
-        /// Control DwlGenero.
+        /// Control TxtGenero.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DwlGenero;
+        protected global::System.Web.UI.WebControls.TextBox TxtGenero;
 
         /// <summary>
         /// Control LblEmail.
@@ -132,13 +132,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label LblCity;
 
         /// <summary>
-        /// Control DwlCity.
+        /// Control TxtCity.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DwlCity;
+        protected global::System.Web.UI.WebControls.TextBox TxtCity;
 
         /// <summary>
         /// Control LblUser.
@@ -157,15 +157,6 @@ namespace TPCuatrimestral_Grupo3
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtUser;
-
-        /// <summary>
-        /// Control BtnModificar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnModificar;
 
         /// <summary>
         /// Control BtnActivar.
