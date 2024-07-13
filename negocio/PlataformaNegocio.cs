@@ -157,14 +157,12 @@ namespace TPCuatrimestral_Grupo3.Negocio
             try
             {
                 datos.setearProcedimiento("SP_UPDATE_PLATAFORMA");
+                // datos.setearConsulta("UPDATE Plataformas SET Nombre=@Nombre,UrlSitioWeb=@URL,LogoUrl=@LOGO WHERE Id=@ID");
+
                 datos.setearParametro2("@ID", aux.ID);
                 datos.setearParametro2("@Nombre", aux.Nombre);
                 datos.setearParametro2("@URL", aux.UrlSitioWeb);
                 datos.setearParametro2("@Logo", aux.UrlLogo);
-
-
-                /*datos.setearProcedimiento("SP_UPDATE_PLATAFORMA @ID,@Nombre," +
-                                "@URL,@Logo");*/
 
 
                 datos.ejecutarAccion();

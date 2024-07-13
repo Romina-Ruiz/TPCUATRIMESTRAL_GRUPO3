@@ -16,6 +16,7 @@ namespace TPCuatrimestral_Grupo3
         {
             try
             {
+                if(!IsPostBack) { 
 
                 if (Request.QueryString["id"] != null)
                 {
@@ -31,6 +32,7 @@ namespace TPCuatrimestral_Grupo3
 
                     TxtImg_TextChanged(sender, e);
 
+                }
                 }
             }
             catch (Exception)
@@ -59,21 +61,31 @@ namespace TPCuatrimestral_Grupo3
 
         protected void BtnModificar_Click(object sender, EventArgs e)
         {
-            int id = int.Parse(Request.QueryString["id"].ToString());
-            
-            List < Plataforma > lista = (List<Plataforma>)Session["listaPlata"];
-            Plataforma seleccionado = lista.Find(x => x.ID == id);
+            try
+            {
 
-            PlataformaNegocio negocio = new PlataformaNegocio();
+                Plataforma seleccionado = new Plataforma();
 
-           
-            seleccionado.Nombre=TxtNombre.Text;
-            seleccionado.UrlSitioWeb=TxtURL.Text;
-            seleccionado.UrlLogo=TxtImg.Text;
-            
-            negocio.modificarSP(seleccionado);
+                PlataformaNegocio negocio = new PlataformaNegocio();
 
-            Response.Redirect("ABM_PLATAFORMA.aspx");
+                seleccionado.ID = short.Parse(Request.QueryString["id"]);
+                seleccionado.Nombre = TxtNombre.Text;
+                seleccionado.UrlSitioWeb = TxtURL.Text;
+                seleccionado.UrlLogo = TxtImg.Text;
+
+                negocio.modificarSP(seleccionado);
+
+                Response.Redirect("ABM_PLATAFORMA.aspx");
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+
         }
 
         protected void BtnActivar_Click(object sender, EventArgs e)
