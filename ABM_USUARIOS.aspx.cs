@@ -43,6 +43,36 @@ namespace TPCuatrimestral_Grupo3
 
         protected void GdvUsuarios_SelectedIndexChanged(object sender, EventArgs e)
         {
+            int id = int.Parse(GdvUsuarios.SelectedDataKey.Value.ToString());
+
+            if (id != 0)
+            {
+                List<Usuario> temporal = (List<Usuario>)Session["listaUser"];
+                Usuario detalle = temporal.Find(x => x.Id == id);
+
+
+                Response.Redirect("MODIFICAR_USER.aspx?id=" + id);
+
+            }
+
+
+
+
+        }
+
+        protected void Txtfiltro_TextChanged(object sender, EventArgs e)
+        {
+
+            List<Usuario> lista=(List<Usuario>)Session["listaUser"];
+
+
+
+            List<Usuario> listafiltrada = lista.FindAll(x => x.Apellido.ToUpper().Contains(Txtfiltro.Text.ToUpper()));
+
+
+           GdvUsuarios.DataSource = listafiltrada;
+           GdvUsuarios.DataBind();
+
 
         }
     }

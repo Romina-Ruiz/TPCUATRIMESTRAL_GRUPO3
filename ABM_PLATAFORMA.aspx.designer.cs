@@ -33,6 +33,24 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.TextBox Txtfiltro;
 
         /// <summary>
+        /// Control LblEstados.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblEstados;
+
+        /// <summary>
+        /// Control DwlEstados.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DwlEstados;
+
+        /// <summary>
         /// Control BtnAgregar.
         /// </summary>
         /// <remarks>

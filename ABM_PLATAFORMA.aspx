@@ -22,6 +22,18 @@
                 <asp:TextBox ID="Txtfiltro" Width="300px" AutoPostBack="true" OnTextChanged="Txtfiltro_TextChanged" runat="server"></asp:TextBox>
             </div>
             
+            <div class="pt-5">   
+                <asp:Label ID="LblEstados"  runat="server" Text="Estados: " Font-Size="Medium" Font-Bold="True"></asp:Label>
+                <asp:DropDownList ID="DwlEstados" Width="300px" OnSelectedIndexChanged="DwlEstados_SelectedIndexChanged" AutoPostBack="true" 
+                  runat="server">
+                      <asp:ListItem Text="Todos" />
+                      <asp:ListItem Text="Activos" />
+                      <asp:ListItem Text="Inactivos" />
+                </asp:DropDownList>
+
+            </div>
+
+
             <div class="d-flex flex-row-reverse">
             <div class="p-2 m-3">
             <asp:Button ID="BtnAgregar" CssClass="btn btn-danger btn-lg" OnClick="BtnAgregar_Click" Height="40px" Width="150" Font-Bold="True" runat="server" Text="AGREGAR" />

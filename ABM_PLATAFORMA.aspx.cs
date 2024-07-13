@@ -81,5 +81,36 @@ namespace TPCuatrimestral_Grupo3
         {
             Response.Redirect("Op_Admin.aspx");
         }
+
+        protected void DwlEstados_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            PlataformaNegocio negocio = new PlataformaNegocio();
+
+
+            if (DwlEstados.SelectedItem.ToString() == "Todos")
+            {
+            
+                           
+
+                GvPlataforma.DataSource = negocio.Filtrar("2");
+                GvPlataforma.DataBind();
+
+            }
+
+            else if (DwlEstados.SelectedItem.ToString() == "Activos"){
+                GvPlataforma.DataSource = negocio.Filtrar("1");
+                GvPlataforma.DataBind();
+
+
+            }
+            else if (DwlEstados.SelectedItem.ToString() == "Inactivos") {
+
+                GvPlataforma.DataSource = negocio.Filtrar("0");
+                GvPlataforma.DataBind();
+
+            }
+
+
+        }
     }
 }
