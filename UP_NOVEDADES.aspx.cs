@@ -57,8 +57,8 @@ namespace TPCuatrimestral_Grupo3
 
         protected void TxtLinkPort_TextChanged(object sender, EventArgs e)
         {
-            string nuevaImagen = TxtLinkCont.Text;
-            ImgContenido.ImageUrl = nuevaImagen;
+            string nuevaImagen = TxtLinkPort.Text;
+            ImgPortada.ImageUrl = nuevaImagen;
 
         }
 

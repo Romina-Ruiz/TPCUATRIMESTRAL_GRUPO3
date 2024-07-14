@@ -21,10 +21,10 @@
                 </div>
 
 
-                <div class="pt-4">
+                <div class="text-break pt-4">
                     <label for="TextDescripcion" class="form-label" style="font-size: 22px; font-weight: bold">Cuerpo del texto</label>
-                    <div>
-                        <asp:TextBox ID="TxtContenido" runat="server" Height="500px" Width="400px" Font-Size="Medium" Font-Bold="True"></asp:TextBox>
+                    <div class="text-wrap">
+                        <asp:TextBox ID="TxtContenido"   runat="server" Height="500px" Width="400px" Font-Size="Medium" Font-Bold="True"></asp:TextBox>
                     </div>
                 </div>
 

@@ -132,14 +132,14 @@ namespace TPCuatrimestral_Grupo3.Negocio
             try
             {
                 datos.setearProcedimiento("SP_UPDATE_NOVEDADES");
-                
-                datos.setearParametro("@Fecha", aux.FechaSubido);
+
+                datos.setearParametro("@IdNews", aux.IdNews);
                 datos.setearParametro("@TituloPortada", aux.TituloPortada);
                 datos.setearParametro("@TituloCuerpo", aux.TituloCuerpo);
                 datos.setearParametro("@Texto", aux.Texto);
                 datos.setearParametro("@ImgPortada", aux.ImgPortada);
                 datos.setearParametro("@ImgCuerpo", aux.ImgCuerpo);
-                datos.setearParametro("@Estado", aux.Estado);
+              
 
                 datos.ejecutarAccion();
             }
@@ -227,18 +227,18 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 switch (estado)
                 {
                     case "0":
-                       consulta = "SELECT p.Id, p.Nombre, p.UrlSitioWeb, p.LogoUrl From Plataformas as p where Estado = 0";
+                       consulta = "SELECT N.IdNews, N.FechaSubido, N.TituloPortada, N.TituloCuerpo, N.Texto, N.ImgPortada, N.ImgCuerpo FROM NOVEDADES AS N WHERE Estado=0";
 
                         break;
                     case "1":
 
-                        consulta = "SELECT p.Id, p.Nombre, p.UrlSitioWeb, p.LogoUrl From Plataformas as p where Estado = 1";
+                        consulta = "SELECT N.IdNews, N.FechaSubido, N.TituloPortada, N.TituloCuerpo, N.Texto, N.ImgPortada, N.ImgCuerpo FROM NOVEDADES AS N WHERE Estado=1";
 
                         break;
 
                     case "2":
 
-                        consulta = "SELECT p.Id, p.Nombre, p.UrlSitioWeb, p.LogoUrl From Plataformas as p";
+                        consulta = "SELECT N.IdNews, N.FechaSubido, N.TituloPortada, N.TituloCuerpo, N.Texto, N.ImgPortada, N.ImgCuerpo FROM NOVEDADES AS N";
                       break ;
 
                 }
@@ -252,14 +252,13 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 {
                     Novedades aux = new Novedades();
 
-                    aux.IdNews = (long)datos.Lector["ID"];
+                    aux.IdNews = (long)datos.Lector["IdNews"];
                     aux.FechaSubido = (DateTime)datos.Lector["FechaSubido"];
                     aux.TituloPortada = (string)datos.Lector["TituloPortada"];
                     aux.TituloCuerpo = (string)datos.Lector["TituloCuerpo"];
                     aux.Texto = (string)datos.Lector["Texto"];
                     aux.ImgPortada = (string)datos.Lector["ImgPortada"];
                     aux.ImgCuerpo = (string)datos.Lector["ImgCuerpo"];
-                    aux.Estado = (bool)datos.Lector["Estado"];
 
                     lista.Add(aux);
                 }

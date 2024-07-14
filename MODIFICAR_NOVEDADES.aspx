@@ -55,9 +55,9 @@
        </div>
 
        <div class="text-center pt-5">
-            <asp:Button ID="BtnModificar" class="m-2" CssClass="btn btn-warning btn-lg" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="Modificar" />
-            <asp:Button ID="BtnActivar" class="m-2" CssClass="btn btn-info btn-lg" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="Activar" />
-            <asp:Button ID="BtnEliminar" class="m-2" CssClass="btn btn-danger btn-lg" Height="40px" Width="150" Font-Bold="True" runat="server" Text="Eliminar" />
+            <asp:Button ID="BtnModificar" class="m-2" OnClick="BtnModificar_Click" CssClass="btn btn-warning btn-lg" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="Modificar" />
+            <asp:Button ID="BtnActivar" class="m-2" OnClick="BtnActivar_Click" CssClass="btn btn-info btn-lg" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="Activar" />
+            <asp:Button ID="BtnEliminar" class="m-2" OnClick="BtnEliminar_Click" CssClass="btn btn-danger btn-lg" Height="40px" Width="150" Font-Bold="True" runat="server" Text="Eliminar" />
 
        </div>
  
