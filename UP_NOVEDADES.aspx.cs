@@ -50,8 +50,23 @@ namespace TPCuatrimestral_Grupo3
             negocio.Cargar(aux);
 
 
-            Response.Redirect("Op_Admin.aspx");
+            Response.Redirect("ABM_NOVEDADES.aspx");
 
+
+        }
+
+        protected void TxtLinkPort_TextChanged(object sender, EventArgs e)
+        {
+            string nuevaImagen = TxtLinkCont.Text;
+            ImgContenido.ImageUrl = nuevaImagen;
+
+        }
+
+        protected void TxtLinkCont_TextChanged(object sender, EventArgs e)
+        {
+
+            string nuevaImagen = TxtLinkCont.Text;
+            ImgContenido.ImageUrl = nuevaImagen;
 
         }
     }

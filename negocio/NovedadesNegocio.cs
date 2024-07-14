@@ -21,7 +21,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 {
                    Novedades aux = new Novedades();
 
-                    aux.IdNews = (int)datos.Lector["IdNews"];
+                    aux.IdNews = (long)datos.Lector["IdNews"];
                     aux.FechaSubido = (DateTime)datos.Lector["FechaSubido"];
                     aux.TituloPortada = (string)datos.Lector["TituloPortada"];
                     aux.TituloCuerpo= (string)datos.Lector["TituloCuerpo"];
@@ -61,7 +61,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 {
                     Novedades aux = new Novedades();
 
-                    aux.IdNews = (int)datos.Lector["IdNews"];
+                    aux.IdNews = (long)datos.Lector["IdNews"];
                     aux.FechaSubido = (DateTime)datos.Lector["FechaSubido"];
                     aux.TituloPortada = (string)datos.Lector["TituloPortada"];
                     aux.TituloCuerpo = (string)datos.Lector["TituloCuerpo"];
@@ -252,9 +252,8 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 {
                     Novedades aux = new Novedades();
 
-                    aux.IdNews = (int)datos.Lector["ID"];
-                    aux.IdUsuario = (int)datos.Lector["Nombre"];
-                    aux.FechaSubido = (DateTime)datos.Lector["UrlSitioWeb"];
+                    aux.IdNews = (long)datos.Lector["ID"];
+                    aux.FechaSubido = (DateTime)datos.Lector["FechaSubido"];
                     aux.TituloPortada = (string)datos.Lector["TituloPortada"];
                     aux.TituloCuerpo = (string)datos.Lector["TituloCuerpo"];
                     aux.Texto = (string)datos.Lector["Texto"];

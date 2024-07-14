@@ -33,7 +33,7 @@
                 <asp:Label ID="LblImgPortada" runat="server" Text="Imagen de portada" Font-Bold="True" Font-Size="Large"></asp:Label>
                 <asp:Label ID="LblImgPort2" runat="server" Text="(Pegue abajo el link de la imagen)"></asp:Label>
                 <div>
-                <asp:TextBox ID="TxtLinkPort" runat="server" Height="40" Width="500"></asp:TextBox>
+                <asp:TextBox ID="TxtLinkPort" AutoPostBack="true" OnTextChanged="TxtLinkPort_TextChanged" runat="server" Height="40" Width="500"></asp:TextBox>
                 </div>
                 <div class="pt-4">
                     <asp:Image ID="ImgPortada" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="300px" Height="250px" runat="server" />
@@ -43,7 +43,7 @@
                 <asp:Label ID="LblContenido" runat="server" Font-Bold="True" Font-Size="Large" Text="Imagen Contenido"></asp:Label>
                     <asp:Label ID="LblCont2" runat="server" Text="(Pegue abajo el link de la imagen)"></asp:Label>
                     <div>
-                    <asp:TextBox ID="TxtLinkCont"  runat="server" Height="40" Width="500"></asp:TextBox>
+                    <asp:TextBox ID="TxtLinkCont" AutoPostBack="true" OnTextChanged="TxtLinkCont_TextChanged"  runat="server" Height="40" Width="500"></asp:TextBox>
                     </div>
 
                   <div class="pt-4">

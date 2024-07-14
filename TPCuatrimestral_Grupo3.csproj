@@ -213,6 +213,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="BD_Tablas\TPC_Que_Veo.sql" />
+    <Content Include="ABM_NOVEDADES.aspx" />
     <Content Include="ABM_PELIS.aspx" />
     <Content Include="ABM_PLATAFORMA.aspx" />
     <Content Include="ABM_SERIES_2.aspx" />
@@ -241,6 +242,7 @@
     <Content Include="Favoritos.aspx" />
     <Content Include="Mensajes.aspx" />
     <Content Include="MisDatos.aspx" />
+    <Content Include="MODIFICAR_NOVEDADES.aspx" />
     <Content Include="MODIFICAR_PELI.aspx" />
     <Content Include="MODIFICAR_PLATA.aspx" />
     <Content Include="MODIFICAR_SERIE.aspx" />
@@ -423,6 +425,13 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABM_NOVEDADES.aspx.cs">
+      <DependentUpon>ABM_NOVEDADES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABM_NOVEDADES.aspx.designer.cs">
+      <DependentUpon>ABM_NOVEDADES.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ABM_PELIS.aspx.cs">
       <DependentUpon>ABM_PELIS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -520,6 +529,13 @@
     <Compile Include="Modelo\Plataforma.cs" />
     <Compile Include="Modelo\PlataformaXPelicula.cs" />
     <Compile Include="Modelo\Serie.cs" />
+    <Compile Include="MODIFICAR_NOVEDADES.aspx.cs">
+      <DependentUpon>MODIFICAR_NOVEDADES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MODIFICAR_NOVEDADES.aspx.designer.cs">
+      <DependentUpon>MODIFICAR_NOVEDADES.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MODIFICAR_PELI.aspx.cs">
       <DependentUpon>MODIFICAR_PELI.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

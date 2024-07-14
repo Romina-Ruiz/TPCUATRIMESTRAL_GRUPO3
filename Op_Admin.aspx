@@ -17,7 +17,7 @@
                 <a class="nav-link active fs-5 text-white" aria-current="page" href="CHECK_CONTENIDO.aspx">ABM Contenidos</a>
                 <a class="nav-link fs-5 text-white" href="ABM_USUARIOS.aspx">ABM Usuarios</a>
                 <a class="nav-link fs-5 text-white" href="ABM_PLATAFORMA.aspx">ABM plataforma</a>
-                <a class="nav-link fs-5 text-white" href="UP_NOVEDADES.aspx">ABM Novedades</a>
+                <a class="nav-link fs-5 text-white" href="ABM_NOVEDADES.aspx">ABM Novedades</a>
 
             </nav>
 

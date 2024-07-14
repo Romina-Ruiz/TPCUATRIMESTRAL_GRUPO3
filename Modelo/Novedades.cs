@@ -7,9 +7,7 @@ namespace TPCuatrimestral_Grupo3.Modelo
 {
     public class Novedades
     {
-        public int IdNews { get; set; }
-
-        public int IdUsuario { get; set; }  
+        public long IdNews { get; set; }
 
         public DateTime FechaSubido { get; set; }
 
