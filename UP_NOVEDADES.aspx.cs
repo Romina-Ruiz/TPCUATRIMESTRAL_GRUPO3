@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using TPCuatrimestral_Grupo3.Modelo;
+using TPCuatrimestral_Grupo3.Negocio;
 
 namespace TPCuatrimestral_Grupo3
 {
@@ -16,12 +18,40 @@ namespace TPCuatrimestral_Grupo3
                 Session.Add("error", "Debes loguearte para ingresar.");
                 Response.Redirect("ERROR.aspx", false);
             }
+
+
+
+
+
+
+
         }
 
         protected void Volver_Click(object sender, EventArgs e)
         {
 
             Response.Redirect("Op_Admin.aspx");
+
+        }
+
+        protected void BtnAceptar_Click(object sender, EventArgs e)
+        {
+            NovedadesNegocio negocio= new NovedadesNegocio();
+            
+            Novedades aux= new Novedades();
+            
+            aux.TituloPortada=TxtTitulo.Text;
+            aux.TituloCuerpo=TxtTitSec.Text;
+            aux.Texto=TxtContenido.Text;
+            aux.ImgPortada= TxtLinkPort.Text;
+            aux.ImgCuerpo=TxtLinkCont.Text;
+         
+
+            negocio.Cargar(aux);
+
+
+            Response.Redirect("Op_Admin.aspx");
+
 
         }
     }

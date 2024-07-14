@@ -33,6 +33,24 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.TextBox TxtTitulo;
 
         /// <summary>
+        /// Control LblTitSec.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblTitSec;
+
+        /// <summary>
+        /// Control TxtTitSec.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtTitSec;
+
+        /// <summary>
         /// Control TxtContenido.
         /// </summary>
         /// <remarks>
@@ -42,13 +60,31 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.TextBox TxtContenido;
 
         /// <summary>
-        /// Control LblImg.
+        /// Control LblImgPortada.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblImg;
+        protected global::System.Web.UI.WebControls.Label LblImgPortada;
+
+        /// <summary>
+        /// Control LblImgPort2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblImgPort2;
+
+        /// <summary>
+        /// Control TxtLinkPort.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtLinkPort;
 
         /// <summary>
         /// Control ImgPortada.
@@ -69,6 +105,24 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label LblContenido;
 
         /// <summary>
+        /// Control LblCont2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblCont2;
+
+        /// <summary>
+        /// Control TxtLinkCont.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtLinkCont;
+
+        /// <summary>
         /// Control ImgContenido.
         /// </summary>
         /// <remarks>
@@ -76,6 +130,15 @@ namespace TPCuatrimestral_Grupo3
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image ImgContenido;
+
+        /// <summary>
+        /// Control BtnAceptar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnAceptar;
 
         /// <summary>
         /// Control Volver.

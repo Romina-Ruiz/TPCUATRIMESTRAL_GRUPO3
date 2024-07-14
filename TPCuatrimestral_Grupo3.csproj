@@ -509,6 +509,7 @@
     <Compile Include="MisDatos.aspx.designer.cs">
       <DependentUpon>MisDatos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Modelo\Novedades.cs" />
     <Compile Include="Modelo\Categoria.cs" />
     <Compile Include="Modelo\CategoriaXContenido.cs" />
     <Compile Include="Modelo\Ciudades.cs" />
@@ -555,6 +556,7 @@
     <Compile Include="Negocio\EmailService.cs" />
     <Compile Include="Negocio\PaisNegocio.cs" />
     <Compile Include="Negocio\PeliculaNegocio.cs" />
+    <Compile Include="Negocio\NovedadesNegocio.cs" />
     <Compile Include="Negocio\PlataformaNegocio.cs" />
     <Compile Include="Negocio\PlataformaXPeliculaNegocio.cs" />
     <Compile Include="Negocio\Seguridad.cs" />
