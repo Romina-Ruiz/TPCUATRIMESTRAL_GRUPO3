@@ -8,96 +8,57 @@
 
     <div class="Fondo">
         <h2>NOVEDADES</h2>
-    </div>    
+    </div>
 
-        <div class="row">
+    <div class="row pt-5">
 
-            <!--menú izquierda-->
-            <div class="col-3 p-0.5">
+        <!--menú izquierda-->
 
-                <nav class="nav flex-column">
-                    <a class="nav-link active fs-5 text-white" aria-current="page" href="#">Estrenos</a>
-                    <a class="nav-link fs-5 text-white" href="#">Noticias</a>
-                    <a class="nav-link fs-5 text-white" href="#">Entrevistas</a>
-                </nav>
+        <div class="col align-self-center text-center text-white">
 
-            </div>
+            <asp:Label ID="LblFiltro" Font-Bold="true" Font-Size="X-Large" runat="server" Text="BUSCA POR NOMBRE:"></asp:Label>
+            <br>
+            <br>
+            <asp:TextBox ID="TxtFiltroS" Width="300px" Height="40px" runat="server"></asp:TextBox>
 
-            <!--COLUMNA DERECHA-->
-
-            <div class="col-6 p-5">
-
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <br>
+            <br>
         </div>
-   
 
-  <!-- 2 Fotos casa del dragon/los vigilantes -->
-       
-           <div class="row p-2">            
-               <div class="col-6 p-0.5">
+    </div>
 
-                <div class="card text-bg-dark">
-                    <img src="https://es.web.img3.acsta.net/r_654_368/img/b5/15/b515e6ea09649e53dd6635f8132cd8ce.jpg" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">'La casa del dragón'</h5>
-                        <p class="card-text">Estrena su temporada 2 en unos días y ‘Fuego y sangre’ es el libro ideal para meterte de lleno en su historia.</p>
-                        <p class="card-text"><small>8 jun. 2024 a las 12:00</small></p>
+
+    <!-- 2 Fotos casa del dragon/los vigilantes -->
+
+    <div class="row align-self-center p-5">
+         <div class="col ">
+            
+                <asp:Repeater ID="RepNews" runat="server">
+                <ItemTemplate>        
+
+               
+                    <div class="card text-bg-dark">
+                        <img src="<%#Eval("ImgPortada") %>" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title"><%#Eval("TituloPortada") %></h5>
+                            
+                            <div class="position-absolute bottom-0 end-0">
+                            <asp:Button ID="BtnVer" CssClass="btn btn-primary" Font-Size="Medium" BorderColor="Black" BorderWidth="2" Font-Bold="True" CommandArgument='<%# Eval("IdNews") %>' OnClick="BtnVer_Click" runat="server" Text="VER" />
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                
+        
+        </ItemTemplate>   
+        </asp:Repeater>
 
-            <div class="col-6">
+      </div>
+    </div>
 
-                <div class="card text-bg-dark">
-                    <img src="https://es.web.img3.acsta.net/img/4b/9b/4b9b4309fcb155492c252196e65b350a.jpg" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">"Los Vigilantes"</h5>
-                        <p class="card-text">El cuento de fantasía, terror y suspense de Shyamalan: 'Los vigilantes', un potente relato en atmósfera y estética</p>
-                        <p class="card-text"><small>6 jun. 2024 a las 18:00</small></p>
-                    </div>
-                </div>
-            </div>
-        </div> 
 
-    <!--SECCION ABAJO-->    
+
+
+    <!--SECCION ABAJO-->
 
     <div class="row">
         <div class="col-4 p-0.5">
