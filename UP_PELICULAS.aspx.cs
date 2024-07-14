@@ -64,6 +64,15 @@ namespace TPCuatrimestral_Grupo3
             ContenidoNegocio AuxContNego = new ContenidoNegocio();
             Pelicula AuxPeli = new Pelicula();
 
+            if ((Session["Usuario"] != null && Session["Admin"] == null))
+            {
+                AuxPeli.Fandom = false;
+            }
+            if (Session["Usuario"] == null && Session["Admin"] != null)
+            {
+                AuxPeli.Fandom = true;
+            }
+
             AuxPeli.Titulo = TxtTitulo.Text;
             AuxPeli.Descripcion = TxtResumenPeli.Text;
             AuxPeli.UrlImagenContenido = URLImagen.Text;

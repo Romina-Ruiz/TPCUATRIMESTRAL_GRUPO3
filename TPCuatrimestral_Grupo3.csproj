@@ -235,6 +235,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="DETALLE_NOVEDADES.aspx" />
     <Content Include="DETALLE_PELI.aspx" />
     <Content Include="DETALLE_SERIE.aspx" />
     <Content Include="FANDOM_PELIS.aspx" />
@@ -468,6 +469,13 @@
     </Compile>
     <Compile Include="CHECK_CONTENIDO.aspx.designer.cs">
       <DependentUpon>CHECK_CONTENIDO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DETALLE_NOVEDADES.aspx.cs">
+      <DependentUpon>DETALLE_NOVEDADES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DETALLE_NOVEDADES.aspx.designer.cs">
+      <DependentUpon>DETALLE_NOVEDADES.aspx</DependentUpon>
     </Compile>
     <Compile Include="DETALLE_PELI.aspx.cs">
       <DependentUpon>DETALLE_PELI.aspx</DependentUpon>

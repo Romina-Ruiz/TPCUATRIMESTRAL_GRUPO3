@@ -9,10 +9,6 @@
     </div>
 
 
-    <div class="Fondo">
-        <h3>PONER ALGO </h3>
-    </div>
-
     <div class="container ">
 
         <div class="row p-2">
@@ -22,7 +18,7 @@
 
             <div class="col bg-secondary text-white">
 
-                <h5>Poner los filros aca  </h5>
+            
                 <br>
             </div>
 

@@ -27,36 +27,60 @@
 
     </div>
 
+    <div class="row">
 
-    <!-- 2 Fotos casa del dragon/los vigilantes -->
+        <!--PRIMERA COLUMNA -->
 
-    <div class="row align-self-center p-5">
-         <div class="col ">
-            
-                <asp:Repeater ID="RepNews" runat="server">
-                <ItemTemplate>        
+        <div class="col-3">
 
-               
-                    <div class="card text-bg-dark">
-                        <img src="<%#Eval("ImgPortada") %>" class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                            <h5 class="card-title"><%#Eval("TituloPortada") %></h5>
-                            
+            <div class="col-4 pt-2">
+                <img src="https://www.mundodeportivo.com/alfabeta/hero/2023/12/amazon-prime.1703875576.0139.jpg?width=1200" height="250" width="450" />
+            </div>
+            <div class="col-4 pt-2">
+                <img src="https://media.primicias.ec/2024/02/08114547/marvels.jpg" alt="imagen3" height="250" width="450" />
+            </div>
+
+            <div class="col-4 pt-2">
+                <img src="https://cnbl-cdn.bamgrid.com/assets/be8feab8abc4cb62b92e0472a58fdbe0045058b16247299a349998ceb318188e/original" alt="imagen3" height="250" width="450" />
+            </div>
+            <div class="col-4 p-2">
+                <img src="https://cnbl-cdn.bamgrid.com/assets/9a3fc9f7f6bc33220820f32f3b2997f16203d7f317bb5f2caf27722ead28f26f/original" alt="imagen3" height="250" width="450" />
+            </div>
+
+
+        </div>
+        <!-- SEGUNDA COLUMNA -->
+
+        <div class="col-5 m-5 pt-5">
+
+            <asp:Repeater ID="RepNews" runat="server">
+                <ItemTemplate>
+                    <br>
+
+
+                    <div class="card mb-3" style="padding: 13px; margin: 13px; border-color: #990000;">
+                        <img src="<%#Eval("ImgPortada") %>" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #999999">
+                            <p class="card-text" style="font-family: fantasy; font-size: 26px; font-weight: bolder; color: #000000; background-color: #999999; font-style: italic;"><%#Eval("TituloPortada") %></p>
+                            <p class="card-text"><small class="text-body-secondary"><%#Eval("FechaSubido") %></small></p>
                             <div class="position-absolute bottom-0 end-0">
-                            <asp:Button ID="BtnVer" CssClass="btn btn-primary" Font-Size="Medium" BorderColor="Black" BorderWidth="2" Font-Bold="True" CommandArgument='<%# Eval("IdNews") %>' OnClick="BtnVer_Click" runat="server" Text="VER" />
+                                <asp:Button ID="BtnVer" CssClass="btn btn-primary" Font-Size="Medium" BorderColor="Black" BorderWidth="2" Font-Bold="True" CommandArgument='<%# Eval("IdNews") %>' OnClick="BtnVer_Click" runat="server" Text="VER" />
                             </div>
                         </div>
                     </div>
-                
-        
-        </ItemTemplate>   
-        </asp:Repeater>
 
-      </div>
+
+
+
+                    <br>
+                </ItemTemplate>
+            </asp:Repeater>
+
+        </div>
+
+
+
     </div>
-
-
-
 
     <!--SECCION ABAJO-->
 
