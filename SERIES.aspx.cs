@@ -58,7 +58,10 @@ namespace TPCuatrimestral_Grupo3
         protected void TxtFiltroS_TextChanged(object sender, EventArgs e)
         {
 
-
+            List<DetalleSerie> lista = (List<DetalleSerie>)Session["ListaSeries"];
+            List<DetalleSerie> listaFiltrada = lista.FindAll(x => x.Titulo.ToUpper().Contains( TxtFiltroS.Text.ToUpper()));
+            repRepetidor.DataSource = listaFiltrada;
+            repRepetidor.DataBind();
 
 
 
