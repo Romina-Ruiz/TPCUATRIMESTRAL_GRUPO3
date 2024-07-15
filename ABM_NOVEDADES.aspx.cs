@@ -15,15 +15,16 @@ namespace TPCuatrimestral_Grupo3
         {
             try
             {
-                if(!IsPostBack)
+                if (!IsPostBack)
                 {
 
-                    NovedadesNegocio negocio= new NovedadesNegocio();   
+                    NovedadesNegocio negocio = new NovedadesNegocio();
 
-                                       
+
 
                     Session.Add("listaNews", negocio.listarConSP());
                     GdvNovedades.DataSource = Session["listaNews"];
+
                     GdvNovedades.DataBind();
 
                 }
