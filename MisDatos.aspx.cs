@@ -42,9 +42,13 @@ namespace TPCuatrimestral_Grupo3
                 TxtGenero.Text = usuario.Genero.ToString();
                 TxtEmail.Text = usuario.Email;
                 TxtDomicilio.Text = usuario.Domicilio;
-                TxtCiudad.Text = usuario.Ciudad;
+                //TxtCiudad.Text = usuario.Ciudad.ToString(); espera un int
                 txtNombreUsuario.Text = usuario.NombreUsuario;
                 TxtContrasena.Text = usuario.Contrasena;
+
+                negocio.ModificarUser(usuario);
+
+
 
             }
 

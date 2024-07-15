@@ -47,7 +47,7 @@ namespace TPCuatrimestral_Grupo3
                 ImgCuerpo.ImageUrl= detalle.ImgCuerpo;
                 TxtTituloCuerpo.Text=detalle.TituloCuerpo;
                 TxtCuerpo.Text = detalle.Texto;
-                TxtFecha.Text = detalle.FechaSubido.ToString();
+                TxtFecha.Text = detalle.FechaSubido.ToString("yyyy-MM-dd");
 
 
             }
