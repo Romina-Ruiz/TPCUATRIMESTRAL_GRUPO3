@@ -46,7 +46,7 @@ namespace TPCuatrimestral_Grupo3
                 Titulo.InnerText = detalle.Titulo;
                 lblPlataforma.Text = detalle.Plataforma;
                 lblPaisOrigen.Text = detalle.PaisOrigen;
-                lblFechaLanzamiento.Text = detalle.FechaLanzamiento.ToString();
+                lblFechaLanzamiento.Text = detalle.FechaLanzamiento.ToString("dd/MM/yyyy");
                 lblDuracion.Text = detalle.Duracion.ToString() + " Minutos";
                 lblCategoria.Text = detalle.Categoria;
                 lblPromedioPochoclos.Text = detalle.PuntajePromedio.ToString();
