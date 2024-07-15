@@ -45,7 +45,16 @@ namespace TPCuatrimestral_Grupo3
 
 
         }
+        protected void txtFiltro_TextChanged(object sender, EventArgs e)
+        {
 
+            List<Pelicula> lista = (List<Pelicula>)Session["ListaCompleta"];
+            List<Pelicula> listaFiltrada = lista.FindAll(x => x.Titulo.ToUpper().Contains(txtFiltro.Text.ToUpper()));
+            repfanPeli.DataSource = listaFiltrada;
+            repfanPeli.DataBind();
+
+
+        }
         protected void btnBuscar_Click(object sender, EventArgs e)
         {
 
@@ -54,12 +63,6 @@ namespace TPCuatrimestral_Grupo3
 
         }
 
-        protected void txtFiltro_TextChanged(object sender, EventArgs e)
-        {
-            
-
-
-
-        }
+        
     }
 }
