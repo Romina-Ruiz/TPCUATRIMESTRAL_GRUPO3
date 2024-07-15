@@ -33,82 +33,59 @@
                 
                 <br>
                 <br>
-              
+                   <div class="col-3 bg-secondary text-center text-white">
+          <div class="pt-4">
+                <asp:Label ID="LblOpc" runat="server" Font-Bold="true" Font-Size="X-Large" Text="MAS OPCIONES DE FILTROS:"></asp:Label>
             </div>
             <br>
             <br>
-             <asp:Label ID="Lblopc" runat="server" Font-Bold="true" Font-Size="X-Large" Text="MAS OPCIONES DE BUSQUEDAS:"></asp:Label>
-            <br>
-            <br>
             <div class="dropdown">
-                <a class="btn btn-info dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: bolder; font-size: 23px">Categorias
-                </a>
-                <ul class="dropdown-menu">
-                    <li>
-                        <asp:LinkButton ID="LkbAccion" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Accion</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LkbAnimacion" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Animacion </asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LkbCiencia" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Ciencia Ficcion</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LkbComedia" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Comedia</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LkbDocumental" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Documental</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LinkDrama" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Drama</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LinkFantasia" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Fantasia</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LinkSuspenso" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Suspenso</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LinkTerror" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Terror</asp:LinkButton></li>
-                </ul>
+
+                <div>
+
+<asp:Label ID="Label2" runat="server" Text="CATEGORIAS: "></asp:Label>
+</div>
+                <asp:DropDownList id="ddlCategorias" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlCategorias_SelectedIndexChanged" Height="35" Width="300">
+                    
+                </asp:DropDownList>
+
             </div>
 
             <br />
             <br />
             <div class="dropdown">
-                <a class="btn btn-info dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: bolder; font-size: 23px">Continentes
-                </a>
+                <div>
 
-                <ul class="dropdown-menu">
-
-                    <li>
-                        <asp:LinkButton ID="LkbAmerica" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">America</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LkbAfrica" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Africa</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LkbAsia" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Asia </asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LkbEuropa" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Europa</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="LkbOceania" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">Oceania</asp:LinkButton></li>
-
-                </ul>
+<asp:Label ID="Label1" runat="server" Text="PAISES: "></asp:Label>
+</div>
+                <asp:DropDownList id="ddlPais" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlPais_SelectedIndexChanged" Height="35" Width="300">
+                   
+                </asp:DropDownList>
             </div>
             <br />
             <br />
             <div class="dropdown">
-                <a class="btn btn-info dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: bolder; font-size: 23px">Año de Produccion
-                </a>
+                
+<%--<asp:UpdatePanel ID="UpdatePanel1"  runat="server">--%>
+    <ContentTemplate>
+        <div>
 
-                <ul class="dropdown-menu">
+        <asp:Label ID="lblSelectedYear" runat="server" Text="AÑO DE ESTRENO: "></asp:Label>
+        </div>
+        <asp:DropDownList ID="ddlAnioEstreno" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlAnioEstreno_SelectedIndexChanged" Height="35" Width="300">
+            
+        </asp:DropDownList>
+    </ContentTemplate>
 
-                    <li>
-                        <asp:LinkButton ID="Lkb1" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">2020-2029</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="Lkb2" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">2010-2019</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="Lkb3" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">2000-2009 </asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="Lkb4" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">1990-1999</asp:LinkButton></li>
-                    <li>
-                        <asp:LinkButton ID="Lkb5" runat="server" Font-Size="Medium" Font-Overline="False" ForeColor="Black">1980-1989</asp:LinkButton></li>
 
-                </ul>
+             
             </div>
 
 
+        </div>
+
+
+        </div>
         </div>
 
         <!--COLUMNA RECOMENDACIONES -->
@@ -122,13 +99,15 @@
 
                                      
                         <div class="card" style="width:28rem; background-color: darkgrey">
-                            <img src="<%#Eval("UrlImagenContenido") %>" class="card-img-top" alt="...">
+                            <img src="<%#Eval("UrlImagen") %>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center" style="font-family: 'Berlin Sans FB Demi'; font-size: 31px; font-weight: bolder; color: #800000;"><%#Eval("Titulo") %></h5>
                             </div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item " style="font-weight: bolder; font-style: normal">Plataforma: <%#Eval("Plataforma") %></li>
                                 <li class="list-group-item" style="font-weight: bolder; font-style: normal">Temporadas: <%#Eval ("Temporadas") %></li>
+                                <li class="list-group-item" style="font-weight: bolder; font-style: normal">Temporadas: <%#Eval ("Categorias") %></li>
+
                             </ul>
 
                             <div class="card-body">
@@ -141,7 +120,7 @@
                                 </div>
 
                                 <div class="position-absolute bottom-0 end-0">
-                                  <asp:Button ID="Button1" runat="server" class="btn btn-warning" Text="INFO" Font-Size="Medium" BorderColor="Black" BorderWidth="2" Font-Bold="True" CommandArgument='<%# Eval("ID") %>' OnClick="detalleSerie_Click" />
+                                  <asp:Button ID="Button1" runat="server" class="btn btn-warning" Text="INFO" Font-Size="Medium" BorderColor="Black" BorderWidth="2" Font-Bold="True" CommandArgument='<%# Eval("IdSerie") %>' OnClick="detalleSerie_Click" />
                                 </div>
 
 

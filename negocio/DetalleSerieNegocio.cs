@@ -28,9 +28,11 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     aux.Temporadas = (int)datos.Lector["Temporadas"];
                     aux.EpisodiosTotales = (int)datos.Lector["Episodios"];
                     aux.Plataforma = (string)datos.Lector["Plataforma"];
+                    aux.IdsCategorias = ConvertirStringAListaDeShort((string)datos.Lector["IdCategoria"]);
                     aux.Categorias = (string)datos.Lector["Categoria"];
                     aux.UrlImagen = (string)datos.Lector["UrlImagen"];
-                    aux.PaisOrigen = (string)datos.Lector["Pais"];
+                    aux.IdPaisOrigen = (short)datos.Lector["IdPais"];
+                    aux.PaisOrigen = (string)datos.Lector["NombrePais"];
                     aux.PochoclosProm = (int)datos.Lector["PromPuntaje"];
                  
 
@@ -51,6 +53,18 @@ namespace TPCuatrimestral_Grupo3.Negocio
             {
                 datos.cerrarConexion();
             }
+        }
+        public List<short> ConvertirStringAListaDeShort(string input)
+        {
+            return input
+                .Split(',')
+                .Select(s =>
+                {
+                    short.TryParse(s, out short result);
+                    return result;
+                })
+                .Where(id => id != 0)
+                .ToList();
         }
     }
 }
