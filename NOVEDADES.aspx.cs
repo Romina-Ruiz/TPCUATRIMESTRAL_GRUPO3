@@ -18,7 +18,8 @@ namespace TPCuatrimestral_Grupo3
             {
                 NovedadesNegocio negocio= new NovedadesNegocio();
 
-                RepNews.DataSource = negocio.NovedadesOrden();
+                   Session.Add("listaNovedades", negocio.NovedadesOrden());
+                RepNews.DataSource = Session["listaNovedades"];
                 RepNews.DataBind(); 
 
 
@@ -45,12 +46,10 @@ namespace TPCuatrimestral_Grupo3
 
         protected void TxtFiltroS_TextChanged(object sender, EventArgs e)
         {
-            List<Novedades> lista= new List<Novedades>();   
 
-            List<Novedades> listafiltrada = lista.FindAll(x => x.TituloPortada.ToUpper().Contains(TxtFiltroS.Text.ToUpper()));
-
-           
-            RepNews.DataSource = listafiltrada;
+            List<Novedades> lista = (List<Novedades>)Session["listaNovedades"];
+            List<Novedades> listaFiltrada = lista.FindAll(x => x.TituloPortada.ToUpper().Contains(TxtFiltroS.Text.ToUpper()));
+            RepNews.DataSource = listaFiltrada;
             RepNews.DataBind();
 
 

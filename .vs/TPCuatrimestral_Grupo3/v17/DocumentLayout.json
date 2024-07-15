@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\fandom_series.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:fandom_series.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\novedades.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:novedades.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\novedades.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:novedades.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:peliculas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|c:\\users\\eliza\\onedrive\\escritorio\\repotpc\\tpcuatrimestral_grupo3\\fandom_series.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:fandom_series.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\fandom_series.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -85,14 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\fandom.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:fandom.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\novedades.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:novedades.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\novedades.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|solutionrelative:novedades.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6AF3CF1-0642-46AE-B3EC-030F1C29D323}|TPCuatrimestral_Grupo3.csproj|C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\misdatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -218,74 +218,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "FANDOM_SERIES.aspx.cs",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\FANDOM_SERIES.aspx.cs",
               "RelativeDocumentMoniker": "FANDOM_SERIES.aspx.cs",
               "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\FANDOM_SERIES.aspx.cs",
               "RelativeToolTip": "FANDOM_SERIES.aspx.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAiwDQAAAAWAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAUwDQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T21:50:37.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PeliculaNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PeliculaNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\PeliculaNegocio.cs",
-              "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PeliculaNegocio.cs",
-              "RelativeToolTip": "negocio\\PeliculaNegocio.cs",
-              "ViewState": "AQIAAOMAAAAAAAAAAAAnwAQBAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T21:51:14.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Pelicula.cs",
-              "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Pelicula.cs",
-              "RelativeDocumentMoniker": "Modelo\\Pelicula.cs",
-              "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Pelicula.cs",
-              "RelativeToolTip": "Modelo\\Pelicula.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T18:26:43.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PELICULAS.aspx",
-              "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx",
-              "RelativeDocumentMoniker": "PELICULAS.aspx",
-              "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx",
-              "RelativeToolTip": "PELICULAS.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-15T18:27:52.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PELICULAS.aspx.cs",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx.cs",
               "RelativeDocumentMoniker": "PELICULAS.aspx.cs",
               "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx.cs",
               "RelativeToolTip": "PELICULAS.aspx.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAAwDoAAAAMAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAwDkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T18:30:35.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FANDOM_SERIES.aspx",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\FANDOM_SERIES.aspx",
               "RelativeDocumentMoniker": "FANDOM_SERIES.aspx",
@@ -293,12 +256,11 @@
               "RelativeToolTip": "FANDOM_SERIES.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-14T21:50:31.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T21:50:31.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SERIES.aspx.cs",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\SERIES.aspx.cs",
               "RelativeDocumentMoniker": "SERIES.aspx.cs",
@@ -310,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Serie.cs",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Serie.cs",
               "RelativeDocumentMoniker": "Modelo\\Serie.cs",
@@ -322,7 +284,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "NOVEDADES.aspx",
+              "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\NOVEDADES.aspx",
+              "RelativeDocumentMoniker": "NOVEDADES.aspx",
+              "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\NOVEDADES.aspx",
+              "RelativeToolTip": "NOVEDADES.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-14T04:17:34.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NOVEDADES.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\NOVEDADES.aspx.cs",
+              "RelativeDocumentMoniker": "NOVEDADES.aspx.cs",
+              "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\NOVEDADES.aspx.cs",
+              "RelativeToolTip": "NOVEDADES.aspx.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T04:44:49.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PELICULAS.aspx",
+              "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx",
+              "RelativeDocumentMoniker": "PELICULAS.aspx",
+              "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\PELICULAS.aspx",
+              "RelativeToolTip": "PELICULAS.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-15T18:27:52.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pelicula.cs",
+              "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Pelicula.cs",
+              "RelativeDocumentMoniker": "Modelo\\Pelicula.cs",
+              "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Pelicula.cs",
+              "RelativeToolTip": "Modelo\\Pelicula.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:26:43.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PeliculaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PeliculaNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\PeliculaNegocio.cs",
+              "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\negocio\\PeliculaNegocio.cs",
+              "RelativeToolTip": "negocio\\PeliculaNegocio.cs",
+              "ViewState": "AQIAAOMAAAAAAAAAAAAnwAQBAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:51:14.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "DETALLE_PELI.aspx.cs",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_PELI.aspx.cs",
               "RelativeDocumentMoniker": "DETALLE_PELI.aspx.cs",
@@ -334,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "SerieNegocio.cs",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\negocio\\SerieNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\SerieNegocio.cs",
@@ -346,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Pais.cs",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\Pais.cs",
               "RelativeDocumentMoniker": "Modelo\\Pais.cs",
@@ -358,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "DETALLE_PELI.aspx",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_PELI.aspx",
               "RelativeDocumentMoniker": "DETALLE_PELI.aspx",
@@ -370,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "DETALLE_SERIE.aspx.cs",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_SERIE.aspx.cs",
               "RelativeDocumentMoniker": "DETALLE_SERIE.aspx.cs",
@@ -382,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DETALLE_SERIE.aspx",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\DETALLE_SERIE.aspx",
               "RelativeDocumentMoniker": "DETALLE_SERIE.aspx",
@@ -394,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "SERIES.aspx",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\SERIES.aspx",
               "RelativeDocumentMoniker": "SERIES.aspx",
@@ -406,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "DetallePeliNegocio.cs",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\negocio\\DetallePeliNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\DetallePeliNegocio.cs",
@@ -418,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "DetalleSerieNegocio.cs",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\negocio\\DetalleSerieNegocio.cs",
               "RelativeDocumentMoniker": "negocio\\DetalleSerieNegocio.cs",
@@ -430,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "DetalleSerie.cs",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\Modelo\\DetalleSerie.cs",
               "RelativeDocumentMoniker": "Modelo\\DetalleSerie.cs",
@@ -442,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "PLATAFORMAS.aspx",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\PLATAFORMAS.aspx",
               "RelativeDocumentMoniker": "PLATAFORMAS.aspx",
@@ -466,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "HOME.aspx",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\HOME.aspx",
               "RelativeDocumentMoniker": "HOME.aspx",
@@ -575,30 +599,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "NOVEDADES.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\NOVEDADES.aspx.cs",
-              "RelativeDocumentMoniker": "NOVEDADES.aspx.cs",
-              "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\NOVEDADES.aspx.cs",
-              "RelativeToolTip": "NOVEDADES.aspx.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAAADUAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T04:44:49.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "NOVEDADES.aspx",
-              "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\NOVEDADES.aspx",
-              "RelativeDocumentMoniker": "NOVEDADES.aspx",
-              "ToolTip": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\NOVEDADES.aspx",
-              "RelativeToolTip": "NOVEDADES.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-14T04:17:34.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "FANDOM.aspx",
               "DocumentMoniker": "C:\\Users\\eliza\\OneDrive\\Escritorio\\RepoTPC\\TPCUATRIMESTRAL_GRUPO3\\FANDOM.aspx",
               "RelativeDocumentMoniker": "FANDOM.aspx",
