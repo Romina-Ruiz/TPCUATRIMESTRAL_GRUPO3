@@ -29,7 +29,7 @@
                 <asp:Label ID="LblFiltro" Font-Bold="true" Font-Size="X-Large" runat="server" Text="BUSCA POR NOMBRE:"></asp:Label>
                 <br>
                 <br>
-                <asp:TextBox ID="TxtFiltroS" Width="300px" Height="40px" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TxtFiltroS" Width="300px" AutoPostBack="true" OnTextChanged="TxtFiltroS_TextChanged" Height="40px" runat="server"></asp:TextBox>
                 
                 <br>
                 <br>

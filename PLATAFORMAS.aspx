@@ -52,30 +52,63 @@
 
         <div class="container-fluid p-1">
 
+            <div class="row">
+                <%--columna repetidor de plataformas--%>
+                <div class="col-5">
+                    <asp:Repeater runat="server" ID="repRepetidor">
+                        <ItemTemplate>
 
-            <%--columna repetidor de plataformas--%>
-            <div class="col-5">
-                <asp:Repeater runat="server" ID="repRepetidor">
-                    <ItemTemplate>
 
+
+
+                            <br>
+
+                            <div class="card" style="max-width: 540px; position: relative;">
+                                <img src="<%#Eval("UrlLogo") %>" class="card-img-center" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title"><%#Eval("Nombre") %></h5>
+                                    <a href="<%#Eval ("UrlSitioWeb") %>" class="custom-btn">Visitar Web</a>
+                                </div>
+                            </div>
+
+
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </div>
+
+                <div class="col pt-5 m-5">
+                    <section id="ColIzq">
+
+                        <div class="pt-5 m-5">
+
+                            <asp:Image ID="Lateral1" runat="server" ImageUrl="https://www.mundodeportivo.com/alfabeta/hero/2023/12/amazon-prime.1703875576.0139.jpg?width=1200"  Height="350" Width="350" />
+                        </div>
+
+                        <div class="pt-5 m-4">
+
+                            <asp:Image ID="Lateral2" ImageUrl="https://www.enteratenoticias.com.ar/files/image/5/5933/65b0fe3196930.jpg" Height="350" Width="350" runat="server" />
+
+                        </div>
+
+                        
+                        <div class="pt-5 m-5">
+
+                            <asp:Image ID="Lateral3" ImageUrl="https://media.cdn.puntobiz.com.ar/112022/1669661401071.webp?cw=984&ch=553&extw=jpg" Height="350" Width="350" runat="server" />
+
+                        </div>
 
 
 
                         <br>
-
-                        <div class="card" style="max-width: 540px; position: relative;">
-                            <img src="<%#Eval("UrlLogo") %>" class="card-img-center" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><%#Eval("Nombre") %></h5>
-                                <a href="<%#Eval ("UrlSitioWeb") %>" class="custom-btn">Visitar Web</a>
-                            </div>
-                        </div>
+                    </section>
 
 
-                    </ItemTemplate>
-                </asp:Repeater>
+
+
+                </div>
+
+
             </div>
-
 
         </div>
 

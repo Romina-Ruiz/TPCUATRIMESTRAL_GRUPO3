@@ -5,6 +5,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:ScriptManager ID="scm1" runat="server"></asp:ScriptManager>
 
     <div class="Fondo">
         <h2>NOVEDADES</h2>
@@ -19,7 +20,7 @@
             <asp:Label ID="LblFiltro" Font-Bold="true" Font-Size="X-Large" runat="server" Text="BUSCA POR NOMBRE:"></asp:Label>
             <br>
             <br>
-            <asp:TextBox ID="TxtFiltroS" Width="300px" Height="40px" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TxtFiltroS" Width="300px" AutoPostBack="true" OnTextChanged="TxtFiltroS_TextChanged" Height="40px" runat="server"></asp:TextBox>
 
             <br>
             <br>
@@ -49,6 +50,7 @@
 
 
         </div>
+ 
         <!-- SEGUNDA COLUMNA -->
 
         <div class="col-5 m-5 pt-5">
@@ -79,8 +81,7 @@
         </div>
 
 
-
-
+ 
     </div>
 
     <!--SECCION ABAJO-->

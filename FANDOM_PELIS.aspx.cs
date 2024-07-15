@@ -56,6 +56,9 @@ namespace TPCuatrimestral_Grupo3
 
         protected void txtFiltro_TextChanged(object sender, EventArgs e)
         {
+            
+
+
 
         }
     }

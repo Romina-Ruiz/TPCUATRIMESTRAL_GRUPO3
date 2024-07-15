@@ -248,6 +248,7 @@
     <Content Include="MODIFICAR_PLATA.aspx" />
     <Content Include="MODIFICAR_SERIE.aspx" />
     <Content Include="MODIFICAR_USER.aspx" />
+    <Content Include="video\noche-de-pelicula%281%29.png" />
     <Content Include="NOVEDADES.aspx" />
     <Content Include="Content\bootstrap-icons\font\bootstrap-icons.css" />
     <Content Include="Content\bootstrap-icons\font\bootstrap-icons.min.css" />

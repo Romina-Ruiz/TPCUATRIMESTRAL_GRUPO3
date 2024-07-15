@@ -41,5 +41,14 @@ namespace TPCuatrimestral_Grupo3
             Response.Redirect("DETALLE_SERIE.aspx");
 
         }
+
+        protected void TxtFiltroS_TextChanged(object sender, EventArgs e)
+        {
+
+
+
+
+
+        }
     }
 }

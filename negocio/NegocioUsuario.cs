@@ -322,7 +322,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.setearParametro2("@Genero", usuario.Genero);
                 datos.setearParametro2("@Email", usuario.Email);
                 datos.setearParametro2("@Domicilio", usuario.Domicilio);
-                datos.setearParametro2("@Ciudad", usuario.Ciudades.Id);
+                //datos.setearParametro2("@Ciudad", usuario.Ciudades.Id);
                 datos.setearParametro2("@NombreUsuario", usuario.NombreUsuario);
                 datos.setearParametro2("@Contrasena", usuario.Contrasena);
 

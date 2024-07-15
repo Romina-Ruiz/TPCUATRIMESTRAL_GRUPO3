@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using TPCuatrimestral_Grupo3.Modelo;
 using TPCuatrimestral_Grupo3.Negocio;
 
 namespace TPCuatrimestral_Grupo3
@@ -38,6 +39,19 @@ namespace TPCuatrimestral_Grupo3
             Session["idListaNews"] = idNews;
 
             Response.Redirect("DETALLE_NOVEDADES.aspx");
+
+
+        }
+
+        protected void TxtFiltroS_TextChanged(object sender, EventArgs e)
+        {
+            List<Novedades> lista= new List<Novedades>();   
+
+            List<Novedades> listafiltrada = lista.FindAll(x => x.TituloPortada.ToUpper().Contains(TxtFiltroS.Text.ToUpper()));
+
+           
+            RepNews.DataSource = listafiltrada;
+            RepNews.DataBind();
 
 
         }
