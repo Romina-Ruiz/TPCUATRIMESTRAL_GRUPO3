@@ -42,19 +42,14 @@
             <div class="col-9">
 
 
-          <div class="card mb-3" style="padding: 13px; margin: 13px; border-color: #990000;">
-            <!--  <p class="card-text" style="font-family: fantasy; font-size: 26px; font-weight: bolder; color: #000000; background-color: #999999; font-style: italic;"><%#Eval("TituloCuerpo") %></p>-->
-              <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-              <asp:Image ID="Image1" runat="server" />
-              <!--<img src="<%#Eval("ImgCuerpo") %>" class="card-img-top" alt="...">-->
+             <div class="card mb-3" style="padding: 13px; margin: 13px; border-color: #990000;">
+              <asp:Image ID="ImgCuerpo"  ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" runat="server" Width="100" Height="300" />
               <div class="card-body" style="background-color: #999999">
-             <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
-             <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
-            <!-- <p class="card-text" style="font-family: fantasy; font-size: 10px; font-weight: bolder; color: #000000; background-color: #999999; font-style: italic;"><%#Eval("Texto") %></p>-->
-             <!-- <p class="card-text"><small class="text-body-secondary"><%#Eval("FechaSubido") %></small></p>-->
-               
+              <asp:TextBox ID="TxtTituloCuerpo" runat="server"></asp:TextBox>
+              <asp:TextBox ID="TxtCuerpo" runat="server" ReadOnly="True"></asp:TextBox>
+              <asp:TextBox ID="TxtFecha" runat="server" ReadOnly="True"></asp:TextBox>
               </div>
-                </div>
+              </div>
 
 
 

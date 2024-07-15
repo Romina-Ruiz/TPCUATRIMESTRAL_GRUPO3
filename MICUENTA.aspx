@@ -25,7 +25,6 @@
                 <div class="text-start">
                 <asp:Button CssClass="nav-link fs-5 text-white"  Text="Mis Datos" runat="server" OnClick="Unnamed_Click" />
                 <a class="nav-link fs-5 text-white" href="#">Favoritos</a>
-               <a class="nav-link fs-5 text-white" href="UPLOAD.aspx">Mis Recomendacion</a>
                 <% if (Session["Admin"] != null)
                     { %>
                 <a class="nav-link fs-5 text-white" href="Op_Admin.aspx">Administrador</a>

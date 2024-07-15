@@ -46,5 +46,27 @@ namespace TPCuatrimestral_Grupo3
 
 
         }
+
+        protected void txtFiltro_TextChanged(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+        protected void btnBuscar_Click(object sender, EventArgs e)
+        {
+
+
+            string Titulo = txtFiltro.Text;
+            List<Serie> lista = (List<Serie>)Session["listaCompleta"];
+
+            List<Serie> listafiltrada = lista.FindAll(x => x.Titulo.ToUpper().Contains(txtFiltro.Text.ToUpper()));
+
+            RepSeries.DataSource = Session["listafiltrada"];
+            RepSeries.DataBind();
+
+
+        }
     }
 }

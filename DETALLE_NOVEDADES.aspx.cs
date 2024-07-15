@@ -23,13 +23,16 @@ namespace TPCuatrimestral_Grupo3
             {
                 if (Session["listaNews"] != null && Session["idListaNews"] != null)
                 {
-                    List<DetallePelicula> 
+                   
                     List<Novedades> listaDetalle = (List<Novedades>)Session["listaNews"];
 
                     long idNews = (long)Session["idListaNews"];
-                     Novedades detalle = listaDetalle.FirstOrDefault(p => p.IdNews == idNews);
+                    
+                    Novedades detalle = listaDetalle.FirstOrDefault(x => x.IdNews == idNews);
 
                     DetalleNovedades(detalle);
+
+
                 }
             }
 
@@ -38,6 +41,16 @@ namespace TPCuatrimestral_Grupo3
 
         private void DetalleNovedades(Novedades detalle)
         {
+
+            if(detalle !=null)
+            {
+                ImgCuerpo.ImageUrl= detalle.ImgCuerpo;
+                TxtTituloCuerpo.Text=detalle.TituloCuerpo;
+                TxtCuerpo.Text = detalle.Texto;
+                TxtFecha.Text = detalle.FechaSubido.ToString();
+
+
+            }
 
 
 

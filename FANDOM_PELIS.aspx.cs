@@ -49,6 +49,9 @@ namespace TPCuatrimestral_Grupo3
         protected void btnBuscar_Click(object sender, EventArgs e)
         {
 
+
+
+
         }
 
         protected void txtFiltro_TextChanged(object sender, EventArgs e)

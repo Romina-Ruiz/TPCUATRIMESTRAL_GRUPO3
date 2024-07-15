@@ -21,10 +21,7 @@ namespace TPCuatrimestral_Grupo3
                 Response.Redirect("ERROR.aspx", false);
             }
 
-          
-
-            
-            
+                 
 
 
         }

@@ -32,6 +32,14 @@ namespace TPCuatrimestral_Grupo3
         protected void BtnVer_Click(object sender, EventArgs e)
         {
 
+            Button btn= (Button)sender;
+                        
+            long idNews = long.Parse(btn.CommandArgument);
+            Session["idListaNews"] = idNews;
+
+            Response.Redirect("DETALLE_NOVEDADES.aspx");
+
+
         }
     }
 }
