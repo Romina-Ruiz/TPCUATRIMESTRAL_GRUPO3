@@ -208,14 +208,14 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     aux.ID = (long)datos.Lector["IdSerie"];
                     aux.Titulo = (string)datos.Lector["Titulo"];
                     aux.PaisOrigen = (string)datos.Lector["PaisOrigen"];
-                    aux.PaisId = datos.Lector["PaisId"].ToString();
-                    aux.PlataformaNombre = (string)datos.Lector["Plataforma"];
-                    aux.IdPlataforma = datos.Lector["PlataformaId"].ToString();
+                    aux.IdPais = (short)datos.Lector["PaisId"];
                     aux.FechaLanzamiento = (DateTime)datos.Lector["FechaLanzamiento"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     aux.UrlImagenContenido = (string)datos.Lector["ImagenUrl"];
                     aux.EpisodiosTotales = (int)datos.Lector["EpisodiosTot"];
                     aux.Temporadas = (int)datos.Lector["Temporadas"];
+                    aux.PlataformaId = (short)datos.Lector["IdPlataforma"];
+                    aux.PlataformaNombre = (string)datos.Lector["Plataforma"];
 
 
                     lista.Add(aux);
