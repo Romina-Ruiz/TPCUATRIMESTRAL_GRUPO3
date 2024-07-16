@@ -249,14 +249,12 @@ namespace TPCuatrimestral_Grupo3.Negocio
             try
             {
                 datos.setearParametro("@IDeS",int.Parse(Aux.IdModificar));
-                datos.setearParametro("@Titulo", Aux.Titulo);              
+                datos.setearParametro("@Titulo", Aux.Titulo);           
             
                 datos.setearParametro("@IdOrigen",Aux.IdOrigen);                
                 datos.setearParametro("@Descripcion", Aux.Descripcion);
                 datos.setearParametro("@FechaLanzamiento", Aux.FechaLanzamiento);
-
-            /**/datos.setearParametro("@IdPlataforma", Aux.IdPlataforma);
-
+                datos.setearParametro("@IdPlataforma", Aux.IdPlataforma);
                 datos.setearParametro("@Temporadas", Aux.TemporadasC);
                 datos.setearParametro("@EpisodiosTotales", Aux.EpisodiosTotalesC);
                 datos.setearParametro("@UrlImagen", Aux.UrlImagenContenido);
@@ -268,12 +266,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                                            ",@IdPlataforma,@Temporadas," +
                                            "@EpisodiosTotales,@UrlImagen");
 
-                datos.ejecutarAccion();
-
-                /*datos.setearConsulta("UPDATE Contenidos SET Titulo = @Titulo," +
-                    "IdOrigen = @IdOrigen,FechaLanzamiento = FechaLanzamiento,Descripcion = @Descripcion WHERE Id = @IDeS");*/
-
-
+                datos.ejecutarAccion();              
 
             }
             catch (Exception ex)
@@ -286,6 +279,37 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.cerrarConexion();
             }
         }
+
+
+        public void modificarCheckedSerie(Contenido Aux,int IDs)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            Contenido Aux1 = new Contenido();
+
+            Aux1.Id = IdContenidoSerie() +1 ;
+
+            try
+            {
+                datos.setearParametro("@IdCategoria", Aux.IdCategoria);
+                datos.setearParametro("@IdContenido", Aux1.Id);
+
+                datos.setearConsulta("INSERT INTO Categorias_x_Contenido(IdCategoria,IdContenido)" +
+                                     "VALUES(@IdCategoria,@IdContenido)");
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+        }
+
 
     }  
 

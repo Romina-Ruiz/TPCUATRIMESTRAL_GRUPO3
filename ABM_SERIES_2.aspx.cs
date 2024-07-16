@@ -76,6 +76,10 @@ namespace TPCuatrimestral_Grupo3
 
         protected void DlCriterio_SelectedIndexChanged(object sender, EventArgs e)
         {
+                
+                     
+           
+            
             PlataformaNegocio NegPlata = new PlataformaNegocio();
             List<Plataforma> lisPlata = NegPlata.PlataformaOrden();
             
