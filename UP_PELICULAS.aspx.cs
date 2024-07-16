@@ -66,11 +66,11 @@ namespace TPCuatrimestral_Grupo3
 
             if ((Session["Usuario"] != null && Session["Admin"] == null))
             {
-                AuxPeli.Fandom = false;
+                AuxPeli.Fandom = true;
             }
             if (Session["Usuario"] == null && Session["Admin"] != null)
             {
-                AuxPeli.Fandom = true;
+                AuxPeli.Fandom = false;
             }
 
             AuxPeli.Titulo = TxtTitulo.Text;
