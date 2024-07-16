@@ -16,7 +16,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 AccesoDatos datos = new AccesoDatos();
                 try
                 {
-                    datos.setearConsulta("SELECT ID, IDPais, Nombre FROM Ciudades");
+                    datos.setearConsulta("SELECT ID, IDPais, Nombre FROM Ciudades ORDER BY Nombre ASC");
                     datos.ejecutarLectura();
 
 

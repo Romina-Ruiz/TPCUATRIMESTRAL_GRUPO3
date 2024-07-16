@@ -29,8 +29,14 @@
 
    <asp:TextBox ID="TxtFechaNacimiento" runat="server" Width="500"></asp:TextBox>
    <asp:Label ID="Label2" class="ms-2 pt-5" runat="server" Text="Genero" Font-Bold="True" Font-Size="Medium"></asp:Label>
-
-   <asp:TextBox ID="TxtGenero" runat="server" Width="500"></asp:TextBox>
+   
+   <asp:DropDownList ID="DwlGenero" Width="500" AutoPostBack="true" OnSelectedIndexChanged="DwlGenero_SelectedIndexChanged" runat="server">
+         <asp:ListItem Text="F" />
+         <asp:ListItem Text="M" />
+         <asp:ListItem Text="-" />
+        </asp:DropDownList>
+   
+     
   
    <asp:Label ID="Label3" class="ms-2 pt-5" runat="server" Text="Email" Font-Bold="True" Font-Size="Medium"></asp:Label>
 
@@ -40,8 +46,13 @@
    <asp:TextBox ID="TxtDomicilio" runat="server" Width="500"></asp:TextBox>
    <asp:Label ID="Label5" class="ms-2 pt-5" runat="server" Text="Ciudad" Font-Bold="True" Font-Size="Medium"></asp:Label>
 
+    <asp:TextBox ID="TextPais" runat="server" Width="500"></asp:TextBox>
+    <asp:DropDownList ID="DwlPais" runat="server"></asp:DropDownList>
+
    <asp:TextBox ID="TxtCiudad" runat="server" Width="500"></asp:TextBox>
-   <asp:Label ID="Label6" class="ms-2 pt-5" runat="server" Text="Nombre de Usuario" Font-Bold="True" Font-Size="Medium"></asp:Label>
+   <asp:DropDownList ID="DwlCiudad" runat="server"></asp:DropDownList>
+
+   
 
    <asp:TextBox ID="txtNombreUsuario" runat="server" Width="500"></asp:TextBox>
 

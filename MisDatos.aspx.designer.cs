@@ -78,13 +78,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Control TxtGenero.
+        /// Control DwlGenero.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtGenero;
+        protected global::System.Web.UI.WebControls.DropDownList DwlGenero;
 
         /// <summary>
         /// Control Label3.
@@ -132,6 +132,24 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
+        /// Control TextPais.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextPais;
+
+        /// <summary>
+        /// Control DwlPais.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DwlPais;
+
+        /// <summary>
         /// Control TxtCiudad.
         /// </summary>
         /// <remarks>
@@ -141,13 +159,13 @@ namespace TPCuatrimestral_Grupo3
         protected global::System.Web.UI.WebControls.TextBox TxtCiudad;
 
         /// <summary>
-        /// Control Label6.
+        /// Control DwlCiudad.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label6;
+        protected global::System.Web.UI.WebControls.DropDownList DwlCiudad;
 
         /// <summary>
         /// Control txtNombreUsuario.

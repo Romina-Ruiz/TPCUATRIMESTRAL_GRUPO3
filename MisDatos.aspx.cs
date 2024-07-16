@@ -11,9 +11,29 @@ namespace TPCuatrimestral_Grupo3
 {
     public partial class MisDatos : System.Web.UI.Page
     {
+        public char genero { get; set; }
+       
         public string NombreUsuario { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            PaisNegocio AuxPais = new PaisNegocio();
+            List<Pais> listaPais = AuxPais.listarPaisOrden();
+
+            DwlPais.DataSource = listaPais;
+            DwlPais.DataTextField = "NombrePais";
+            DwlPais.DataValueField = "Id";
+            DwlPais.DataBind();
+
+
+            CiudadesNegocio AuxCity = new CiudadesNegocio();
+            List<Ciudades> listaCity = AuxCity.listarConSP();
+
+            DwlCiudad.DataSource = listaCity;
+            DwlCiudad.DataTextField = "Nombre";
+            DwlCiudad.DataValueField = "Id";
+            DwlCiudad.DataBind();
+
 
 
             if (Session["Usuario"] == null && Session["Admin"] == null)
@@ -39,10 +59,10 @@ namespace TPCuatrimestral_Grupo3
 
                 TextApellido.Text = usuario.Apellido;
                 TxtFechaNacimiento.Text = usuario.Nacimiento.ToString("yyyy-MM-dd");
-                TxtGenero.Text = usuario.Genero.ToString();
+                DwlGenero.Text = genero.ToString();
                 TxtEmail.Text = usuario.Email;
                 TxtDomicilio.Text = usuario.Domicilio;
-                //TxtCiudad.Text = usuario.Ciudad.ToString(); espera un int
+                DwlCiudad.SelectedValue = 1;
                 txtNombreUsuario.Text = usuario.NombreUsuario;
                 TxtContrasena.Text = usuario.Contrasena;
 
@@ -60,6 +80,33 @@ namespace TPCuatrimestral_Grupo3
         {
 
             Response.Redirect("MICUENTA.aspx");
+        }
+
+        protected void DwlGenero_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+
+                if (DwlGenero.SelectedItem.ToString() == "F")
+                {
+
+                genero = 'F';
+                }
+                else if (DwlGenero.SelectedItem.ToString() == "M"){
+
+                genero = 'M';
+
+                }
+                else
+                {
+                genero = '-';
+
+                }                
+                
+
+
+
+
+
         }
     }
 }

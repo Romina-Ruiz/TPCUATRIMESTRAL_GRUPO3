@@ -156,7 +156,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     aux.Email = (string)datos.Lector["Email"];
                     aux.NombreUsuario = (string)datos.Lector["NombreUsuario"];
                     aux.Domicilio = (string)datos.Lector["Domicilio"];
-                    aux.Ciudad = (string)datos.Lector["Ciudad"];
+                   // aux.Ciudad = (string)datos.Lector["Ciudad"];
                     aux.Pais = (string)datos.Lector["Pais"];
                     aux.Contrasena = (string)datos.Lector["Contrasena"];
                     aux.EsAdministrador = (bool)datos.Lector["EsAdministrador"];
@@ -282,7 +282,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                     aux.Email = (string)datos.Lector["Email"];
                     aux.NombreUsuario = (string)datos.Lector["NombreUsuario"];
                     aux.Domicilio = (string)datos.Lector["Domicilio"];
-                    aux.Ciudad = (string)datos.Lector["Ciudad"];
+                   // aux.Ciudad = (string)datos.Lector["Ciudad"];
                     aux.Pais = (string)datos.Lector["Pais"];
                     aux.Contrasena = (string)datos.Lector["Contrasena"];
                     aux.EsAdministrador = (bool)datos.Lector["EsAdministrador"];
@@ -322,7 +322,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 datos.setearParametro2("@Genero", usuario.Genero);
                 datos.setearParametro2("@Email", usuario.Email);
                 datos.setearParametro2("@Domicilio", usuario.Domicilio);
-                //datos.setearParametro2("@Ciudad", usuario.Ciudades.Id);
+                datos.setearParametro2("@Ciudad", usuario.Ciudades.Id);
                 datos.setearParametro2("@NombreUsuario", usuario.NombreUsuario);
                 datos.setearParametro2("@Contrasena", usuario.Contrasena);
 
