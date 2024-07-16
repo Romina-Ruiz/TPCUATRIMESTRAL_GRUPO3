@@ -32,10 +32,9 @@ namespace TPCuatrimestral_Grupo3
                     Session.Add("listaPelis", negocio.listarABMPelis());
                     gvPelis.DataSource = Session["listaPelis"];
                     gvPelis.DataBind();
-                }
-
-
-
+                }             
+                         
+             
 
             }
 

@@ -75,11 +75,9 @@ namespace TPCuatrimestral_Grupo3
         }
 
         protected void DlCriterio_SelectedIndexChanged(object sender, EventArgs e)
-        {
-                
+        {              
                      
-           
-            
+                       
             PlataformaNegocio NegPlata = new PlataformaNegocio();
             List<Plataforma> lisPlata = NegPlata.PlataformaOrden();
             
@@ -87,7 +85,7 @@ namespace TPCuatrimestral_Grupo3
             List<Pais> listaPais = AuxPais.listarPaisOrden();
 
             
-            Dlopciones2.Items.Clear();
+           /* Dlopciones2.Items.Clear();
             if (DlCriterio.SelectedItem.ToString() == "Plataforma")
             {
                 Dlopciones2.DataSource = lisPlata;
@@ -126,7 +124,7 @@ namespace TPCuatrimestral_Grupo3
             {
                 Dlopciones2.Items.Add("SI");
                 Dlopciones2.Items.Add("NO");
-            }
+            }*/
 
 
         }
