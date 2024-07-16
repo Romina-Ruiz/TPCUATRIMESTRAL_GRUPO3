@@ -27,7 +27,7 @@
                 <!--TITULO-->
                 <div class="md-0">
                     <label for="Titulo" class="form-label pt-2" style="color: #FFFFCC; font-size: 22px;">Titulo</label>
-                    <asp:TextBox ID="TxtTitulo" type="text" placeholder="Titulo" class="form-control" runat="server" Height="50px"></asp:TextBox>
+                    <asp:TextBox ID="TxtTitulo3" type="text" placeholder="Titulo" class="form-control" runat="server" Height="50px"></asp:TextBox>
                 </div>
             </div>
 
@@ -37,7 +37,7 @@
                 <div>
                     <label for="Plataforma" class="form-label pt-3" style="color: #FFFFCC; font-size: 22px;">Plataforma</label>
                     <br>
-                    <asp:DropDownList ID="DWLPlataformas2" runat="server" Height="35" Width="500"></asp:DropDownList>
+                    <asp:DropDownList ID="DWLPlataformas3" runat="server" Height="35" Width="500"></asp:DropDownList>
                     <div />
                 </div>
             </div>
@@ -56,7 +56,7 @@
                     <br>
                     <asp:Label ID="ResumenSerie" runat="server" Text="Label" Font-Size="Smaller">(Deja una descripción de la serie, tienes hasta 1000 palabras)</asp:Label>
 
-                    <asp:TextBox ID="TxtResumenSerie" TextMode="MultiLine" type="text" placeholder="Descripcion" class="form-control" runat="server" Height="200"></asp:TextBox>
+                    <asp:TextBox ID="TxtResumenSerie3" TextMode="MultiLine" type="text" placeholder="Descripcion" class="form-control" runat="server" Height="200"></asp:TextBox>
                 </div>
 
 
@@ -70,10 +70,10 @@
                         <br>
                         <label style="font-size: 12.8px">(Si sabes su fecha de estreno por favor seleccionalo)</label>
                         <div class="position-relative border-01 p-4" id="datapicker">
-                            <asp:TextBox ID="TxtFechaSerie" CssClass="form-control" TextMode="Date" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="TxtFechaSerie3" CssClass="form-control" TextMode="Date" runat="server"></asp:TextBox>
 
                             <asp:RequiredFieldValidator ID="Validacion2" runat="server"
-                                ControlToValidate="txtFechaSerie"
+                                ControlToValidate="txtFechaSerie3"
                                 Display="Dynamic"
                                 ErrorMessage="La fecha es obligatoria"
                                 CssClass="text-danger">
@@ -99,7 +99,7 @@
                     <label for="Pais" class="form-label pt-2" style="color: #FFFFCC; font-size: 22px;">País de Origen</label>
                     <br>
                     <asp:Label ID="Label1" runat="server" Text="Label" Font-Size="Smaller">(Si sabes el país de origen por favor seleccionalo)</asp:Label>
-                    <asp:DropDownList ID="DWLPais2" runat="server" Height="35" Width="500"></asp:DropDownList>
+                    <asp:DropDownList ID="DWLPais3" runat="server" Height="35" Width="500"></asp:DropDownList>
 
                 </div>
 
@@ -109,7 +109,7 @@
 
                     <asp:Label ID="Label5" runat="server" Text="Label" Font-Size="Medium">Sabes las temporadas que tiene ingresa aquí</asp:Label>
                     <br>
-                    <asp:DropDownList ID="DWLTemporadas2" runat="server" Height="30" Width="150">
+                    <asp:DropDownList ID="DWLTemporadas3" runat="server" Height="30" Width="150">
                         <asp:ListItem Text="0" />
                         <asp:ListItem Text="1" />
                         <asp:ListItem Text="2" />
@@ -136,7 +136,7 @@
                 <div class="p-5">
                     <asp:Label ID="Label6" runat="server" Text="Label" Font-Size="Medium">Si sabes los capítulos que tiene ingresa aquí</asp:Label>
                     <br>
-                    <asp:DropDownList ID="DWLCapitulos2" runat="server" Height="30" Width="150">
+                    <asp:DropDownList ID="DWLCapitulos3" runat="server" Height="30" Width="150">
                         <asp:ListItem Text="0" />
                         <asp:ListItem Text="1" />
                         <asp:ListItem Text="2" />
@@ -269,11 +269,11 @@
                     <br>
                     <asp:Label ID="Label4" runat="server" Text="Label" Font-Size="Smaller">(Aqui puedes pegar el link de la foto de la serie que estas agregando)</asp:Label>
                     <br>
-                    <asp:TextBox ID="URLImagenSerie" type="text" placeholder="Link" AutoPostBack="true" OnTextChanged="URLImagenSerie_TextChanged" class="form-control" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="URLImagenSerie3" type="text" placeholder="Link" AutoPostBack="true" OnTextChanged="URLImagenSerie_TextChanged" class="form-control" runat="server"></asp:TextBox>
 
                     <br>
                     <br>
-                    <asp:Image ID="URLImgSerie" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="40%" runat="server" />
+                    <asp:Image ID="URLImgSerie3" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" Width="40%" runat="server" />
                     <asp:GridView ID="GridView1" runat="server"></asp:GridView>
 
                 </ContentTemplate>

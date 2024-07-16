@@ -21,18 +21,18 @@ namespace TPCuatrimestral_Grupo3
                 PaisNegocio AuxPais = new PaisNegocio();
                 List<Pais> listaPais = AuxPais.listarPaisOrden();
 
-                DWLPais2.DataSource = listaPais;
-                DWLPais2.DataTextField = "NombrePais";
-                DWLPais2.DataValueField = "Id";
-                DWLPais2.DataBind();
+                DWLPais3.DataSource = listaPais;
+                DWLPais3.DataTextField = "NombrePais";
+                DWLPais3.DataValueField = "Id";
+                DWLPais3.DataBind();
 
                 PlataformaNegocio NegPlata = new PlataformaNegocio();
                 List<Plataforma> lisPlata = NegPlata.PlataformaOrden();
 
-                DWLPlataformas2.DataSource = lisPlata;
-                DWLPlataformas2.DataTextField = "Nombre";
-                DWLPlataformas2.DataValueField = "ID";
-                DWLPlataformas2.DataBind();
+                DWLPlataformas3.DataSource = lisPlata;
+                DWLPlataformas3.DataTextField = "Nombre";
+                DWLPlataformas3.DataValueField = "ID";
+                DWLPlataformas3.DataBind();
 
                 //TRAIGO EL SELECCIONADO
 
@@ -42,16 +42,16 @@ namespace TPCuatrimestral_Grupo3
                     List<Serie> lista = (List<Serie>)Session["listaSeries"];
                     Serie seleccionado = lista.Find(x => x.ID == id);
 
-                    TxtTitulo.Text= seleccionado.Titulo;
-                    TxtResumenSerie.Text = seleccionado.Descripcion;
-                    TxtFechaSerie.Text= seleccionado.FechaLanzamiento.ToString("yyyy-MM-dd");
+                    TxtTitulo3.Text= seleccionado.Titulo;
+                    TxtResumenSerie3.Text = seleccionado.Descripcion;
+                    TxtFechaSerie3.Text= seleccionado.FechaLanzamiento.ToString("yyyy-MM-dd");
                    
-                    DWLPais2.Text = seleccionado.PaisId;
-                    DWLPlataformas2.Text = seleccionado.IdPlataforma;
+                    DWLPais3.Text = seleccionado.PaisId;
+                    DWLPlataformas3.Text = seleccionado.IdPlataforma;
                                                                           
-                    DWLTemporadas2.Text =seleccionado.Temporadas.ToString();
-                    DWLCapitulos2.Text = seleccionado.EpisodiosTotales.ToString();
-                    URLImagenSerie.Text = seleccionado.UrlImagenContenido;
+                    DWLTemporadas3.Text =seleccionado.Temporadas.ToString();
+                    DWLCapitulos3.Text = seleccionado.EpisodiosTotales.ToString();
+                    URLImagenSerie3.Text = seleccionado.UrlImagenContenido;
 
                     CategoriaXContenidoNegocio Aux = new CategoriaXContenidoNegocio();
                     List<CategoriaXContenido> Cont = new List<CategoriaXContenido>();
@@ -96,8 +96,8 @@ namespace TPCuatrimestral_Grupo3
 
         protected void URLImagenSerie_TextChanged(object sender, EventArgs e)
         {
-            string nuevaImagen = URLImagenSerie.Text;
-            URLImgSerie.ImageUrl = nuevaImagen;
+            string nuevaImagen = URLImagenSerie3.Text;
+            URLImgSerie3.ImageUrl = nuevaImagen;
 
         }
 
@@ -121,25 +121,25 @@ namespace TPCuatrimestral_Grupo3
 
                 Aux.IdModificar = IDs;
                
-                Aux.Titulo = TxtTitulo.Text;
-                Aux.Descripcion = TxtResumenSerie.Text;
+                Aux.Titulo = TxtTitulo3.Text;
+                Aux.Descripcion = TxtResumenSerie3.Text;
                 
                 Aux.Plataforma = new Plataforma();
-                Aux.Plataforma.ID = short.Parse(DWLPlataformas2.SelectedValue);
-                Aux.IdPlataforma = DWLPlataformas2.Text;
+                Aux.Plataforma.ID = short.Parse(DWLPlataformas3.SelectedValue);
+                Aux.IdPlataforma = DWLPlataformas3.Text;
                 Aux.Pais = new Pais();
-                Aux.Pais.Id = short.Parse(DWLPais2.SelectedValue);
-                Aux.PaisOrigen = DWLPais2.Text;
-                Aux.Temporadas = int.Parse(DWLTemporadas2.Text);
-                Aux.EpisodiosTotales = int.Parse(DWLCapitulos2.Text);
+                Aux.Pais.Id = short.Parse(DWLPais3.SelectedValue);
+                Aux.PaisOrigen = DWLPais3.Text;
+                Aux.Temporadas = int.Parse(DWLTemporadas3.Text);
+                Aux.EpisodiosTotales = int.Parse(DWLCapitulos3.Text);
 
-                Aux.UrlImagenContenido = URLImagenSerie.Text;
+                Aux.UrlImagenContenido = URLImagenSerie3.Text;
 
-                Aux.FechaLanzamiento = DateTime.Parse(TxtFechaSerie.Text);
+                Aux.FechaLanzamiento = DateTime.Parse(TxtFechaSerie3.Text);
 
                 AuxSeNe.ModificaSerie(Aux);
 
-                Contenido AuxCont = new Contenido();
+               // Contenido AuxCont = new Contenido();
 
                /* if (CkbAccion2.Checked)
                 {
