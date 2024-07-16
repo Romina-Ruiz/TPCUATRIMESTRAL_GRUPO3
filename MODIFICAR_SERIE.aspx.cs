@@ -103,7 +103,94 @@ namespace TPCuatrimestral_Grupo3
 
         protected void Btn_Modificar_Click(object sender, EventArgs e)
         {
-            
+            SerieNegocio AuxSeNe = new SerieNegocio();
+            Serie Aux = new Serie();
+           
+            if ((Session["Usuario"] != null && Session["Admin"] == null))
+            {
+                Aux.Fandom = false;
+            }
+            if (Session["Usuario"] == null && Session["Admin"] != null)
+            {
+                Aux.Fandom = true;
+            }
+
+            if (Request.QueryString["id"] != null)
+            {
+                string IDs = Request.QueryString["id"];
+
+                Aux.IdModificar = IDs;
+               
+                Aux.Titulo = TxtTitulo.Text;
+                Aux.Descripcion = TxtResumenSerie.Text;
+                
+                Aux.Plataforma = new Plataforma();
+                Aux.Plataforma.ID = short.Parse(DWLPlataformas2.SelectedValue);
+                Aux.IdPlataforma = DWLPlataformas2.Text;
+                Aux.Pais = new Pais();
+                Aux.Pais.Id = short.Parse(DWLPais2.SelectedValue);
+                Aux.PaisOrigen = DWLPais2.Text;
+                Aux.Temporadas = int.Parse(DWLTemporadas2.Text);
+                Aux.EpisodiosTotales = int.Parse(DWLCapitulos2.Text);
+
+                Aux.UrlImagenContenido = URLImagenSerie.Text;
+
+                Aux.FechaLanzamiento = DateTime.Parse(TxtFechaSerie.Text);
+
+                AuxSeNe.ModificaSerie(Aux);
+
+                Contenido AuxCont = new Contenido();
+
+               /* if (CkbAccion2.Checked)
+                {
+                    AuxCont.IdCategoria = 1;
+                    AuxSeNe.cargaCheckedSerie(AuxCont);
+                }
+                if (CkbComedia2.Checked)
+                {
+
+                    AuxCont.IdCategoria = 2;
+                    AuxSeNe.cargaCheckedSerie(AuxCont);
+                }
+                if (CkbDrama2.Checked)
+                {
+                    AuxCont.IdCategoria = 3;
+                    AuxSeNe.cargaCheckedSerie(AuxCont);
+                }
+                if (CkbAnimacion2.Checked)
+                {
+                    AuxCont.IdCategoria = 4;
+                    AuxSeNe.cargaCheckedSerie(AuxCont);
+
+                }
+                if (CkbCiencia2.Checked)
+                {
+                    AuxCont.IdCategoria = 5;
+                    AuxSeNe.cargaCheckedSerie(AuxCont);
+                }
+                if (CkbDocumental2.Checked)
+                {
+                    AuxCont.IdCategoria = 6;
+                    AuxSeNe.cargaCheckedSerie(AuxCont);
+                }
+                if (CkbFantasia2.Checked)
+                {
+                    AuxCont.IdCategoria = 7;
+                    AuxSeNe.cargaCheckedSerie(AuxCont);
+                }
+                if (CkbSuspenso2.Checked)
+                {
+                    AuxCont.IdCategoria = 8;
+                    AuxSeNe.cargaCheckedSerie(AuxCont);
+                }
+                if (CkbTerror2.Checked)
+                {
+                    AuxCont.IdCategoria = 9;
+                    AuxSeNe.cargaCheckedSerie(AuxCont);
+                }*/
+
+            }
+
         }
     }
 }

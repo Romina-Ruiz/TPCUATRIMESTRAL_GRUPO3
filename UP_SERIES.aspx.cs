@@ -64,16 +64,17 @@ namespace TPCuatrimestral_Grupo3
             Aux.Descripcion = TxtResumenSerie.Text;
             Aux.Plataforma=new Plataforma();
             Aux.Plataforma.ID = short.Parse(DWLPlataformas2.SelectedValue);
-            //Aux.IdPlataforma = DWLPlataformas2.Text;
+            Aux.IdPlataforma = DWLPlataformas2.Text;
             Aux.Pais=new Pais();
             Aux.Pais.Id=short.Parse(DWLPais2.SelectedValue);
-            //Aux.PaisOrigen = DWLPais2.Text;
+            Aux.PaisOrigen = DWLPais2.Text;
             Aux.Temporadas = int.Parse(DWLTemporadas2.Text);
             Aux.EpisodiosTotales = int.Parse(DWLCapitulos2.Text);
 
             Aux.UrlImagenContenido = URLImagenSerie.Text;
            
             Aux.FechaLanzamiento = DateTime.Parse(TxtFechaSerie.Text);
+            
             AuxSeNe.CargaSerie2(Aux);
 
             Contenido AuxCont = new Contenido();

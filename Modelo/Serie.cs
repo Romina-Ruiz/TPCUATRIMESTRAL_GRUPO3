@@ -17,6 +17,8 @@ namespace TPCuatrimestral_Grupo3.Modelo
         public int EpisodiosTotales { get; set; }
 
         /*POR FAVOR NO BORRAR esta prop se usa*/
+
+        public string IdModificar { get; set; }//NO BORRAR
         public short PlataformaId { get; set; }
         public string IdPlataforma { get; set; }
 

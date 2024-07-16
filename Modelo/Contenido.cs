@@ -9,7 +9,7 @@ namespace TPCuatrimestral_Grupo3.Modelo
     public class Contenido
     {
 
-        public  long Id { get; set; }
+        public long Id { get; set; }
 
         public string Titulo { get; set; }
 

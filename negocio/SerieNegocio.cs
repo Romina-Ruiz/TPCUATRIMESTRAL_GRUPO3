@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using TPCuatrimestral_Grupo3.Modelo;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace TPCuatrimestral_Grupo3.Negocio
 {
@@ -173,8 +174,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
                                           ",@IdPlataforma1,@Temporadas1," +
                                           "@EpisodiosTotales1,@UrlImagen1,@Fandom");
 
-                /* datos.setearConsulta("SP_AGREGAR_SERIES 'ultima',2,'daledaledale','2024-05-05',1,5,15,'una imagen'");*/
-
+                
                 datos.ejecutarAccion();
 
 
@@ -241,21 +241,34 @@ namespace TPCuatrimestral_Grupo3.Negocio
 
             try
             {
+                datos.setearParametro("@IDeS",int.Parse(Aux.IdModificar));
                 datos.setearParametro("@Titulo1", Aux.Titulo);
                 datos.setearParametro("@IdOrigen1", Aux.Pais.Id);
                 datos.setearParametro("@Descripcion1", Aux.Descripcion);
                 datos.setearParametro("@FechaLanzamiento1", Aux.FechaLanzamiento);
+                
                 datos.setearParametro("@IdPlataforma1", Aux.Plataforma.ID);
+               
                 datos.setearParametro("@Temporadas1", Aux.Temporadas);
                 datos.setearParametro("@EpisodiosTotales1", Aux.EpisodiosTotales);
                 datos.setearParametro("@UrlImagen1", Aux.UrlImagenContenido);
 
 
-                datos.setearConsulta("SP_Modificar_SERIES " +
+                datos.setearConsulta("SP_Modificar_SERIES @IDeS," +
                                           "@Titulo1,@IdOrigen1,@Descripcion1," +
                                           "@FechaLanzamiento1" +
                                           ",@IdPlataforma1,@Temporadas1," +
                                           "@EpisodiosTotales1,@UrlImagen1");
+
+                /*@IDContenido BIGINT,
+                @Titulo VARCHAR(255), 
+                @IdOrigen SMALLINT,
+                @Descripcion TEXT, 
+                @FechaLanzamiento DATE,
+                @IdPlataforma Smallint, 
+                @Temporadas INT,
+                @EpisodiosTotales INT,  
+                @UrlImagen Varchar(255)*/
                                 
 
                 datos.ejecutarAccion();
