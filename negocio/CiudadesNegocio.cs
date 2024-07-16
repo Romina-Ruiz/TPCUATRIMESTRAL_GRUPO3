@@ -43,7 +43,17 @@ namespace TPCuatrimestral_Grupo3.Negocio
                 }
         }
 
+        internal List<Ciudades> ListarCiudadesPorPais(int idPais)
+        {
+         
+            CiudadesNegocio ciudades = new CiudadesNegocio();
+            List<Ciudades> listaCiudades = ciudades.listarConSP();
 
-        
+            List<Ciudades> ciudadesFiltradas = listaCiudades.Where(c => c.IDPais == idPais).ToList();
+
+            return ciudadesFiltradas;
+
+
+        }
     }
 }

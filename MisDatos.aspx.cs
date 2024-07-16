@@ -16,7 +16,8 @@ namespace TPCuatrimestral_Grupo3
         public string NombreUsuario { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
             PaisNegocio AuxPais = new PaisNegocio();
             List<Pais> listaPais = AuxPais.listarPaisOrden();
 
@@ -24,6 +25,8 @@ namespace TPCuatrimestral_Grupo3
             DwlPais.DataTextField = "NombrePais";
             DwlPais.DataValueField = "Id";
             DwlPais.DataBind();
+
+            }
 
 
             CiudadesNegocio AuxCity = new CiudadesNegocio();
@@ -62,7 +65,7 @@ namespace TPCuatrimestral_Grupo3
                 DwlGenero.Text = genero.ToString();
                 TxtEmail.Text = usuario.Email;
                 TxtDomicilio.Text = usuario.Domicilio;
-                DwlCiudad.SelectedValue = 1;
+                DwlCiudad.SelectedValue = usuario.IdCiudad.ToString();
                 txtNombreUsuario.Text = usuario.NombreUsuario;
                 TxtContrasena.Text = usuario.Contrasena;
 
@@ -107,6 +110,32 @@ namespace TPCuatrimestral_Grupo3
 
 
 
+        }
+
+        protected void DwlPais_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int idPais = int.Parse(DwlPais.SelectedValue);
+            CargarCiudades(idPais);
+        }
+        private void CargarCiudades(int idPais)
+        {
+            if (idPais > 0)
+            {
+                
+                CiudadesNegocio negocio = new CiudadesNegocio();
+                List<Ciudades> listaCiudades = negocio.ListarCiudadesPorPais(idPais);
+
+                DwlCiudad.DataSource = listaCiudades;
+                DwlCiudad.DataTextField = "NombreCiudad";
+                DwlCiudad.DataValueField = "IdCiudad";
+                DwlCiudad.DataBind();
+            }
+            else
+            {
+                DwlCiudad.Items.Clear();
+            }
+
+           
         }
     }
 }

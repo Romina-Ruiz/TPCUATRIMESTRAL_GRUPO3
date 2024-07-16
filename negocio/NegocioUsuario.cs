@@ -315,14 +315,14 @@ namespace TPCuatrimestral_Grupo3.Negocio
             try
             {
                 datos.setearProcedimiento("SP_UPDATE_USER");
-                datos.setearParametro2("@ID", usuario.Id);
+                //datos.setearParametro2("@ID", usuario.Id);
                 datos.setearParametro2("@Apellidos", usuario.Apellido);
                 datos.setearParametro2("@Nombres", usuario.Nombres);
                 datos.setearParametro2("@Nacimiento", usuario.Nacimiento);
                 datos.setearParametro2("@Genero", usuario.Genero);
                 datos.setearParametro2("@Email", usuario.Email);
                 datos.setearParametro2("@Domicilio", usuario.Domicilio);
-                datos.setearParametro2("@Ciudad", usuario.Ciudades.Id);
+                datos.setearParametro2("@Ciudad", usuario.IdCiudad);
                 datos.setearParametro2("@NombreUsuario", usuario.NombreUsuario);
                 datos.setearParametro2("@Contrasena", usuario.Contrasena);
 

@@ -29,6 +29,7 @@ namespace TPCuatrimestral_Grupo3.Modelo
 
         public string Domicilio { get; set; }
 
+        public int IdCiudad { get; set; }
         public string Ciudad { get; set; }
         public Ciudades Ciudades { get; set; }  
 

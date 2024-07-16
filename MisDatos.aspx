@@ -47,7 +47,7 @@
    <asp:Label ID="Label5" class="ms-2 pt-5" runat="server" Text="Ciudad" Font-Bold="True" Font-Size="Medium"></asp:Label>
 
     <asp:TextBox ID="TextPais" runat="server" Width="500"></asp:TextBox>
-    <asp:DropDownList ID="DwlPais" runat="server"></asp:DropDownList>
+    <asp:DropDownList ID="DwlPais" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DwlPais_SelectedIndexChanged"></asp:DropDownList>
 
    <asp:TextBox ID="TxtCiudad" runat="server" Width="500"></asp:TextBox>
    <asp:DropDownList ID="DwlCiudad" runat="server"></asp:DropDownList>
