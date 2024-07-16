@@ -234,8 +234,7 @@ namespace TPCuatrimestral_Grupo3.Negocio
             }
         }
 
-
-        public void ModificaSerie(Serie Aux)
+        public void ModificaSerie(Contenido Aux)
         {
             AccesoDatos datos = new AccesoDatos();
             /*@IDContenido BIGINT,
@@ -250,25 +249,29 @@ namespace TPCuatrimestral_Grupo3.Negocio
             try
             {
                 datos.setearParametro("@IDeS",int.Parse(Aux.IdModificar));
-                datos.setearParametro("@Titulo1", Aux.Titulo);
-                datos.setearParametro("@IdOrigen1", Aux.Pais.Id);
-                datos.setearParametro("@Descripcion1", Aux.Descripcion);
-                datos.setearParametro("@FechaLanzamiento1", Aux.FechaLanzamiento);                
-                datos.setearParametro("@IdPlataforma1", Aux.Plataforma.ID);               
-                datos.setearParametro("@Temporadas1", Aux.Temporadas);
-                datos.setearParametro("@EpisodiosTotales1", Aux.EpisodiosTotales);
-                datos.setearParametro("@UrlImagen1", Aux.UrlImagenContenido);
+                datos.setearParametro("@Titulo", Aux.Titulo);              
+            
+                datos.setearParametro("@IdOrigen",Aux.IdOrigen);                
+                datos.setearParametro("@Descripcion", Aux.Descripcion);
+                datos.setearParametro("@FechaLanzamiento", Aux.FechaLanzamiento);
+
+            /**/datos.setearParametro("@IdPlataforma", Aux.IdPlataforma);
+
+                datos.setearParametro("@Temporadas", Aux.TemporadasC);
+                datos.setearParametro("@EpisodiosTotales", Aux.EpisodiosTotalesC);
+                datos.setearParametro("@UrlImagen", Aux.UrlImagenContenido);
 
 
                 datos.setearConsulta("SP_Modificar_SERIES @IDeS," +
-                                          "@Titulo1,@IdOrigen1,@Descripcion1," +
-                                          "@FechaLanzamiento1" +
-                                          ",@IdPlataforma1,@Temporadas1," +
-                                          "@EpisodiosTotales1,@UrlImagen1");
+                                           "@Titulo,@IdOrigen,@Descripcion," +
+                                           "@FechaLanzamiento" +
+                                           ",@IdPlataforma,@Temporadas," +
+                                           "@EpisodiosTotales,@UrlImagen");
+
                 datos.ejecutarAccion();
-                
 
-
+                /*datos.setearConsulta("UPDATE Contenidos SET Titulo = @Titulo," +
+                    "IdOrigen = @IdOrigen,FechaLanzamiento = FechaLanzamiento,Descripcion = @Descripcion WHERE Id = @IDeS");*/
 
 
 

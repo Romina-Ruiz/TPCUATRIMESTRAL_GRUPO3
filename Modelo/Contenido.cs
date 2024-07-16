@@ -11,11 +11,22 @@ namespace TPCuatrimestral_Grupo3.Modelo
 
         public long Id { get; set; }
 
+        public string IdModificar { get; set; }   //NO BORRAR
+
+        public bool Fandom { get; set; }//NO BORRAR
+
+        public int TemporadasC { get; set; }//NO BORRAR
+
+        public int EpisodiosTotalesC{ get; set; }//NO BORRAR
+
+        public string UrlImagenContenido { get; set; }//NO BORRAR
         public string Titulo { get; set; }
 
         public int IdCategoria { get; set; }
 
         public int IdOrigen { get; set; }
+
+        public string IdOrigenstring { get; set; } //NO BORRAR
 
         public int IdTipoContenido { get; set; }
 
