@@ -44,10 +44,10 @@ namespace TPCuatrimestral_Grupo3
 
             if(detalle !=null)
             {
-                ImgCuerpo.ImageUrl= detalle.ImgCuerpo;
-                TxtTituloCuerpo.Text=detalle.TituloCuerpo;
-                TxtCuerpo.Text = detalle.Texto;
-                TxtFecha.Text = detalle.FechaSubido.ToString("yyyy-MM-dd");
+                Image1.ImageUrl= detalle.ImgCuerpo;
+                TxtTitCuerpo.Text=detalle.TituloCuerpo;
+                TxtNota.Text = detalle.Texto;
+              
 
 
             }
@@ -59,8 +59,11 @@ namespace TPCuatrimestral_Grupo3
 
         }
 
+        protected void Volver_Click(object sender, EventArgs e)
+        {
 
+            Response.Redirect("NOVEDADES.aspx");
 
-
+        }
     }
 }

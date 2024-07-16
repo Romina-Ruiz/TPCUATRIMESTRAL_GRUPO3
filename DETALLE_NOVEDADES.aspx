@@ -13,45 +13,41 @@
 
     <div class="container-fluid ">
 
-        <div class="row">
+        <div class="row pt-5">
 
-            <!--COLUMNA izquierda-->
+          
 
-
-            <div class="col-3">
-
-                <div class="col-4 pt-2">
-                    <img src="https://www.mundodeportivo.com/alfabeta/hero/2023/12/amazon-prime.1703875576.0139.jpg?width=1200" height="250" width="450" />
-                </div>
-                <div class="col-4 pt-2">
-                    <img src="https://media.primicias.ec/2024/02/08114547/marvels.jpg" alt="imagen3" height="250" width="450" />
-                </div>
-
-                <div class="col-4 pt-2">
-                    <img src="https://cnbl-cdn.bamgrid.com/assets/be8feab8abc4cb62b92e0472a58fdbe0045058b16247299a349998ceb318188e/original" alt="imagen3" height="250" width="450" />
-                </div>
-                <div class="col-4 p-2">
-                    <img src="https://cnbl-cdn.bamgrid.com/assets/9a3fc9f7f6bc33220820f32f3b2997f16203d7f317bb5f2caf27722ead28f26f/original" alt="imagen3" height="250" width="450" />
-                </div>
-
-
-            </div>
 
 
             <!--COLUMNA medio-->
             <div class="col-9">
 
 
-             <div class="card mb-3" style="padding: 13px; margin: 13px; border-color: #990000;">
-              <asp:Image ID="ImgCuerpo"  ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png" runat="server" Width="100" Height="300" />
-              <div class="card-body" style="background-color: #999999">
-              <asp:TextBox ID="TxtTituloCuerpo" runat="server"></asp:TextBox>
-              <asp:TextBox ID="TxtCuerpo" runat="server" ReadOnly="True"></asp:TextBox>
-              <asp:TextBox ID="TxtFecha" runat="server" ReadOnly="True"></asp:TextBox>
-              </div>
-              </div>
+                <div class="card mb-3 bg-gradient">
+                    <div class="text-center">
+                    <asp:Image ID="Image1" class="card-img-top" ImageUrl="https://epichotelsanluis.com/wp-content/uploads/2022/11/placeholder-2.png"  runat="server" Height="500" Width="500" />
+                        </div>
+                    <div class="card-body">
+
+                        <div class="card-title">
+                            <asp:TextBox ID="TxtTitCuerpo" TextMode="MultiLine" CssClass="text-center" runat="server" Font-Size="XX-Large" Font-Bold="True" Font-Italic="True" ForeColor="Maroon" ReadOnly="True" Height="50" Width="1200" BorderStyle="None"></asp:TextBox>
+                        </div>
+                        <div class="card-text">
+                            <asp:TextBox ID="TxtNota" TextMode="MultiLine" runat="server" ReadOnly="True" Height="500" Width="1200" Font-Italic="True" Font-Size="Large" BorderStyle="None" ForeColor="#003366"></asp:TextBox>
+                        </div>
+                    </div>
+                </div>
 
 
+            </div>
+
+            
+            </div>
+
+            <div class="d-flex flex-row-reverse">
+                <div class="p-2 m-3">
+                    <asp:Button ID="Volver" class="btn btn-success m-2" OnClick="Volver_Click" Font-Size="Larger" Height="40px" Width="150" Font-Bold="True" runat="server" Text="VOLVER" />
+                </div>
 
             </div>
 
@@ -60,7 +56,7 @@
         </div>
 
 
-    </div>
+   
 
 
     <!--SECCION ABAJO-->

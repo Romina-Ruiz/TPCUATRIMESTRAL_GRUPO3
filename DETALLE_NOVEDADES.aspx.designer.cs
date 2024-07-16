@@ -15,39 +15,39 @@ namespace TPCuatrimestral_Grupo3
     {
 
         /// <summary>
-        /// Control ImgCuerpo.
+        /// Control Image1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImgCuerpo;
+        protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
-        /// Control TxtTituloCuerpo.
+        /// Control TxtTitCuerpo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtTituloCuerpo;
+        protected global::System.Web.UI.WebControls.TextBox TxtTitCuerpo;
 
         /// <summary>
-        /// Control TxtCuerpo.
+        /// Control TxtNota.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtCuerpo;
+        protected global::System.Web.UI.WebControls.TextBox TxtNota;
 
         /// <summary>
-        /// Control TxtFecha.
+        /// Control Volver.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtFecha;
+        protected global::System.Web.UI.WebControls.Button Volver;
     }
 }
